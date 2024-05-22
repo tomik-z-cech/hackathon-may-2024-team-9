@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block nav_name %}Oops !{% endblock %}
+
+{% block extra_css %} 
+        <link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock %}
+
+{% block content %}
+<!-- Message for 500 http response -->
+500
+{%endblock%}

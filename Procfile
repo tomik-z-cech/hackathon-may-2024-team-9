@@ -1,0 +1,1 @@
+web: gunicorn star_wars.wsgi
