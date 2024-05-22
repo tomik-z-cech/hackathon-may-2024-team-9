@@ -33,6 +33,7 @@ X_FRAME_OPTIONS = "SAMEORIGIN"
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
+    'star-wars-e347f35c852d.herokuapp.com'
 ]
 
 # Application definition
