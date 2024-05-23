@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block nav_name %}My Profile{% endblock %}
+
+{% block content %}
+    <h1>
+        My Profile
+    </h1>
+    <br>
+    Hello {{ username }},
+    <br>
+    So far you played {{ games_played }} games.
+    <br>
+    Your highest score is {{ highest_score }}.
+    <br>
+    Your cummulative score is {{ cummulative_score }}.
+    <br>
+    Your average score is {{ average_score }}.
+{% endblock %}

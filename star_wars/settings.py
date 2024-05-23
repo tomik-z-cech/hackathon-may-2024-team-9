@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     # Apps
     'landing',
+    'profilemanager'
 ]
 
 MIDDLEWARE = [
