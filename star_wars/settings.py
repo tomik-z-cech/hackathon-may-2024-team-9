@@ -24,7 +24,8 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
-DEBUG = os.environ.get("DEV_PRODUCTION", False)
+DEBUG = True
+# os.environ.get("DEV_PRODUCTION", False)
 
 # I frame security setting
 X_FRAME_OPTIONS = "SAMEORIGIN"
@@ -33,7 +34,8 @@ X_FRAME_OPTIONS = "SAMEORIGIN"
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'star-wars-e347f35c852d.herokuapp.com'
+    'star-wars-e347f35c852d.herokuapp.com',
+    os.environ.get('LOCAL_HOST')
 ]
 
 # Application definition

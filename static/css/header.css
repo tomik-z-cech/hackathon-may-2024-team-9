@@ -1,1 +1,15 @@
 /* Header styles */
+#navbar,
+.nav-item,
+.navbar-brand:active,
+.navbar-brand:focus,
+.nav-link:focus,
+.nav-link.active,
+.light-font:hover {
+    background-color: darkblue;
+    color: white !important;
+}
+
+.nav-text {
+    color: white !important;
+ }
