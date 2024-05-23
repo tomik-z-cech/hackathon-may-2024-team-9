@@ -42,11 +42,11 @@
 <div id="menu-container">
         <ul id="menu">
                 {% if user.is_authenticated %}
-                <li class="menu-item fw-bold fs-4" data-link="#">
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'play' %}">
                         <i class="fa-solid fa-jedi fa-flip"></i>
                         <span>Play</span>
                 </li>
-                <li class="menu-item fw-bold fs-4" data-link="#">
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
                         <i class="fa-solid fa-circle-info"></i>
                         <span>How to play</span>
                 </li>
@@ -68,7 +68,7 @@
                         <i class="fa-solid fa-user-plus"></i>
                         <span>Register</span>
                 </li>
-                <li class="menu-item fw-bold fs-4" data-link="#">
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
                         <i class="fa-solid fa-circle-info"></i>
                         <span>How to play</span>
                 </li>

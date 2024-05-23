@@ -4,6 +4,9 @@
 {% block nav_name %}Hall of Fame{% endblock %}
 
 {% block content %}
+    <br>
+    <br>
+    <br>    
     <h1>
         Hall of Fame
     </h1>
@@ -27,6 +30,13 @@
     <br>
     {% for player in cummulative_players %}
     {{ player }} - {{ player.cummulative_score }}
+    {% endfor %}
+    <br>
+    <!-- Highest average score -->
+    Players with highest average score :
+    <br>
+    {% for player in average_players %}
+    {{ player }} - {{ player.average_score }}
     {% endfor %}
     <br>
 {% endblock %}
