@@ -1,1 +1,21 @@
 /* Footer styles */
+
+#footer {
+    background-color: darkblue;
+    --bs-gutter-x: none;
+    color: white;
+}
+
+/* ----- Footer ----- */
+.footer-arrow {
+    color: white;
+    background-color: darkblue;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+}
+
+.icon {
+    text-decoration: none;
+}
