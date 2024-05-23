@@ -4,8 +4,8 @@
 {% block nav_name %}Home{% endblock %}
 
 {% block extra_css %}
-        <link rel="stylesheet" href="{% static 'css/landing.css' %}">
-        <style> 
+<link rel="stylesheet" href="{% static 'css/landing.css' %}">
+<style>
         main {
                 height: 85vh;
                 width: 100%;
@@ -14,48 +14,65 @@
                 justify-content: center;
                 align-items: center;
         }
-            
+
         #menu-container {
                 width: 30%;
                 text-align: center;
         }
+
         #menu {
                 list-style-type: none;
         }
-        
+
         .menu-item {
                 padding: 15px;
                 cursor: pointer;
                 transition: background-color 0.5s;
         }
-        
-        .menu-item:hover, .menu-item.active {
+
+        .menu-item:hover,
+        .menu-item.active {
                 background-color: #555;
         }
-        </style>
+</style>
 {% endblock %}
 
 
 {% block content %}
 <div id="menu-container">
         <ul id="menu">
-        {% if user.is_authenticated %}
-                <li class="menu-item" data-link="#">Play</li>
-                <li class="menu-item" data-link="{% url 'profile_manager' %}">My Profile</li>
-                <li class="menu-item" data-link="#">How to play</li>
-                <li class="menu-item" data-link="{% url 'top_players' %}">Hall of Fame</li>
-                <li class="menu-item" data-link="#">Project's About</li>
-                <li class="menu-item" data-link="#">External</li>
-                <li class="menu-item" data-link="{% url 'account_logout' %}">Logout</li>
-        {% else %}
-                <li class="menu-item" data-link="{% url 'account_login' %}">Login</li>
-                <li class="menu-item" data-link="{% url 'account_login' %}">Register</li>
-                <li class="menu-item" data-link="{% url 'top_players' %}">Hall of Fame</li>
-                <li class="menu-item" data-link="#">Project's About</li>
-                <li class="menu-item" data-link="#">External</li>
-        {% endif %}
+                {% if user.is_authenticated %}
+                <li class="menu-item fw-bold fs-4" data-link="#">Project's About</li>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
+                        Logout
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="#">
+                        <i class="fa-solid fa-jedi fa-flip"></i>
+                        <span>Play</span>
+                </li>
+                {% else %}
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_login' %}">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <span>Login</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_signup' %}">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Register</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="#">
+                        <i class="fa-solid fa-jedi fa-flip"></i>
+                        <span>Play</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Leaderboard</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="#">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>How to play</span>
+                </li>
+                {% endif %}
         </ul>
-    </div>
-    <script src="{% static 'js/menu.js' %}"></script>
+</div>
+<script src="{% static 'js/menu.js' %}"></script>
 {% endblock %}
-

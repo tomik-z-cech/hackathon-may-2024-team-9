@@ -1,9 +1,9 @@
-{% extends "account/base_entrance.html" %}
+{% extends "account/base.html" %}
 {% load allauth i18n %}
 {% block head_title %}
     {% trans "Signup" %}
 {% endblock head_title %}
-{% block content %}
+{% block inner_content %}
     {% element h1 %}
         {% trans "Sign Up" %}
     {% endelement %}
@@ -35,4 +35,4 @@
     {% if SOCIALACCOUNT_ENABLED %}
         {% include "socialaccount/snippets/login.html" with page_layout="entrance" %}
     {% endif %}
-{% endblock content %}
+{% endblock inner_content %}
