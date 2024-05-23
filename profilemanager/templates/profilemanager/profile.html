@@ -8,13 +8,13 @@
         My Profile
     </h1>
     <br>
-    Hello {{ username }},
+    Hello {{ userprofile }},
     <br>
-    So far you played {{ games_played }} games.
+    So far you played {{ userprofile.games_played }} games.
     <br>
-    Your highest score is {{ highest_score }}.
+    Your highest score is {{ userprofile.highest_score }}.
     <br>
-    Your cummulative score is {{ cummulative_score }}.
+    Your cummulative score is {{ userprofile.cummulative_score }}.
     <br>
-    Your average score is {{ average_score }}.
+    Your average score is {{ userprofile.average_score }}.
 {% endblock %}
