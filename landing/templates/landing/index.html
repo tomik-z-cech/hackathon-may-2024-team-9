@@ -41,7 +41,7 @@
         <ul id="menu">
         {% if user.is_authenticated %}
                 <li class="menu-item" data-link="#">Play</li>
-                <li class="menu-item" data-link="#">My Profile</li>
+                <li class="menu-item" data-link="{% url 'profile_manager' %}">My Profile</li>
                 <li class="menu-item" data-link="#">How to play</li>
                 <li class="menu-item" data-link="#">Hall of Fame</li>
                 <li class="menu-item" data-link="#">Project's About</li>
