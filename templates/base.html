@@ -28,7 +28,10 @@
 
     <!-- Block for core JS scripts -->
     {% block core_js %}
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Fontawesome -->
+    <script rel="dns-prefetch" src="https://kit.fontawesome.com/d46864ea4e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     {% endblock %}
 
@@ -46,5 +49,8 @@
     </main>
     <!-- Footer -->
     {% include 'footer.html' %}
+    {% block postload_js %}
+    <script src="{% static 'js/footer.js' %}"></script>
+    {% endblock %}
 </body>
 </html>
