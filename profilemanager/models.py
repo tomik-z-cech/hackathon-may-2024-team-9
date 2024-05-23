@@ -1,4 +1,5 @@
 # Imports
+import math
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -18,6 +19,13 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+    
+    @property
+    def average_score(self):
+        if self.games_played > 0:
+            return math.ceil(self.cummulative_score / self.games_played)
+        else:
+            return 0
     
 # Signal to create UserProfile when a new User is created
 @receiver(post_save, sender=User)

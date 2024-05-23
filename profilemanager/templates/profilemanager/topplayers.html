@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block nav_name %}Hall of Fame{% endblock %}
+
+{% block content %}
+    <h1>
+        Hall of Fame
+    </h1>
+    <br>
+    <!-- Games Played -->
+    Players with most games :
+    <br>
+    {% for player in games_players %}
+    {{ player }} - {{ player.games_played }}
+    {% endfor %}
+    <br>
+    <!-- Highest score per game -->
+    Players with highest score per game :
+    <br>
+    {% for player in highest_players %}
+    {{ player }} - {{ player.highest_score }}
+    {% endfor %}
+    <br>
+    <!-- Highest cummulative score -->
+    Players with highest cummulative score :
+    <br>
+    {% for player in cummulative_players %}
+    {{ player }} - {{ player.cummulative_score }}
+    {% endfor %}
+    <br>
+{% endblock %}
