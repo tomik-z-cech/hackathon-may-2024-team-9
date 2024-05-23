@@ -5,10 +5,57 @@
 
 {% block extra_css %}
         <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+        <style> 
+        main {
+                height: 85vh;
+                width: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+            
+        #menu-container {
+                width: 30%;
+                text-align: center;
+        }
+        #menu {
+                list-style-type: none;
+        }
+        
+        .menu-item {
+                padding: 15px;
+                cursor: pointer;
+                transition: background-color 0.5s;
+        }
+        
+        .menu-item:hover, .menu-item.active {
+                background-color: #555;
+        }
+        </style>
 {% endblock %}
 
 
 {% block content %}
-Content
+<div id="menu-container">
+        <ul id="menu">
+        {% if user.is_authenticated %}
+                <li class="menu-item" data-link="#">Play</li>
+                <li class="menu-item" data-link="#">My Profile</li>
+                <li class="menu-item" data-link="#">How to play</li>
+                <li class="menu-item" data-link="#">Hall of Fame</li>
+                <li class="menu-item" data-link="#">Project's About</li>
+                <li class="menu-item" data-link="#">External</li>
+                <li class="menu-item" data-link="{% url 'account_logout' %}">Logout</li>
+        {% else %}
+                <li class="menu-item" data-link="{% url 'account_login' %}">Login</li>
+                <li class="menu-item" data-link="{% url 'account_login' %}">Register</li>
+                <li class="menu-item" data-link="#">Hall of Fame</li>
+                <li class="menu-item" data-link="#">Project's About</li>
+                <li class="menu-item" data-link="#">External</li>
+        {% endif %}
+        </ul>
+    </div>
+    <script src="{% static 'js/menu.js' %}"></script>
 {% endblock %}
 
