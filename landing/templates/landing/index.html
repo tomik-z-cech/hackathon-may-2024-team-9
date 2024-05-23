@@ -42,14 +42,23 @@
 <div id="menu-container">
         <ul id="menu">
                 {% if user.is_authenticated %}
-                <li class="menu-item fw-bold fs-4" data-link="#">Project's About</li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
-                        Logout
-                </li>
                 <li class="menu-item fw-bold fs-4" data-link="#">
                         <i class="fa-solid fa-jedi fa-flip"></i>
                         <span>Play</span>
                 </li>
+                <li class="menu-item fw-bold fs-4" data-link="#">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>How to play</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Leaderboard</span>
+                </li>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Logout</span>
+                </li>
+                
                 {% else %}
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'account_login' %}">
                         <i class="fa-solid fa-right-to-bracket"></i>
@@ -60,16 +69,12 @@
                         <span>Register</span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="#">
-                        <i class="fa-solid fa-jedi fa-flip"></i>
-                        <span>Play</span>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>How to play</span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
                         <i class="fa-solid fa-chart-simple"></i>
                         <span>Leaderboard</span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="#">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <span>How to play</span>
                 </li>
                 {% endif %}
         </ul>
