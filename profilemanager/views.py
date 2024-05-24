@@ -107,8 +107,13 @@ class PlayView(LoginRequiredMixin, generic.ListView):
         """
         This method generates view of game page
         """
+        # Get player name
+        player_name = request.user
         # Render template
         return render(
             request,
             self.template_name,
+            {
+                "player_name": player_name
+            }
         )

@@ -3,11 +3,20 @@
 
 {% block nav_name %}Play{% endblock %}
 
+{% block extra_css %} 
+        <link rel="stylesheet" href="{% static 'css/play.css' %}">
+{% endblock %}
+
 {% block content %}
-    <br>
-    <br>
-    <br>    
-    <h1>
-        Play
-    </h1>
+    <div id="screen-container">
+        <div id="game-container">
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'js/play.js' %}"></script>
+    <script>
+        const playerName = '{{ player_name }}';
+    </script>
 {% endblock %}

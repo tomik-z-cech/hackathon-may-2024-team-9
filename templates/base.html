@@ -51,8 +51,9 @@
     </main>
     <!-- Footer -->
     {% include 'footer.html' %}
-    {% block postload_js %}
-    <script src="{% static 'js/footer.js' %}"></script>
+    
+    {% block extra_js %}
+        <script src="{% static 'js/footer.js' %}"></script>
     {% endblock %}
 </body>
 </html>
