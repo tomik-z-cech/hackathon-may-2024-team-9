@@ -51,6 +51,8 @@ $(document).ready(function () {
     }
 
     // Starting point of quiz
+    $('header').hide();
+    $('footer').hide();
     clearGameContainer();
     startMessage();
 });
