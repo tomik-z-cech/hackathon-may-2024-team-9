@@ -10,6 +10,22 @@ main {
     align-items: center;
 }
 
+#landing-bg {
+    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716585890/StarWars%20Hackathon/death-star-nologo_lapnjy.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: starfield 60s linear infinite;
+}
+
+@keyframes starfield {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 12000px 1000px; /* Adjust this value to control the distance and speed of movement */
+    }
+}
+
 #menu-container {
     width: 30vw;
     text-align: center;
