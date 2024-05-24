@@ -20,6 +20,7 @@
 }
 
 #message-container {
+    font-size: 150%;
     justify-self: center;
     align-self: center;
     background-color: var(--light-background);
@@ -87,6 +88,7 @@
 
 #timer-container {
     position: absolute;
+    flex-direction: column;
     top: 6%;
     left: 25%;
     width: 20vw;
@@ -98,6 +100,7 @@
 
 #lifelines-container {
     position: absolute;
+    flex-direction: column;
     top: 6%;
     left: 50%;
     width: 20vw;
@@ -131,6 +134,7 @@
 
 #score-container {
     position: absolute;
+    flex-direction: column;
     top: 6%;
     right: 5%;
     width: 20vw;
@@ -155,15 +159,54 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 200%;
+    font-size: 130%;
+    padding: 2vh;
 }
 
-/*.answer-options {
-    position: relative;
+.answer-option {
+    position: absolute;
     height: 50%;
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid var(--mid-foreground);
-}*/
+    transition: all 0.5s ease-in-out;
+}
+
+.answer-option:hover {
+    cursor: pointer;
+    color: var(--dark-background);
+    background-color: var(--light-foreground);
+}
+
+#answer-a {
+    top: 0%;
+    left: 0%;
+}
+
+#answer-b {
+    top: 0%;
+    right: 0%;
+}
+
+#answer-c {
+    bottom: 0%;
+    left: 0%;
+}
+
+#answer-d {
+    bottom: 0%;
+    right: 0%;
+}
+
+#cover-mask {
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}

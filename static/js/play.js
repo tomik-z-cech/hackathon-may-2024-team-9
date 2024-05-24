@@ -10,6 +10,7 @@ let runningScore = 0;
 let questionSet = '';
 let currentCharacterName = '';
 let questionsAlreadySelected = [];
+let correctAnswersPerChapter = 0;
 
 // Functions
 
@@ -21,6 +22,11 @@ function chapterMessage(reason) {
         case 'outOfTime':
             message = `you ran out of time ${playerName} and unfortunately, the weapon has slipped through your grasp . the force was not with you on this mission . while you were close, destiny has chosen a different path for you today . prepare yourself, learn from this experience, and come back stronger . may the force guide you on your next adventure .`
             break;
+        case 'wrongAnswer':
+            message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`
+            break;
+        case 'wonChapter':
+            message = `Congratulations ${playerName}, traveler of the stars! You have successfully navigated this chapter of your journey, drawing ever nearer to the ultimate showdown. Your path is illuminated by the Force, guiding you towards the final confrontation. Steel your resolve, for the greatest challenges lie ahead. With each step forward, you edge closer to destiny's embrace.`;    
         default:
             mesage = 'Something else'
     }
@@ -139,14 +145,10 @@ $('#game-container').append(`
                             artefact
                         </span>
                     </div>
-                    <div id="timer-container">
-                        <span class="w-100 text-center inline-block">
-                            time left
-                        </span>
+                    <div id="timer-container" class="d-flex align-items-center justify-content-center text-center">
+                        time left
                         <br>
-                        <span id="running-timer" class="w-100 text-center inline-block">
-                            ${timePerQuestion}
-                        </span>
+                        <span id="running-timer">${timePerQuestion}</span>
                     </div>
                     <div id="lifelines-container">
                         <span class="w-100 text-center inline-block">
@@ -158,14 +160,9 @@ $('#game-container').append(`
                         </div>
                     </div>
                     <div id="answers-container">
-                        <span class="w-100 text-center inline-block">
-                            answers
-                        </span>
                     </div>
-                    <div id="score-container">
-                        <span class="w-100 text-center inline-block">
-                            score
-                        </span>
+                    <div id="score-container" class="d-flex align-items-center justify-content-center text-center">
+                        score
                         <br>
                         <span id="running-score" class="w-100 text-center inline-block">
                             ${runningScore}
@@ -196,7 +193,7 @@ function countdownTimer(){
     }else{
         $('#running-timer').html(timeLeft);
         if (timerStopped == false) {
-            // timeLeft--;
+            //timeLeft--;
             //if (addTime == true){
             //   timeLeft += 30;
             //    addTime = false;
@@ -224,16 +221,40 @@ function askQuestion(){
             questionAddition = 100;
         }
         do {
-            questionRef = 'q' + (Math.ceil(Math.random() * 50));
+            questionRef = 'q' + (Math.ceil(Math.random() * 50) + questionAddition);
         } while (questionsAlreadySelected.includes(questionRef) == true);
         questionsAlreadySelected.push(questionRef);
-        $('#question-space').html(`<p>${questions.character[currentCharacterName][questionLevel][0][questionRef].question}</p>`);
+        $('#question-space').html(`<span>${questions.character[currentCharacterName][questionLevel][0][questionRef].question}</span>`);
         $('#answers-container').append(`
                                     <div class="answer-option" id="answer-a">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
                                     <div class="answer-option" id="answer-b">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
                                     <div class="answer-option" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
                                     <div class="answer-option" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
         `);
+        $('.answer-option').click(function(){
+            $(this).css('background-color','var(--dark-foreground)');
+            $(this).css('color','var(--dark-background)');
+            $('#cover-mask').show();
+            if ($('.answer-option').index(this) == questions.character[currentCharacterName][questionLevel][0][questionRef].answer){
+                setTimeout(function(){
+                    console.log('correct');
+                    $('#cover-mask').hide();
+                    correctAnswersPerChapter++;
+                    if (correctAnswersPerChapter == 5){
+                        endOfChapter('wonChapter');
+                    }else{
+                        $('#answers-container').empty();
+                        askQuestion();
+                    }
+                },3000);
+            }else{
+                setTimeout(function(){
+                    console.log('incorrect');
+                    $('#cover-mask').hide();
+                    endOfChapter('wrongAnswer');
+                },3000);
+            }
+        });
     });
 }
 
@@ -245,7 +266,6 @@ function endOfChapter(reason) {
     $('#question-container').css('opacity','0');
     $('#answers-container').css('opacity','0');
     $('#score-container').css('opacity','0');
-    console.log(currentChapter);
     if (currentChapter == 2){
         console.log('end of quiz')
         window.location.href = afterChaptersLink;
