@@ -1,0 +1,1518 @@
+{
+   "character":{
+      "Princess Leia":{
+         "easy":[
+            {
+               "q1":{
+                  "question":"What is Princess Leia\u2019s last name?",
+                  "options":[
+                     "Skywalker",
+                     "Solo",
+                     "Organa",
+                     "Kenobi"
+                  ],
+                  "answer":"2"
+               },
+               "q2":{
+                  "question":"Who is Princess Leia\u2019s brother?",
+                  "options":[
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Anakin Skywalker",
+                     "Chewbacca"
+                  ],
+                  "answer":"1"
+               },
+               "q3":{
+                  "question":"Who is Princess Leia\u2019s father?",
+                  "options":[
+                     "Darth Vader",
+                     "Obi-Wan Kenobi",
+                     "Han Solo",
+                     "Yoda"
+                  ],
+                  "answer":"0"
+               },
+               "q4":{
+                  "question":"What planet is Princess Leia from?",
+                  "options":[
+                     "Tatooine",
+                     "Alderaan",
+                     "Naboo",
+                     "Coruscant"
+                  ],
+                  "answer":"1"
+               },
+               "q5":{
+                  "question":"Who does Princess Leia marry?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Chewbacca"
+                  ],
+                  "answer":"2"
+               },
+               "q6":{
+                  "question":"What color is Princess Leia\u2019s iconic dress in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Black",
+                     "White",
+                     "Blue",
+                     "Red"
+                  ],
+                  "answer":"1"
+               },
+               "q7":{
+                  "question":"What message does Princess Leia send to Obi-Wan Kenobi in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"Help me, Obi-Wan Kenobi. You\u2019re my only hope.\"",
+                     "\"May the Force be with you, Obi-Wan.\"",
+                     "\"The Death Star plans are with me.\"",
+                     "\"Obi-Wan, we need your help.\""
+                  ],
+                  "answer":"0"
+               },
+               "q8":{
+                  "question":"Who adopts Princess Leia?",
+                  "options":[
+                     "Mon Mothma",
+                     "Padm\u00e9 Amidala",
+                     "Bail Organa",
+                     "Beru Lars"
+                  ],
+                  "answer":"2"
+               },
+               "q9":{
+                  "question":"What is Princess Leia\u2019s title in the Rebel Alliance?",
+                  "options":[
+                     "General",
+                     "Captain",
+                     "Senator",
+                     "Princess"
+                  ],
+                  "answer":"3"
+               },
+               "q10":{
+                  "question":"Who is Princess Leia\u2019s mother?",
+                  "options":[
+                     "Shmi Skywalker",
+                     "Padm\u00e9 Amidala",
+                     "Beru Lars",
+                     "Mon Mothma"
+                  ],
+                  "answer":"1"
+               },
+               "q11":{
+                  "question":"Who portrays Princess Leia in the sequel trilogy?",
+                  "options":[
+                     "Carrie Fisher",
+                     "Daisy Ridley",
+                     "Natalie Portman",
+                     "Felicity Jones"
+                  ],
+                  "answer":"0"
+               },
+               "q12":{
+                  "question":"What is the name of Princess Leia\u2019s adopted father?",
+                  "options":[
+                     "Owen Lars",
+                     "Anakin Skywalker",
+                     "Bail Organa",
+                     "Sheev Palpatine"
+                  ],
+                  "answer":"2"
+               },
+               "q13":{
+                  "question":"What kind of weapon is Princess Leia known for using?",
+                  "options":[
+                     "Blaster",
+                     "Lightsaber",
+                     "Bowcaster",
+                     "Thermal detonator"
+                  ],
+                  "answer":"0"
+               },
+               "q14":{
+                  "question":"In \u201cThe Force Awakens,\u201d who is Leia\u2019s first line of dialogue addressed to?",
+                  "options":[
+                     "Rey",
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q15":{
+                  "question":"What is Leia\u2019s reaction when she first learns that Darth Vader is her father?",
+                  "options":[
+                     "Anger",
+                     "Fear",
+                     "Shock and disbelief",
+                     "Acceptance"
+                  ],
+                  "answer":"2"
+               },
+               "q16":{
+                  "question":"Which droid is often seen with Princess Leia?",
+                  "options":[
+                     "R2-D2",
+                     "BB-8",
+                     "K-2SO",
+                     "Chopper"
+                  ],
+                  "answer":"0"
+               },
+               "q17":{
+                  "question":"Who does Princess Leia command during the Battle of Endor?",
+                  "options":[
+                     "Rebel pilots",
+                     "Ground troops",
+                     "Ewoks",
+                     "Jedi Knights"
+                  ],
+                  "answer":"1"
+               },
+               "q18":{
+                  "question":"What is Princess Leia\u2019s code name during the mission to Endor?",
+                  "options":[
+                     "Blue Leader",
+                     "Red Five",
+                     "Gold Leader",
+                     "General Leia"
+                  ],
+                  "answer":"0"
+               },
+               "q19":{
+                  "question":"In \u201cThe Last Jedi,\u201d who does Leia demote for disobeying her orders?",
+                  "options":[
+                     "Finn",
+                     "Poe Dameron",
+                     "Rey",
+                     "Holdo"
+                  ],
+                  "answer":"1"
+               },
+               "q20":{
+                  "question":"What type of vessel is Princess Leia captured on at the beginning of \u201cA New Hope\u201d?",
+                  "options":[
+                     "Star Destroyer",
+                     "Blockade Runner",
+                     "Death Star",
+                     "X-Wing"
+                  ],
+                  "answer":"1"
+               },
+               "q21":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who does Leia kill to rescue Han Solo?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Boba Fett",
+                     "Lando Calrissian",
+                     "Darth Vader"
+                  ],
+                  "answer":"0"
+               },
+               "q22":{
+                  "question":"Who is the leader of the Rebel Alliance when Leia is a part of it?",
+                  "options":[
+                     "Mon Mothma",
+                     "Bail Organa",
+                     "General Dodonna",
+                     "Admiral Ackbar"
+                  ],
+                  "answer":"0"
+               },
+               "q23":{
+                  "question":"What is Leia\u2019s primary role in the Rebel Alliance?",
+                  "options":[
+                     "Pilot",
+                     "Spy",
+                     "Diplomat",
+                     "Mechanic"
+                  ],
+                  "answer":"2"
+               },
+               "q24":{
+                  "question":"In which movie does Leia first appear?",
+                  "options":[
+                     "The Empire Strikes Back",
+                     "Return of the Jedi",
+                     "A New Hope",
+                     "The Phantom Menace"
+                  ],
+                  "answer":"2"
+               },
+               "q25":{
+                  "question":"What is the name of Leia\u2019s biological mother?",
+                  "options":[
+                     "Shmi Skywalker",
+                     "Padm\u00e9 Amidala",
+                     "Satine Kryze",
+                     "Beru Lars"
+                  ],
+                  "answer":"1"
+               },
+               "q26":{
+                  "question":"Which character is Leia\u2019s twin brother?",
+                  "options":[
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi"
+                  ],
+                  "answer":"1"
+               },
+               "q27":{
+                  "question":"In \u201cThe Force Awakens,\u201d who informs Leia about Han Solo\u2019s death?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Chewbacca",
+                     "Poe Dameron"
+                  ],
+                  "answer":"2"
+               },
+               "q28":{
+                  "question":"What position does Leia hold in the New Republic in the novel \u201cBloodline\u201d?",
+                  "options":[
+                     "Senator",
+                     "President",
+                     "Chancellor",
+                     "General"
+                  ],
+                  "answer":"0"
+               },
+               "q29":{
+                  "question":"In \u201cA New Hope,\u201d who interrogates Leia about the location of the Rebel base?",
+                  "options":[
+                     "Grand Moff Tarkin",
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Boba Fett"
+                  ],
+                  "answer":"1"
+               },
+               "q30":{
+                  "question":"Which Resistance member does Leia mentor in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Poe Dameron",
+                     "Rose Tico"
+                  ],
+                  "answer":"2"
+               },
+               "q31":{
+                  "question":"Who is Princess Leia\u2019s daughter in the expanded universe (Legends)?",
+                  "options":[
+                     "Mara Jade",
+                     "Jaina Solo",
+                     "Rey Skywalker",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"1"
+               },
+               "q32":{
+                  "question":"What is the name of the planet where Leia and Han are reunited in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Jakku",
+                     "Starkiller Base",
+                     "Takodana",
+                     "D'Qar"
+                  ],
+                  "answer":"2"
+               },
+               "q33":{
+                  "question":"In \u201cThe Last Jedi,\u201d who does Leia slap for disobeying her orders?",
+                  "options":[
+                     "Finn",
+                     "Poe Dameron",
+                     "Rey",
+                     "Holdo"
+                  ],
+                  "answer":"1"
+               },
+               "q34":{
+                  "question":"What message does Leia give R2-D2 in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"May the Force be with you.\"",
+                     "\"Help me, Obi-Wan Kenobi. You\u2019re my only hope.\"",
+                     "\"The Death Star plans are hidden in the droid.\"",
+                     "\"We need your help.\""
+                  ],
+                  "answer":"1"
+               },
+               "q35":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who tells Leia that she is his sister?",
+                  "options":[
+                     "Han Solo",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Luke Skywalker"
+                  ],
+                  "answer":"3"
+               },
+               "q36":{
+                  "question":"What does Leia call Han Solo after he suggests she has feelings for him in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"Scruffy-looking nerf herder\"",
+                     "\"Stuck-up, half-witted, scruffy-looking nerf herder\"",
+                     "\"Foul-mouthed space pirate\"",
+                     "\"Stuck-up, scruffy-looking nerf herder\""
+                  ],
+                  "answer":"1"
+               },
+               "q37":{
+                  "question":"In \u201cThe Force Awakens,\u201d what is Leia\u2019s title?",
+                  "options":[
+                     "Queen",
+                     "Princess",
+                     "General",
+                     "Chancellor"
+                  ],
+                  "answer":"2"
+               },
+               "q38":{
+                  "question":"Who does Leia hug after Han Solo\u2019s death in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Poe Dameron",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q39":{
+                  "question":"Who captures Leia on Cloud City in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Lando Calrissian",
+                     "Stormtroopers"
+                  ],
+                  "answer":"3"
+               },
+               "q40":{
+                  "question":"In \u201cA New Hope,\u201d what does Leia call the Millennium Falcon when she first sees it?",
+                  "options":[
+                     "\"Piece of junk\"",
+                     "\"Amazing ship\"",
+                     "\"Starship\"",
+                     "\"Beautiful\""
+                  ],
+                  "answer":"0"
+               },
+               "q41":{
+                  "question":"What rank does Leia hold in the Resistance in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Admiral",
+                     "Commander",
+                     "Captain",
+                     "General"
+                  ],
+                  "answer":"3"
+               },
+               "q42":{
+                  "question":"What is Leia\u2019s role in the Resistance in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "Fighter pilot",
+                     "Spy",
+                     "Leader",
+                     "Engineer"
+                  ],
+                  "answer":"2"
+               },
+               "q43":{
+                  "question":"Who accompanies Leia to the Ewok village in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "C-3PO",
+                     "Chewbacca"
+                  ],
+                  "answer":"2"
+               },
+               "q44":{
+                  "question":"Who does Leia command to lead the attack on the Death Star in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Wedge Antilles",
+                     "Lando Calrissian",
+                     "Admiral Ackbar"
+                  ],
+                  "answer":"0"
+               },
+               "q45":{
+                  "question":"Who is Leia\u2019s adoptive mother?",
+                  "options":[
+                     "Beru Lars",
+                     "Shmi Skywalker",
+                     "Breha Organa",
+                     "Padm\u00e9 Amidala"
+                  ],
+                  "answer":"2"
+               },
+               "q46":{
+                  "question":"Who tells Leia about the plan to destroy Starkiller Base in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Finn",
+                     "Rey"
+                  ],
+                  "answer":"2"
+               },
+               "q47":{
+                  "question":"What is Leia\u2019s reaction to learning she has a brother in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Joy",
+                     "Anger",
+                     "Shock",
+                     "Indifference"
+                  ],
+                  "answer":"2"
+               },
+               "q48":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who is Leia\u2019s main romantic interest?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Han Solo",
+                     "Lando Calrissian",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"1"
+               },
+               "q49":{
+                  "question":"Who does Leia send to find Luke Skywalker in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Rey",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q50":{
+                  "question":"What is Leia\u2019s full name in the sequel trilogy?",
+                  "options":[
+                     "Leia Amidala Skywalker",
+                     "Leia Organa Solo",
+                     "Leia Skywalker",
+                     "Leia Antilles"
+                  ],
+                  "answer":"1"
+               }
+            }
+         ],
+         "medium":[
+            {
+               "q51":{
+                  "question":"What is the name of Princess Leia\u2019s home planet that was destroyed by the Death Star?",
+                  "options":[
+                     "Coruscant",
+                     "Alderaan",
+                     "Naboo",
+                     "Endor"
+                  ],
+                  "answer":"1"
+               },
+               "q52":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who does Leia kiss to make Han Solo jealous?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Chewbacca",
+                     "Luke Skywalker",
+                     "C-3PO"
+                  ],
+                  "answer":"2"
+               },
+               "q53":{
+                  "question":"Which actress portrays Princess Leia in the original trilogy?",
+                  "options":[
+                     "Carrie Fisher",
+                     "Natalie Portman",
+                     "Daisy Ridley",
+                     "Felicity Jones"
+                  ],
+                  "answer":"0"
+               },
+               "q54":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what disguise does Leia use to infiltrate Jabba\u2019s palace?",
+                  "options":[
+                     "Bounty hunter",
+                     "Imperial officer",
+                     "Twi\u2019lek dancer",
+                     "Smuggler"
+                  ],
+                  "answer":"0"
+               },
+               "q55":{
+                  "question":"What is the name of the Ewok who befriends Princess Leia in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Teebo",
+                     "Wicket",
+                     "Logray",
+                     "Chirpa"
+                  ],
+                  "answer":"1"
+               },
+               "q56":{
+                  "question":"Who is Leia\u2019s son in the sequel trilogy?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Ben Solo",
+                     "Rey"
+                  ],
+                  "answer":"2"
+               },
+               "q57":{
+                  "question":"What rank does Leia achieve in the Resistance in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Captain",
+                     "Admiral",
+                     "General",
+                     "Commander"
+                  ],
+                  "answer":"2"
+               },
+               "q58":{
+                  "question":"In \u201cThe Last Jedi,\u201d how does Leia survive being ejected into space?",
+                  "options":[
+                     "She uses the Force",
+                     "She is rescued by Finn",
+                     "She uses a spacesuit",
+                     "She is saved by Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q59":{
+                  "question":"What nickname does Han Solo use for Leia?",
+                  "options":[
+                     "Your Highness",
+                     "Princess",
+                     "Sweetheart",
+                     "General"
+                  ],
+                  "answer":"2"
+               },
+               "q60":{
+                  "question":"What is Leia\u2019s full name?",
+                  "options":[
+                     "Leia Amidala Skywalker",
+                     "Leia Organa Solo",
+                     "Leia Skywalker",
+                     "Leia Antilles"
+                  ],
+                  "answer":"1"
+               },
+               "q61":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what position does Leia hold within the Rebel Alliance?",
+                  "options":[
+                     "General",
+                     "Admiral",
+                     "Princess",
+                     "Commander"
+                  ],
+                  "answer":"2"
+               },
+               "q62":{
+                  "question":"What does Leia say when she is first introduced to Han Solo in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"Aren\u2019t you a little short for a stormtrooper?\"",
+                     "\"Who are you?\"",
+                     "\"Get this walking carpet out of my way.\"",
+                     "\"You\u2019re braver than I thought.\""
+                  ],
+                  "answer":"0"
+               },
+               "q63":{
+                  "question":"Who tells Leia about her true parentage in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Yoda",
+                     "Han Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q64":{
+                  "question":"In \u201cThe Last Jedi,\u201d who succeeds Leia as the leader of the Resistance?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Holdo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q65":{
+                  "question":"Which planet does Leia visit to find Lando in \u201cThe Rise of Skywalker\u201d?",
+                  "options":[
+                     "Tatooine",
+                     "Jakku",
+                     "Endor",
+                     "Pasaana"
+                  ],
+                  "answer":"3"
+               },
+               "q66":{
+                  "question":"What is Leia\u2019s primary mission in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Find Luke Skywalker",
+                     "Defeat the First Order",
+                     "Rescue Han Solo",
+                     "Recruit new members for the Resistance"
+                  ],
+                  "answer":"0"
+               },
+               "q67":{
+                  "question":"What position does Leia hold in the New Republic before the events of \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Chancellor",
+                     "Senator",
+                     "General",
+                     "President"
+                  ],
+                  "answer":"1"
+               },
+               "q68":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what does Leia disguise herself as to infiltrate Jabba\u2019s palace?",
+                  "options":[
+                     "Stormtrooper",
+                     "Bounty hunter",
+                     "Smuggler",
+                     "Slave"
+                  ],
+                  "answer":"1"
+               },
+               "q69":{
+                  "question":"What is the name of Leia\u2019s daughter in the expanded universe (Legends)?",
+                  "options":[
+                     "Rey Skywalker",
+                     "Jaina Solo",
+                     "Mara Jade",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"1"
+               },
+               "q70":{
+                  "question":"In \u201cThe Last Jedi,\u201d who saves Leia from the explosion on the bridge of the Resistance ship?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Holdo",
+                     "Herself, using the Force"
+                  ],
+                  "answer":"3"
+               },
+               "q71":{
+                  "question":"Who tells Leia \u201cYou have that power too\u201d in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"2"
+               },
+               "q72":{
+                  "question":"What role does Leia assume in the novel \u201cBloodline\u201d?",
+                  "options":[
+                     "General",
+                     "Senator",
+                     "Queen",
+                     "Jedi Knight"
+                  ],
+                  "answer":"1"
+               },
+               "q73":{
+                  "question":"In \u201cA New Hope,\u201d who does Leia lie to about the location of the Rebel base?",
+                  "options":[
+                     "Grand Moff Tarkin",
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Boba Fett"
+                  ],
+                  "answer":"0"
+               },
+               "q74":{
+                  "question":"Who accompanies Leia to Crait in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Rey",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q75":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who is the first to address Leia as \u201cYour Highness\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Darth Vader"
+                  ],
+                  "answer":"0"
+               },
+               "q76":{
+                  "question":"In the expanded universe (Legends), who trains Leia in the use of the Force?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Luke Skywalker",
+                     "Anakin Skywalker"
+                  ],
+                  "answer":"2"
+               },
+               "q77":{
+                  "question":"Who does Leia team up with to rescue Han Solo from Jabba the Hutt in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Lando Calrissian",
+                     "Chewbacca",
+                     "All of the above"
+                  ],
+                  "answer":"3"
+               },
+               "q78":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Leia send to bring back Han Solo?",
+                  "options":[
+                     "Chewbacca",
+                     "Finn",
+                     "Rey",
+                     "Poe Dameron"
+                  ],
+                  "answer":"2"
+               },
+               "q79":{
+                  "question":"What is the name of the Star Wars novel that explores Leia\u2019s life as a teenager?",
+                  "options":[
+                     "Bloodline",
+                     "Princess Leia",
+                     "Leia: Princess of Alderaan",
+                     "Moving Target"
+                  ],
+                  "answer":"2"
+               },
+               "q80":{
+                  "question":"Who does Leia communicate with through the Force in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "Kylo Ren",
+                     "Luke Skywalker",
+                     "Rey",
+                     "Snoke"
+                  ],
+                  "answer":"1"
+               },
+               "q81":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what rank does Leia achieve within the Rebel Alliance?",
+                  "options":[
+                     "General",
+                     "Captain",
+                     "Princess",
+                     "Admiral"
+                  ],
+                  "answer":"2"
+               },
+               "q82":{
+                  "question":"Who does Leia console after the destruction of Alderaan in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Han Solo",
+                     "Chewbacca",
+                     "C-3PO"
+                  ],
+                  "answer":"0"
+               },
+               "q83":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what is Leia\u2019s main role during the evacuation of Hoth?",
+                  "options":[
+                     "Pilot",
+                     "Ground commander",
+                     "Communications officer",
+                     "Medical officer"
+                  ],
+                  "answer":"2"
+               },
+               "q84":{
+                  "question":"What is Leia\u2019s title in the Resistance in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "Admiral",
+                     "General",
+                     "Commander",
+                     "Senator"
+                  ],
+                  "answer":"1"
+               },
+               "q85":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who helps Leia free Han Solo from carbonite?",
+                  "options":[
+                     "Chewbacca",
+                     "Luke Skywalker",
+                     "Lando Calrissian",
+                     "R2-D2"
+                  ],
+                  "answer":"3"
+               },
+               "q86":{
+                  "question":"Who reveals to Leia that she is the daughter of Darth Vader?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Darth Vader"
+                  ],
+                  "answer":"2"
+               },
+               "q87":{
+                  "question":"What is the name of Leia\u2019s flagship in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "The Home One",
+                     "The Raddus",
+                     "The Ghost",
+                     "The Liberty"
+                  ],
+                  "answer":"1"
+               },
+               "q88":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Leia task with finding Luke Skywalker?",
+                  "options":[
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Rey",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q89":{
+                  "question":"Who captures Leia on Cloud City in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Lando Calrissian",
+                     "Stormtroopers"
+                  ],
+                  "answer":"3"
+               },
+               "q90":{
+                  "question":"What is Leia\u2019s reaction to the destruction of the Hosnian system in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Anger",
+                     "Shock",
+                     "Sorrow",
+                     "Indifference"
+                  ],
+                  "answer":"2"
+               },
+               "q91":{
+                  "question":"In \u201cThe Last Jedi,\u201d who does Leia demote for insubordination?",
+                  "options":[
+                     "Finn",
+                     "Poe Dameron",
+                     "Rey",
+                     "Holdo"
+                  ],
+                  "answer":"1"
+               },
+               "q92":{
+                  "question":"What is Leia\u2019s primary mission in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Destroy the Death Star",
+                     "Evacuate Hoth",
+                     "Rescue Han Solo",
+                     "Defeat Darth Vader"
+                  ],
+                  "answer":"1"
+               },
+               "q93":{
+                  "question":"Who is Leia\u2019s main romantic interest in the original trilogy?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Han Solo",
+                     "Lando Calrissian",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"1"
+               },
+               "q94":{
+                  "question":"In \u201cA New Hope,\u201d who does Leia rescue from the Death Star?",
+                  "options":[
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Chewbacca"
+                  ],
+                  "answer":"1"
+               },
+               "q95":{
+                  "question":"What is Leia\u2019s title in the Resistance in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Admiral",
+                     "General",
+                     "Commander",
+                     "Senator"
+                  ],
+                  "answer":"1"
+               },
+               "q96":{
+                  "question":"In \u201cThe Last Jedi,\u201d who saves Leia from being blown out into space?",
+                  "options":[
+                     "Poe Dameron",
+                     "Holdo",
+                     "Herself, using the Force",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q97":{
+                  "question":"What is the name of the Star Wars comic series focused on Leia\u2019s adventures?",
+                  "options":[
+                     "Star Wars: Princess Leia",
+                     "Star Wars: Rebellion",
+                     "Star Wars: Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               },
+               "q98":{
+                  "question":"Who does Leia send to find Luke Skywalker in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Rey",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q99":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who does Leia kill to rescue Han Solo?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Boba Fett",
+                     "Lando Calrissian",
+                     "Darth Vader"
+                  ],
+                  "answer":"0"
+               },
+               "q100":{
+                  "question":"Who mentors Leia in the ways of the Force in the expanded universe (Legends)?",
+                  "options":[
+                     "Yoda",
+                     "Luke Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker"
+                  ],
+                  "answer":"1"
+               }
+            }
+         ],
+         "hard":[
+            {
+               "q101":{
+                  "question":"In the expanded universe (Legends), what are the names of Leia\u2019s children?",
+                  "options":[
+                     "Ben, Jaina, and Jacen",
+                     "Luke, Anakin, and Rey",
+                     "Han, Jaina, and Jacen",
+                     "Ben, Mara, and Anakin"
+                  ],
+                  "answer":"0"
+               },
+               "q102":{
+                  "question":"Which Star Wars novel focuses on Leia\u2019s journey between \u201cThe Empire Strikes Back\u201d and \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Bloodline",
+                     "Princess Leia",
+                     "Moving Target",
+                     "Leia: Princess of Alderaan"
+                  ],
+                  "answer":"2"
+               },
+               "q103":{
+                  "question":"Who mentors Leia in the ways of the Force in the expanded universe (Legends)?",
+                  "options":[
+                     "Yoda",
+                     "Luke Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker"
+                  ],
+                  "answer":"1"
+               },
+               "q104":{
+                  "question":"In which comic series does Leia undertake a mission to rescue surviving Alderaanians?",
+                  "options":[
+                     "Star Wars: Princess Leia",
+                     "Star Wars: Rebellion",
+                     "Star Wars: Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               },
+               "q105":{
+                  "question":"What is the title of the book where Leia becomes the Chief of State of the New Republic?",
+                  "options":[
+                     "Heir to the Empire",
+                     "Dark Force Rising",
+                     "The Last Command",
+                     "The Truce at Bakura"
+                  ],
+                  "answer":"3"
+               },
+               "q106":{
+                  "question":"Which character did Leia forgive for his actions during the Battle of Yavin in the expanded universe?",
+                  "options":[
+                     "Darth Vader",
+                     "Grand Moff Tarkin",
+                     "Lando Calrissian",
+                     "Boba Fett"
+                  ],
+                  "answer":"2"
+               },
+               "q107":{
+                  "question":"In the Legends timeline, which planet does Leia serve as the ambassador for?",
+                  "options":[
+                     "Corellia",
+                     "Naboo",
+                     "Hapes",
+                     "Kashyyyk"
+                  ],
+                  "answer":"2"
+               },
+               "q108":{
+                  "question":"What is the name of the ship Leia commands in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "The Ghost",
+                     "The Home One",
+                     "The Raddus",
+                     "The Finalizer"
+                  ],
+                  "answer":"2"
+               },
+               "q109":{
+                  "question":"Which political faction does Leia lead in the novel \u201cBloodline\u201d?",
+                  "options":[
+                     "The Resistance",
+                     "The New Republic",
+                     "The Rebel Alliance",
+                     "The Galactic Empire"
+                  ],
+                  "answer":"0"
+               },
+               "q110":{
+                  "question":"What code name does Leia use while leading the Resistance?",
+                  "options":[
+                     "Starkiller",
+                     "R2-D2",
+                     "Fulcrum",
+                     "Spectre"
+                  ],
+                  "answer":"2"
+               },
+               "q111":{
+                  "question":"In the expanded universe (Legends), what is the name of Leia\u2019s youngest son?",
+                  "options":[
+                     "Jacen Solo",
+                     "Anakin Solo",
+                     "Ben Solo",
+                     "Luke Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q112":{
+                  "question":"Which Star Wars novel details Leia\u2019s role in the formation of the New Republic?",
+                  "options":[
+                     "Bloodline",
+                     "Aftermath",
+                     "Heir to the Empire",
+                     "Lost Stars"
+                  ],
+                  "answer":"0"
+               },
+               "q113":{
+                  "question":"What is Leia\u2019s call sign during the Battle of Endor?",
+                  "options":[
+                     "Gold Leader",
+                     "Red Five",
+                     "Blue Leader",
+                     "General Leia"
+                  ],
+                  "answer":"2"
+               },
+               "q114":{
+                  "question":"In \u201cThe Last Jedi,\u201d who succeeds Leia as the leader of the Resistance?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Holdo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q115":{
+                  "question":"What is the name of Leia\u2019s adoptive mother?",
+                  "options":[
+                     "Shmi Skywalker",
+                     "Padm\u00e9 Amidala",
+                     "Breha Organa",
+                     "Mon Mothma"
+                  ],
+                  "answer":"2"
+               },
+               "q116":{
+                  "question":"In the expanded universe (Legends), what is the name of Leia\u2019s flagship?",
+                  "options":[
+                     "The Home One",
+                     "The Raddus",
+                     "The Liberty",
+                     "The Mon Remonda"
+                  ],
+                  "answer":"3"
+               },
+               "q117":{
+                  "question":"Which comic series features Leia\u2019s mission to save Alderaanian survivors?",
+                  "options":[
+                     "Star Wars: Princess Leia",
+                     "Star Wars: Rebellion",
+                     "Star Wars: Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               },
+               "q118":{
+                  "question":"What is Leia\u2019s position in the Rebel Alliance during the events of \u201cRogue One\u201d?",
+                  "options":[
+                     "General",
+                     "Princess",
+                     "Senator",
+                     "Commander"
+                  ],
+                  "answer":"1"
+               },
+               "q119":{
+                  "question":"In the novel \u201cBloodline,\u201d who is Leia\u2019s main political rival?",
+                  "options":[
+                     "Mon Mothma",
+                     "Ransolm Casterfo",
+                     "Bail Organa",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"1"
+               },
+               "q120":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who does Leia accuse of betraying them to the Empire?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Chewbacca",
+                     "Boba Fett",
+                     "Luke Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q121":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who tells Leia that she is his sister?",
+                  "options":[
+                     "Han Solo",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Luke Skywalker"
+                  ],
+                  "answer":"3"
+               },
+               "q122":{
+                  "question":"What is the name of Leia\u2019s ship in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "The Ghost",
+                     "The Home One",
+                     "The Raddus",
+                     "The Finalizer"
+                  ],
+                  "answer":"2"
+               },
+               "q123":{
+                  "question":"Which political faction does Leia lead in the novel \u201cBloodline\u201d?",
+                  "options":[
+                     "The Resistance",
+                     "The New Republic",
+                     "The Rebel Alliance",
+                     "The Galactic Empire"
+                  ],
+                  "answer":"0"
+               },
+               "q124":{
+                  "question":"What code name does Leia use while leading the Resistance?",
+                  "options":[
+                     "Starkiller",
+                     "R2-D2",
+                     "Fulcrum",
+                     "Spectre"
+                  ],
+                  "answer":"2"
+               },
+               "q125":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Leia send to bring back Han Solo?",
+                  "options":[
+                     "Chewbacca",
+                     "Finn",
+                     "Rey",
+                     "Poe Dameron"
+                  ],
+                  "answer":"2"
+               },
+               "q126":{
+                  "question":"Who is Leia\u2019s mentor in the expanded universe (Legends)?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Luke Skywalker",
+                     "Anakin Skywalker"
+                  ],
+                  "answer":"2"
+               },
+               "q127":{
+                  "question":"What is Leia\u2019s primary mission in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Find Luke Skywalker",
+                     "Defeat the First Order",
+                     "Rescue Han Solo",
+                     "Recruit new members for the Resistance"
+                  ],
+                  "answer":"0"
+               },
+               "q128":{
+                  "question":"What is the name of Leia\u2019s flagship in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "The Home One",
+                     "The Raddus",
+                     "The Ghost",
+                     "The Liberty"
+                  ],
+                  "answer":"1"
+               },
+               "q129":{
+                  "question":"What role does Leia assume in the novel \u201cBloodline\u201d?",
+                  "options":[
+                     "General",
+                     "Senator",
+                     "Queen",
+                     "Jedi Knight"
+                  ],
+                  "answer":"1"
+               },
+               "q130":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what is Leia\u2019s main role during the evacuation of Hoth?",
+                  "options":[
+                     "Pilot",
+                     "Ground commander",
+                     "Communications officer",
+                     "Medical officer"
+                  ],
+                  "answer":"2"
+               },
+               "q131":{
+                  "question":"In \u201cReturn of the Jedi,\u201d who helps Leia free Han Solo from carbonite?",
+                  "options":[
+                     "Chewbacca",
+                     "Luke Skywalker",
+                     "Lando Calrissian",
+                     "R2-D2"
+                  ],
+                  "answer":"3"
+               },
+               "q132":{
+                  "question":"What is Leia\u2019s call sign during the Battle of Endor?",
+                  "options":[
+                     "Gold Leader",
+                     "Red Five",
+                     "Blue Leader",
+                     "General Leia"
+                  ],
+                  "answer":"2"
+               },
+               "q133":{
+                  "question":"In \u201cThe Last Jedi,\u201d who succeeds Leia as the leader of the Resistance?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Holdo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q134":{
+                  "question":"In \u201cThe Force Awakens,\u201d who informs Leia about Han Solo\u2019s death?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Chewbacca",
+                     "Poe Dameron"
+                  ],
+                  "answer":"2"
+               },
+               "q135":{
+                  "question":"In the expanded universe (Legends), what is the name of Leia\u2019s youngest son?",
+                  "options":[
+                     "Jacen Solo",
+                     "Anakin Solo",
+                     "Ben Solo",
+                     "Luke Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q136":{
+                  "question":"Which Star Wars novel details Leia\u2019s role in the formation of the New Republic?",
+                  "options":[
+                     "Bloodline",
+                     "Aftermath",
+                     "Heir to the Empire",
+                     "Lost Stars"
+                  ],
+                  "answer":"0"
+               },
+               "q137":{
+                  "question":"What is Leia\u2019s title in the Resistance in \u201cThe Last Jedi\u201d?",
+                  "options":[
+                     "Admiral",
+                     "General",
+                     "Commander",
+                     "Senator"
+                  ],
+                  "answer":"1"
+               },
+               "q138":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who does Leia accuse of betraying them to the Empire?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Chewbacca",
+                     "Boba Fett",
+                     "Luke Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q139":{
+                  "question":"What is Leia\u2019s position in the Rebel Alliance during the events of \u201cRogue One\u201d?",
+                  "options":[
+                     "General",
+                     "Princess",
+                     "Senator",
+                     "Commander"
+                  ],
+                  "answer":"1"
+               },
+               "q140":{
+                  "question":"In the novel \u201cBloodline,\u201d who is Leia\u2019s main political rival?",
+                  "options":[
+                     "Mon Mothma",
+                     "Ransolm Casterfo",
+                     "Bail Organa",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"1"
+               },
+               "q141":{
+                  "question":"Who tells Leia \u201cYou have that power too\u201d in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"2"
+               },
+               "q142":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Leia send to find Luke Skywalker?",
+                  "options":[
+                     "Han Solo",
+                     "Poe Dameron",
+                     "Rey",
+                     "Finn"
+                  ],
+                  "answer":"2"
+               },
+               "q143":{
+                  "question":"In \u201cThe Last Jedi,\u201d who saves Leia from the explosion on the bridge of the Resistance ship?",
+                  "options":[
+                     "Poe Dameron",
+                     "Finn",
+                     "Holdo",
+                     "Herself, using the Force"
+                  ],
+                  "answer":"3"
+               },
+               "q144":{
+                  "question":"Who does Leia console after the destruction of Alderaan in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Han Solo",
+                     "Chewbacca",
+                     "C-3PO"
+                  ],
+                  "answer":"0"
+               },
+               "q145":{
+                  "question":"What is the name of Leia\u2019s daughter in the expanded universe (Legends)?",
+                  "options":[
+                     "Rey Skywalker",
+                     "Jaina Solo",
+                     "Mara Jade",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"1"
+               },
+               "q146":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who is the first to address Leia as \u201cYour Highness\u201d?",
+                  "options":[
+                     "Han Solo",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Darth Vader"
+                  ],
+                  "answer":"0"
+               },
+               "q147":{
+                  "question":"What is Leia\u2019s reaction to learning she has a brother in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Joy",
+                     "Anger",
+                     "Shock",
+                     "Indifference"
+                  ],
+                  "answer":"2"
+               },
+               "q148":{
+                  "question":"Who captures Leia on Cloud City in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Lando Calrissian",
+                     "Stormtroopers"
+                  ],
+                  "answer":"3"
+               },
+               "q149":{
+                  "question":"In \u201cThe Last Jedi,\u201d who does Leia demote for insubordination?",
+                  "options":[
+                     "Finn",
+                     "Poe Dameron",
+                     "Rey",
+                     "Holdo"
+                  ],
+                  "answer":"1"
+               },
+               "q150":{
+                  "question":"What is the name of the Star Wars comic series focused on Leia\u2019s adventures?",
+                  "options":[
+                     "Star Wars: Princess Leia",
+                     "Star Wars: Rebellion",
+                     "Star Wars: Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,1518 @@
+{
+   "character":{
+      "Han Solo":{
+         "easy":[
+            {
+               "q1":{
+                  "question":"What is the name of Han Solo\u2019s ship?",
+                  "options":[
+                     "X-Wing",
+                     "Star Destroyer",
+                     "Millennium Falcon",
+                     "TIE Fighter"
+                  ],
+                  "answer":"2"
+               },
+               "q2":{
+                  "question":"Who is Han Solo\u2019s co-pilot?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Chewbacca",
+                     "Leia Organa",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"1"
+               },
+               "q3":{
+                  "question":"In which movie does Han Solo first appear?",
+                  "options":[
+                     "The Empire Strikes Back",
+                     "Return of the Jedi",
+                     "A New Hope",
+                     "The Phantom Menace"
+                  ],
+                  "answer":"2"
+               },
+               "q4":{
+                  "question":"Who does Han Solo rescue from Jabba the Hutt in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "C-3PO",
+                     "Himself"
+                  ],
+                  "answer":"3"
+               },
+               "q5":{
+                  "question":"What is Han Solo frozen in at the end of \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Ice",
+                     "Carbonite",
+                     "Glass",
+                     "Steel"
+                  ],
+                  "answer":"1"
+               },
+               "q6":{
+                  "question":"Which actor originally played Han Solo?",
+                  "options":[
+                     "Mark Hamill",
+                     "Harrison Ford",
+                     "Alec Guinness",
+                     "Peter Mayhew"
+                  ],
+                  "answer":"1"
+               },
+               "q7":{
+                  "question":"What is Han Solo\u2019s profession?",
+                  "options":[
+                     "Jedi",
+                     "Bounty Hunter",
+                     "Smuggler",
+                     "Senator"
+                  ],
+                  "answer":"2"
+               },
+               "q8":{
+                  "question":"Who is Han Solo\u2019s love interest?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Rey",
+                     "Jyn Erso"
+                  ],
+                  "answer":"1"
+               },
+               "q9":{
+                  "question":"What is the name of Han Solo\u2019s son?",
+                  "options":[
+                     "Ben Solo",
+                     "Luke Solo",
+                     "Anakin Solo",
+                     "Kylo Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q10":{
+                  "question":"Who does Han Solo owe money to in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"0"
+               },
+               "q11":{
+                  "question":"What species is Chewbacca, Han Solo\u2019s co-pilot?",
+                  "options":[
+                     "Ewok",
+                     "Wookiee",
+                     "Twi\u2019lek",
+                     "Rodian"
+                  ],
+                  "answer":"1"
+               },
+               "q12":{
+                  "question":"In \u201cA New Hope,\u201d what does Han Solo call Obi-Wan Kenobi\u2019s belief in the Force?",
+                  "options":[
+                     "A religion",
+                     "A myth",
+                     "A hokey religion",
+                     "A fairy tale"
+                  ],
+                  "answer":"2"
+               },
+               "q13":{
+                  "question":"Who helps Han Solo break into the Death Star\u2019s detention block in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Obi-Wan Kenobi",
+                     "R2-D2"
+                  ],
+                  "answer":"0"
+               },
+               "q14":{
+                  "question":"What alias does Han Solo use to infiltrate the Death Star in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Commander Solo",
+                     "Captain Antilles",
+                     "TK-421",
+                     "TK-422"
+                  ],
+                  "answer":"3"
+               },
+               "q15":{
+                  "question":"What does Han Solo say after shooting Greedo in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"Better luck next time.\"",
+                     "\"I had no choice.\"",
+                     "\"Sorry about the mess.\"",
+                     "\"Nice try.\""
+                  ],
+                  "answer":"2"
+               },
+               "q16":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what does Han Solo say to Leia before he is frozen in carbonite?",
+                  "options":[
+                     "\"I love you.\"",
+                     "\"I\u2019ll be back.\"",
+                     "\"See you soon.\"",
+                     "\"I know.\""
+                  ],
+                  "answer":"3"
+               },
+               "q17":{
+                  "question":"What planet does Han Solo get captured on in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Tatooine",
+                     "Endor",
+                     "Hoth",
+                     "Naboo"
+                  ],
+                  "answer":"0"
+               },
+               "q18":{
+                  "question":"In \u201cThe Force Awakens,\u201d what is the name of Han Solo\u2019s freighter?",
+                  "options":[
+                     "The Eravana",
+                     "The Ghost",
+                     "The Phantom",
+                     "The Razor Crest"
+                  ],
+                  "answer":"0"
+               },
+               "q19":{
+                  "question":"Who helps Han Solo and Chewbacca fix the Millennium Falcon in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Finn",
+                     "Rey",
+                     "Poe Dameron",
+                     "BB-8"
+                  ],
+                  "answer":"1"
+               },
+               "q20":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d who plays the young Han Solo?",
+                  "options":[
+                     "Alden Ehrenreich",
+                     "Chris Pine",
+                     "Donald Glover",
+                     "Adam Driver"
+                  ],
+                  "answer":"0"
+               },
+               "q21":{
+                  "question":"In which movie does Han Solo get the nickname \"Flyboy\"?",
+                  "options":[
+                     "A New Hope",
+                     "The Empire Strikes Back",
+                     "Return of the Jedi",
+                     "The Force Awakens"
+                  ],
+                  "answer":"1"
+               },
+               "q22":{
+                  "question":"Who captures Han Solo at the end of \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Jabba the Hutt",
+                     "The Emperor"
+                  ],
+                  "answer":"1"
+               },
+               "q23":{
+                  "question":"Who does Han Solo shoot first in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Greedo",
+                     "Jabba the Hutt",
+                     "Boba Fett",
+                     "Stormtrooper"
+                  ],
+                  "answer":"0"
+               },
+               "q24":{
+                  "question":"What does Han Solo offer to pay Luke for helping him rescue Leia in \u201cA New Hope\u201d?",
+                  "options":[
+                     "10,000 credits",
+                     "5,000 credits",
+                     "15,000 credits",
+                     "2,000 credits"
+                  ],
+                  "answer":"0"
+               },
+               "q25":{
+                  "question":"Which weapon is Han Solo known for using?",
+                  "options":[
+                     "Lightsaber",
+                     "Blaster pistol",
+                     "Bowcaster",
+                     "Thermal detonator"
+                  ],
+                  "answer":"1"
+               },
+               "q26":{
+                  "question":"Who does Han Solo say \u201cLaugh it up, fuzzball\u201d to in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Chewbacca",
+                     "Leia Organa",
+                     "C-3PO"
+                  ],
+                  "answer":"1"
+               },
+               "q27":{
+                  "question":"What does Han Solo call the Millennium Falcon in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Fastest ship in the galaxy",
+                     "The fastest hunk of junk in the galaxy",
+                     "The best ship in the galaxy",
+                     "The greatest ship in the galaxy"
+                  ],
+                  "answer":"1"
+               },
+               "q28":{
+                  "question":"Who frees Han Solo from the carbonite in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Chewbacca",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"1"
+               },
+               "q29":{
+                  "question":"Which bounty hunter captures Han Solo in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Bossk",
+                     "IG-88",
+                     "Dengar",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q30":{
+                  "question":"What does Han Solo use to warm Luke on Hoth in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "A blaster",
+                     "His jacket",
+                     "A Tauntaun",
+                     "A lightsaber"
+                  ],
+                  "answer":"2"
+               },
+               "q31":{
+                  "question":"In \u201cThe Force Awakens,\u201d who finds the Millennium Falcon on Jakku?",
+                  "options":[
+                     "Finn and Poe",
+                     "Rey and Finn",
+                     "BB-8 and Rey",
+                     "Rey and Poe"
+                  ],
+                  "answer":"1"
+               },
+               "q32":{
+                  "question":"What type of vehicle does Han Solo use to hide from the Empire in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "An asteroid",
+                     "A Star Destroyer",
+                     "A space slug",
+                     "A nebula"
+                  ],
+                  "answer":"0"
+               },
+               "q33":{
+                  "question":"In \u201cA New Hope,\u201d who does Han Solo say will never find a more wretched hive of scum and villainy?",
+                  "options":[
+                     "Tatooine",
+                     "Mos Eisley",
+                     "Jabba's Palace",
+                     "The Death Star"
+                  ],
+                  "answer":"1"
+               },
+               "q34":{
+                  "question":"Who does Han Solo save from execution in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Leia Organa",
+                     "Chewbacca",
+                     "Luke Skywalker"
+                  ],
+                  "answer":"2"
+               },
+               "q35":{
+                  "question":"What game does Han Solo play with Chewbacca in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Dejarik (holochess)",
+                     "Sabacc",
+                     "Pazaak",
+                     "Sabaac"
+                  ],
+                  "answer":"0"
+               },
+               "q36":{
+                  "question":"What does Han Solo use to save Luke from freezing on Hoth?",
+                  "options":[
+                     "A blaster",
+                     "A Tauntaun",
+                     "A lightsaber",
+                     "His jacket"
+                  ],
+                  "answer":"1"
+               },
+               "q37":{
+                  "question":"What planet does Han Solo visit to find Lando in \u201cThe Rise of Skywalker\u201d?",
+                  "options":[
+                     "Tatooine",
+                     "Pasaana",
+                     "Bespin",
+                     "Endor"
+                  ],
+                  "answer":"1"
+               },
+               "q38":{
+                  "question":"In \u201cA New Hope,\u201d who does Han Solo argue with about the reward for rescuing Leia?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Obi-Wan Kenobi",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q39":{
+                  "question":"Who does Han Solo say \u201cI\u2019ve got a bad feeling about this\u201d to in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Chewbacca",
+                     "Obi-Wan Kenobi"
+                  ],
+                  "answer":"2"
+               },
+               "q40":{
+                  "question":"What is Han Solo\u2019s response when Leia says she loves him in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"I love you too.\"",
+                     "\"I\u2019ll be back.\"",
+                     "\"I know.\"",
+                     "\"I feel the same.\""
+                  ],
+                  "answer":"2"
+               },
+               "q41":{
+                  "question":"What does Han Solo use to bribe the Ewoks in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "His blaster",
+                     "Food",
+                     "The promise of freedom",
+                     "Gold"
+                  ],
+                  "answer":"1"
+               },
+               "q42":{
+                  "question":"What is Han Solo\u2019s bounty price set by Jabba the Hutt in \u201cA New Hope\u201d?",
+                  "options":[
+                     "10,000 credits",
+                     "20,000 credits",
+                     "50,000 credits",
+                     "100,000 credits"
+                  ],
+                  "answer":"2"
+               },
+               "q43":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Han Solo tell \u201cThat\u2019s not how the Force works\u201d?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Poe Dameron",
+                     "BB-8"
+                  ],
+                  "answer":"1"
+               },
+               "q44":{
+                  "question":"What species is Han Solo\u2019s first mate in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Wookiee",
+                     "Rodian",
+                     "Human",
+                     "Thalassian"
+                  ],
+                  "answer":"3"
+               },
+               "q45":{
+                  "question":"What does Han Solo call Chewbacca\u2019s weapon in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "A bowcaster",
+                     "A crossbow",
+                     "A blaster",
+                     "A rifle"
+                  ],
+                  "answer":"0"
+               },
+               "q46":{
+                  "question":"What did Han Solo do before becoming a smuggler?",
+                  "options":[
+                     "Podracer",
+                     "Mechanic",
+                     "Imperial cadet",
+                     "Rebel pilot"
+                  ],
+                  "answer":"2"
+               },
+               "q47":{
+                  "question":"What nickname does Han Solo give to the Millennium Falcon?",
+                  "options":[
+                     "The Falcon",
+                     "The Bucket",
+                     "The Junker",
+                     "The Fast One"
+                  ],
+                  "answer":"0"
+               },
+               "q48":{
+                  "question":"What is Han Solo\u2019s reason for joining the Rebel Alliance?",
+                  "options":[
+                     "Money",
+                     "Adventure",
+                     "Love",
+                     "Revenge"
+                  ],
+                  "answer":"2"
+               },
+               "q49":{
+                  "question":"What planet is the location of the Kessel Run made by Han Solo?",
+                  "options":[
+                     "Corellia",
+                     "Kessel",
+                     "Tatooine",
+                     "Naboo"
+                  ],
+                  "answer":"1"
+               },
+               "q50":{
+                  "question":"In \u201cThe Force Awakens,\u201d who does Han Solo say they need a bigger weapon for?",
+                  "options":[
+                     "Kylo Ren",
+                     "The First Order",
+                     "Starkiller Base",
+                     "Captain Phasma"
+                  ],
+                  "answer":"2"
+               }
+            }
+         ],
+         "medium":[
+            {
+               "q51":{
+                  "question":"What planet is Han Solo from?",
+                  "options":[
+                     "Tatooine",
+                     "Corellia",
+                     "Naboo",
+                     "Endor"
+                  ],
+                  "answer":"1"
+               },
+               "q52":{
+                  "question":"Who did Han Solo win the Millennium Falcon from?",
+                  "options":[
+                     "Boba Fett",
+                     "Jabba the Hutt",
+                     "Lando Calrissian",
+                     "Darth Vader"
+                  ],
+                  "answer":"2"
+               },
+               "q53":{
+                  "question":"What military rank does Han Solo hold in the Rebel Alliance?",
+                  "options":[
+                     "General",
+                     "Captain",
+                     "Admiral",
+                     "Commander"
+                  ],
+                  "answer":"0"
+               },
+               "q54":{
+                  "question":"What was Han Solo's original name in early drafts of the script?",
+                  "options":[
+                     "Han Skywalker",
+                     "Anakin Starkiller",
+                     "Luke Starkiller",
+                     "Jabba Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q55":{
+                  "question":"Who directed the movie \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "J.J. Abrams",
+                     "Ron Howard",
+                     "George Lucas",
+                     "Rian Johnson"
+                  ],
+                  "answer":"1"
+               },
+               "q56":{
+                  "question":"What did Han Solo call the Millennium Falcon when he first saw it?",
+                  "options":[
+                     "A piece of junk",
+                     "A beauty",
+                     "A spaceship",
+                     "A freighter"
+                  ],
+                  "answer":"0"
+               },
+               "q57":{
+                  "question":"Which creature does Han Solo fight in the pit on Mimban in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "A rancor",
+                     "Chewbacca",
+                     "A wampa",
+                     "A nexu"
+                  ],
+                  "answer":"1"
+               },
+               "q58":{
+                  "question":"In \u201cThe Force Awakens,\u201d who kills Han Solo?",
+                  "options":[
+                     "Snoke",
+                     "Kylo Ren",
+                     "Captain Phasma",
+                     "General Hux"
+                  ],
+                  "answer":"1"
+               },
+               "q59":{
+                  "question":"Who are Han Solo's accomplices in the Kessel Run?",
+                  "options":[
+                     "Luke and Leia",
+                     "Chewbacca and Lando",
+                     "Qi'ra and Beckett",
+                     "Rey and Finn"
+                  ],
+                  "answer":"1"
+               },
+               "q60":{
+                  "question":"What crime syndicate does Han Solo confront in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Black Sun",
+                     "Crimson Dawn",
+                     "Hutt Cartel",
+                     "Pyke Syndicate"
+                  ],
+                  "answer":"1"
+               },
+               "q61":{
+                  "question":"What is the name of Han Solo\u2019s father?",
+                  "options":[
+                     "Jonash Solo",
+                     "Anakin Solo",
+                     "Den Solo",
+                     "Bail Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q62":{
+                  "question":"In the expanded universe, what is the name of Han Solo\u2019s home planet?",
+                  "options":[
+                     "Coruscant",
+                     "Corellia",
+                     "Tatooine",
+                     "Nar Shaddaa"
+                  ],
+                  "answer":"1"
+               },
+               "q63":{
+                  "question":"What kind of ship is the Millennium Falcon classified as?",
+                  "options":[
+                     "Starfighter",
+                     "Transport",
+                     "Light freighter",
+                     "Battleship"
+                  ],
+                  "answer":"2"
+               },
+               "q64":{
+                  "question":"Which bounty hunter is sent by Jabba to capture Han Solo in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Dengar",
+                     "Boba Fett",
+                     "Greedo",
+                     "Bossk"
+                  ],
+                  "answer":"2"
+               },
+               "q65":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who commands the Imperial forces pursuing the Millennium Falcon?",
+                  "options":[
+                     "Grand Moff Tarkin",
+                     "Darth Vader",
+                     "Admiral Piett",
+                     "General Veers"
+                  ],
+                  "answer":"1"
+               },
+               "q66":{
+                  "question":"What was Han Solo\u2019s original profession before he joined the Rebellion?",
+                  "options":[
+                     "Bounty Hunter",
+                     "Podracer",
+                     "Imperial pilot",
+                     "Mechanic"
+                  ],
+                  "answer":"2"
+               },
+               "q67":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what rank does Han Solo hold in the Rebel Alliance?",
+                  "options":[
+                     "Captain",
+                     "General",
+                     "Admiral",
+                     "Lieutenant"
+                  ],
+                  "answer":"1"
+               },
+               "q68":{
+                  "question":"Which film features a younger version of Han Solo played by Alden Ehrenreich?",
+                  "options":[
+                     "The Last Jedi",
+                     "The Force Awakens",
+                     "Solo: A Star Wars Story",
+                     "Rogue One"
+                  ],
+                  "answer":"2"
+               },
+               "q69":{
+                  "question":"Who wrote the screenplay for \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Lawrence Kasdan and Jonathan Kasdan",
+                     "J.J. Abrams and Lawrence Kasdan",
+                     "George Lucas and Lawrence Kasdan",
+                     "Rian Johnson and Lawrence Kasdan"
+                  ],
+                  "answer":"0"
+               },
+               "q70":{
+                  "question":"In \u201cThe Force Awakens,\u201d what is Han Solo\u2019s first reaction to seeing Leia again?",
+                  "options":[
+                     "He hugs her",
+                     "He avoids her",
+                     "He apologizes",
+                     "He smiles"
+                  ],
+                  "answer":"3"
+               },
+               "q71":{
+                  "question":"Which character says \u201cI\u2019ve got a bad feeling about this\u201d in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Rey",
+                     "Finn",
+                     "Han Solo",
+                     "Poe Dameron"
+                  ],
+                  "answer":"2"
+               },
+               "q72":{
+                  "question":"What was the name of Han Solo\u2019s son before he became Kylo Ren?",
+                  "options":[
+                     "Anakin Solo",
+                     "Ben Solo",
+                     "Jacen Solo",
+                     "Jaina Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q73":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what is the name of Han\u2019s love interest?",
+                  "options":[
+                     "Rey",
+                     "Leia Organa",
+                     "Qi'ra",
+                     "Jyn Erso"
+                  ],
+                  "answer":"2"
+               },
+               "q74":{
+                  "question":"What is the name of the droid who assists Han Solo in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "L3-37",
+                     "K-2SO",
+                     "BB-8",
+                     "C-3PO"
+                  ],
+                  "answer":"0"
+               },
+               "q75":{
+                  "question":"What does Han Solo do to make the Millennium Falcon perform better?",
+                  "options":[
+                     "Install a faster hyperdrive",
+                     "Add more weapons",
+                     "Modify the engines",
+                     "All of the above"
+                  ],
+                  "answer":"3"
+               },
+               "q76":{
+                  "question":"Who portrayed the younger version of Lando Calrissian in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Michael B. Jordan",
+                     "Donald Glover",
+                     "John Boyega",
+                     "Anthony Mackie"
+                  ],
+                  "answer":"1"
+               },
+               "q77":{
+                  "question":"Which Star Wars novel explores the origins of Han Solo?",
+                  "options":[
+                     "Bloodline",
+                     "Last Shot",
+                     "Catalyst",
+                     "Lost Stars"
+                  ],
+                  "answer":"1"
+               },
+               "q78":{
+                  "question":"What is the name of Han Solo\u2019s Wookiee friend and co-pilot?",
+                  "options":[
+                     "Tarfful",
+                     "Itchy",
+                     "Chewbacca",
+                     "Lowbacca"
+                  ],
+                  "answer":"2"
+               },
+               "q79":{
+                  "question":"What planet does Han Solo have a bad feeling about in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Starkiller Base",
+                     "Jakku",
+                     "Takodana",
+                     "Ahch-To"
+                  ],
+                  "answer":"0"
+               },
+               "q80":{
+                  "question":"Who is the leader of the Crimson Dawn in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Darth Maul",
+                     "Dryden Vos",
+                     "Enfys Nest",
+                     "Tobias Beckett"
+                  ],
+                  "answer":"1"
+               },
+               "q81":{
+                  "question":"What is the Kessel Run and why is it significant to Han Solo?",
+                  "options":[
+                     "A starship race",
+                     "A smuggling route",
+                     "A battle",
+                     "A gambling event"
+                  ],
+                  "answer":"1"
+               },
+               "q82":{
+                  "question":"Which character is Han Solo's rival and old friend in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Beckett",
+                     "Val",
+                     "Enfys Nest"
+                  ],
+                  "answer":"0"
+               },
+               "q83":{
+                  "question":"What does Han Solo use to save himself from a life of slavery in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "His blaster",
+                     "A stolen speeder",
+                     "His wits",
+                     "A hidden lightsaber"
+                  ],
+                  "answer":"1"
+               },
+               "q84":{
+                  "question":"Who directs the film \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "George Lucas",
+                     "J.J. Abrams",
+                     "Ron Howard",
+                     "Rian Johnson"
+                  ],
+                  "answer":"2"
+               },
+               "q85":{
+                  "question":"What was Han Solo\u2019s nickname given by Qi'ra in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Han the Smuggler",
+                     "Han the Pilot",
+                     "Han the Kid",
+                     "Han the Racer"
+                  ],
+                  "answer":"2"
+               },
+               "q86":{
+                  "question":"In \u201cReturn of the Jedi,\u201d what is Han Solo\u2019s plan to rescue Leia from Jabba the Hutt?",
+                  "options":[
+                     "Pretend to be a bounty hunter",
+                     "Attack Jabba\u2019s palace",
+                     "Sneak in and free her",
+                     "Pay Jabba off"
+                  ],
+                  "answer":"2"
+               },
+               "q87":{
+                  "question":"What species does Han Solo encounter in \u201cSolo: A Star Wars Story\u201d on Mimban?",
+                  "options":[
+                     "Wookiees",
+                     "Mimbanese",
+                     "Trandoshans",
+                     "Gungans"
+                  ],
+                  "answer":"1"
+               },
+               "q88":{
+                  "question":"Which crime lord is Han Solo indebted to in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Prince Xizor",
+                     "Darth Maul",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"0"
+               },
+               "q89":{
+                  "question":"What does Han Solo use to make the Kessel Run in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "The Ghost",
+                     "The Outrider",
+                     "The Millennium Falcon",
+                     "The Razor Crest"
+                  ],
+                  "answer":"2"
+               },
+               "q90":{
+                  "question":"What famous line does Han Solo say about his ship in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"It's the fastest ship in the galaxy.\"",
+                     "\"She may not look like much, but she's got it where it counts.\"",
+                     "\"She's a beauty, isn't she?\"",
+                     "\"This is the ship that made the Kessel Run in less than twelve parsecs.\""
+                  ],
+                  "answer":"1"
+               },
+               "q91":{
+                  "question":"In which Star Wars comic series does Han Solo race for the Rebellion?",
+                  "options":[
+                     "Star Wars: Han Solo",
+                     "Star Wars: Dark Empire",
+                     "Star Wars: Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               },
+               "q92":{
+                  "question":"Who betrays Han Solo in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Leia Organa",
+                     "Luke Skywalker",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q93":{
+                  "question":"What is Han Solo\u2019s role in the Battle of Endor?",
+                  "options":[
+                     "Pilot",
+                     "Soldier",
+                     "Leader of the ground assault team",
+                     "Scout"
+                  ],
+                  "answer":"2"
+               },
+               "q94":{
+                  "question":"In \u201cThe Force Awakens,\u201d what is Han Solo\u2019s reaction to Finn wanting to rescue Rey?",
+                  "options":[
+                     "He agrees immediately",
+                     "He refuses",
+                     "He is reluctant but agrees",
+                     "He tells him it\u2019s impossible"
+                  ],
+                  "answer":"2"
+               },
+               "q95":{
+                  "question":"Who is Han Solo\u2019s mentor and partner in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Tobias Beckett",
+                     "Val",
+                     "Qi'ra"
+                  ],
+                  "answer":"1"
+               },
+               "q96":{
+                  "question":"What is the primary goal of Han Solo in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Find Luke Skywalker",
+                     "Rescue Leia",
+                     "Repay his debts",
+                     "Find and destroy Starkiller Base"
+                  ],
+                  "answer":"3"
+               },
+               "q97":{
+                  "question":"What weapon does Han Solo use to kill Greedo in \u201cA New Hope\u201d?",
+                  "options":[
+                     "His blaster pistol",
+                     "A lightsaber",
+                     "A thermal detonator",
+                     "A bowcaster"
+                  ],
+                  "answer":"0"
+               },
+               "q98":{
+                  "question":"Who plays Han Solo in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Alden Ehrenreich",
+                     "Harrison Ford",
+                     "Mark Hamill",
+                     "Chris Pine"
+                  ],
+                  "answer":"0"
+               },
+               "q99":{
+                  "question":"In \u201cThe Force Awakens,\u201d what is Han Solo\u2019s advice to Rey about using a blaster?",
+                  "options":[
+                     "\"Just point and shoot.\"",
+                     "\"Don\u2019t get cocky.\"",
+                     "\"Pull the trigger.\"",
+                     "\"It's all about the aim.\""
+                  ],
+                  "answer":"1"
+               },
+               "q100":{
+                  "question":"What alias does Han Solo use in \u201cThe Empire Strikes Back\u201d when hiding from the Empire?",
+                  "options":[
+                     "Captain Solo",
+                     "General Solo",
+                     "Han the Hutt",
+                     "Scoundrel"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ],
+         "hard":[
+            {
+               "q101":{
+                  "question":"What is the name of the spice that Han Solo smuggles in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Glitterstim",
+                     "Ryll",
+                     "Kessel spice",
+                     "Andris"
+                  ],
+                  "answer":"0"
+               },
+               "q102":{
+                  "question":"Who was Han Solo\u2019s mentor in his early smuggling days?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Qi'ra",
+                     "Tobias Beckett",
+                     "Dryden Vos"
+                  ],
+                  "answer":"2"
+               },
+               "q103":{
+                  "question":"Which Star Wars novel provides an in-depth backstory of Han Solo?",
+                  "options":[
+                     "Shadows of the Empire",
+                     "Heir to the Empire",
+                     "The Han Solo Trilogy",
+                     "Bloodline"
+                  ],
+                  "answer":"2"
+               },
+               "q104":{
+                  "question":"What is Han Solo\u2019s rank in the Imperial Navy before he becomes a smuggler?",
+                  "options":[
+                     "Lieutenant",
+                     "Captain",
+                     "Ensign",
+                     "Commander"
+                  ],
+                  "answer":"1"
+               },
+               "q105":{
+                  "question":"In the original trilogy, who does Han Solo tell that he loves them?",
+                  "options":[
+                     "Leia Organa",
+                     "Luke Skywalker",
+                     "Chewbacca",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q106":{
+                  "question":"What was the name of Han Solo's first ship before the Millennium Falcon?",
+                  "options":[
+                     "The Outrider",
+                     "The Sunrider",
+                     "The Falcon",
+                     "The Bria"
+                  ],
+                  "answer":"3"
+               },
+               "q107":{
+                  "question":"Which comic book series explores Han Solo\u2019s time as a racer?",
+                  "options":[
+                     "Star Wars: Han Solo",
+                     "Star Wars: Dark Empire",
+                     "Star Wars: Shadows of the Empire",
+                     "Star Wars: Legacy"
+                  ],
+                  "answer":"0"
+               },
+               "q108":{
+                  "question":"What special modifications did Han Solo make to the Millennium Falcon?",
+                  "options":[
+                     "Enhanced weapons",
+                     "Smuggling compartments",
+                     "Faster hyperdrive",
+                     "All of the above"
+                  ],
+                  "answer":"3"
+               },
+               "q109":{
+                  "question":"Who did Han Solo marry in the expanded universe (Legends)?",
+                  "options":[
+                     "Leia Organa",
+                     "Bria Tharen",
+                     "Salla Zend",
+                     "Mara Jade"
+                  ],
+                  "answer":"0"
+               },
+               "q110":{
+                  "question":"Which planet does Han Solo say he made the Kessel Run in less than 12 parsecs?",
+                  "options":[
+                     "Tatooine",
+                     "Corellia",
+                     "Kessel",
+                     "Jakku"
+                  ],
+                  "answer":"2"
+               },
+               "q111":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what is the name of the Wookiee Han Solo rescues on Mimban?",
+                  "options":[
+                     "Tarfful",
+                     "Chewbacca",
+                     "Itchy",
+                     "Lowbacca"
+                  ],
+                  "answer":"1"
+               },
+               "q112":{
+                  "question":"What is the name of the droid that helps Han Solo and Chewbacca in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "R2-D2",
+                     "BB-8",
+                     "L3-37",
+                     "K-2SO"
+                  ],
+                  "answer":"2"
+               },
+               "q113":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d who provides Han Solo with the information about Lando Calrissian?",
+                  "options":[
+                     "Leia Organa",
+                     "C-3PO",
+                     "Luke Skywalker",
+                     "Chewbacca"
+                  ],
+                  "answer":"3"
+               },
+               "q114":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what mineral are Han Solo and his crew trying to steal?",
+                  "options":[
+                     "Kyber crystals",
+                     "Coaxium",
+                     "Glitterstim",
+                     "Spice"
+                  ],
+                  "answer":"1"
+               },
+               "q115":{
+                  "question":"What is Han Solo\u2019s nickname for Luke Skywalker in \u201cA New Hope\u201d?",
+                  "options":[
+                     "Kid",
+                     "Junior",
+                     "Skyguy",
+                     "Youngling"
+                  ],
+                  "answer":"0"
+               },
+               "q116":{
+                  "question":"Who is the original owner of the Millennium Falcon?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Boba Fett"
+                  ],
+                  "answer":"1"
+               },
+               "q117":{
+                  "question":"What species does Han Solo impersonate to infiltrate Jabba\u2019s palace in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Twi\u2019lek",
+                     "Rodian",
+                     "Bounty hunter",
+                     "Ewok"
+                  ],
+                  "answer":"2"
+               },
+               "q118":{
+                  "question":"What is the name of Han Solo\u2019s first wife in the expanded universe (Legends)?",
+                  "options":[
+                     "Leia Organa",
+                     "Jaina Solo",
+                     "Bria Tharen",
+                     "Salla Zend"
+                  ],
+                  "answer":"2"
+               },
+               "q119":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what game does Han Solo play to win the Millennium Falcon?",
+                  "options":[
+                     "Pazaak",
+                     "Sabacc",
+                     "Dejarik",
+                     "Holochex"
+                  ],
+                  "answer":"1"
+               },
+               "q120":{
+                  "question":"What crime syndicate does Han Solo and Chewbacca work for in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Black Sun",
+                     "Crimson Dawn",
+                     "Hutt Cartel",
+                     "Pyke Syndicate"
+                  ],
+                  "answer":"1"
+               },
+               "q121":{
+                  "question":"What was Han Solo\u2019s rank in the Imperial Navy before he deserted?",
+                  "options":[
+                     "Captain",
+                     "Lieutenant",
+                     "Ensign",
+                     "Commander"
+                  ],
+                  "answer":"1"
+               },
+               "q122":{
+                  "question":"Which comic series explores Han Solo\u2019s life between \u201cA New Hope\u201d and \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Star Wars: Rebellion",
+                     "Star Wars: Empire",
+                     "Star Wars: Han Solo",
+                     "Star Wars: Legends"
+                  ],
+                  "answer":"2"
+               },
+               "q123":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what is the name of the planet where Han Solo enlists in the Imperial Navy?",
+                  "options":[
+                     "Corellia",
+                     "Mimban",
+                     "Vandor",
+                     "Kessel"
+                  ],
+                  "answer":"0"
+               },
+               "q124":{
+                  "question":"What is the name of Han Solo\u2019s home planet in the expanded universe (Legends)?",
+                  "options":[
+                     "Nar Shaddaa",
+                     "Corellia",
+                     "Alderaan",
+                     "Tatooine"
+                  ],
+                  "answer":"1"
+               },
+               "q125":{
+                  "question":"What does Han Solo say when Leia tells him she loves him in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"I love you too.\"",
+                     "\"Always.\"",
+                     "\"I know.\"",
+                     "\"Forever.\""
+                  ],
+                  "answer":"2"
+               },
+               "q126":{
+                  "question":"Who is Han Solo\u2019s son in the expanded universe (Legends)?",
+                  "options":[
+                     "Anakin Solo",
+                     "Ben Solo",
+                     "Jacen Solo",
+                     "Kylo Ren"
+                  ],
+                  "answer":"2"
+               },
+               "q127":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d who betrays Han Solo during the heist on Vandor?",
+                  "options":[
+                     "Qi'ra",
+                     "Tobias Beckett",
+                     "Lando Calrissian",
+                     "Enfys Nest"
+                  ],
+                  "answer":"1"
+               },
+               "q128":{
+                  "question":"What does Han Solo use to save himself from freezing on Hoth?",
+                  "options":[
+                     "A blaster",
+                     "A lightsaber",
+                     "A Tauntaun",
+                     "A thermal detonator"
+                  ],
+                  "answer":"2"
+               },
+               "q129":{
+                  "question":"Who captures Han Solo and his crew on Savareen in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "Enfys Nest",
+                     "Crimson Dawn",
+                     "The Pyke Syndicate",
+                     "Imperial troops"
+                  ],
+                  "answer":"0"
+               },
+               "q130":{
+                  "question":"In the expanded universe (Legends), what ship does Han Solo fly before acquiring the Millennium Falcon?",
+                  "options":[
+                     "The Outrider",
+                     "The Bria",
+                     "The Razor Crest",
+                     "The Ebon Hawk"
+                  ],
+                  "answer":"1"
+               },
+               "q131":{
+                  "question":"What is the name of the protocol droid Han Solo owns in the expanded universe (Legends)?",
+                  "options":[
+                     "C-3PO",
+                     "HK-47",
+                     "Bollux",
+                     "4-LOM"
+                  ],
+                  "answer":"2"
+               },
+               "q132":{
+                  "question":"What was Han Solo\u2019s original role in the Imperial Navy according to \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "TIE Fighter pilot",
+                     "Infantryman",
+                     "Mechanic",
+                     "Stormtrooper"
+                  ],
+                  "answer":"3"
+               },
+               "q133":{
+                  "question":"What is the name of the ship Han Solo and Chewbacca steal from Dryden Vos in \u201cSolo: A Star Wars Story\u201d?",
+                  "options":[
+                     "The Ghost",
+                     "The Millennium Falcon",
+                     "The Conveyex",
+                     "The Outrider"
+                  ],
+                  "answer":"2"
+               },
+               "q134":{
+                  "question":"In the expanded universe (Legends), what is the name of Han Solo\u2019s cousin?",
+                  "options":[
+                     "Thrackan Sal-Solo",
+                     "Garris Shrike",
+                     "Natasi Daala",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q135":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what nickname does Lando Calrissian give to Han Solo?",
+                  "options":[
+                     "Han the Brave",
+                     "Han the Hero",
+                     "Han the Kid",
+                     "Han the Pilot"
+                  ],
+                  "answer":"2"
+               },
+               "q136":{
+                  "question":"What is the name of Han Solo\u2019s daughter in the expanded universe (Legends)?",
+                  "options":[
+                     "Leia Solo",
+                     "Jaina Solo",
+                     "Rey Solo",
+                     "Mara Solo"
+                  ],
+                  "answer":"1"
+               },
+               "q137":{
+                  "question":"Who does Han Solo owe money to in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Jabba the Hutt",
+                     "Bala-Tik",
+                     "Kanjiklub",
+                     "Both B and C"
+                  ],
+                  "answer":"3"
+               },
+               "q138":{
+                  "question":"What rank does Han Solo achieve in the Rebel Alliance by the end of \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "General",
+                     "Captain",
+                     "Admiral",
+                     "Lieutenant"
+                  ],
+                  "answer":"0"
+               },
+               "q139":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d who is the leader of the Marauders?",
+                  "options":[
+                     "Tobias Beckett",
+                     "Lando Calrissian",
+                     "Qi'ra",
+                     "Enfys Nest"
+                  ],
+                  "answer":"3"
+               },
+               "q140":{
+                  "question":"What creature does Han Solo encounter on the Millennium Falcon in \u201cThe Force Awakens\u201d?",
+                  "options":[
+                     "Wampa",
+                     "Rancor",
+                     "Rathtar",
+                     "Sarlacc"
+                  ],
+                  "answer":"2"
+               },
+               "q141":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d who does Han Solo team up with to steal coaxium from Kessel?",
+                  "options":[
+                     "Tobias Beckett and Qi'ra",
+                     "Lando Calrissian and Chewbacca",
+                     "Enfys Nest and L3-37",
+                     "Dryden Vos and Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q142":{
+                  "question":"What was Han Solo\u2019s childhood nickname on Corellia?",
+                  "options":[
+                     "Solo",
+                     "Han",
+                     "Scruffy",
+                     "Slick"
+                  ],
+                  "answer":"2"
+               },
+               "q143":{
+                  "question":"In \u201cSolo: A Star Wars Story,\u201d what is the name of the crime lord who rules over Corellia?",
+                  "options":[
+                     "Dryden Vos",
+                     "Lady Proxima",
+                     "Darth Maul",
+                     "Jabba the Hutt"
+                  ],
+                  "answer":"1"
+               },
+               "q144":{
+                  "question":"What does Han Solo say to the stormtrooper who asks for his identification in \u201cA New Hope\u201d?",
+                  "options":[
+                     "\"These aren\u2019t the droids you\u2019re looking for.\"",
+                     "\"I\u2019ve got a bad feeling about this.\"",
+                     "\"I\u2019m not the one you\u2019re looking for.\"",
+                     "\"Boring conversation anyway.\""
+                  ],
+                  "answer":"3"
+               },
+               "q145":{
+                  "question":"Who betrays Han Solo to Darth Vader in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Boba Fett",
+                     "Jabba the Hutt",
+                     "Leia Organa"
+                  ],
+                  "answer":"0"
+               },
+               "q146":{
+                  "question":"In \u201cThe Force Awakens,\u201d what does Han Solo tell Finn about women?",
+                  "options":[
+                     "\"Never underestimate a droid.\"",
+                     "\"Women always figure out the truth.\"",
+                     "\"Women are always right.\"",
+                     "\"Don\u2019t get cocky.\""
+                  ],
+                  "answer":"1"
+               },
+               "q147":{
+                  "question":"What is the name of Han Solo\u2019s stepfather in the expanded universe (Legends)?",
+                  "options":[
+                     "Jonash Solo",
+                     "Garris Shrike",
+                     "Den Solo",
+                     "Soontir Fel"
+                  ],
+                  "answer":"1"
+               },
+               "q148":{
+                  "question":"What is Han Solo\u2019s famous response to Princess Leia\u2019s \u201cI love you\u201d in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"I love you too.\"",
+                     "\"I know.\"",
+                     "\"Always.\"",
+                     "\"Forever.\""
+                  ],
+                  "answer":"1"
+               },
+               "q149":{
+                  "question":"Who plays Han Solo in the original Star Wars trilogy?",
+                  "options":[
+                     "Harrison Ford",
+                     "Mark Hamill",
+                     "Alec Guinness",
+                     "Billy Dee Williams"
+                  ],
+                  "answer":"0"
+               },
+               "q150":{
+                  "question":"What does Han Solo do to help the Rebel Alliance in \u201cReturn of the Jedi\u201d?",
+                  "options":[
+                     "Leads the ground assault on Endor",
+                     "Pilots an X-Wing",
+                     "Destroys the second Death Star",
+                     "Sabotages the Imperial fleet"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ]
+      }
+   }
+}

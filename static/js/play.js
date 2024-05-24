@@ -2,11 +2,14 @@
 const typingDelay = 0;
 
 // Global variables
-let characterSelected = 0
-let timePerQuestion = 30
-let timerStopped = false
-let currentChapter = 0
-let runningScore = 0
+let characterSelected = 0;
+let timePerQuestion = 30;
+let timerStopped = false;
+let currentChapter = 0;
+let runningScore = 0;
+let questionSet = '';
+let currentCharacterName = '';
+let questionsAlreadySelected = [];
 
 // Functions
 
@@ -77,6 +80,8 @@ function chooseCharacter() {
                 <img src="` + characterImage0 + `" class="enlarge-on-hover character-image" alt="Yoda">
                 <img src="` + characterImage1 + `" class="enlarge-on-hover character-image" alt="Princess Leia">
                 <img src="` + characterImage2 + `" class="enlarge-on-hover character-image" alt="Luke Skywalker">
+                </span>
+                <span>
                 <img src="` + characterImage3 + `" class="enlarge-on-hover character-image" alt="Darth Vader">
                 <img src="` + characterImage4 + `" class="enlarge-on-hover character-image" alt="Han Solo">
             </span>
@@ -98,22 +103,32 @@ switch(characterSelected) {
     // Solo
     case 4:
         currentCharacterImage = characterImage4
+        currentQuestionSet = questionSet4
+        currentCharacterName = 'Han Solo'
         break;
     // Vader
     case 3:
         currentCharacterImage = characterImage3
+        currentQuestionSet = questionSet3
+        currentCharacterName = 'Darth Vader'
         break;
     // Luke    
     case 2:
         currentCharacterImage = characterImage2
+        currentQuestionSet = questionSet2
+        currentCharacterName = 'Luke Skywalker'
         break;
     // Leia
     case 1:
         currentCharacterImage = characterImage1
+        currentQuestionSet = questionSet1
+        currentCharacterName = 'Princess Leia'
         break;
     // Yoda
     default:
         currentCharacterImage = characterImage0
+        currentQuestionSet = questionSet0
+        currentCharacterName = 'Yoda'
     };
 $('#game-container').append(`
                     <div id="current-player-image-container">
@@ -126,7 +141,7 @@ $('#game-container').append(`
                     </div>
                     <div id="timer-container">
                         <span class="w-100 text-center inline-block">
-                            timer
+                            time left
                         </span>
                         <br>
                         <span id="running-timer" class="w-100 text-center inline-block">
@@ -139,9 +154,8 @@ $('#game-container').append(`
                         </span>
                     </div>
                     <div id="question-container">
-                        <span class="w-100 text-center inline-block">
-                            question
-                        </span>
+                        <div id="question-space" class="text-center">
+                        </div>
                     </div>
                     <div id="answers-container">
                         <span class="w-100 text-center inline-block">
@@ -168,7 +182,7 @@ $('#game-container').append(`
         $('#score-container').css('opacity','1');
     }, 1000);
     setTimeout(function() {
-        countdownTimer();
+        askQuestion();
     }, 2000);
 }
 
@@ -182,7 +196,7 @@ function countdownTimer(){
     }else{
         $('#running-timer').html(timeLeft);
         if (timerStopped == false) {
-            timeLeft--;
+            // timeLeft--;
             //if (addTime == true){
             //   timeLeft += 30;
             //    addTime = false;
@@ -190,6 +204,37 @@ function countdownTimer(){
             }
         }
     }
+}
+
+function askQuestion(){
+    let questionAddition = 0;
+    timeLeft = timePerQuestion;
+    timerStopped = false;
+    countdownTimer();
+    fetch(currentQuestionSet)
+    .then((response) => response.json())
+    .then((questions) => {
+        if (currentChapter == 0){
+            questionLevel = 'easy';
+        } else if (currentChapter == 1){
+            questionLevel = 'medium';
+            questionAddition = 50;
+        } else {
+            questionLevel = 'hard';
+            questionAddition = 100;
+        }
+        do {
+            questionRef = 'q' + (Math.ceil(Math.random() * 50));
+        } while (questionsAlreadySelected.includes(questionRef) == true);
+        questionsAlreadySelected.push(questionRef);
+        $('#question-space').html(`<p>${questions.character[currentCharacterName][questionLevel][0][questionRef].question}</p>`);
+        $('#answers-container').append(`
+                                    <div class="answer-option" id="answer-a">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
+                                    <div class="answer-option" id="answer-b">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
+                                    <div class="answer-option" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
+                                    <div class="answer-option" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
+        `);
+    });
 }
 
 function endOfChapter(reason) {
