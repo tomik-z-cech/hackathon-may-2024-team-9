@@ -9,6 +9,11 @@
 
 {% block content %}
     <div id="screen-container">
+        <span>
+            <a href="{% url 'home' %}" aria-label="Close Game">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </a>
+        </span>
         <div id="game-container">
         </div>
     </div>
@@ -18,5 +23,11 @@
     <script src="{% static 'js/play.js' %}"></script>
     <script>
         const playerName = '{{ player_name }}';
+        const characterImage0 = "{% static 'images/characters/yodaa.png' %}" // Yoda - 0
+        const characterImage1 = "{% static 'images/characters/leia.png' %}"  // Leia - 1
+        const characterImage2 = "{% static 'images/characters/luke.png' %}" // Luke - 2
+        const characterImage3 = "{% static 'images/characters/vader.png' %}" // - Vader - 3
+        const characterImage4 = "{% static 'images/characters/han.png' %}" // Solo - 4
+        const afterChaptersLink = "{% url 'home' %}"
     </script>
 {% endblock %}
