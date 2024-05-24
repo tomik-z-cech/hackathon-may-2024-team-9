@@ -7,56 +7,73 @@
 <link rel="stylesheet" href="{% static 'css/landing.css' %}">
 {% endblock %}
 
+{% block body %}
 
-{% block content %}
+<body id="landing-bg">
+        <!-- Header -->
+        {% include 'header.html' %}
+        <!-- Content -->
+        <main>
 
-<div class="container-fluid" id="menu-container">
-        <ul id="menu">
-                {% if user.is_authenticated %}
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'play' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-jedi fa-flip"></i> Play
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}"> 
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-circle-info"></i> How to play
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-chart-simple"></i>Leaderboard
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-right-from-bracket"></i> Logout
-                        </span>
-                </li>
-                
-                {% else %}
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_login' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-right-to-bracket"></i> Login
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_signup' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-user-plus"></i> Register
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-circle-info"></i> How to play
-                        </span>
-                </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
-                        <span class="logo-font glow-font">
-                                <i class="fa-solid fa-chart-simple"></i> Leaderboard
-                        </span>
-                </li>
-                {% endif %}
-        </ul>
-</div>
-<script src="{% static 'js/menu.js' %}"></script>
+                {% block content %}
+                <div id="menu-container">
+                        <ul id="menu">
+                                {% if user.is_authenticated %}
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'play' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-jedi fa-flip"></i> Play
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-circle-info"></i> How to play
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-chart-simple"></i>Leaderboard
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-right-from-bracket"></i> Logout
+                                        </span>
+                                </li>
+
+                                {% else %}
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_login' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-right-to-bracket"></i> Login
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'account_signup' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-user-plus"></i> Register
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-circle-info"></i> How to play
+                                        </span>
+                                </li>
+                                <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
+                                        <span class="logo-font glow-font">
+                                                <i class="fa-solid fa-chart-simple"></i> Leaderboard
+                                        </span>
+                                </li>
+                                {% endif %}
+                        </ul>
+                </div>
+
+                <script src="{% static 'js/menu.js' %}"></script>
+                {% endblock %}
+
+                <!-- Footer -->
+                {% include 'footer.html' %}
+
+                {% block extra_js %}
+                <script src="{% static 'js/footer.js' %}"></script>
+                {% endblock %}
+</body>
+
 {% endblock %}
