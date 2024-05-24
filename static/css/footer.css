@@ -1,21 +1,29 @@
 /* Footer styles */
 
 #footer {
-    background-color: darkblue;
+    background-color: var(--dark-background);
     --bs-gutter-x: none;
-    color: white;
+    color: #efff14;
+    border-top:1px solid #efff14;
 }
 
 /* ----- Footer ----- */
 .footer-arrow {
-    color: white;
-    background-color: darkblue;
+    color: #efff14;
+    background-color: var(--dark-background);
     border-bottom: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100px;
+    border-top: 1px solid #efff14;
+    border-left: 1px solid #efff14;
+    border-right: 1px solid #efff14;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: -1px;
 }
 
 .icon {
     text-decoration: none;
+    color: #efff14;
 }

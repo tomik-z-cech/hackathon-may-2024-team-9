@@ -43,38 +43,46 @@
         <ul id="menu">
                 {% if user.is_authenticated %}
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'play' %}">
-                        <i class="fa-solid fa-jedi fa-flip"></i>
-                        <span>Play</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-jedi fa-flip"></i> Play
+                        </span>
                 </li>
-                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <span>How to play</span>
+                <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}"> 
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-circle-info"></i> How to play
+                        </span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <span>Leaderboard</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-chart-simple"></i>Leaderboard
+                        </span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'account_logout' %}">
-                        <i class="fa-solid fa-right-from-bracket"></i>
-                        <span>Logout</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-right-from-bracket"></i> Logout
+                        </span>
                 </li>
                 
                 {% else %}
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'account_login' %}">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <span>Login</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-right-to-bracket"></i> Login
+                        </span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'account_signup' %}">
-                        <i class="fa-solid fa-user-plus"></i>
-                        <span>Register</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-user-plus"></i> Register
+                        </span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'how_to_play' %}">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <span>How to play</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-circle-info"></i> How to play
+                        </span>
                 </li>
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'top_players' %}">
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <span>Leaderboard</span>
+                        <span class="logo-font glow-font">
+                                <i class="fa-solid fa-chart-simple"></i> Leaderboard
+                        </span>
                 </li>
                 {% endif %}
         </ul>
