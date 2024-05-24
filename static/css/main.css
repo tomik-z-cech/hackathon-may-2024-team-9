@@ -1,8 +1,14 @@
 /* Main style sheet */
 
-:root {
+/* Imports */
 
-    /** COLOR PALETTE **/
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+:root {
+    /* FONTS */
+    --main-font: 'Star Wars', sans-serif;
+
+    /* COLOR PALETTE */
     --light-foreground: #f1ee8e;
     --mid-foreground: #e5de00;
     --dark-foreground: #e69b00;

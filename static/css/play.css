@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--dark-background);
+    font-family: var(--main-font);
 }
 
 #game-container {
@@ -14,6 +15,8 @@
     justify-self: center;
     background-color: var(--dark-background);
     display: grid;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
 }
 
 #message-container {
@@ -28,4 +31,121 @@
     align-items: center;
     padding: 2vh;
     color: var(--mid-foreground);
+    filter: drop-shadow(5px 5px 5px var(--light-foreground));
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+}
+
+.enlarge-on-hover {
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+    scale: 1.2;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px var(--light-foreground));
+}
+
+.character-image {
+    width: 30vh;
+    height: 30vh;
+}
+
+#current-player-image-container {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    width: 23vh;
+    height: 23vh;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.current-player-image {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 5px 5px var(--dark-foreground));
+}
+
+#artefact-image-container {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 20vh;
+    height: 60vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.artefact-image {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 5px 5px var(--dark-foreground));
+}
+
+#timer-container {
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    width: 20vw;
+    height: 23vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#lifelines-container {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    width: 20vw;
+    height: 23vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#question-container {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 70vw;
+    height: 25vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#answers-container {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    width: 70vw;
+    height: 25vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#score-container {
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    width: 20vw;
+    height: 23vh;
+    border: 2px solid var(--mid-foreground);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#running-timer,
+#running-score {
+    font-size: 300%;
+    font-family: var(--main-font);
 }
