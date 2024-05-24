@@ -27,3 +27,10 @@
     text-decoration: none;
     color: #efff14;
 }
+
+@media (max-width: 425px) {
+    /* CSS styles for screens smaller than 576 pixels */
+    .footer-arrow {
+        width: 80px
+    }
+}

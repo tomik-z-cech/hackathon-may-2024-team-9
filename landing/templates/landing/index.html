@@ -5,41 +5,12 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/landing.css' %}">
-<style>
-        main {
-                height: 85vh;
-                width: 100%;
-                margin: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-        }
-
-        #menu-container {
-                width: 30%;
-                text-align: center;
-        }
-
-        #menu {
-                list-style-type: none;
-        }
-
-        .menu-item {
-                padding: 15px;
-                cursor: pointer;
-                transition: background-color 0.5s;
-        }
-
-        .menu-item:hover,
-        .menu-item.active {
-                background-color: #555;
-        }
-</style>
 {% endblock %}
 
 
 {% block content %}
-<div id="menu-container">
+
+<div class="container-fluid" id="menu-container">
         <ul id="menu">
                 {% if user.is_authenticated %}
                 <li class="menu-item fw-bold fs-4" data-link="{% url 'play' %}">

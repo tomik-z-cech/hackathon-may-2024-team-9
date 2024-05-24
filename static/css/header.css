@@ -2,11 +2,28 @@
 
 
 .offcanvas-custom-bg {
+    background-color: var(--dark-background);
+}
+
+.droodown-menu {
     background-color: var(--light-background);
+}
+.dropdown-menu-dark .dropdown-item {
+    color: #e5de00;
+}
+
+.side-title {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.offcanvas {
+    border-left: 1px solid #efff14;
 }
 
 .logo-font {
-  font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .icon:hover,
@@ -22,12 +39,15 @@
     transition: all 0.3s;
 }
 
-.menu-custom-btn {
-    border: 1px solid #efff14 !important;
+#menu-custom-btn .navbar-toggler-icon,
+#menu-custom-btn {
+    color: #efff14;
+    border-color: #efff14;
 }
 
 /* Header styles */
 #navbar,
+.navbar-dark .navbar-nav .nav-link,
 .nav-item,
 .navbar-brand:active,
 .navbar-brand:focus,
@@ -40,9 +60,25 @@
 
 .nav-text {
     color: var(--mid-foregorund) !important;
- }
+}
 
- #logo {
-    width: 20vw;
-    height: 10vh;
- }
+#logo {
+    width: auto;
+    max-height: 85px;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for screens smaller than 576 pixels */
+    #logo {
+        width: auto;
+        max-height: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    /* CSS styles for screens smaller than 576 pixels */
+    #logo {
+        width: auto;
+        max-height: 45px;
+    }
+}
