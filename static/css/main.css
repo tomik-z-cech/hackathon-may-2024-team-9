@@ -1,5 +1,17 @@
 /* Main style sheet */
 
+:root {
+
+    /** COLOR PALETTE **/
+    --light-foreground: #f1ee8e;
+    --mid-foreground: #e5de00;
+    --dark-foreground: #e69b00;
+
+    --light-background: #3b444b;
+    --dark-background: #0e1111;
+}
+
 body {
-    background-color: aqua;
+    background-color: var(--dark-background);
+    color: var(--light-foreground);
 }

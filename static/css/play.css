@@ -2,23 +2,24 @@
 
 #screen-container {
     display: grid;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-background);
 }
 
 #game-container {
-    height: 75vh;
-    width: 85vw;
-    background-color: black;
-    display: grid;
+    height: 95vh;
+    width: 95vw;
+    align-self: center;
     justify-self: center;
-    margin-top: 15vh;
+    background-color: var(--dark-background);
+    display: grid;
 }
 
 #message-container {
     justify-self: center;
     align-self: center;
-    background-color: darkslategrey;
+    background-color: var(--light-background);
     height: 80%;
     width: 80%;
     display: grid;
@@ -26,5 +27,5 @@
     justify-content: center;
     align-items: center;
     padding: 2vh;
-    color: yellow;
+    color: var(--mid-foreground);
 }
