@@ -24,8 +24,7 @@ TEMPLATES_DIR = (os.path.join(BASE_DIR, "templates"), os.path.join(BASE_DIR, 'te
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
-DEBUG = True
-# os.environ.get("DEV_PRODUCTION", False)
+DEBUG = os.environ.get("DEV_PRODUCTION", False)
 
 # I frame security setting
 X_FRAME_OPTIONS = "SAMEORIGIN"

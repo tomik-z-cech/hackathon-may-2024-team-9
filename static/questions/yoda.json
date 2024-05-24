@@ -1,0 +1,1518 @@
+{
+   "character":{
+      "Yoda":{
+         "easy":[
+            {
+               "q1":{
+                  "question":"What species is Yoda?",
+                  "options":[
+                     "Human",
+                     "Wookiee",
+                     "Unknown",
+                     "Twi'lek"
+                  ],
+                  "answer":"2"
+               },
+               "q2":{
+                  "question":"What color is Yoda\u2019s lightsaber?",
+                  "options":[
+                     "Blue",
+                     "Red",
+                     "Green",
+                     "Purple"
+                  ],
+                  "answer":"2"
+               },
+               "q3":{
+                  "question":"In which Star Wars movie does Yoda first appear?",
+                  "options":[
+                     "The Empire Strikes Back",
+                     "A New Hope",
+                     "Return of the Jedi",
+                     "The Phantom Menace"
+                  ],
+                  "answer":"0"
+               },
+               "q4":{
+                  "question":"What planet does Yoda go into exile on?",
+                  "options":[
+                     "Tatooine",
+                     "Naboo",
+                     "Coruscant",
+                     "Dagobah"
+                  ],
+                  "answer":"3"
+               },
+               "q5":{
+                  "question":"Who voices Yoda in the original trilogy?",
+                  "options":[
+                     "Frank Oz",
+                     "Mark Hamill",
+                     "James Earl Jones",
+                     "Alec Guinness"
+                  ],
+                  "answer":"0"
+               },
+               "q6":{
+                  "question":"What is Yoda\u2019s title in the Jedi Order?",
+                  "options":[
+                     "Jedi Knight",
+                     "Jedi Master",
+                     "Jedi Padawan",
+                     "Grand Master"
+                  ],
+                  "answer":"3"
+               },
+               "q7":{
+                  "question":"Which apprentice does Yoda train in the original trilogy?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Luke Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"1"
+               },
+               "q8":{
+                  "question":"What does Yoda use to fight in combat?",
+                  "options":[
+                     "Blaster",
+                     "Lightsaber",
+                     "The Force",
+                     "Both B and C"
+                  ],
+                  "answer":"3"
+               },
+               "q9":{
+                  "question":"What does Yoda say to Luke about size?",
+                  "options":[
+                     "\"Size matters not.\"",
+                     "\"Big, you are not.\"",
+                     "\"Small you must be.\"",
+                     "\"Size is everything.\""
+                  ],
+                  "answer":"0"
+               },
+               "q10":{
+                  "question":"In which movie does Yoda fight Count Dooku?",
+                  "options":[
+                     "Attack of the Clones",
+                     "Revenge of the Sith",
+                     "The Phantom Menace",
+                     "The Empire Strikes Back"
+                  ],
+                  "answer":"0"
+               },
+               "q11":{
+                  "question":"What color are Yoda\u2019s eyes?",
+                  "options":[
+                     "Blue",
+                     "Brown",
+                     "Green",
+                     "Yellow"
+                  ],
+                  "answer":"2"
+               },
+               "q12":{
+                  "question":"What does Yoda say when he feels the deaths of many Jedi in \"Revenge of the Sith\"?",
+                  "options":[
+                     "\"Gone they are.\"",
+                     "\"The end is near.\"",
+                     "\"Pain, suffering, death I feel.\"",
+                     "\"Lost we are.\""
+                  ],
+                  "answer":"2"
+               },
+               "q13":{
+                  "question":"Who does Yoda train alongside Mace Windu in the prequel trilogy?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Count Dooku",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q14":{
+                  "question":"How old is Yoda when he dies?",
+                  "options":[
+                     "500 years old",
+                     "700 years old",
+                     "800 years old",
+                     "900 years old"
+                  ],
+                  "answer":"3"
+               },
+               "q15":{
+                  "question":"What is Yoda doing when Luke first meets him on Dagobah?",
+                  "options":[
+                     "Meditating",
+                     "Cooking",
+                     "Sleeping",
+                     "Training"
+                  ],
+                  "answer":"1"
+               },
+               "q16":{
+                  "question":"Who does Yoda fight in the Senate chamber in \"Revenge of the Sith\"?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Count Dooku",
+                     "General Grievous",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"3"
+               },
+               "q17":{
+                  "question":"Which clone commander does Yoda work closely with during the Clone Wars?",
+                  "options":[
+                     "Commander Cody",
+                     "Captain Rex",
+                     "Commander Gree",
+                     "Commander Bly"
+                  ],
+                  "answer":"2"
+               },
+               "q18":{
+                  "question":"What is Yoda\u2019s home planet according to Star Wars canon?",
+                  "options":[
+                     "Dagobah",
+                     "Coruscant",
+                     "Unknown",
+                     "Naboo"
+                  ],
+                  "answer":"2"
+               },
+               "q19":{
+                  "question":"What kind of creature does Yoda ride during the Battle of Kashyyyk?",
+                  "options":[
+                     "Tauntaun",
+                     "AT-RT",
+                     "Bantha",
+                     "Kybuck"
+                  ],
+                  "answer":"3"
+               },
+               "q20":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what does Yoda say leads to suffering?",
+                  "options":[
+                     "Fear",
+                     "Hate",
+                     "Anger",
+                     "Jealousy"
+                  ],
+                  "answer":"0"
+               },
+               "q21":{
+                  "question":"What phrase does Yoda famously say to Luke about trying?",
+                  "options":[
+                     "\"Do or do not, there is no try.\"",
+                     "\"Try you must.\"",
+                     "\"Only try, you can.\"",
+                     "\"Trying is the path to success.\""
+                  ],
+                  "answer":"0"
+               },
+               "q22":{
+                  "question":"Who does Yoda speak to through the Force after their death?",
+                  "options":[
+                     "Qui-Gon Jinn",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Both A and B"
+                  ],
+                  "answer":"3"
+               },
+               "q23":{
+                  "question":"In which animated series does Yoda appear as a mentor to the Jedi?",
+                  "options":[
+                     "Star Wars: The Clone Wars",
+                     "Star Wars: Rebels",
+                     "Star Wars: Resistance",
+                     "Star Wars: Forces of Destiny"
+                  ],
+                  "answer":"0"
+               },
+               "q24":{
+                  "question":"What is the name of the youngling who helps Yoda in \"The Clone Wars\"?",
+                  "options":[
+                     "Ahsoka Tano",
+                     "Anakin Skywalker",
+                     "Katooni",
+                     "Ezra Bridger"
+                  ],
+                  "answer":"2"
+               },
+               "q25":{
+                  "question":"What lesson does Yoda teach Luke on Dagobah using the Force?",
+                  "options":[
+                     "How to lift objects",
+                     "How to use a lightsaber",
+                     "How to meditate",
+                     "How to sense danger"
+                  ],
+                  "answer":"0"
+               },
+               "q26":{
+                  "question":"In \u201cThe Last Jedi,\u201d what does Yoda use to destroy the Jedi texts?",
+                  "options":[
+                     "His lightsaber",
+                     "A blaster",
+                     "Lightning",
+                     "The Force"
+                  ],
+                  "answer":"2"
+               },
+               "q27":{
+                  "question":"Which battle does Yoda participate in during the Clone Wars?",
+                  "options":[
+                     "Battle of Naboo",
+                     "Battle of Hoth",
+                     "Battle of Geonosis",
+                     "Battle of Endor"
+                  ],
+                  "answer":"2"
+               },
+               "q28":{
+                  "question":"Who does Yoda advise to \"train yourself to let go of everything you fear to lose\"?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"1"
+               },
+               "q29":{
+                  "question":"In \"The Empire Strikes Back,\" what does Yoda say Luke must do to become a Jedi?",
+                  "options":[
+                     "Defeat Darth Vader",
+                     "Face his fears",
+                     "Complete his training",
+                     "Leave his friends behind"
+                  ],
+                  "answer":"2"
+               },
+               "q30":{
+                  "question":"Who is Yoda\u2019s voice actor in \u201cStar Wars: The Clone Wars\u201d animated series?",
+                  "options":[
+                     "Tom Kane",
+                     "Frank Oz",
+                     "James Arnold Taylor",
+                     "Corey Burton"
+                  ],
+                  "answer":"0"
+               },
+               "q31":{
+                  "question":"What lesson does Yoda impart about the dark side in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"The dark side is stronger.\"",
+                     "\"The dark side is quicker, easier.\"",
+                     "\"The dark side is not to be feared.\"",
+                     "\"The dark side leads to power.\""
+                  ],
+                  "answer":"1"
+               },
+               "q32":{
+                  "question":"What does Yoda use to defend himself against the clone troopers during Order 66?",
+                  "options":[
+                     "His lightsaber",
+                     "The Force",
+                     "A blaster",
+                     "A shield"
+                  ],
+                  "answer":"1"
+               },
+               "q33":{
+                  "question":"What does Yoda meditate on while in exile on Dagobah?",
+                  "options":[
+                     "The will of the Force",
+                     "The mistakes of the past",
+                     "The future of the Jedi",
+                     "The return of the Sith"
+                  ],
+                  "answer":"0"
+               },
+               "q34":{
+                  "question":"Which Star Wars movie features Yoda\u2019s first lightsaber duel?",
+                  "options":[
+                     "Attack of the Clones",
+                     "Revenge of the Sith",
+                     "The Phantom Menace",
+                     "The Empire Strikes Back"
+                  ],
+                  "answer":"0"
+               },
+               "q35":{
+                  "question":"What kind of tree does Yoda live near on Dagobah?",
+                  "options":[
+                     "A mangrove",
+                     "A willow",
+                     "A gnarltree",
+                     "A palm tree"
+                  ],
+                  "answer":"2"
+               },
+               "q36":{
+                  "question":"What is Yoda\u2019s reaction to Anakin\u2019s fall to the dark side?",
+                  "options":[
+                     "Anger",
+                     "Sadness",
+                     "Surprise",
+                     "Acceptance"
+                  ],
+                  "answer":"1"
+               },
+               "q37":{
+                  "question":"In \u201cRevenge of the Sith,\u201d who informs Yoda that Emperor Palpatine is Darth Sidious?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Mace Windu",
+                     "Padm\u00e9 Amidala"
+                  ],
+                  "answer":"2"
+               },
+               "q38":{
+                  "question":"How does Yoda react to Qui-Gon Jinn's proposal to train Anakin Skywalker?",
+                  "options":[
+                     "He is enthusiastic",
+                     "He is skeptical and cautious",
+                     "He is indifferent",
+                     "He immediately agrees"
+                  ],
+                  "answer":"1"
+               },
+               "q39":{
+                  "question":"What is the name of the planet where Yoda fights Count Dooku in \u201cAttack of the Clones\u201d?",
+                  "options":[
+                     "Geonosis",
+                     "Kamino",
+                     "Tatooine",
+                     "Naboo"
+                  ],
+                  "answer":"0"
+               },
+               "q40":{
+                  "question":"Who does Yoda contact to warn the Jedi about Order 66?",
+                  "options":[
+                     "Obi-Wan Kenobi and Ahsoka Tano",
+                     "Anakin Skywalker and Padm\u00e9 Amidala",
+                     "Bail Organa and Mon Mothma",
+                     "Obi-Wan Kenobi and Bail Organa"
+                  ],
+                  "answer":"3"
+               },
+               "q41":{
+                  "question":"Which Clone Wars episode features Yoda training a group of younglings?",
+                  "options":[
+                     "\"The Gathering\"",
+                     "\"Rising Malevolence\"",
+                     "\"Ambush\"",
+                     "\"Sacrifice\""
+                  ],
+                  "answer":"0"
+               },
+               "q42":{
+                  "question":"What lesson does Yoda teach Luke on Dagobah by lifting the X-Wing?",
+                  "options":[
+                     "The importance of physical strength",
+                     "The power of the Force over the physical world",
+                     "The necessity of a lightsaber",
+                     "The need for quick actions"
+                  ],
+                  "answer":"1"
+               },
+               "q43":{
+                  "question":"In \u201cThe Phantom Menace,\u201d what advice does Yoda give Anakin about fear?",
+                  "options":[
+                     "\"Fear is natural.\"",
+                     "\"Fear leads to anger, anger leads to hate, hate leads to suffering.\"",
+                     "\"Fear is the beginning of wisdom.\"",
+                     "\"Fear can be controlled.\""
+                  ],
+                  "answer":"1"
+               },
+               "q44":{
+                  "question":"What does Yoda sense about the future of the Jedi Order?",
+                  "options":[
+                     "Its ultimate success",
+                     "Its downfall",
+                     "Its eternal strength",
+                     "Its expansion"
+                  ],
+                  "answer":"1"
+               },
+               "q45":{
+                  "question":"What does Yoda do when he confronts Palpatine in the Senate chamber?",
+                  "options":[
+                     "Attempts to arrest him",
+                     "Engages in a lightsaber duel",
+                     "Tries to reason with him",
+                     "Flees immediately"
+                  ],
+                  "answer":"1"
+               },
+               "q46":{
+                  "question":"What specific type of meditation does Yoda use to communicate with Qui-Gon Jinn?",
+                  "options":[
+                     "Force Trance",
+                     "Deep Meditation",
+                     "Force Bond",
+                     "Dream Meditation"
+                  ],
+                  "answer":"0"
+               },
+               "q47":{
+                  "question":"In what way does Yoda help Ezra Bridger in \u201cStar Wars Rebels\u201d?",
+                  "options":[
+                     "Teaches him lightsaber techniques",
+                     "Guides him through the Force",
+                     "Provides him with a holocron",
+                     "Trains him in combat"
+                  ],
+                  "answer":"1"
+               },
+               "q48":{
+                  "question":"What lesson does Yoda impart to Luke about his friends in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"They can take care of themselves.\"",
+                     "\"You must not go.\"",
+                     "\"You must trust them.\"",
+                     "\"They will fail without you.\""
+                  ],
+                  "answer":"1"
+               },
+               "q49":{
+                  "question":"How many times does Yoda appear in the sequel trilogy?",
+                  "options":[
+                     "Once",
+                     "Twice",
+                     "Three times",
+                     "Not at all"
+                  ],
+                  "answer":"0"
+               },
+               "q50":{
+                  "question":"What creature does Yoda tame and ride during the Clone Wars?",
+                  "options":[
+                     "Bantha",
+                     "Bogwing",
+                     "Kybuck",
+                     "Dewback"
+                  ],
+                  "answer":"2"
+               }
+            }
+         ],
+         "medium":[
+            {
+               "q51":{
+                  "question":"What is the name of the Jedi Temple on Coruscant where Yoda often resides?",
+                  "options":[
+                     "Temple of Balance",
+                     "Jedi Sanctuary",
+                     "The Great Temple",
+                     "Temple of Knowledge"
+                  ],
+                  "answer":"2"
+               },
+               "q52":{
+                  "question":"What military rank does Yoda hold in the Grand Army of the Republic?",
+                  "options":[
+                     "General",
+                     "Admiral",
+                     "Captain",
+                     "Commander"
+                  ],
+                  "answer":"0"
+               },
+               "q53":{
+                  "question":"Who does Yoda fight in the Senate chamber in \u201cRevenge of the Sith\u201d?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Count Dooku",
+                     "General Grievous",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"3"
+               },
+               "q54":{
+                  "question":"In which Clone Wars episode does Yoda speak with the spirit of Qui-Gon Jinn?",
+                  "options":[
+                     "\"Voices\"",
+                     "\"Destiny\"",
+                     "\"Sacrifice\"",
+                     "\"Ambush\""
+                  ],
+                  "answer":"0"
+               },
+               "q55":{
+                  "question":"Which book reveals more about Yoda\u2019s early life?",
+                  "options":[
+                     "Heir to the Empire",
+                     "Dark Rendezvous",
+                     "Yoda: Dark Rendezvous",
+                     "Jedi Apprentice"
+                  ],
+                  "answer":"2"
+               },
+               "q56":{
+                  "question":"Which comic series features Yoda\u2019s adventures during the High Republic era?",
+                  "options":[
+                     "Tales of the Jedi",
+                     "The High Republic",
+                     "Dawn of the Jedi",
+                     "Star Wars Adventures"
+                  ],
+                  "answer":"1"
+               },
+               "q57":{
+                  "question":"What is the name of the Sith Lord Yoda confronts in a vision during the Clone Wars?",
+                  "options":[
+                     "Darth Bane",
+                     "Darth Revan",
+                     "Darth Plagueis",
+                     "Darth Malak"
+                  ],
+                  "answer":"0"
+               },
+               "q58":{
+                  "question":"What title does Yoda hold besides Grand Master in the Jedi Council?",
+                  "options":[
+                     "Head of Jedi Archives",
+                     "Senior Member",
+                     "Jedi Consular",
+                     "Keeper of the Holocrons"
+                  ],
+                  "answer":"3"
+               },
+               "q59":{
+                  "question":"What lesson does Yoda teach Ezra Bridger in \u201cStar Wars Rebels\u201d?",
+                  "options":[
+                     "The importance of combat skills",
+                     "The significance of knowledge",
+                     "The power of the dark side",
+                     "The need for balance"
+                  ],
+                  "answer":"3"
+               },
+               "q60":{
+                  "question":"What artifact does Yoda use to study the Force in the Clone Wars series?",
+                  "options":[
+                     "Holocron",
+                     "Sith holocron",
+                     "Jedi archives",
+                     "Kyber crystal"
+                  ],
+                  "answer":"0"
+               },
+               "q61":{
+                  "question":"What rare ability does Yoda possess that allows him to communicate with deceased Jedi?",
+                  "options":[
+                     "Force Healing",
+                     "Force Projection",
+                     "Force Ghost communication",
+                     "Mind Meld"
+                  ],
+                  "answer":"2"
+               },
+               "q62":{
+                  "question":"In \u201cStar Wars: The High Republic,\u201d who is Yoda\u2019s closest confidant among the Jedi?",
+                  "options":[
+                     "Avar Kriss",
+                     "Elzar Mann",
+                     "Sskeer",
+                     "Stellan Gios"
+                  ],
+                  "answer":"3"
+               },
+               "q63":{
+                  "question":"Which Clone Wars episode features Yoda battling Asajj Ventress?",
+                  "options":[
+                     "\"Ambush\"",
+                     "\"The Hidden Enemy\"",
+                     "\"Rookies\"",
+                     "\"Liberty on Ryloth\""
+                  ],
+                  "answer":"0"
+               },
+               "q64":{
+                  "question":"What is Yoda\u2019s advice to Luke when he feels the future?",
+                  "options":[
+                     "\"Control, control, you must learn control!\"",
+                     "\"Fear not the future.\"",
+                     "\"Trust in the Force.\"",
+                     "\"Let go of your fear.\""
+                  ],
+                  "answer":"0"
+               },
+               "q65":{
+                  "question":"What does Yoda tell Luke about his father in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"Your father was a great Jedi.\"",
+                     "\"Your father was seduced by the dark side.\"",
+                     "\"Much anger in him, like his father.\"",
+                     "\"Your father is Darth Vader.\""
+                  ],
+                  "answer":"3"
+               },
+               "q66":{
+                  "question":"What advice does Yoda give Anakin about attachments in \u201cRevenge of the Sith\u201d?",
+                  "options":[
+                     "\"Embrace your attachments.\"",
+                     "\"Fear loss, you must.\"",
+                     "\"Let go of everything you fear to lose.\"",
+                     "\"Attachment leads to strength.\""
+                  ],
+                  "answer":"2"
+               },
+               "q67":{
+                  "question":"In the Clone Wars, what lesson does Yoda teach the clones on Rugosa?",
+                  "options":[
+                     "The importance of strategy",
+                     "The value of each individual",
+                     "The need for teamwork",
+                     "The power of the Force"
+                  ],
+                  "answer":"1"
+               },
+               "q68":{
+                  "question":"Who is Yoda speaking to when he says, \u201cA Jedi uses the Force for knowledge and defense, never for attack\u201d?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Luke Skywalker",
+                     "Mace Windu"
+                  ],
+                  "answer":"2"
+               },
+               "q69":{
+                  "question":"In the Clone Wars, what rare form of lightsaber combat does Yoda master?",
+                  "options":[
+                     "Form VII: Juyo",
+                     "Form V: Shien",
+                     "Form IV: Ataru",
+                     "Form III: Soresu"
+                  ],
+                  "answer":"2"
+               },
+               "q70":{
+                  "question":"What does Yoda use to conceal his presence on Dagobah from the Empire?",
+                  "options":[
+                     "The dark side cave",
+                     "A cloaking device",
+                     "His Force abilities",
+                     "A Jedi artifact"
+                  ],
+                  "answer":"0"
+               },
+               "q71":{
+                  "question":"Who does Yoda face in the Jedi Temple during Order 66?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Clone troopers",
+                     "Darth Sidious",
+                     "Count Dooku"
+                  ],
+                  "answer":"1"
+               },
+               "q72":{
+                  "question":"In \u201cStar Wars Rebels,\u201d what lesson does Yoda impart to Ezra Bridger on Lothal?",
+                  "options":[
+                     "The importance of selflessness",
+                     "The strength of combat",
+                     "The danger of attachments",
+                     "The need for secrecy"
+                  ],
+                  "answer":"0"
+               },
+               "q73":{
+                  "question":"Who created Yoda's unique speech pattern?",
+                  "options":[
+                     "George Lucas",
+                     "Frank Oz",
+                     "Lawrence Kasdan",
+                     "Mark Hamill"
+                  ],
+                  "answer":"0"
+               },
+               "q74":{
+                  "question":"What does Yoda use to demonstrate the power of the Force to Luke?",
+                  "options":[
+                     "His lightsaber",
+                     "A rock",
+                     "The X-Wing",
+                     "His staff"
+                  ],
+                  "answer":"2"
+               },
+               "q75":{
+                  "question":"What is Yoda\u2019s advice to the Jedi about the war with the Sith?",
+                  "options":[
+                     "\"Fight, we must.\"",
+                     "\"A mistake, this war is.\"",
+                     "\"Victory, we will have.\"",
+                     "\"Negotiate, we should.\""
+                  ],
+                  "answer":"1"
+               },
+               "q76":{
+                  "question":"What specific type of tree does Yoda live near on Dagobah?",
+                  "options":[
+                     "Gnarltree",
+                     "Banshee tree",
+                     "Yara tree",
+                     "Blackwood tree"
+                  ],
+                  "answer":"0"
+               },
+               "q77":{
+                  "question":"In the Clone Wars, who does Yoda say is the key to defeating the Sith?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"0"
+               },
+               "q78":{
+                  "question":"What challenge does Yoda face in the dark side cave on Dagobah?",
+                  "options":[
+                     "A vision of Darth Vader",
+                     "A Sith spirit",
+                     "His own fears",
+                     "A dark side creature"
+                  ],
+                  "answer":"2"
+               },
+               "q79":{
+                  "question":"What lesson does Yoda teach Ezra Bridger in \u201cStar Wars Rebels\u201d?",
+                  "options":[
+                     "The importance of combat skills",
+                     "The significance of knowledge",
+                     "The power of the dark side",
+                     "The need for balance"
+                  ],
+                  "answer":"3"
+               },
+               "q80":{
+                  "question":"Who discovers Yoda's holocron hidden on Dagobah after his death?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Ben Solo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q81":{
+                  "question":"What rare form of meditation does Yoda use to communicate with Qui-Gon Jinn?",
+                  "options":[
+                     "Force Trance",
+                     "Deep Meditation",
+                     "Force Bond",
+                     "Dream Meditation"
+                  ],
+                  "answer":"0"
+               },
+               "q82":{
+                  "question":"In which episode of \"The Mandalorian\" is Yoda mentioned as \"The Child's\" species?",
+                  "options":[
+                     "Chapter 1: The Mandalorian",
+                     "Chapter 2: The Child",
+                     "Chapter 3: The Sin",
+                     "Chapter 4: Sanctuary"
+                  ],
+                  "answer":"1"
+               },
+               "q83":{
+                  "question":"What lesson does Yoda impart about the Force in \"The Last Jedi\"?",
+                  "options":[
+                     "\"The Force is beyond you.\"",
+                     "\"The Force does not belong to the Jedi.\"",
+                     "\"The Force is in all things.\"",
+                     "\"The Force is eternal.\""
+                  ],
+                  "answer":"1"
+               },
+               "q84":{
+                  "question":"What rare form of lightsaber combat does Yoda master?",
+                  "options":[
+                     "Form VII: Juyo",
+                     "Form V: Shien",
+                     "Form IV: Ataru",
+                     "Form III: Soresu"
+                  ],
+                  "answer":"2"
+               },
+               "q85":{
+                  "question":"What is the primary lesson Yoda tries to impart to Dooku before he leaves the Jedi Order?",
+                  "options":[
+                     "Patience",
+                     "Humility",
+                     "Trust",
+                     "Balance"
+                  ],
+                  "answer":"1"
+               },
+               "q86":{
+                  "question":"In \"The Empire Strikes Back,\" what does Yoda say Luke must do to become a Jedi?",
+                  "options":[
+                     "Defeat Darth Vader",
+                     "Face his fears",
+                     "Complete his training",
+                     "Leave his friends behind"
+                  ],
+                  "answer":"2"
+               },
+               "q87":{
+                  "question":"In the Clone Wars, what advice does Yoda give Anakin about detachment?",
+                  "options":[
+                     "\"Embrace your attachments.\"",
+                     "\"Fear loss, you must.\"",
+                     "\"Let go of everything you fear to lose.\"",
+                     "\"Attachment leads to strength.\""
+                  ],
+                  "answer":"2"
+               },
+               "q88":{
+                  "question":"What is Yoda\u2019s reaction to the creation of the Clone Army?",
+                  "options":[
+                     "Enthusiasm",
+                     "Caution and suspicion",
+                     "Indifference",
+                     "Immediate acceptance"
+                  ],
+                  "answer":"1"
+               },
+               "q89":{
+                  "question":"What type of Force vision does Yoda experience on Dagobah?",
+                  "options":[
+                     "A vision of the future",
+                     "A vision of the past",
+                     "A vision of the dark side",
+                     "A vision of the present"
+                  ],
+                  "answer":"2"
+               },
+               "q90":{
+                  "question":"Who does Yoda battle in the Jedi Temple archives in \"Revenge of the Sith\"?",
+                  "options":[
+                     "Clone troopers",
+                     "Anakin Skywalker",
+                     "Darth Sidious",
+                     "No one, he avoids combat"
+                  ],
+                  "answer":"3"
+               },
+               "q91":{
+                  "question":"What rare ability does Yoda possess that allows him to communicate with deceased Jedi?",
+                  "options":[
+                     "Force Healing",
+                     "Force Projection",
+                     "Force Ghost communication",
+                     "Mind Meld"
+                  ],
+                  "answer":"2"
+               },
+               "q92":{
+                  "question":"In which episode of \"The Mandalorian\" is Yoda mentioned as \"The Child's\" species?",
+                  "options":[
+                     "Chapter 1: The Mandalorian",
+                     "Chapter 2: The Child",
+                     "Chapter 3: The Sin",
+                     "Chapter 4: Sanctuary"
+                  ],
+                  "answer":"1"
+               },
+               "q93":{
+                  "question":"What lesson does Yoda impart about the Force in \"The Last Jedi\"?",
+                  "options":[
+                     "\"The Force is beyond you.\"",
+                     "\"The Force does not belong to the Jedi.\"",
+                     "\"The Force is in all things.\"",
+                     "\"The Force is eternal.\""
+                  ],
+                  "answer":"1"
+               },
+               "q94":{
+                  "question":"How does Yoda describe the future to Luke in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"Always certain it is.\"",
+                     "\"Always in motion is the future.\"",
+                     "\"The future is clear.\"",
+                     "\"Unchangeable, the future is.\""
+                  ],
+                  "answer":"1"
+               },
+               "q95":{
+                  "question":"What challenge does Yoda face in the dark side cave on Dagobah?",
+                  "options":[
+                     "A vision of Darth Vader",
+                     "A Sith spirit",
+                     "His own fears",
+                     "A dark side creature"
+                  ],
+                  "answer":"2"
+               },
+               "q96":{
+                  "question":"In \u201cStar Wars Rebels,\u201d what lesson does Yoda impart to Ezra Bridger on Lothal?",
+                  "options":[
+                     "The importance of selflessness",
+                     "The strength of combat",
+                     "The danger of attachments",
+                     "The need for secrecy"
+                  ],
+                  "answer":"0"
+               },
+               "q97":{
+                  "question":"What does Yoda believe about the Sith's return in \"The Phantom Menace\"?",
+                  "options":[
+                     "\"Impossible, it is.\"",
+                     "\"Always two there are, no more, no less.\"",
+                     "\"Only a legend.\"",
+                     "\"Not true, it is.\""
+                  ],
+                  "answer":"1"
+               },
+               "q98":{
+                  "question":"Who does Yoda face in the Jedi Temple during Order 66?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Clone troopers",
+                     "Darth Sidious",
+                     "Count Dooku"
+                  ],
+                  "answer":"1"
+               },
+               "q99":{
+                  "question":"What specific type of tree does Yoda live near on Dagobah?",
+                  "options":[
+                     "Gnarltree",
+                     "Banshee tree",
+                     "Yara tree",
+                     "Blackwood tree"
+                  ],
+                  "answer":"0"
+               },
+               "q100":{
+                  "question":"Who discovers Yoda's holocron hidden on Dagobah after his death?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Ben Solo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ],
+         "hard":[
+            {
+               "q101":{
+                  "question":"What ancient Sith Lord does Yoda confront in a vision during the Clone Wars?",
+                  "options":[
+                     "Darth Bane",
+                     "Darth Revan",
+                     "Darth Plagueis",
+                     "Darth Malak"
+                  ],
+                  "answer":"0"
+               },
+               "q102":{
+                  "question":"In \u201cStar Wars: The High Republic,\u201d who is Yoda\u2019s closest confidant among the Jedi?",
+                  "options":[
+                     "Avar Kriss",
+                     "Elzar Mann",
+                     "Sskeer",
+                     "Stellan Gios"
+                  ],
+                  "answer":"3"
+               },
+               "q103":{
+                  "question":"What specific type of tree does Yoda live near on Dagobah?",
+                  "options":[
+                     "Gnarltree",
+                     "Banshee tree",
+                     "Yara tree",
+                     "Blackwood tree"
+                  ],
+                  "answer":"0"
+               },
+               "q104":{
+                  "question":"What artifact does Yoda use to study the Force in the Clone Wars series?",
+                  "options":[
+                     "Holocron",
+                     "Sith holocron",
+                     "Jedi archives",
+                     "Kyber crystal"
+                  ],
+                  "answer":"0"
+               },
+               "q105":{
+                  "question":"In the Clone Wars, who does Yoda say is the key to defeating the Sith?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"0"
+               },
+               "q106":{
+                  "question":"What is Yoda\u2019s advice to the Jedi about the war with the Sith?",
+                  "options":[
+                     "\"Fight, we must.\"",
+                     "\"A mistake, this war is.\"",
+                     "\"Victory, we will have.\"",
+                     "\"Negotiate, we should.\""
+                  ],
+                  "answer":"1"
+               },
+               "q107":{
+                  "question":"What rare form of lightsaber combat does Yoda master?",
+                  "options":[
+                     "Form VII: Juyo",
+                     "Form V: Shien",
+                     "Form IV: Ataru",
+                     "Form III: Soresu"
+                  ],
+                  "answer":"2"
+               },
+               "q108":{
+                  "question":"In which Clone Wars episode does Yoda speak with the spirit of Qui-Gon Jinn?",
+                  "options":[
+                     "\"Voices\"",
+                     "\"Destiny\"",
+                     "\"Sacrifice\"",
+                     "\"Ambush\""
+                  ],
+                  "answer":"0"
+               },
+               "q109":{
+                  "question":"What lesson does Yoda teach Ezra Bridger in \u201cStar Wars Rebels\u201d?",
+                  "options":[
+                     "The importance of combat skills",
+                     "The significance of knowledge",
+                     "The power of the dark side",
+                     "The need for balance"
+                  ],
+                  "answer":"3"
+               },
+               "q110":{
+                  "question":"What lesson does Yoda teach Luke on Dagobah by lifting the X-Wing?",
+                  "options":[
+                     "The importance of physical strength",
+                     "The power of the Force over the physical world",
+                     "The necessity of a lightsaber",
+                     "The need for quick actions"
+                  ],
+                  "answer":"1"
+               },
+               "q111":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what does Yoda say leads to suffering?",
+                  "options":[
+                     "Fear",
+                     "Hate",
+                     "Anger",
+                     "Jealousy"
+                  ],
+                  "answer":"0"
+               },
+               "q112":{
+                  "question":"In \u201cRevenge of the Sith,\u201d who informs Yoda that Emperor Palpatine is Darth Sidious?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Mace Windu",
+                     "Padm\u00e9 Amidala"
+                  ],
+                  "answer":"2"
+               },
+               "q113":{
+                  "question":"Who created Yoda's unique speech pattern?",
+                  "options":[
+                     "George Lucas",
+                     "Frank Oz",
+                     "Lawrence Kasdan",
+                     "Mark Hamill"
+                  ],
+                  "answer":"0"
+               },
+               "q114":{
+                  "question":"In \u201cThe Last Jedi,\u201d what does Yoda use to destroy the Jedi texts?",
+                  "options":[
+                     "His lightsaber",
+                     "A blaster",
+                     "Lightning",
+                     "The Force"
+                  ],
+                  "answer":"2"
+               },
+               "q115":{
+                  "question":"Which ancient Jedi does Yoda encounter in his journey through the Force?",
+                  "options":[
+                     "Master Sifo-Dyas",
+                     "Master Thon",
+                     "Master Fae Coven",
+                     "Master Qui-Gon Jinn"
+                  ],
+                  "answer":"3"
+               },
+               "q116":{
+                  "question":"Who does Yoda speak to through the Force after their death?",
+                  "options":[
+                     "Qui-Gon Jinn",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Both A and B"
+                  ],
+                  "answer":"3"
+               },
+               "q117":{
+                  "question":"What lesson does Yoda teach Ezra Bridger in \u201cStar Wars Rebels\u201d?",
+                  "options":[
+                     "The importance of combat skills",
+                     "The significance of knowledge",
+                     "The power of the dark side",
+                     "The need for balance"
+                  ],
+                  "answer":"3"
+               },
+               "q118":{
+                  "question":"Who trains Yoda in the ways of the Force?",
+                  "options":[
+                     "The Whills",
+                     "Qui-Gon Jinn",
+                     "Mace Windu",
+                     "Obi-Wan Kenobi"
+                  ],
+                  "answer":"0"
+               },
+               "q119":{
+                  "question":"In \u201cThe Phantom Menace,\u201d what advice does Yoda give Anakin about fear?",
+                  "options":[
+                     "\"Fear is natural.\"",
+                     "\"Fear leads to anger, anger leads to hate, hate leads to suffering.\"",
+                     "\"Fear is the beginning of wisdom.\"",
+                     "\"Fear can be controlled.\""
+                  ],
+                  "answer":"1"
+               },
+               "q120":{
+                  "question":"What advice does Yoda give Anakin about attachments in \u201cRevenge of the Sith\u201d?",
+                  "options":[
+                     "\"Embrace your attachments.\"",
+                     "\"Fear loss, you must.\"",
+                     "\"Let go of everything you fear to lose.\"",
+                     "\"Attachment leads to strength.\""
+                  ],
+                  "answer":"2"
+               },
+               "q121":{
+                  "question":"What does Yoda use to fight in combat?",
+                  "options":[
+                     "Blaster",
+                     "Lightsaber",
+                     "The Force",
+                     "Both B and C"
+                  ],
+                  "answer":"3"
+               },
+               "q122":{
+                  "question":"What lesson does Yoda impart to Luke about his friends in \u201cThe Empire Strikes Back\u201d?",
+                  "options":[
+                     "\"They can take care of themselves.\"",
+                     "\"You must not go.\"",
+                     "\"You must trust them.\"",
+                     "\"They will fail without you.\""
+                  ],
+                  "answer":"1"
+               },
+               "q123":{
+                  "question":"What ancient Sith Lord does Yoda confront in a vision during the Clone Wars?",
+                  "options":[
+                     "Darth Bane",
+                     "Darth Revan",
+                     "Darth Plagueis",
+                     "Darth Malak"
+                  ],
+                  "answer":"0"
+               },
+               "q124":{
+                  "question":"What lesson does Yoda teach Luke on Dagobah by lifting the X-Wing?",
+                  "options":[
+                     "The importance of physical strength",
+                     "The power of the Force over the physical world",
+                     "The necessity of a lightsaber",
+                     "The need for quick actions"
+                  ],
+                  "answer":"1"
+               },
+               "q125":{
+                  "question":"In \u201cThe Empire Strikes Back,\u201d what does Yoda say Luke must do to become a Jedi?",
+                  "options":[
+                     "Defeat Darth Vader",
+                     "Face his fears",
+                     "Complete his training",
+                     "Leave his friends behind"
+                  ],
+                  "answer":"2"
+               },
+               "q126":{
+                  "question":"In the Clone Wars, what lesson does Yoda teach the clones on Rugosa?",
+                  "options":[
+                     "The importance of strategy",
+                     "The value of each individual",
+                     "The need for teamwork",
+                     "The power of the Force"
+                  ],
+                  "answer":"1"
+               },
+               "q127":{
+                  "question":"What is Yoda\u2019s reaction to Anakin\u2019s fall to the dark side?",
+                  "options":[
+                     "Anger",
+                     "Sadness",
+                     "Surprise",
+                     "Acceptance"
+                  ],
+                  "answer":"1"
+               },
+               "q128":{
+                  "question":"What challenge does Yoda face in the dark side cave on Dagobah?",
+                  "options":[
+                     "A vision of Darth Vader",
+                     "A Sith spirit",
+                     "His own fears",
+                     "A dark side creature"
+                  ],
+                  "answer":"2"
+               },
+               "q129":{
+                  "question":"What does Yoda meditate on while in exile on Dagobah?",
+                  "options":[
+                     "The will of the Force",
+                     "The mistakes of the past",
+                     "The future of the Jedi",
+                     "The return of the Sith"
+                  ],
+                  "answer":"0"
+               },
+               "q130":{
+                  "question":"Who does Yoda contact to warn the Jedi about Order 66?",
+                  "options":[
+                     "Obi-Wan Kenobi and Ahsoka Tano",
+                     "Anakin Skywalker and Padm\u00e9 Amidala",
+                     "Bail Organa and Mon Mothma",
+                     "Obi-Wan Kenobi and Bail Organa"
+                  ],
+                  "answer":"3"
+               },
+               "q131":{
+                  "question":"Which Clone Wars episode features Yoda training a group of younglings?",
+                  "options":[
+                     "\"The Gathering\"",
+                     "\"Rising Malevolence\"",
+                     "\"Ambush\"",
+                     "\"Sacrifice\""
+                  ],
+                  "answer":"0"
+               },
+               "q132":{
+                  "question":"What rare ability does Yoda possess that allows him to communicate with deceased Jedi?",
+                  "options":[
+                     "Force Healing",
+                     "Force Projection",
+                     "Force Ghost communication",
+                     "Mind Meld"
+                  ],
+                  "answer":"2"
+               },
+               "q133":{
+                  "question":"What is Yoda\u2019s advice to Luke when he feels the future?",
+                  "options":[
+                     "\"Control, control, you must learn control!\"",
+                     "\"Fear not the future.\"",
+                     "\"Trust in the Force.\"",
+                     "\"Let go of your fear.\""
+                  ],
+                  "answer":"0"
+               },
+               "q134":{
+                  "question":"In \u201cRevenge of the Sith,\u201d who informs Yoda that Emperor Palpatine is Darth Sidious?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Mace Windu",
+                     "Padm\u00e9 Amidala"
+                  ],
+                  "answer":"2"
+               },
+               "q135":{
+                  "question":"What rare form of meditation does Yoda use to communicate with Qui-Gon Jinn?",
+                  "options":[
+                     "Force Trance",
+                     "Deep Meditation",
+                     "Force Bond",
+                     "Dream Meditation"
+                  ],
+                  "answer":"0"
+               },
+               "q136":{
+                  "question":"In the Clone Wars, what advice does Yoda give Anakin about detachment?",
+                  "options":[
+                     "\"Embrace your attachments.\"",
+                     "\"Fear loss, you must.\"",
+                     "\"Let go of everything you fear to lose.\"",
+                     "\"Attachment leads to strength.\""
+                  ],
+                  "answer":"2"
+               },
+               "q137":{
+                  "question":"Who does Yoda train alongside Mace Windu in the prequel trilogy?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Count Dooku",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q138":{
+                  "question":"Who trains Yoda in the ways of the Force?",
+                  "options":[
+                     "The Whills",
+                     "Qui-Gon Jinn",
+                     "Mace Windu",
+                     "Obi-Wan Kenobi"
+                  ],
+                  "answer":"0"
+               },
+               "q139":{
+                  "question":"In which Clone Wars episode does Yoda speak with the spirit of Qui-Gon Jinn?",
+                  "options":[
+                     "\"Voices\"",
+                     "\"Destiny\"",
+                     "\"Sacrifice\"",
+                     "\"Ambush\""
+                  ],
+                  "answer":"0"
+               },
+               "q140":{
+                  "question":"What does Yoda sense about the future of the Jedi Order?",
+                  "options":[
+                     "Its ultimate success",
+                     "Its downfall",
+                     "Its eternal strength",
+                     "Its expansion"
+                  ],
+                  "answer":"1"
+               },
+               "q141":{
+                  "question":"What rare form of lightsaber combat does Yoda master?",
+                  "options":[
+                     "Form VII: Juyo",
+                     "Form V: Shien",
+                     "Form IV: Ataru",
+                     "Form III: Soresu"
+                  ],
+                  "answer":"2"
+               },
+               "q142":{
+                  "question":"Who does Yoda fight in the Senate chamber in \u201cRevenge of the Sith\u201d?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Count Dooku",
+                     "General Grievous",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"3"
+               },
+               "q143":{
+                  "question":"What does Yoda use to conceal his presence on Dagobah from the Empire?",
+                  "options":[
+                     "The dark side cave",
+                     "A cloaking device",
+                     "His Force abilities",
+                     "A Jedi artifact"
+                  ],
+                  "answer":"0"
+               },
+               "q144":{
+                  "question":"In \u201cThe Phantom Menace,\u201d what advice does Yoda give Anakin about fear?",
+                  "options":[
+                     "\"Fear is natural.\"",
+                     "\"Fear leads to anger, anger leads to hate, hate leads to suffering.\"",
+                     "\"Fear is the beginning of wisdom.\"",
+                     "\"Fear can be controlled.\""
+                  ],
+                  "answer":"1"
+               },
+               "q145":{
+                  "question":"What is the name of the Jedi Temple on Coruscant where Yoda often resides?",
+                  "options":[
+                     "Temple of Balance",
+                     "Jedi Sanctuary",
+                     "The Great Temple",
+                     "Temple of Knowledge"
+                  ],
+                  "answer":"2"
+               },
+               "q146":{
+                  "question":"What ancient Sith Lord does Yoda confront in a vision during the Clone Wars?",
+                  "options":[
+                     "Darth Bane",
+                     "Darth Revan",
+                     "Darth Plagueis",
+                     "Darth Malak"
+                  ],
+                  "answer":"0"
+               },
+               "q147":{
+                  "question":"Who discovers Yoda's holocron hidden on Dagobah after his death?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Ben Solo",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q148":{
+                  "question":"Who does Yoda contact to warn the Jedi about Order 66?",
+                  "options":[
+                     "Obi-Wan Kenobi and Ahsoka Tano",
+                     "Anakin Skywalker and Padm\u00e9 Amidala",
+                     "Bail Organa and Mon Mothma",
+                     "Obi-Wan Kenobi and Bail Organa"
+                  ],
+                  "answer":"3"
+               },
+               "q149":{
+                  "question":"What challenge does Yoda face in the dark side cave on Dagobah?",
+                  "options":[
+                     "A vision of Darth Vader",
+                     "A Sith spirit",
+                     "His own fears",
+                     "A dark side creature"
+                  ],
+                  "answer":"2"
+               },
+               "q150":{
+                  "question":"What is the name of the planet where Yoda fights Count Dooku in \u201cAttack of the Clones\u201d?",
+                  "options":[
+                     "Geonosis",
+                     "Kamino",
+                     "Tatooine",
+                     "Naboo"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ]
+      }
+   }
+}

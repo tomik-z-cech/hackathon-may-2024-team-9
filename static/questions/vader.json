@@ -1,0 +1,1518 @@
+{
+   "character":{
+      "Darth Vader":{
+         "easy":[
+            {
+               "q1":{
+                  "question":"What is Darth Vader's real name?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "ObiWan Kenobi",
+                     "Luke Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q2":{
+                  "question":"What color is Darth Vader's lightsaber?",
+                  "options":[
+                     "Blue",
+                     "Green",
+                     "Red",
+                     "Purple"
+                  ],
+                  "answer":"2"
+               },
+               "q3":{
+                  "question":"Who is Darth Vader's master in the ways of the Sith?",
+                  "options":[
+                     "Count Dooku",
+                     "Emperor Palpatine",
+                     "Darth Maul",
+                     "Darth Sidious"
+                  ],
+                  "answer":"3"
+               },
+               "q4":{
+                  "question":"What is the name of the planet where Darth Vader was born?",
+                  "options":[
+                     "Coruscant",
+                     "Tatooine",
+                     "Mustafar",
+                     "Naboo"
+                  ],
+                  "answer":"2"
+               },
+               "q5":{
+                  "question":"What is the title Darth Vader holds within the Galactic Empire?",
+                  "options":[
+                     "Supreme Leader",
+                     "Grand Moff",
+                     "Sith Lord",
+                     "Dark Lord of the Sith"
+                  ],
+                  "answer":"3"
+               },
+               "q6":{
+                  "question":"Who portrays Darth Vader in the original Star Wars trilogy?",
+                  "options":[
+                     "James Earl Jones",
+                     "Alec Guinness",
+                     "David Prowse",
+                     "Mark Hamill"
+                  ],
+                  "answer":"2"
+               },
+               "q7":{
+                  "question":"What is the nickname given to Darth Vader due to his imposing black armor?",
+                  "options":[
+                     "Dark Knight",
+                     "Black Knight",
+                     "Dark Lord",
+                     "Dark Knight"
+                  ],
+                  "answer":"0"
+               },
+               "q8":{
+                  "question":"What is the name of Darth Vader's son?",
+                  "options":[
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "Anakin Skywalker Jr."
+                  ],
+                  "answer":"1"
+               },
+               "q9":{
+                  "question":"What was Darth Vader's former Jedi title?",
+                  "options":[
+                     "Master",
+                     "Knight",
+                     "Padawan",
+                     "Sith Lord"
+                  ],
+                  "answer":"1"
+               },
+               "q10":{
+                  "question":"What is the name of Darth Vader's flagship in the original trilogy?",
+                  "options":[
+                     "Star Destroyer",
+                     "TIE Fighter",
+                     "Death Star",
+                     "Executor"
+                  ],
+                  "answer":"3"
+               },
+               "q11":{
+                  "question":"Who built Darth Vader's iconic suit of armor?",
+                  "options":[
+                     "ObiWan Kenobi",
+                     "Darth Sidious",
+                     "Count Dooku",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"3"
+               },
+               "q12":{
+                  "question":"What caused Darth Vader's injuries and subsequent transformation?",
+                  "options":[
+                     "He was attacked by bounty hunters",
+                     "He was caught in a lightsaber duel",
+                     "He fell into a volcano",
+                     "He was injured in a starship crash"
+                  ],
+                  "answer":"2"
+               },
+               "q13":{
+                  "question":"What does Darth Vader say to Luke Skywalker during their lightsaber duel in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"Join me, and together we can rule the galaxy.\"",
+                     "\"I am your father.\"",
+                     "\"You have much to learn, young one.\"",
+                     "\"You don't know the power of the dark side.\""
+                  ],
+                  "answer":"1"
+               },
+               "q14":{
+                  "question":"Who ultimately redeems Darth Vader?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Princess Leia",
+                     "ObiWan Kenobi",
+                     "Yoda"
+                  ],
+                  "answer":"0"
+               },
+               "q15":{
+                  "question":"What was Darth Vader's original intention when he captured Han Solo in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "To kill him",
+                     "To deliver him to Jabba the Hutt",
+                     "To torture him",
+                     "To recruit him"
+                  ],
+                  "answer":"1"
+               },
+               "q16":{
+                  "question":"What is the name of Darth Vader's castle seen in \"Rogue One: A Star Wars Story\"?",
+                  "options":[
+                     "Fortress Vader",
+                     "Bastion of Darkness",
+                     "Vader's Keep",
+                     "Sith Citadel"
+                  ],
+                  "answer":"0"
+               },
+               "q17":{
+                  "question":"Who created the character of Darth Vader?",
+                  "options":[
+                     "George Lucas",
+                     "Steven Spielberg",
+                     "J.J. Abrams",
+                     "Lawrence Kasdan"
+                  ],
+                  "answer":"0"
+               },
+               "q18":{
+                  "question":"What is the name of the organization led by Darth Vader in the prequel trilogy?",
+                  "options":[
+                     "First Order",
+                     "Separatists",
+                     "Galactic Empire",
+                     "Trade Federation"
+                  ],
+                  "answer":"1"
+               },
+               "q19":{
+                  "question":"What was Darth Vader's former Jedi Padawan name?",
+                  "options":[
+                     "ObiWan Kenobi",
+                     "Ahsoka Tano",
+                     "QuiGon Jinn",
+                     "Mace Windu"
+                  ],
+                  "answer":"1"
+               },
+               "q20":{
+                  "question":"What is the name of the actor who provided the voice for Darth Vader?",
+                  "options":[
+                     "James Earl Jones",
+                     "David Prowse",
+                     "Hayden Christensen",
+                     "Sebastian Shaw"
+                  ],
+                  "answer":"0"
+               },
+               "q21":{
+                  "question":"What does Darth Vader often say to indicate his displeasure with someone's failure?",
+                  "options":[
+                     "\"You are weak.\"",
+                     "\"I find your lack of faith disturbing.\"",
+                     "\"Impressive. Most impressive.\"",
+                     "\"Your destiny lies with me.\""
+                  ],
+                  "answer":"1"
+               },
+               "q22":{
+                  "question":"What significant event occurs when Darth Vader is first introduced in \"A New Hope\"?",
+                  "options":[
+                     "He destroys a Rebel ship",
+                     "He confronts ObiWan Kenobi",
+                     "He interrogates Princess Leia",
+                     "He chokes an Imperial officer"
+                  ],
+                  "answer":"0"
+               },
+               "q23":{
+                  "question":"What is the name of the Emperor who manipulated Anakin Skywalker into becoming Darth Vader?",
+                  "options":[
+                     "Emperor Palpatine",
+                     "Emperor Valorum",
+                     "Emperor Snoke",
+                     "Emperor Tarkin"
+                  ],
+                  "answer":"0"
+               },
+               "q24":{
+                  "question":"What is the title of the first Star Wars movie where Darth Vader appears?",
+                  "options":[
+                     "Star Wars: A New Hope",
+                     "Star Wars: The Empire Strikes Back",
+                     "Star Wars: Revenge of the Sith",
+                     "Star Wars: Attack of the Clones"
+                  ],
+                  "answer":"0"
+               },
+               "q25":{
+                  "question":"What event marks the turning point for Anakin Skywalker's transformation into Darth Vader?",
+                  "options":[
+                     "His marriage to Padm\u00e9 Amidala",
+                     "The death of QuiGon Jinn",
+                     "His defeat by ObiWan Kenobi",
+                     "His acceptance of Emperor Palpatine as his master"
+                  ],
+                  "answer":"2"
+               },
+               "q26":{
+                  "question":"What is the name of the desert planet where Darth Vader is confronted by ObiWan Kenobi in \"A New Hope\"?",
+                  "options":[
+                     "Tatooine",
+                     "Jakku",
+                     "Endor",
+                     "Hoth"
+                  ],
+                  "answer":"0"
+               },
+               "q27":{
+                  "question":"What physical ailment does Darth Vader suffer from beneath his suit?",
+                  "options":[
+                     "Respiratory problems",
+                     "Cybernetic enhancements",
+                     "Chronic pain",
+                     "Loss of limbs"
+                  ],
+                  "answer":"0"
+               },
+               "q28":{
+                  "question":"What is the name of the organization that Darth Vader seeks to destroy in \"Rogue One: A Star Wars Story\"?",
+                  "options":[
+                     "Rebel Alliance",
+                     "First Order",
+                     "Separatists",
+                     "Jedi Order"
+                  ],
+                  "answer":"0"
+               },
+               "q29":{
+                  "question":"What is the name of the swampy planet where Darth Vader duels his former master in \"Revenge of the Sith\"?",
+                  "options":[
+                     "Dagobah",
+                     "Mustafar",
+                     "Endor",
+                     "Naboo"
+                  ],
+                  "answer":"1"
+               },
+               "q30":{
+                  "question":"What is the name of the weapon used to defeat Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Death Star",
+                     "Starkiller Base",
+                     "Thermal detonator",
+                     "Lightsaber"
+                  ],
+                  "answer":"0"
+               },
+               "q31":{
+                  "question":"What is the name of the Imperial officer who answers to Darth Vader in \"A New Hope\"?",
+                  "options":[
+                     "Admiral Piett",
+                     "Admiral Ozzel",
+                     "Captain Needa",
+                     "Captain Piett"
+                  ],
+                  "answer":"2"
+               },
+               "q32":{
+                  "question":"Who informs Darth Vader about the location of the Rebel base in \"A New Hope\"?",
+                  "options":[
+                     "Princess Leia",
+                     "Admiral Ackbar",
+                     "Grand Moff Tarkin",
+                     "Captain Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q33":{
+                  "question":"What is Darth Vader's connection to Luke Skywalker?",
+                  "options":[
+                     "Nephew",
+                     "Brother",
+                     "Father",
+                     "Uncle"
+                  ],
+                  "answer":"2"
+               },
+               "q34":{
+                  "question":"What is the name of the bounty hunter hired by Darth Vader to track down the Millennium Falcon?",
+                  "options":[
+                     "Greedo",
+                     "Boba Fett",
+                     "Dengar",
+                     "Bossk"
+                  ],
+                  "answer":"1"
+               },
+               "q35":{
+                  "question":"What is the name of the planet where Darth Vader confronts Luke Skywalker in \"Return of the Jedi\"?",
+                  "options":[
+                     "Tatooine",
+                     "Endor",
+                     "Hoth",
+                     "Dagobah"
+                  ],
+                  "answer":"1"
+               },
+               "q36":{
+                  "question":"What is the name of the actor who portrayed Darth Vader's physical presence in the original trilogy?",
+                  "options":[
+                     "David Prowse",
+                     "James Earl Jones",
+                     "Sebastian Shaw",
+                     "Hayden Christensen"
+                  ],
+                  "answer":"0"
+               },
+               "q37":{
+                  "question":"What does Darth Vader claim to be Luke Skywalker's father?",
+                  "options":[
+                     "ObiWan Kenobi",
+                     "Anakin Skywalker",
+                     "Palpatine",
+                     "QuiGon Jinn"
+                  ],
+                  "answer":"1"
+               },
+               "q38":{
+                  "question":"What is the name of the creature Darth Vader is riding in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Rancor",
+                     "Dewback",
+                     "ATST"
+                  ],
+                  "answer":"1"
+               },
+               "q39":{
+                  "question":"What is the name of the forest moon where the Rebel Alliance plans to destroy the second Death Star?",
+                  "options":[
+                     "Endor",
+                     "Dagobah",
+                     "Yavin 4",
+                     "Hoth"
+                  ],
+                  "answer":"0"
+               },
+               "q40":{
+                  "question":"What is the name of the Rebel pilot who destroys the Death Star in \"A New Hope\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Biggs Darklighter",
+                     "Luke Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"2"
+               },
+               "q41":{
+                  "question":"What is the name of the planet where Darth Vader finally redeems himself?",
+                  "options":[
+                     "Naboo",
+                     "Endor",
+                     "Tatooine",
+                     "Coruscant"
+                  ],
+                  "answer":"1"
+               },
+               "q42":{
+                  "question":"What is the name of the protocol droid who serves alongside Darth Vader in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "C3PO",
+                     "R2D2",
+                     "BB8",
+                     "K2SO"
+                  ],
+                  "answer":"0"
+               },
+               "q43":{
+                  "question":"What is the name of the bounty hunter who captures Han Solo in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Dengar",
+                     "Boba Fett",
+                     "IG88",
+                     "Bossk"
+                  ],
+                  "answer":"1"
+               },
+               "q44":{
+                  "question":"What does Darth Vader sense about Luke Skywalker in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "His fear",
+                     "His anger",
+                     "His presence",
+                     "His destiny"
+                  ],
+                  "answer":"2"
+               },
+               "q45":{
+                  "question":"What does Darth Vader promise Luke Skywalker in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Power",
+                     "Wealth",
+                     "Peace",
+                     "Knowledge"
+                  ],
+                  "answer":"0"
+               },
+               "q46":{
+                  "question":"What is the name of the character who ultimately convinces Darth Vader to redeem himself?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Leia Organa",
+                     "ObiWan Kenobi",
+                     "Yoda"
+                  ],
+                  "answer":"0"
+               },
+               "q47":{
+                  "question":"What is the name of the organization led by Darth Vader in the original trilogy?",
+                  "options":[
+                     "First Order",
+                     "Galactic Empire",
+                     "Rebel Alliance",
+                     "Trade Federation"
+                  ],
+                  "answer":"1"
+               },
+               "q48":{
+                  "question":"What is the name of the Emperor who seduces Anakin Skywalker to the dark side of the Force?",
+                  "options":[
+                     "Emperor Palpatine",
+                     "Emperor Valorum",
+                     "Emperor Snoke",
+                     "Emperor Tarkin"
+                  ],
+                  "answer":"0"
+               },
+               "q49":{
+                  "question":"What does Darth Vader say to Luke Skywalker when revealing his true identity in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"I am your destiny.\"",
+                     "\"I am your father.\"",
+                     "\"I am your master.\"",
+                     "\"I am your enemy.\""
+                  ],
+                  "answer":"1"
+               },
+               "q50":{
+                  "question":"What is the name of the ship Darth Vader uses to escape from Mustafar in \"Revenge of the Sith\"?",
+                  "options":[
+                     "The Tantive IV",
+                     "The Millennium Falcon",
+                     "The Executor",
+                     "The Invisible Hand"
+                  ],
+                  "answer":"3"
+               }
+            }
+         ],
+         "medium":[
+            {
+               "q51":{
+                  "question":"What is the name of the Jedi Order during the time of Darth Vader's fall?",
+                  "options":[
+                     "Sith Order",
+                     "New Jedi Order",
+                     "Old Republic",
+                     "Galactic Republic"
+                  ],
+                  "answer":"1"
+               },
+               "q52":{
+                  "question":"What is the name of the medical droid that assists in Darth Vader's transformation?",
+                  "options":[
+                     "RX24",
+                     "21B",
+                     "FX7",
+                     "EV9D9"
+                  ],
+                  "answer":"1"
+               },
+               "q53":{
+                  "question":"What does Darth Vader say to ObiWan Kenobi during their lightsaber duel on Mustafar?",
+                  "options":[
+                     "\"You underestimate my power.\"",
+                     "\"You were my brother, Anakin!\"",
+                     "\"It's over, Anakin! I have the high ground.\"",
+                     "\"I find your lack of faith disturbing.\""
+                  ],
+                  "answer":"2"
+               },
+               "q54":{
+                  "question":"What is the name of the system destroyed by the Death Star under Darth Vader's command?",
+                  "options":[
+                     "Alderaan",
+                     "Scarif",
+                     "Hoth",
+                     "Jakku"
+                  ],
+                  "answer":"0"
+               },
+               "q55":{
+                  "question":"What is the name of the creature Darth Vader rides in \"The Empire Strikes Back\" during the Battle of Hoth?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Bantha",
+                     "ATAT"
+                  ],
+                  "answer":"3"
+               },
+               "q56":{
+                  "question":"What is the name of the Rebel Alliance leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Admiral Ackbar",
+                     "Mon Mothma",
+                     "Bail Organa",
+                     "General Madine"
+                  ],
+                  "answer":"0"
+               },
+               "q57":{
+                  "question":"What does Darth Vader warn Luke Skywalker about regarding his destiny in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"You will never escape your past.\"",
+                     "\"You will find only suffering.\"",
+                     "\"You are not ready to face the truth.\"",
+                     "\"You will join the dark side or die.\""
+                  ],
+                  "answer":"3"
+               },
+               "q58":{
+                  "question":"What does Darth Vader say to Luke Skywalker when revealing that he is his father?",
+                  "options":[
+                     "\"You have failed me, like your friends.\"",
+                     "\"Join me, and we can rule the galaxy as father and son.\"",
+                     "\"I have been waiting for you.\"",
+                     "\"You are no match for the power of the dark side.\""
+                  ],
+                  "answer":"1"
+               },
+               "q59":{
+                  "question":"What does Darth Vader tell Luke Skywalker he can destroy together?",
+                  "options":[
+                     "\"The Rebel Alliance.\"",
+                     "\"The Emperor.\"",
+                     "\"The Jedi Order.\"",
+                     "\"The Galactic Empire.\""
+                  ],
+                  "answer":"1"
+               },
+               "q60":{
+                  "question":"What is the name of the Jedi Temple destroyed under Darth Vader's command?",
+                  "options":[
+                     "Coruscant Temple",
+                     "Jedi Temple",
+                     "Temple of the Force",
+                     "Coruscant Academy"
+                  ],
+                  "answer":"1"
+               },
+               "q61":{
+                  "question":"What is the name of the volcanic planet where Darth Vader's duel with ObiWan Kenobi takes place?",
+                  "options":[
+                     "Mustafar",
+                     "Sullust",
+                     "Korriban",
+                     "Malachor"
+                  ],
+                  "answer":"0"
+               },
+               "q62":{
+                  "question":"What is the name of the Sith Lord who trained Darth Vader?",
+                  "options":[
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Sidious",
+                     "Darth Tyranus"
+                  ],
+                  "answer":"2"
+               },
+               "q63":{
+                  "question":"What is the name of Darth Vader's wife?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Mon Mothma",
+                     "Shmi Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q64":{
+                  "question":"What is the name of the city where Darth Vader confronts Luke Skywalker in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Mos Eisley",
+                     "Cloud City",
+                     "Mos Espa",
+                     "Mos Pelgo"
+                  ],
+                  "answer":"1"
+               },
+               "q65":{
+                  "question":"What is the name of the ship Luke Skywalker uses to travel to Dagobah in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Millennium Falcon",
+                     "Xwing starfighter",
+                     "Slave I",
+                     "T65 Xwing starfighter"
+                  ],
+                  "answer":"1"
+               },
+               "q66":{
+                  "question":"What is the name of the creature that tries to eat R2D2 and C3PO on Tatooine in \"A New Hope\"?",
+                  "options":[
+                     "Sarlacc",
+                     "Womp rat",
+                     "Krayt dragon",
+                     "Jawa"
+                  ],
+                  "answer":"2"
+               },
+               "q67":{
+                  "question":"What is the name of the Rebel pilot who destroys the Death Star in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q68":{
+                  "question":"What is the name of the Imperial officer who leads the attack on the Rebel base on Hoth?",
+                  "options":[
+                     "Captain Piett",
+                     "Admiral Piett",
+                     "General Veers",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"2"
+               },
+               "q69":{
+                  "question":"What is the name of the bounty hunter who brings Han Solo to Jabba the Hutt?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q70":{
+                  "question":"What is the name of the Emperor's throne room where Darth Vader reveals his redemption?",
+                  "options":[
+                     "Throne Room",
+                     "Hall of Mirrors",
+                     "The Dark Chamber",
+                     "Emperor's Tower"
+                  ],
+                  "answer":"0"
+               },
+               "q71":{
+                  "question":"What is the name of the character who first calls Darth Vader \"Anakin Skywalker\" in the original trilogy?",
+                  "options":[
+                     "Leia Organa",
+                     "ObiWan Kenobi",
+                     "Luke Skywalker",
+                     "Palpatine"
+                  ],
+                  "answer":"1"
+               },
+               "q72":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he reveals his connection to him in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"I am your destiny.\"",
+                     "\"I am your father.\"",
+                     "\"I am your master.\"",
+                     "\"I am your enemy.\""
+                  ],
+                  "answer":"1"
+               },
+               "q73":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"The Empire Strikes Back\" during the Battle of Hoth?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Bantha",
+                     "ATAT"
+                  ],
+                  "answer":"0"
+               },
+               "q74":{
+                  "question":"What does Darth Vader tell Luke Skywalker about his sister in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"Your sister is lost to us.\"",
+                     "\"Your sister is stronger than you.\"",
+                     "\"Your sister is the key to all this.\"",
+                     "\"Your sister will join us, or she will die.\""
+                  ],
+                  "answer":"3"
+               },
+               "q75":{
+                  "question":"What is the name of the Imperial officer who leads the attack on the Rebel base on Hoth in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Captain Piett",
+                     "Admiral Piett",
+                     "General Veers",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"2"
+               },
+               "q76":{
+                  "question":"What does Darth Vader say to Luke Skywalker about his feelings for him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are brave, but foolish.\"",
+                     "\"I will never turn to the light side.\"",
+                     "\"It is your destiny.\"",
+                     "\"It is too late for me, son.\""
+                  ],
+                  "answer":"3"
+               },
+               "q77":{
+                  "question":"What is the name of the system where the second Death Star is being constructed in \"Return of the Jedi\"?",
+                  "options":[
+                     "Endor System",
+                     "Mustafar System",
+                     "Scarif System",
+                     "Jakku System"
+                  ],
+                  "answer":"0"
+               },
+               "q78":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he tries to reach out to him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"It's a trap!\"",
+                     "\"Join me, and together we can rule the galaxy.\"",
+                     "\"There is still good in you.\"",
+                     "\"You don't know the power of the dark side.\""
+                  ],
+                  "answer":"2"
+               },
+               "q79":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Rancor",
+                     "Speeder Bike"
+                  ],
+                  "answer":"3"
+               },
+               "q80":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he asks him to take off his mask in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You do not know what you ask.\"",
+                     "\"I will die.\"",
+                     "\"Nothing can stop that now.\"",
+                     "\"Let me look on you with my own eyes.\""
+                  ],
+                  "answer":"3"
+               },
+               "q81":{
+                  "question":"In \"The Empire Strikes Back,\" what does Darth Vader say to Luke Skywalker when he freezes him in carbonite?",
+                  "options":[
+                     "\"You will be the first in a new generation of Sith.\"",
+                     "\"You are not a Jedi yet.\"",
+                     "\"The Force is strong with you.\"",
+                     "\"All too easy.\""
+                  ],
+                  "answer":"3"
+               },
+               "q82":{
+                  "question":"What is the name of the creature that attacks Luke Skywalker on Dagobah in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Wampa",
+                     "Rancor",
+                     "Krayt dragon",
+                     "Swamp slug"
+                  ],
+                  "answer":"3"
+               },
+               "q83":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he reveals his connection to him?",
+                  "options":[
+                     "\"Search your feelings, you know it to be true.\"",
+                     "\"You are just a pawn in the Emperor's game.\"",
+                     "\"Your destiny lies with me, Skywalker.\"",
+                     "\"Together, we can bring order to the galaxy.\""
+                  ],
+                  "answer":"0"
+               },
+               "q84":{
+                  "question":"What is the name of the Imperial officer who taunts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Captain Needa",
+                     "Admiral Piett",
+                     "General Veers",
+                     "Moff Jerjerrod"
+                  ],
+                  "answer":"3"
+               },
+               "q85":{
+                  "question":"What does Darth Vader say to Luke Skywalker during their lightsaber duel in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are not a Jedi yet.\"",
+                     "\"Your skills are no match for the power of the dark side.\"",
+                     "\"Your overconfidence is your weakness.\"",
+                     "\"You have learned much, young one.\""
+                  ],
+                  "answer":"1"
+               },
+               "q86":{
+                  "question":"What is the name of the Rebel pilot who crashes into the Executor in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Nien Nunb",
+                     "Arvel Crynyd",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"2"
+               },
+               "q87":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he tries to reach out to him?",
+                  "options":[
+                     "\"You will never defeat the Emperor.\"",
+                     "\"It is too late for me, son.\"",
+                     "\"The dark side is your true nature.\"",
+                     "\"Your compassion is your weakness.\""
+                  ],
+                  "answer":"1"
+               },
+               "q88":{
+                  "question":"What is the name of the bounty hunter who captures Han Solo in \"Return of the Jedi\"?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q89":{
+                  "question":"What is the name of the Rebel leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Mon Mothma",
+                     "Admiral Ackbar",
+                     "General Madine",
+                     "Gial Ackbar"
+                  ],
+                  "answer":"1"
+               },
+               "q90":{
+                  "question":"What is the name of the system where the second Death Star is being constructed in \"Return of the Jedi\"?",
+                  "options":[
+                     "Endor System",
+                     "Mustafar System",
+                     "Scarif System",
+                     "Jakku System"
+                  ],
+                  "answer":"0"
+               },
+               "q91":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he reveals his connection to him?",
+                  "options":[
+                     "\"Join me, and we can rule the galaxy as father and son.\"",
+                     "\"You underestimate the power of the dark side.\"",
+                     "\"The Emperor will show you the true nature of the Force.\"",
+                     "\"You were destined to destroy me.\""
+                  ],
+                  "answer":"0"
+               },
+               "q92":{
+                  "question":"What is the name of the creature Darth Vader rides in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Rancor",
+                     "Dewback",
+                     "ATST"
+                  ],
+                  "answer":"1"
+               },
+               "q93":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he freezes him in carbonite in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are not a Jedi yet.\"",
+                     "\"The Force is strong with you.\"",
+                     "\"Impressive. Most impressive.\"",
+                     "\"All too easy.\""
+                  ],
+                  "answer":"3"
+               },
+               "q94":{
+                  "question":"What is the name of the creature that attacks Luke Skywalker on Endor in \"Return of the Jedi\"?",
+                  "options":[
+                     "Ewok",
+                     "Wampa",
+                     "Rancor",
+                     "Sarlacc"
+                  ],
+                  "answer":"0"
+               },
+               "q95":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he reveals his connection to him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"Search your feelings, you know it to be true.\"",
+                     "\"You are just a pawn in the Emperor's game.\"",
+                     "\"Your destiny lies with me, Skywalker.\"",
+                     "\"Together, we can bring order to the galaxy.\""
+                  ],
+                  "answer":"0"
+               },
+               "q96":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Rancor",
+                     "Speeder Bike"
+                  ],
+                  "answer":"3"
+               },
+               "q97":{
+                  "question":"What is the name of the Rebel pilot who crashes into the Executor in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Nien Nunb",
+                     "Arvel Crynyd",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"2"
+               },
+               "q98":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he tries to reach out to him",
+                  "options":[
+                     "\"You will never defeat the Emperor.\"",
+                     "\"It is too late for me, son.\"",
+                     "\"The dark side is your true nature.\"",
+                     "\"Your compassion is your weakness.\""
+                  ],
+                  "answer":"1"
+               },
+               "q99":{
+                  "question":"What is the name of the bounty hunter who captures Han Solo in \"Return of the Jedi\"?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q100":{
+                  "question":"What is the name of the Rebel leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Mon Mothma",
+                     "Admiral Ackbar",
+                     "General Madine",
+                     "Gial Ackbar"
+                  ],
+                  "answer":"1"
+               }
+            }
+         ],
+         "hard":[
+            {
+               "q101":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he reveals his connection to him?",
+                  "options":[
+                     "\"Join me, and we can rule the galaxy as father and son.\"",
+                     "\"You underestimate the power of the dark side.\"",
+                     "\"The Emperor will show you the true nature of the Force.\"",
+                     "\"You were destined to destroy me.\""
+                  ],
+                  "answer":"0"
+               },
+               "q102":{
+                  "question":"What is the name of the creature Darth Vader rides in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Rancor",
+                     "Dewback",
+                     "ATST"
+                  ],
+                  "answer":"1"
+               },
+               "q103":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he freezes him in carbonite in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are not a Jedi yet.\"",
+                     "\"The Force is strong with you.\"",
+                     "\"Impressive. Most impressive.\"",
+                     "\"All too easy.\""
+                  ],
+                  "answer":"3"
+               },
+               "q104":{
+                  "question":"What is the name of the creature that attacks Luke Skywalker on Endor in \"Return of the Jedi\"?",
+                  "options":[
+                     "Ewok",
+                     "Wampa",
+                     "Rancor",
+                     "Sarlacc"
+                  ],
+                  "answer":"0"
+               },
+               "q105":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he reveals his connection to him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"Search your feelings, you know it to be true.\"",
+                     "\"You are just a pawn in the Emperor's game.\"",
+                     "\"Your destiny lies with me, Skywalker.\"",
+                     "\"Together, we can bring order to the galaxy.\""
+                  ],
+                  "answer":"0"
+               },
+               "q106":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"Return of the Jedi\" during the Battle of Endor?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Rancor",
+                     "Speeder Bike"
+                  ],
+                  "answer":"3"
+               },
+               "q107":{
+                  "question":"What is the name of the Rebel pilot who crashes into the Executor in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Nien Nunb",
+                     "Arvel Crynyd",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"2"
+               },
+               "q108":{
+                  "question":"In \"Return of the Jedi,\" what does Darth Vader say to Luke Skywalker when he tries to reach out to him?",
+                  "options":[
+                     "\"You will never defeat the Emperor.\"",
+                     "\"It is too late for me, son.\"",
+                     "\"The dark side is your true nature.\"",
+                     "\"Your compassion is your weakness.\""
+                  ],
+                  "answer":"1"
+               },
+               "q109":{
+                  "question":"What is the name of the bounty hunter who captures Han Solo in \"Return of the Jedi\"?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q110":{
+                  "question":"What is the name of the Rebel leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Mon Mothma",
+                     "Admiral Ackbar",
+                     "General Madine",
+                     "Gial Ackbar"
+                  ],
+                  "answer":"1"
+               },
+               "q111":{
+                  "question":"What is the name of the Sith Lord who trained Darth Vader?",
+                  "options":[
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Sidious",
+                     "Darth Tyranus"
+                  ],
+                  "answer":"2"
+               },
+               "q112":{
+                  "question":"What is the name of Darth Vader's wife?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Mon Mothma",
+                     "Shmi Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q113":{
+                  "question":"What is the name of the city where Darth Vader confronts Luke Skywalker in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Mos Eisley",
+                     "Cloud City",
+                     "Mos Espa",
+                     "Mos Pelgo"
+                  ],
+                  "answer":"1"
+               },
+               "q114":{
+                  "question":"What is the name of the ship Luke Skywalker uses to travel to Dagobah in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Millennium Falcon",
+                     "Xwing starfighter",
+                     "Slave I",
+                     "T65 Xwing starfighter"
+                  ],
+                  "answer":"1"
+               },
+               "q115":{
+                  "question":"What is the name of the creature that tries to eat R2D2 and C3PO on Tatooine in \"A New Hope\"?",
+                  "options":[
+                     "Sarlacc",
+                     "Womp rat",
+                     "Krayt dragon",
+                     "Jawa"
+                  ],
+                  "answer":"2"
+               },
+               "q116":{
+                  "question":"What is the name of the Rebel pilot who destroys the Death Star in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q117":{
+                  "question":"What is the name of the Imperial officer who leads the attack on the Rebel base on Hoth?",
+                  "options":[
+                     "Captain Piett",
+                     "Admiral Piett",
+                     "General Veers",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"2"
+               },
+               "q118":{
+                  "question":"What is the name of the bounty hunter who brings Han Solo to Jabba the Hutt?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q119":{
+                  "question":"What is the name of the Emperor's throne room where Darth Vader reveals his redemption?",
+                  "options":[
+                     "Throne Room",
+                     "Hall of Mirrors",
+                     "The Dark Chamber",
+                     "Emperor's Tower"
+                  ],
+                  "answer":"0"
+               },
+               "q120":{
+                  "question":"What is the name of the character who first calls Darth Vader \"Anakin Skywalker\" in the original trilogy?",
+                  "options":[
+                     "Leia Organa",
+                     "ObiWan Kenobi",
+                     "Luke Skywalker",
+                     "Palpatine"
+                  ],
+                  "answer":"1"
+               },
+               "q121":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he reveals his connection to him in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"I am your destiny.\"",
+                     "\"I am your father.\"",
+                     "\"I am your master.\"",
+                     "\"I am your enemy.\""
+                  ],
+                  "answer":"1"
+               },
+               "q122":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"The Empire Strikes Back\" during the Battle of Hoth?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Bantha",
+                     "ATAT"
+                  ],
+                  "answer":"3"
+               },
+               "q123":{
+                  "question":"What is the name of the Rebel Alliance leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Admiral Ackbar",
+                     "Mon Mothma",
+                     "Bail Organa",
+                     "General Madine"
+                  ],
+                  "answer":"0"
+               },
+               "q124":{
+                  "question":"What does Darth Vader say to Luke Skywalker about his feelings for him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are brave, but foolish.\"",
+                     "\"I will never turn to the light side.\"",
+                     "\"It is your destiny.\"",
+                     "\"It is too late for me, son.\""
+                  ],
+                  "answer":"3"
+               },
+               "q125":{
+                  "question":"What is the name of the system where the second Death Star is being constructed in \"Return of the Jedi\"?",
+                  "options":[
+                     "Endor System",
+                     "Mustafar System",
+                     "Scarif System",
+                     "Jakku System"
+                  ],
+                  "answer":"0"
+               },
+               "q126":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he tries to reach out to him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"It's a trap!\"",
+                     "\"Join me, and together we can rule the galaxy.\"",
+                     "\"There is still good in you.\"",
+                     "\"You don't know the power of the dark side.\""
+                  ],
+                  "answer":"2"
+               },
+               "q127":{
+                  "question":"What does Darth Vader tell Luke Skywalker he can destroy together?",
+                  "options":[
+                     "\"The Rebel Alliance.\"",
+                     "\"The Emperor.\"",
+                     "\"The Jedi Order.\"",
+                     "\"The Galactic Empire.\""
+                  ],
+                  "answer":"1"
+               },
+               "q128":{
+                  "question":"What is the name of the Jedi Temple destroyed under Darth Vader's command?",
+                  "options":[
+                     "Coruscant Temple",
+                     "Jedi Temple",
+                     "Temple of the Force",
+                     "Coruscant Academy"
+                  ],
+                  "answer":"1"
+               },
+               "q129":{
+                  "question":"What is the name of the volcanic planet where Darth Vader's duel with ObiWan Kenobi takes place?",
+                  "options":[
+                     "Mustafar",
+                     "Sullust",
+                     "Korriban",
+                     "Malachor"
+                  ],
+                  "answer":"0"
+               },
+               "q130":{
+                  "question":"What is the name of the Sith Lord who trained Darth Vader?",
+                  "options":[
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Sidious",
+                     "Darth Tyranus"
+                  ],
+                  "answer":"2"
+               },
+               "q131":{
+                  "question":"What is the name of Darth Vader's wife?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Mon Mothma",
+                     "Shmi Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q132":{
+                  "question":"What is the name of the city where Darth Vader confronts Luke Skywalker in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Mos Eisley",
+                     "Cloud City",
+                     "Mos Espa",
+                     "Mos Pelgo"
+                  ],
+                  "answer":"1"
+               },
+               "q133":{
+                  "question":"What is the name of the ship Luke Skywalker uses to travel to Dagobah in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "Millennium Falcon",
+                     "Xwing starfighter",
+                     "Slave I",
+                     "T65 Xwing starfighter"
+                  ],
+                  "answer":"1"
+               },
+               "q134":{
+                  "question":"What is the name of the creature that tries to eat R2D2 and C3PO on Tatooine in \"A New Hope\"?",
+                  "options":[
+                     "Sarlacc",
+                     "Womp rat",
+                     "Krayt dragon",
+                     "Jawa"
+                  ],
+                  "answer":"2"
+               },
+               "q135":{
+                  "question":"What is the name of the Rebel pilot who destroys the Death Star in \"Return of the Jedi\"?",
+                  "options":[
+                     "Wedge Antilles",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q136":{
+                  "question":"What is the name of the Imperial officer who leads the attack on the Rebel base on Hoth?",
+                  "options":[
+                     "Captain Piett",
+                     "Admiral Piett",
+                     "General Veers",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"2"
+               },
+               "q137":{
+                  "question":"What is the name of the bounty hunter who brings Han Solo to Jabba the Hutt?",
+                  "options":[
+                     "Dengar",
+                     "IG88",
+                     "Bossk",
+                     "Boba Fett"
+                  ],
+                  "answer":"3"
+               },
+               "q138":{
+                  "question":"What is the name of the Emperor's throne room where Darth Vader reveals his redemption?",
+                  "options":[
+                     "Throne Room",
+                     "Hall of Mirrors",
+                     "The Dark Chamber",
+                     "Emperor's Tower"
+                  ],
+                  "answer":"0"
+               },
+               "q139":{
+                  "question":"What is the name of the character who first calls Darth Vader \"Anakin Skywalker\" in the original trilogy?",
+                  "options":[
+                     "Leia Organa",
+                     "ObiWan Kenobi",
+                     "Luke Skywalker",
+                     "Palpatine"
+                  ],
+                  "answer":"1"
+               },
+               "q140":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he reveals his connection to him in \"The Empire Strikes Back\"?",
+                  "options":[
+                     "\"I am your destiny.\"",
+                     "\"I am your father.\"",
+                     "\"I am your master.\"",
+                     "\"I am your enemy.\""
+                  ],
+                  "answer":"1"
+               },
+               "q141":{
+                  "question":"What is the name of the creature Luke Skywalker rides in \"The Empire Strikes Back\" during the Battle of Hoth?",
+                  "options":[
+                     "Tauntaun",
+                     "Wampa",
+                     "Bantha",
+                     "ATAT"
+                  ],
+                  "answer":"3"
+               },
+               "q142":{
+                  "question":"What is the name of the Rebel Alliance leader who confronts Darth Vader in \"Return of the Jedi\"?",
+                  "options":[
+                     "Admiral Ackbar",
+                     "Mon Mothma",
+                     "Bail Organa",
+                     "General Madine"
+                  ],
+                  "answer":"0"
+               },
+               "q143":{
+                  "question":"What does Darth Vader say to Luke Skywalker about his feelings for him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"You are brave, but foolish.\"",
+                     "\"I will never turn to the light side.\"",
+                     "\"It is your destiny.\"",
+                     "\"It is too late for me, son.\""
+                  ],
+                  "answer":"3"
+               },
+               "q144":{
+                  "question":"What is the name of the system where the second Death Star is being constructed in \"Return of the Jedi\"?",
+                  "options":[
+                     "Endor System",
+                     "Mustafar System",
+                     "Scarif System",
+                     "Jakku System"
+                  ],
+                  "answer":"0"
+               },
+               "q145":{
+                  "question":"What does Darth Vader say to Luke Skywalker when he tries to reach out to him in \"Return of the Jedi\"?",
+                  "options":[
+                     "\"It's a trap!\"",
+                     "\"Join me, and together we can rule the galaxy.\"",
+                     "\"There is still good in you.\"",
+                     "\"You don't know the power of the dark side.\""
+                  ],
+                  "answer":"2"
+               },
+               "q146":{
+                  "question":"What does Darth Vader tell Luke Skywalker he can destroy together?",
+                  "options":[
+                     "\"The Rebel Alliance.\"",
+                     "\"The Emperor.\"",
+                     "\"The Jedi Order.\"",
+                     "\"The Galactic Empire.\""
+                  ],
+                  "answer":"1"
+               },
+               "q147":{
+                  "question":"What is the name of the Jedi Temple destroyed under Darth Vader's command?",
+                  "options":[
+                     "Coruscant Temple",
+                     "Jedi Temple",
+                     "Coruscant Academy",
+                     "Temple of the Force"
+                  ],
+                  "answer":"1"
+               },
+               "q148":{
+                  "question":"What is the name of the volcanic planet where Darth Vader's duel with ObiWan Kenobi takes place?",
+                  "options":[
+                     "Mustafar",
+                     "Sullust",
+                     "Korriban",
+                     "Malachor"
+                  ],
+                  "answer":"0"
+               },
+               "q149":{
+                  "question":"What is the name of the Sith Lord who trained Darth Vader?",
+                  "options":[
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Sidious",
+                     "Darth Tyranus"
+                  ],
+                  "answer":"2"
+               },
+               "q150":{
+                  "question":"What is the name of Darth Vader's wife?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Mon Mothma",
+                     "Shmi Skywalker"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ]
+      }
+   }
+}

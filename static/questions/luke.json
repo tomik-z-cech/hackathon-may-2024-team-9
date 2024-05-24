@@ -1,0 +1,1518 @@
+{
+   "character":{
+      "Luke Skywalker":{
+         "easy":[
+            {
+               "q1":{
+                  "question":"Who raised you on Tatooine?",
+                  "options":[
+                     "Uncle Owen and Aunt Beru",
+                     "Obi-Wan Kenobi",
+                     "Han Solo",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q2":{
+                  "question":"What color was your first lightsaber?",
+                  "options":[
+                     "Blue",
+                     "Green",
+                     "Red",
+                     "Purple"
+                  ],
+                  "answer":"0"
+               },
+               "q3":{
+                  "question":"On which planet did you train with Yoda?",
+                  "options":[
+                     "Dagobah",
+                     "Tatooine",
+                     "Endor",
+                     "Hoth"
+                  ],
+                  "answer":"0"
+               },
+               "q4":{
+                  "question":"Who was your father?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Han Solo",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q5":{
+                  "question":"What vehicle did you use to destroy the first Death Star?",
+                  "options":[
+                     "X-Wing",
+                     "TIE Fighter",
+                     "Millennium Falcon",
+                     "Speeder Bike"
+                  ],
+                  "answer":"0"
+               },
+               "q6":{
+                  "question":"What is the name of the droid who accompanied you?",
+                  "options":[
+                     "R2-D2",
+                     "C-3PO",
+                     "BB-8",
+                     "K-2SO"
+                  ],
+                  "answer":"0"
+               },
+               "q7":{
+                  "question":"Who was your mentor and first Jedi Master?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Qui-Gon Jinn",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q8":{
+                  "question":"What is the name of the planet you grew up on?",
+                  "options":[
+                     "Tatooine",
+                     "Alderaan",
+                     "Naboo",
+                     "Mustafar"
+                  ],
+                  "answer":"0"
+               },
+               "q9":{
+                  "question":"Who did you save from the Wampa on Hoth?",
+                  "options":[
+                     "Yourself",
+                     "Han Solo",
+                     "Princess Leia",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q10":{
+                  "question":"What color was your lightsaber after the Battle of Endor?",
+                  "options":[
+                     "Green",
+                     "Blue",
+                     "Red",
+                     "Purple"
+                  ],
+                  "answer":"0"
+               },
+               "q11":{
+                  "question":"What relation is Princess Leia to you?",
+                  "options":[
+                     "Sister",
+                     "Cousin",
+                     "Friend",
+                     "Mother"
+                  ],
+                  "answer":"0"
+               },
+               "q12":{
+                  "question":"Who did you duel on Cloud City?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Emperor Palpatine",
+                     "Count Dooku"
+                  ],
+                  "answer":"0"
+               },
+               "q13":{
+                  "question":"Who accompanied you to Dagobah?",
+                  "options":[
+                     "R2-D2",
+                     "C-3PO",
+                     "Chewbacca",
+                     "Han Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q14":{
+                  "question":"What is the name of your uncle?",
+                  "options":[
+                     "Owen Lars",
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Han Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q15":{
+                  "question":"Who told you about your father\u2019s identity?",
+                  "options":[
+                     "Darth Vader",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q16":{
+                  "question":"Where did you face the Emperor for the first time?",
+                  "options":[
+                     "Death Star II",
+                     "Tatooine",
+                     "Hoth",
+                     "Endor"
+                  ],
+                  "answer":"0"
+               },
+               "q17":{
+                  "question":"What weapon do you primarily use as a Jedi?",
+                  "options":[
+                     "Lightsaber",
+                     "Blaster",
+                     "Bowcaster",
+                     "Staff"
+                  ],
+                  "answer":"0"
+               },
+               "q18":{
+                  "question":"Who is your mother?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Leia Organa",
+                     "Shmi Skywalker",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"0"
+               },
+               "q19":{
+                  "question":"Which starfighter did you pilot?",
+                  "options":[
+                     "X-Wing",
+                     "TIE Fighter",
+                     "A-Wing",
+                     "Y-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q20":{
+                  "question":"Who was your main adversary in 'Return of the Jedi'?",
+                  "options":[
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Boba Fett",
+                     "Jabba the Hutt"
+                  ],
+                  "answer":"0"
+               },
+               "q21":{
+                  "question":"Who helped you repair your droid after it was damaged on Tatooine?",
+                  "options":[
+                     "R2-D2",
+                     "C-3PO",
+                     "Uncle Owen",
+                     "Aunt Beru"
+                  ],
+                  "answer":"0"
+               },
+               "q22":{
+                  "question":"What species is Yoda?",
+                  "options":[
+                     "Unknown",
+                     "Twi'lek",
+                     "Wookiee",
+                     "Human"
+                  ],
+                  "answer":"0"
+               },
+               "q23":{
+                  "question":"Who did you rescue from Jabba the Hutt\u2019s palace?",
+                  "options":[
+                     "Han Solo",
+                     "Princess Leia",
+                     "Chewbacca",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q24":{
+                  "question":"What is the name of the Emperor\u2019s apprentice?",
+                  "options":[
+                     "Darth Vader",
+                     "Darth Maul",
+                     "Count Dooku",
+                     "General Grievous"
+                  ],
+                  "answer":"0"
+               },
+               "q25":{
+                  "question":"Who is the creator of R2-D2?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "C-3PO"
+                  ],
+                  "answer":"0"
+               },
+               "q26":{
+                  "question":"Who is the leader of the Rebel Alliance?",
+                  "options":[
+                     "Mon Mothma",
+                     "Leia Organa",
+                     "Luke Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q27":{
+                  "question":"Which planet was destroyed by the Death Star?",
+                  "options":[
+                     "Alderaan",
+                     "Tatooine",
+                     "Naboo",
+                     "Endor"
+                  ],
+                  "answer":"0"
+               },
+               "q28":{
+                  "question":"Who is your sister?",
+                  "options":[
+                     "Leia Organa",
+                     "Padm\u00e9 Amidala",
+                     "Ahsoka Tano",
+                     "Rey"
+                  ],
+                  "answer":"0"
+               },
+               "q29":{
+                  "question":"Who rescued you from the Death Star?",
+                  "options":[
+                     "Han Solo",
+                     "Leia Organa",
+                     "Obi-Wan Kenobi",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q30":{
+                  "question":"Which battle did you fight in on Hoth?",
+                  "options":[
+                     "Battle of Hoth",
+                     "Battle of Endor",
+                     "Battle of Yavin",
+                     "Battle of Naboo"
+                  ],
+                  "answer":"0"
+               },
+               "q31":{
+                  "question":"Who was the pilot of the Millennium Falcon?",
+                  "options":[
+                     "Han Solo",
+                     "Lando Calrissian",
+                     "Luke Skywalker",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q32":{
+                  "question":"Who was your childhood friend from Tatooine?",
+                  "options":[
+                     "Biggs Darklighter",
+                     "Wedge Antilles",
+                     "Anakin Skywalker",
+                     "Boba Fett"
+                  ],
+                  "answer":"0"
+               },
+               "q33":{
+                  "question":"What is the name of the bounty hunter who captured you?",
+                  "options":[
+                     "Boba Fett",
+                     "Greedo",
+                     "Jango Fett",
+                     "Dengar"
+                  ],
+                  "answer":"0"
+               },
+               "q34":{
+                  "question":"Who did you save from the Sarlacc pit?",
+                  "options":[
+                     "Han Solo",
+                     "Leia Organa",
+                     "Chewbacca",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q35":{
+                  "question":"What did you destroy to blow up the Death Star?",
+                  "options":[
+                     "Reactor Core",
+                     "Shield Generator",
+                     "Command Center",
+                     "Throne Room"
+                  ],
+                  "answer":"0"
+               },
+               "q36":{
+                  "question":"Who was your best friend and co-pilot?",
+                  "options":[
+                     "Han Solo",
+                     "Chewbacca",
+                     "Leia Organa",
+                     "R2-D2"
+                  ],
+                  "answer":"0"
+               },
+               "q37":{
+                  "question":"What color is your X-Wing?",
+                  "options":[
+                     "White",
+                     "Red",
+                     "Blue",
+                     "Black"
+                  ],
+                  "answer":"0"
+               },
+               "q38":{
+                  "question":"Who was your first teacher in the ways of the Force?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Mace Windu",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q39":{
+                  "question":"What rank did you achieve in the Rebel Alliance?",
+                  "options":[
+                     "Commander",
+                     "Captain",
+                     "General",
+                     "Lieutenant"
+                  ],
+                  "answer":"0"
+               },
+               "q40":{
+                  "question":"Who did you meet on Endor?",
+                  "options":[
+                     "Ewoks",
+                     "Wookies",
+                     "Jawas",
+                     "Tusken Raiders"
+                  ],
+                  "answer":"0"
+               },
+               "q41":{
+                  "question":"Who was the Emperor of the Galactic Empire?",
+                  "options":[
+                     "Emperor Palpatine",
+                     "Darth Vader",
+                     "Grand Moff Tarkin",
+                     "Count Dooku"
+                  ],
+                  "answer":"0"
+               },
+               "q42":{
+                  "question":"Who betrayed you to the Empire?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Leia Organa",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q43":{
+                  "question":"What was your call sign during the Battle of Yavin?",
+                  "options":[
+                     "Red Five",
+                     "Gold Leader",
+                     "Blue Leader",
+                     "Green Four"
+                  ],
+                  "answer":"0"
+               },
+               "q44":{
+                  "question":"Who was the leader of the Ewoks?",
+                  "options":[
+                     "Chief Chirpa",
+                     "Logray",
+                     "Wicket",
+                     "Teebo"
+                  ],
+                  "answer":"0"
+               },
+               "q45":{
+                  "question":"Who did you rescue from the Wampa on Hoth?",
+                  "options":[
+                     "Yourself",
+                     "Han Solo",
+                     "Leia Organa",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q46":{
+                  "question":"What type of farm did your uncle own?",
+                  "options":[
+                     "Moisture Farm",
+                     "Bantha Farm",
+                     "Dewback Farm",
+                     "Crop Farm"
+                  ],
+                  "answer":"0"
+               },
+               "q47":{
+                  "question":"Who gave you your first lightsaber?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Anakin Skywalker",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q48":{
+                  "question":"Who did you fight alongside in the Battle of Endor?",
+                  "options":[
+                     "Han Solo",
+                     "Chewbacca",
+                     "Leia Organa",
+                     "All of the above"
+                  ],
+                  "answer":"3"
+               },
+               "q49":{
+                  "question":"Who commanded the Rebel Fleet during the Battle of Endor?",
+                  "options":[
+                     "Admiral Ackbar",
+                     "General Rieekan",
+                     "Mon Mothma",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q50":{
+                  "question":"Who was your last teacher in the ways of the Force?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Mace Windu",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ],
+         "medium":[
+            {
+               "q51":{
+                  "question":"What type of ship is the Millennium Falcon?",
+                  "options":[
+                     "Corellian YT-1300",
+                     "Naboo N-1",
+                     "TIE Fighter",
+                     "A-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q52":{
+                  "question":"Which bounty hunter did you encounter on Cloud City?",
+                  "options":[
+                     "Boba Fett",
+                     "Bossk",
+                     "IG-88",
+                     "Dengar"
+                  ],
+                  "answer":"0"
+               },
+               "q53":{
+                  "question":"What was your call sign during the Battle of Hoth?",
+                  "options":[
+                     "Echo Seven",
+                     "Red Five",
+                     "Gold Leader",
+                     "Blue Two"
+                  ],
+                  "answer":"0"
+               },
+               "q54":{
+                  "question":"Which squadron did you lead during the Battle of Endor?",
+                  "options":[
+                     "Red Squadron",
+                     "Rogue Squadron",
+                     "Blue Squadron",
+                     "Gold Squadron"
+                  ],
+                  "answer":"0"
+               },
+               "q55":{
+                  "question":"Who gave you your X-Wing?",
+                  "options":[
+                     "Rebel Alliance",
+                     "Han Solo",
+                     "Obi-Wan Kenobi",
+                     "Yoda"
+                  ],
+                  "answer":"0"
+               },
+               "q56":{
+                  "question":"What type of ship is Slave I?",
+                  "options":[
+                     "Firespray-31",
+                     "TIE Fighter",
+                     "X-Wing",
+                     "A-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q57":{
+                  "question":"What rank did Han Solo achieve in the Rebel Alliance?",
+                  "options":[
+                     "General",
+                     "Captain",
+                     "Commander",
+                     "Admiral"
+                  ],
+                  "answer":"0"
+               },
+               "q58":{
+                  "question":"Who was the leader of the Empire's ground forces on Hoth?",
+                  "options":[
+                     "General Veers",
+                     "Admiral Piett",
+                     "Darth Vader",
+                     "Grand Moff Tarkin"
+                  ],
+                  "answer":"0"
+               },
+               "q59":{
+                  "question":"Who helped you repair the Millennium Falcon?",
+                  "options":[
+                     "Chewbacca",
+                     "R2-D2",
+                     "Han Solo",
+                     "Leia Organa"
+                  ],
+                  "answer":"0"
+               },
+               "q60":{
+                  "question":"What color is Darth Vader\u2019s lightsaber?",
+                  "options":[
+                     "Red",
+                     "Blue",
+                     "Green",
+                     "Purple"
+                  ],
+                  "answer":"0"
+               },
+               "q61":{
+                  "question":"Who was the original owner of the Millennium Falcon?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Boba Fett",
+                     "Jabba the Hutt"
+                  ],
+                  "answer":"0"
+               },
+               "q62":{
+                  "question":"What species is Chewbacca?",
+                  "options":[
+                     "Wookiee",
+                     "Ewok",
+                     "Twi'lek",
+                     "Rodian"
+                  ],
+                  "answer":"0"
+               },
+               "q63":{
+                  "question":"Who was the bounty hunter who tried to capture you on Tatooine?",
+                  "options":[
+                     "Greedo",
+                     "Boba Fett",
+                     "Jango Fett",
+                     "Dengar"
+                  ],
+                  "answer":"0"
+               },
+               "q64":{
+                  "question":"What type of droid is C-3PO?",
+                  "options":[
+                     "Protocol Droid",
+                     "Astromech Droid",
+                     "Battle Droid",
+                     "Medical Droid"
+                  ],
+                  "answer":"0"
+               },
+               "q65":{
+                  "question":"Who is the main antagonist in the original trilogy?",
+                  "options":[
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Grand Moff Tarkin",
+                     "Boba Fett"
+                  ],
+                  "answer":"0"
+               },
+               "q66":{
+                  "question":"Who did you train with on Dagobah?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q67":{
+                  "question":"What type of fighter is used by the Empire?",
+                  "options":[
+                     "TIE Fighter",
+                     "X-Wing",
+                     "A-Wing",
+                     "Y-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q68":{
+                  "question":"Who was your best friend from Tatooine?",
+                  "options":[
+                     "Biggs Darklighter",
+                     "Wedge Antilles",
+                     "Anakin Skywalker",
+                     "Han Solo"
+                  ],
+                  "answer":"0"
+               },
+               "q69":{
+                  "question":"Who did you duel in the Emperor's throne room?",
+                  "options":[
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Count Dooku",
+                     "Kylo Ren"
+                  ],
+                  "answer":"0"
+               },
+               "q70":{
+                  "question":"What planet did you destroy the first Death Star over?",
+                  "options":[
+                     "Yavin IV",
+                     "Endor",
+                     "Hoth",
+                     "Tatooine"
+                  ],
+                  "answer":"0"
+               },
+               "q71":{
+                  "question":"Who was the commander of the Death Star?",
+                  "options":[
+                     "Grand Moff Tarkin",
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Admiral Piett"
+                  ],
+                  "answer":"0"
+               },
+               "q72":{
+                  "question":"What was the name of the rebel base on Hoth?",
+                  "options":[
+                     "Echo Base",
+                     "Base Delta Zero",
+                     "Home One",
+                     "Red Base"
+                  ],
+                  "answer":"0"
+               },
+               "q73":{
+                  "question":"Who is your sister disguised as in Jabba\u2019s palace?",
+                  "options":[
+                     "Boushh",
+                     "Oola",
+                     "Ulaa",
+                     "Jyn Erso"
+                  ],
+                  "answer":"0"
+               },
+               "q74":{
+                  "question":"Who froze Han Solo in carbonite?",
+                  "options":[
+                     "Darth Vader",
+                     "Boba Fett",
+                     "Jabba the Hutt",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q75":{
+                  "question":"What is the name of the Rebel Alliance\u2019s flagship?",
+                  "options":[
+                     "Home One",
+                     "Liberty",
+                     "Profundity",
+                     "Sundered Heart"
+                  ],
+                  "answer":"0"
+               },
+               "q76":{
+                  "question":"Who commanded the fleet during the Battle of Endor?",
+                  "options":[
+                     "Admiral Ackbar",
+                     "Mon Mothma",
+                     "General Rieekan",
+                     "Wedge Antilles"
+                  ],
+                  "answer":"0"
+               },
+               "q77":{
+                  "question":"Who was the pilot of the Snow Speeder that found you on Hoth?",
+                  "options":[
+                     "Han Solo",
+                     "Wedge Antilles",
+                     "Rogue Two",
+                     "Biggs Darklighter"
+                  ],
+                  "answer":"2"
+               },
+               "q78":{
+                  "question":"What type of starfighter did you fly in the Battle of Hoth?",
+                  "options":[
+                     "X-Wing",
+                     "Snow Speeder",
+                     "A-Wing",
+                     "TIE Fighter"
+                  ],
+                  "answer":"1"
+               },
+               "q79":{
+                  "question":"Who was the chief engineer of the Death Star?",
+                  "options":[
+                     "Galen Erso",
+                     "Orson Krennic",
+                     "Moff Tarkin",
+                     "Admiral Piett"
+                  ],
+                  "answer":"0"
+               },
+               "q80":{
+                  "question":"Who killed Jabba the Hutt?",
+                  "options":[
+                     "Princess Leia",
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Boba Fett"
+                  ],
+                  "answer":"0"
+               },
+               "q81":{
+                  "question":"Who is the supreme leader of the First Order?",
+                  "options":[
+                     "Snoke",
+                     "Kylo Ren",
+                     "General Hux",
+                     "Captain Phasma"
+                  ],
+                  "answer":"0"
+               },
+               "q82":{
+                  "question":"Who helped you destroy the second Death Star?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Princess Leia",
+                     "Chewbacca"
+                  ],
+                  "answer":"0"
+               },
+               "q83":{
+                  "question":"What was your first mission for the Rebel Alliance?",
+                  "options":[
+                     "Destroy the Death Star",
+                     "Rescue Princess Leia",
+                     "Attack Hoth",
+                     "Steal the Death Star plans"
+                  ],
+                  "answer":"0"
+               },
+               "q84":{
+                  "question":"Who told you that Leia was your sister?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Darth Vader",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q85":{
+                  "question":"What planet did you live on as a hermit?",
+                  "options":[
+                     "Ahch-To",
+                     "Tatooine",
+                     "Dagobah",
+                     "Endor"
+                  ],
+                  "answer":"0"
+               },
+               "q86":{
+                  "question":"Who tried to turn you to the dark side?",
+                  "options":[
+                     "Emperor Palpatine",
+                     "Darth Vader",
+                     "Count Dooku",
+                     "Snoke"
+                  ],
+                  "answer":"0"
+               },
+               "q87":{
+                  "question":"What is the name of the First Order\u2019s base?",
+                  "options":[
+                     "Starkiller Base",
+                     "Death Star III",
+                     "Endor Base",
+                     "Hoth Base"
+                  ],
+                  "answer":"0"
+               },
+               "q88":{
+                  "question":"Who destroyed the first Death Star?",
+                  "options":[
+                     "Luke Skywalker",
+                     "Han Solo",
+                     "Wedge Antilles",
+                     "Lando Calrissian"
+                  ],
+                  "answer":"0"
+               },
+               "q89":{
+                  "question":"Who destroyed the second Death Star?",
+                  "options":[
+                     "Lando Calrissian",
+                     "Han Solo",
+                     "Luke Skywalker",
+                     "Princess Leia"
+                  ],
+                  "answer":"0"
+               },
+               "q90":{
+                  "question":"What was your father\u2019s Sith name?",
+                  "options":[
+                     "Darth Vader",
+                     "Darth Maul",
+                     "Darth Sidious",
+                     "Darth Tyranus"
+                  ],
+                  "answer":"0"
+               },
+               "q91":{
+                  "question":"What was your mother\u2019s job?",
+                  "options":[
+                     "Senator",
+                     "Queen",
+                     "General",
+                     "Pilot"
+                  ],
+                  "answer":"0"
+               },
+               "q92":{
+                  "question":"Who commanded the Death Star?",
+                  "options":[
+                     "Grand Moff Tarkin",
+                     "Admiral Piett",
+                     "Darth Vader",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q93":{
+                  "question":"Who was your father\u2019s master?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Qui-Gon Jinn",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q94":{
+                  "question":"What species is Chewbacca?",
+                  "options":[
+                     "Wookiee",
+                     "Ewok",
+                     "Twi'lek",
+                     "Rodian"
+                  ],
+                  "answer":"0"
+               },
+               "q95":{
+                  "question":"Who was your mother?",
+                  "options":[
+                     "Padm\u00e9 Amidala",
+                     "Shmi Skywalker",
+                     "Leia Organa",
+                     "Ahsoka Tano"
+                  ],
+                  "answer":"0"
+               },
+               "q96":{
+                  "question":"What is the name of the Sith homeworld?",
+                  "options":[
+                     "Korriban",
+                     "Mustafar",
+                     "Tatooine",
+                     "Naboo"
+                  ],
+                  "answer":"0"
+               },
+               "q97":{
+                  "question":"Who trained your father?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Qui-Gon Jinn",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q98":{
+                  "question":"Who did you confront in the Emperor\u2019s throne room?",
+                  "options":[
+                     "Darth Vader",
+                     "Emperor Palpatine",
+                     "Count Dooku",
+                     "General Grievous"
+                  ],
+                  "answer":"0"
+               },
+               "q99":{
+                  "question":"Who helped you save Han Solo from Jabba the Hutt?",
+                  "options":[
+                     "Leia Organa",
+                     "Lando Calrissian",
+                     "Chewbacca",
+                     "All of the above"
+                  ],
+                  "answer":"3"
+               },
+               "q100":{
+                  "question":"Who was the supreme leader of the First Order?",
+                  "options":[
+                     "Snoke",
+                     "Kylo Ren",
+                     "General Hux",
+                     "Captain Phasma"
+                  ],
+                  "answer":"0"
+               }
+            }
+         ],
+         "hard":[
+            {
+               "q101":{
+                  "question":"Who was your father\u2019s first mentor?",
+                  "options":[
+                     "Qui-Gon Jinn",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q102":{
+                  "question":"Who was the Sith Lord that trained Darth Vader?",
+                  "options":[
+                     "Emperor Palpatine",
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Sidious"
+                  ],
+                  "answer":"3"
+               },
+               "q103":{
+                  "question":"Who was the first person you dueled with a lightsaber?",
+                  "options":[
+                     "Darth Vader",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Count Dooku"
+                  ],
+                  "answer":"0"
+               },
+               "q104":{
+                  "question":"What was the name of the clone who killed your aunt and uncle?",
+                  "options":[
+                     "Boba Fett",
+                     "Jango Fett",
+                     "Captain Rex",
+                     "Commander Cody"
+                  ],
+                  "answer":"0"
+               },
+               "q105":{
+                  "question":"What is the name of the star system that the second Death Star orbited?",
+                  "options":[
+                     "Endor",
+                     "Yavin",
+                     "Hoth",
+                     "Dagobah"
+                  ],
+                  "answer":"0"
+               },
+               "q106":{
+                  "question":"Who was the original builder of C-3PO?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Luke Skywalker",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q107":{
+                  "question":"What type of ship is the Ghost?",
+                  "options":[
+                     "VCX-100",
+                     "YT-1300",
+                     "A-Wing",
+                     "X-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q108":{
+                  "question":"Who was the commanding officer of the Super Star Destroyer Executor?",
+                  "options":[
+                     "Admiral Piett",
+                     "Admiral Ackbar",
+                     "Grand Moff Tarkin",
+                     "General Veers"
+                  ],
+                  "answer":"0"
+               },
+               "q109":{
+                  "question":"What was the name of your father's flagship?",
+                  "options":[
+                     "Executor",
+                     "Devastator",
+                     "Avenger",
+                     "Chimera"
+                  ],
+                  "answer":"0"
+               },
+               "q110":{
+                  "question":"What was the designation of the stormtrooper who defected to the Resistance?",
+                  "options":[
+                     "FN-2187",
+                     "TK-421",
+                     "CT-7567",
+                     "CC-2224"
+                  ],
+                  "answer":"0"
+               },
+               "q111":{
+                  "question":"What was the name of the first Death Star's main designer?",
+                  "options":[
+                     "Galen Erso",
+                     "Orson Krennic",
+                     "Tarkin",
+                     "Piett"
+                  ],
+                  "answer":"0"
+               },
+               "q112":{
+                  "question":"Who killed General Grievous?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker",
+                     "Mace Windu",
+                     "Yoda"
+                  ],
+                  "answer":"0"
+               },
+               "q113":{
+                  "question":"What is the name of the Wookiee homeworld?",
+                  "options":[
+                     "Kashyyyk",
+                     "Endor",
+                     "Hoth",
+                     "Tatooine"
+                  ],
+                  "answer":"0"
+               },
+               "q114":{
+                  "question":"Who was the Sith Lord before Darth Sidious?",
+                  "options":[
+                     "Darth Plagueis",
+                     "Darth Maul",
+                     "Darth Vader",
+                     "Darth Bane"
+                  ],
+                  "answer":"0"
+               },
+               "q115":{
+                  "question":"What is the name of the ship that Luke and Leia were born on?",
+                  "options":[
+                     "Tantive IV",
+                     "Millennium Falcon",
+                     "Executor",
+                     "Ghost"
+                  ],
+                  "answer":"0"
+               },
+               "q116":{
+                  "question":"Who was the leader of the Separatists during the Clone Wars?",
+                  "options":[
+                     "Count Dooku",
+                     "Darth Maul",
+                     "General Grievous",
+                     "Emperor Palpatine"
+                  ],
+                  "answer":"0"
+               },
+               "q117":{
+                  "question":"Who was your father's Padawan before turning to the dark side?",
+                  "options":[
+                     "Ahsoka Tano",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Qui-Gon Jinn"
+                  ],
+                  "answer":"0"
+               },
+               "q118":{
+                  "question":"What type of ship did your father use in the Battle of Coruscant?",
+                  "options":[
+                     "Eta-2 Actis-class interceptor",
+                     "X-Wing",
+                     "Y-Wing",
+                     "A-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q119":{
+                  "question":"What planet was the site of the last battle of the Clone Wars?",
+                  "options":[
+                     "Coruscant",
+                     "Mustafar",
+                     "Kashyyyk",
+                     "Utapau"
+                  ],
+                  "answer":"0"
+               },
+               "q120":{
+                  "question":"Who was the first Jedi to learn how to become a Force ghost?",
+                  "options":[
+                     "Qui-Gon Jinn",
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Anakin Skywalker"
+                  ],
+                  "answer":"0"
+               },
+               "q121":{
+                  "question":"What species is Admiral Ackbar?",
+                  "options":[
+                     "Mon Calamari",
+                     "Wookiee",
+                     "Twi'lek",
+                     "Rodian"
+                  ],
+                  "answer":"0"
+               },
+               "q122":{
+                  "question":"What was the name of your father's clone battalion?",
+                  "options":[
+                     "501st Legion",
+                     "212th Attack Battalion",
+                     "327th Star Corps",
+                     "104th Battalion"
+                  ],
+                  "answer":"0"
+               },
+               "q123":{
+                  "question":"Who was the Supreme Chancellor before Emperor Palpatine?",
+                  "options":[
+                     "Finis Valorum",
+                     "Bail Organa",
+                     "Mon Mothma",
+                     "Leia Organa"
+                  ],
+                  "answer":"0"
+               },
+               "q124":{
+                  "question":"What was the name of the Republic capital planet?",
+                  "options":[
+                     "Coruscant",
+                     "Naboo",
+                     "Tatooine",
+                     "Mustafar"
+                  ],
+                  "answer":"0"
+               },
+               "q125":{
+                  "question":"Who was the first Jedi to die in Order 66?",
+                  "options":[
+                     "Ki-Adi-Mundi",
+                     "Plo Koon",
+                     "Aayla Secura",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q126":{
+                  "question":"What was the name of your father\u2019s Jedi Master?",
+                  "options":[
+                     "Obi-Wan Kenobi",
+                     "Qui-Gon Jinn",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q127":{
+                  "question":"Who was the leader of the Nightsisters?",
+                  "options":[
+                     "Mother Talzin",
+                     "Asajj Ventress",
+                     "Darth Maul",
+                     "Savage Opress"
+                  ],
+                  "answer":"0"
+               },
+               "q128":{
+                  "question":"Who killed Mace Windu?",
+                  "options":[
+                     "Darth Sidious",
+                     "Anakin Skywalker",
+                     "Count Dooku",
+                     "General Grievous"
+                  ],
+                  "answer":"1"
+               },
+               "q129":{
+                  "question":"What type of weapon did the Geonosians use in their arena?",
+                  "options":[
+                     "Electrostaff",
+                     "Blaster",
+                     "Lightsaber",
+                     "Bowcaster"
+                  ],
+                  "answer":"0"
+               },
+               "q130":{
+                  "question":"Who was the first clone trooper to have a name?",
+                  "options":[
+                     "Captain Rex",
+                     "Fives",
+                     "Echo",
+                     "Cody"
+                  ],
+                  "answer":"0"
+               },
+               "q131":{
+                  "question":"Who was the commander of the droid army?",
+                  "options":[
+                     "General Grievous",
+                     "Count Dooku",
+                     "Asajj Ventress",
+                     "Darth Maul"
+                  ],
+                  "answer":"0"
+               },
+               "q132":{
+                  "question":"What is the name of the planet where the Jedi Temple is located?",
+                  "options":[
+                     "Coruscant",
+                     "Tatooine",
+                     "Naboo",
+                     "Mustafar"
+                  ],
+                  "answer":"0"
+               },
+               "q133":{
+                  "question":"Who was the first Sith Lord?",
+                  "options":[
+                     "Darth Bane",
+                     "Darth Sidious",
+                     "Darth Plagueis",
+                     "Darth Maul"
+                  ],
+                  "answer":"0"
+               },
+               "q134":{
+                  "question":"What was the name of the starfighter that Anakin flew during the Battle of Naboo?",
+                  "options":[
+                     "N-1 Starfighter",
+                     "X-Wing",
+                     "TIE Fighter",
+                     "Y-Wing"
+                  ],
+                  "answer":"0"
+               },
+               "q135":{
+                  "question":"Who was the last surviving member of the Jedi Council?",
+                  "options":[
+                     "Yoda",
+                     "Obi-Wan Kenobi",
+                     "Mace Windu",
+                     "Ki-Adi-Mundi"
+                  ],
+                  "answer":"0"
+               },
+               "q136":{
+                  "question":"What was the name of the planet where Anakin was turned to the dark side?",
+                  "options":[
+                     "Mustafar",
+                     "Naboo",
+                     "Tatooine",
+                     "Coruscant"
+                  ],
+                  "answer":"0"
+               },
+               "q137":{
+                  "question":"Who was the leader of the Trade Federation?",
+                  "options":[
+                     "Nute Gunray",
+                     "Wat Tambor",
+                     "San Hill",
+                     "Poggle the Lesser"
+                  ],
+                  "answer":"0"
+               },
+               "q138":{
+                  "question":"What was the name of the planet where the first Clone Wars battle took place?",
+                  "options":[
+                     "Geonosis",
+                     "Naboo",
+                     "Tatooine",
+                     "Coruscant"
+                  ],
+                  "answer":"0"
+               },
+               "q139":{
+                  "question":"Who was the first Jedi killed by Darth Vader?",
+                  "options":[
+                     "Mace Windu",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Count Dooku"
+                  ],
+                  "answer":"0"
+               },
+               "q140":{
+                  "question":"Who was the leader of the Senate during the Clone Wars?",
+                  "options":[
+                     "Palpatine",
+                     "Bail Organa",
+                     "Mon Mothma",
+                     "Leia Organa"
+                  ],
+                  "answer":"0"
+               },
+               "q141":{
+                  "question":"What was the name of the planet where Jango Fett was killed?",
+                  "options":[
+                     "Geonosis",
+                     "Tatooine",
+                     "Coruscant",
+                     "Naboo"
+                  ],
+                  "answer":"0"
+               },
+               "q142":{
+                  "question":"Who was the first Jedi to use a double-bladed lightsaber?",
+                  "options":[
+                     "Darth Maul",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q143":{
+                  "question":"Who was the leader of the 501st Legion during the Clone Wars?",
+                  "options":[
+                     "Anakin Skywalker",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q144":{
+                  "question":"What was the name of the ship that Padm\u00e9 flew during the Clone Wars?",
+                  "options":[
+                     "Naboo Royal Starship",
+                     "Millennium Falcon",
+                     "Ghost",
+                     "Tantive IV"
+                  ],
+                  "answer":"0"
+               },
+               "q145":{
+                  "question":"What was the name of the battle where you lost your hand?",
+                  "options":[
+                     "Battle of Hoth",
+                     "Battle of Endor",
+                     "Battle of Yavin",
+                     "Battle of Bespin"
+                  ],
+                  "answer":"3"
+               },
+               "q146":{
+                  "question":"Who was the leader of the Separatist Council?",
+                  "options":[
+                     "Count Dooku",
+                     "Nute Gunray",
+                     "Wat Tambor",
+                     "Poggle the Lesser"
+                  ],
+                  "answer":"0"
+               },
+               "q147":{
+                  "question":"Who was the first Jedi to fight a Sith Lord in a thousand years?",
+                  "options":[
+                     "Qui-Gon Jinn",
+                     "Obi-Wan Kenobi",
+                     "Yoda",
+                     "Mace Windu"
+                  ],
+                  "answer":"0"
+               },
+               "q148":{
+                  "question":"Who was the leader of the Mandalorians during the Clone Wars?",
+                  "options":[
+                     "Pre Vizsla",
+                     "Bo-Katan Kryze",
+                     "Satine Kryze",
+                     "Gar Saxon"
+                  ],
+                  "answer":"0"
+               },
+               "q149":{
+                  "question":"What was the name of the planet where Anakin and Padm\u00e9 were married?",
+                  "options":[
+                     "Naboo",
+                     "Tatooine",
+                     "Coruscant",
+                     "Geonosis"
+                  ],
+                  "answer":"0"
+               },
+               "q150":{
+                  "question":"Who was the first Jedi to be born after the fall of the Empire?",
+                  "options":[
+                     "Rey",
+                     "Kylo Ren",
+                     "Finn",
+                     "Ben Skywalker"
+                  ],
+                  "answer":"3"
+               }
+            }
+         ]
+      }
+   }
+}
