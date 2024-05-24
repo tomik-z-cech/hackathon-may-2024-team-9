@@ -1,0 +1,36 @@
+.score-table{
+    border-color: #efff1493;
+    color: #efff14;
+    background-color: var(--light-background);
+}
+.title-color {
+    color: #efff14;
+}
+.table-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.table-container table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background-color: var(--dark-background);;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #efff14;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #efff14;
+    border: 2px solid #000000;
+}

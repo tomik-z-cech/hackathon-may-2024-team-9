@@ -2,41 +2,73 @@
 {% load static %}
 
 {% block nav_name %}Hall of Fame{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/score_and_about.css' %}">
+{% endblock %}
 
 {% block content %}
-    <br>
-    <br>
-    <br>    
-    <h1>
-        Hall of Fame
-    </h1>
-    <br>
-    <!-- Games Played -->
-    Players with most games :
-    <br>
-    {% for player in games_players %}
-    {{ player }} - {{ player.games_played }}
-    {% endfor %}
-    <br>
-    <!-- Highest score per game -->
-    Players with highest score per game :
-    <br>
-    {% for player in highest_players %}
-    {{ player }} - {{ player.highest_score }}
-    {% endfor %}
-    <br>
-    <!-- Highest cummulative score -->
-    Players with highest cummulative score :
-    <br>
-    {% for player in cummulative_players %}
-    {{ player }} - {{ player.cummulative_score }}
-    {% endfor %}
-    <br>
-    <!-- Highest average score -->
-    Players with highest average score :
-    <br>
-    {% for player in average_players %}
-    {{ player }} - {{ player.average_score }}
-    {% endfor %}
-    <br>
+<div class="container-fluid">
+    <div class="row" style="height: 15vh;"></div>
+    <div class="row">
+        <div class="col-12 text-center mb-5">
+            <h1 class="text-uppercase logo-font fw-bold title-color">
+                Hall of Fame
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <p class="text-uppercase text-center mt-2 mb-1 logo-font">Players with most games palyed</p>
+            <div class="table-container">
+                <table class="table table-bordered text-center score-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Games</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for player in games_players %}
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>{{ player }}</td>
+                            <td>{{ player.games_played }}</td>
+                            <td>@mdo</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<br>
+
+<!-- Highest score per game -->
+Players with highest score per game :
+<br>
+{% for player in highest_players %}
+{{ player }} - {{ player.highest_score }}
+{% endfor %}
+<br>
+<!-- Highest cummulative score -->
+Players with highest cummulative score :
+<br>
+{% for player in cummulative_players %}
+{{ player }} - {{ player.cummulative_score }}
+{% endfor %}
+<br>
+<!-- Highest average score -->
+Players with highest average score :
+<br>
+{% for player in average_players %}
+{{ player }} - {{ player.average_score }}
+{% endfor %}
+<br>
 {% endblock %}
