@@ -6,14 +6,14 @@
       <a class="navbar-brand glow-font" href="{% url 'home' %}">
         <img src="{% static 'images/logo.png' %}" alt="MindWars logo" id="logo">
       </a>
-      <button class="navbar-toggler m-2 menu-custom-btn glow-font" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+      <button class="navbar-toggler m-2" id="menu-custom-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon btn-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end offcanvas-custom-bg" tabindex="-1" id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">StarWars</h5>
+          <h5 class="offcanvas-title side-title text-uppercase" id="offcanvasDarkNavbarLabel">MindWars</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
@@ -40,7 +40,7 @@
               <ul class="dropdown-menu dropdown-menu-dark">
                 {% if request.user.is_authenticated %}
                 <li><a class="dropdown-item nav-text" href="{% url 'profile_manager' %}">
-                    <i class="fa-regular fa-id-card me-1 nav-text"></i> My Profile
+                    <i class="fa-regular fa-id-card me-1 nav-text icon"></i> My Profile
                   </a>
                 </li>
                 <li>

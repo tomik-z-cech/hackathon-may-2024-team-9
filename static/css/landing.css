@@ -1,1 +1,68 @@
 /* Landing page style sheet */
+
+
+main {
+    height: 85vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-container {
+    width: 30vw;
+    text-align: center;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.menu-item:hover,
+.menu-item.active {
+    background-color: #555;
+}
+
+@media (max-width: 1224px) {
+    /* CSS styles for screens smaller than 768 pixels */
+    #menu-container {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* CSS styles for screens smaller than 768 pixels */
+    #menu-container {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for screens smaller than 768 pixels */
+    #menu-container {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 576px) {
+    /* CSS styles for screens smaller than 576 pixels */
+    #menu-container {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 576px) {
+    /* CSS styles for screens smaller than 425 pixels */
+    #menu-container {
+        width: 90vw;
+    }
+}
