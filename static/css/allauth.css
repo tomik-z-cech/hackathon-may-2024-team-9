@@ -54,6 +54,10 @@
     background-color: var(--light-background);
 }
 
+.form input[name="email"], .form label[for="id_email"], .form small a {
+    display: none;
+}
+
 .brand_logo_container {
     position: absolute;
     height: 170px;

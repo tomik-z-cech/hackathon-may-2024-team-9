@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     # Others
     'cloudinary_storage',
     'cloudinary',
+    'crispy_forms',
+    'crispy_bootstrap4',
     # Allauth
     'allauth',
     'allauth.account',
@@ -70,6 +72,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'star_wars.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 TEMPLATES = [
     {
