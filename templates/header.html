@@ -1,7 +1,11 @@
+{% load static %}
+
 <header class="text-center">
   <nav class="navbar navbar-dark fixed-top" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="{% url 'home' %}">StarWars</a>
+      <a class="navbar-brand" href="{% url 'home' %}">
+        <img src="{% static 'images/logo.png' %}" alt="MindWars logo" id="logo">
+      </a>
       <button class="navbar-toggler m-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

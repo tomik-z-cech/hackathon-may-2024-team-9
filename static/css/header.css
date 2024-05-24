@@ -6,10 +6,15 @@
 .nav-link:focus,
 .nav-link.active,
 .light-font:hover {
-    background-color: darkblue;
-    color: white !important;
+    background-color: var(--dark-background);
+    color: var(--mid-foregorund) !important;
 }
 
 .nav-text {
-    color: white !important;
+    color: var(--mid-foregorund) !important;
+ }
+
+ #logo {
+    width: 20vw;
+    height: 10vh;
  }
