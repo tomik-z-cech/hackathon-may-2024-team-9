@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+
+.offcanvas-custom-bg {
+    background-color: var(--light-background);
+}
+
+.logo-font {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.icon:hover,
+.glow-font:hover {
+    filter: drop-shadow(0 0 30px #efff14) drop-shadow(0 0 30px #efff14) drop-shadow(0 0 40px #efff14);
+}
+
+.icon:hover,
+.footer-font,
+.glow-font {
+    color: #efff14 !important;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.menu-custom-btn {
+    border: 1px solid #efff14 !important;
+}
+
 /* Header styles */
 #navbar,
 .nav-item,
