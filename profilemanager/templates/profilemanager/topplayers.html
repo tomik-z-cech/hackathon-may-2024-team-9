@@ -17,25 +17,52 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6 offset-3">
-            <p class="text-uppercase text-center mt-2 mb-1 logo-font">Players with most games palyed</p>
+        <div class="col-lg-6 col-md-10 col-12 px-2 px-sm-1 offset-lg-3 offset-md-1">
+            <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with most games palyed:</p>
             <div class="table-container">
-                <table class="table table-bordered text-center score-table">
+                <table class="table table-sm table-bordered text-center score-table logo-font letter-spacing">
                     <thead>
                         <tr>
                             <th scope="col">Position</th>
                             <th scope="col">Username</th>
-                            <th scope="col">Games</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Games Played</th>
+                            <th scope="col">Total Score</th>
                         </tr>
                     </thead>
                     <tbody>
                         {% for player in games_players %}
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">{{ forloop.counter }}</th>
                             <td>{{ player }}</td>
                             <td>{{ player.games_played }}</td>
-                            <td>@mdo</td>
+                            <td>{{ player.cummulative_score }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-10 col-12 px-2 px-sm-1 offset-lg-3 offset-md-1">
+            <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with highest score per game:</p>
+            <div class="table-container">
+                <table class="table table-sm table-bordered text-center score-table logo-font letter-spacing">
+                    <thead>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Ave Score</th>
+                            <th scope="col">HiScore</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for player in games_players %}
+                        <tr>
+                            <th scope="row">{{ forloop.counter }}</th>
+                            <td>{{ player }}</td>
+                            <td>{{ player.average_score }}</td>
+                            <td>{{ player.highest_score }}</td>
                         </tr>
                         {% endfor %}
                     </tbody>
@@ -51,7 +78,9 @@
 <br>
 
 <!-- Highest score per game -->
-Players with highest score per game :
+{% for player in games_players %}
+{{ player }} : {{ player.games_played }}
+ {% endfor %}
 <br>
 {% for player in highest_players %}
 {{ player }} - {{ player.highest_score }}
