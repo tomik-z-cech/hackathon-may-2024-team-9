@@ -3,11 +3,113 @@
 
 {% block nav_name %}How to play{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/score_and_about.css' %}">
+{% endblock %}
+
 {% block content %}
-    <br>
-    <br>
-    <br>
-    <h1>
-        How to play
-    </h1>
+<div id="how-to-play-bg">
+    <div class="text-bg-overlay">
+        <div class="container-lg logo-font letter-spacing text-bg">
+            <div class="row top-space"></div>
+            <div class="row mx-1">
+                <div class="col text-center">
+                    <h2 class="logo-font text-uppercase">How to play</h2>
+                </div>
+                <hr class="mt-4">
+            </div>
+            <div class="row mb-4 mx-2 px-2">
+                <div class="col-12 mt-1 mt-md-3">
+                    <h3 class="text-uppercase text-center">
+                        We detect a disturbance in the force, and require your knowledge and wit to uncover it!
+                    </h3>
+                    <p class="text-uppercase text-start">
+                        The game is composed of 2 stages.
+                    </p>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="yoda-image about-img" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716665783/StarWars%20Hackathon/yoda-hmm_k4jyff.png"
+                        alt="Image of the Master Yoda.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Stage One</h3>
+                    <p>
+                        Stage 1 requires you to play a multiple choice-based trivia game, split
+                        into 3 levels of increasing difficulty; Jedi Apprentice, Jedi Knight and Jedi
+                        master with 5 questions per level, and 30 seconds per question to answer,
+                        the faster you select the correct answer the greater the points scored will
+                        be.
+                        To also aid you in stage 2; in each difficulty level if you succeed in
+                        answering all 5 questions correctly you will uncover battle armour able to
+                        be used in the final stage.
+                    </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-end">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672657/StarWars%20Hackathon/star-wars-lonely-walk-16-9_rc04ge.jpg"
+                        alt="Image of the robots walking through the desert.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg"
+                        alt="Starship battle between jedi and dark forces.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Stage Two</h3>
+                    <p class="mb-0">
+                        Stage 2, will involve you battling the mystery disturbance detected,
+                        following a Rock, Paper, scissor style battle.
+                    </p>
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Characters</h3>
+                    <p class="m-0 p-0">
+                        You will have a choice of 5 characters to choose to play as. Pick wisely as
+                        each character have their own perks while completing the trivia:
+                    </p>
+                    <ul>
+                        <li><strong>Yoda</strong> - Force Sense; on activating this perk you will automatically detect
+                            the correct answer.
+                        </li>
+                        <li><strong></strong> - Force Meditation; on activating this perk you will gain
+                            additional time to answer a question giving you the potential to get bonus
+                            point.
+                        </li>
+                        <li><strong>Darth Vader</strong> - Dark Force; on activating this perk you will gain bonus
+                            points for answering correctly.
+                        </li>
+                        <li><strong>Princess Leia</strong> - Force Empathy; on activating this perk you will be able to
+                            change the question asked.
+                        </li>
+                        <li><strong>Han Solo</strong> - Expert Markman; on activating this perk, two incorrect
+                            answers will be eliminated.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673206/StarWars%20Hackathon/star-wars-characters_ywawxi.jpg"
+                        alt="StarWars main characters.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg"
+                        alt="Image of a fallen ship.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Hall of Fame</h3>
+                    <p class="m-0 p-0">
+                        To reach the leaderboards you will need to be both swift and precise.
+                        Each question answered correctly will give you 10pt, the quicker you
+                        answer them will multiply the points and a difficulty factor of 1, 2 or 3.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-space">
+
+        </div>
+    </div>
+</div>
 {% endblock %}
