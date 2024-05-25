@@ -1,7 +1,9 @@
-// Constant variables
-const typingDelay = 60;
+// Test mode
+
+testMode = true
 
 // Global variables
+let typingDelay = 60;
 let characterSelected = 0;
 let timePerQuestion = 30;
 let timerStopped = false;
@@ -11,7 +13,9 @@ let questionSet = '';
 let currentCharacterName = '';
 let questionsAlreadySelected = [];
 let correctAnswersPerChapter = 0;
-let currentAudio = ''
+let currentAudio = '';
+let timeLeft = 0;
+let wonChapters = [];
 
 // Functions
 
@@ -30,6 +34,7 @@ function playAudio(track, loopBool){
 function chapterMessage(reason) {
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>');
+    correctAnswersPerChapter = 0;
     switch(reason) {
         case 'outOfTime':
             currentAudio = playAudio(m3, true);
@@ -40,6 +45,7 @@ function chapterMessage(reason) {
             message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`
             break;
         case 'wonChapter':
+            currentAudio = playAudio(m1, true);
             message = `Congratulations ${playerName}, traveler of the stars! You have successfully navigated this chapter of your journey, drawing ever nearer to the ultimate showdown. Your path is illuminated by the Force, guiding you towards the final confrontation. Steel your resolve, for the greatest challenges lie ahead. With each step forward, you edge closer to destiny's embrace.`;    
         default:
             mesage = 'Something else'
@@ -59,13 +65,17 @@ function chapterMessage(reason) {
                 messageContainer.hide();
                 prepareGameView();
                 currentAudio.pause();
+                if (currentChapter > 2){
+                    // LINK TO RPS
+                    window.location.href = afterChaptersLink;
+                };
             });
         }
     }
     type();
 }
 
-// Function displays message in container
+// Function displays starting message in container
 function startMessage() {
     currentAudio = playAudio(m1, true);
     $('#game-container').css('opacity','1');
@@ -201,27 +211,45 @@ $('#game-container').append(`
 }
 
 function countdownTimer(){
-    let timeLeft = timePerQuestion;
+    timeLeft = timePerQuestion;
     let timerId = setInterval(countdown, 1000);
     function countdown() {
-    if (timeLeft == -1) {
-        clearTimeout(timerId);
-        endOfChapter('outOfTime');
-    }else{
-        $('#running-timer').html(timeLeft);
-        if (timerStopped == false) {
-            //timeLeft--;
+        if (timeLeft == -1) {
+            clearTimeout(timerId);
+            endOfChapter('outOfTime');
+        }else{
+            $('#running-timer').html(timeLeft);
+            if (timerStopped == false) {
+                timeLeft--;
+            } else {
+                clearTimeout(timerId);
+            }
             //if (addTime == true){
             //   timeLeft += 30;
             //    addTime = false;
             //    }
-            }
         }
     }
 }
 
 function askQuestion(){
-    currentAudio = playAudio(m2, true);
+    switch(currentChapter){
+        case 0:
+            currentAudio = playAudio(m2, true);
+            $('#screen-container').css('background',`url('${back1}') no-repeat fixed top right / cover`);
+        break;
+        case 1:
+            currentAudio = playAudio(m4, true);
+            $('#screen-container').css('background',`url('${back2}') no-repeat fixed top right / cover`);
+            break;
+        case 2:
+            currentAudio = playAudio(m5, true);
+            $('#screen-container').css('background',`url('${back3}') no-repeat fixed top right / cover`);
+            break;
+        default:
+            currentAudio = playAudio(m2, true);
+            $('#screen-container').css('background',`url('${back1}') no-repeat fixed top right / cover`);
+    }
     let questionAddition = 0;
     timeLeft = timePerQuestion;
     timerStopped = false;
@@ -244,31 +272,34 @@ function askQuestion(){
         questionsAlreadySelected.push(questionRef);
         $('#question-space').html(`<span>${questions.character[currentCharacterName][questionLevel][0][questionRef].question}</span>`);
         $('#answers-container').append(`
-                                    <div class="answer-option" id="answer-a">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
-                                    <div class="answer-option" id="answer-b">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
-                                    <div class="answer-option" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
-                                    <div class="answer-option" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
+                                    <div class="answer-option text-center" id="answer-a">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
+                                    <div class="answer-option text-center" id="answer-b">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
+                                    <div class="answer-option text-center" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
+                                    <div class="answer-option text-center" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
         `);
         $('.answer-option').click(function(){
+            let scoreThisQuestion = 10 * timeLeft * (currentChapter + 1);
+            runningScore = runningScore + scoreThisQuestion;
+            timerStopped = true;
             $(this).css('background-color','var(--dark-foreground)');
             $(this).css('color','var(--dark-background)');
             $('#cover-mask').show();
-            if ($('.answer-option').index(this) == questions.character[currentCharacterName][questionLevel][0][questionRef].answer){
+            if ($('.answer-option').index(this) == questions.character[currentCharacterName][questionLevel][0][questionRef].answer || testMode == true ){
                 setTimeout(function(){
-                    console.log('correct');
                     $('#cover-mask').hide();
                     currentAudio.pause();
                     correctAnswersPerChapter++;
                     if (correctAnswersPerChapter == 5){
                         endOfChapter('wonChapter');
                     }else{
+                        console.log(currentChapter)
                         $('#answers-container').empty();
+                        $('#running-score').html(runningScore);
                         askQuestion();
                     }
                 },3000);
             }else{
                 setTimeout(function(){
-                    console.log('incorrect');
                     $('#cover-mask').hide();
                     currentAudio.pause();
                     endOfChapter('wrongAnswer');
@@ -286,10 +317,6 @@ function endOfChapter(reason) {
     $('#question-container').css('opacity','0');
     $('#answers-container').css('opacity','0');
     $('#score-container').css('opacity','0');
-    if (currentChapter == 2){
-        console.log('end of quiz')
-        window.location.href = afterChaptersLink;
-    };
     currentChapter++;
     setTimeout(function() {
         $('#game-container').empty();
@@ -303,5 +330,9 @@ $(document).ready(function () {
     $('header').hide();
     $('footer').hide();
     $('#game-container').empty();
+    if (testMode == true){
+        typingDelay = 0;
+        timePerQuestion = 2000;
+    }
     startMessage();
 });

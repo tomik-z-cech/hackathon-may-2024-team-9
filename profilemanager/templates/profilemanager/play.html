@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-    <div id="screen-container" style="background: url('{% static "images/ships.jpeg" %}') no-repeat fixed top right / cover;">
+    <div id="screen-container" style="background: url('{% static "images/backgrounds/back0.jpeg" %}') no-repeat fixed top right / cover;">
         <span>
             <a href="{% url 'home' %}" aria-label="Close Game">
                 <i class="fa-regular fa-circle-xmark"></i>
@@ -41,8 +41,14 @@
         // url after game finished
         const afterChaptersLink = "{% url 'home' %}"
         // background music
-        const m1 = "{% static 'audio/m1.mp3' %}" // sw theme - start
-        const m2 = "{% static 'audio/m2.mp3' %}" // question asked
+        const m1 = "{% static 'audio/m1.mp3' %}" // sw theme - start & finish chapter
+        const m2 = "{% static 'audio/m2.mp3' %}" // question asked - chapter 1
         const m3 = "{% static 'audio/m3.mp3' %}" // march of troopers - didnt finish chapter
+        const m4 = "{% static 'audio/m4.mp3' %}" // question asked - chapter 2
+        const m5 = "{% static 'audio/m5.mp3' %}" // question asked - chapter 3
+        // background images
+        const back1 = "{% static 'images/backgrounds/back1.jpg' %}"
+        const back2 = "{% static 'images/backgrounds/back2.jpeg' %}"
+        const back3 = "{% static 'images/backgrounds/back3.jpeg' %}"
     </script>
 {% endblock %}
