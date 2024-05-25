@@ -21,13 +21,17 @@ main {
         background-position: 0 0;
     }
     to {
-        background-position: 12000px 1000px; /* Adjust this value to control the distance and speed of movement */
+        background-position: 12000px 1000px;
     }
 }
 
 #menu-container {
     width: 30vw;
     text-align: center;
+}
+
+#navbar {
+    background-color: rgb(255, 255, 255, 0.0);
 }
 
 #menu {
@@ -52,14 +56,14 @@ main {
 }
 
 @media (max-width: 1224px) {
-    /* CSS styles for screens smaller than 768 pixels */
+    /* CSS styles for screens smaller than 1224 pixels */
     #menu-container {
         width: 40vw;
     }
 }
 
 @media (max-width: 1024px) {
-    /* CSS styles for screens smaller than 768 pixels */
+    /* CSS styles for screens smaller than 1024 pixels */
     #menu-container {
         width: 50vw;
     }
@@ -69,13 +73,6 @@ main {
     /* CSS styles for screens smaller than 768 pixels */
     #menu-container {
         width: 60vw;
-    }
-}
-
-@media (max-width: 576px) {
-    /* CSS styles for screens smaller than 576 pixels */
-    #menu-container {
-        width: 75vw;
     }
 }
 

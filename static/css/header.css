@@ -46,7 +46,7 @@
 }
 
 /* Header styles */
-#navbar,
+.navbar,
 .navbar-dark .navbar-nav .nav-link,
 .nav-item,
 .navbar-brand:active,
@@ -54,7 +54,7 @@
 .nav-link:focus,
 .nav-link.active,
 .light-font:hover {
-    /* background-color: var(--dark-background); */
+    background-color: var(--dark-background);
     color: var(--mid-foregorund) !important;
 }
 
