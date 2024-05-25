@@ -173,14 +173,41 @@ switch(characterSelected) {
         currentCharacterName = 'Yoda';
         currentLifeline = 'autoCorrect';
     };
+switch (currentChapter){
+    case 0:
+        artefactToDisplay = artefact1;
+        break;
+    case 1:
+        artefactToDisplay = artefact2;
+        break;
+    case 2:
+        artefactToDisplay = artefact3;
+        break;
+    default:
+        artefactToDisplay = artefact1;
+};
+console.log('current chapter :' + currentChapter);
+console.log('artefact : ' + artefactToDisplay);
 $('#game-container').append(`
                     <div id="current-player-image-container">
-                        <img src="` + currentCharacterImage + `" alt="Current player image" class="current-player-image">
+                        <img src="${currentCharacterImage}" alt="Current player image" class="current-player-image">
                     </div>
                     <div id="artefact-image-container">
-                        <span class="w-100 text-center inline-block">
-                            artefact
-                        </span>
+                        <div id="current-artefact-container-0" class="bw-mask current-artefact-container">
+                            <img src="${artefactToDisplay}" alt="Current artefact" id="current-artefact-image-0" class="current-artefact-image">
+                        </div>
+                        <div id="current-artefact-container-1" class="bw-mask current-artefact-container">
+                            <img src="${artefactToDisplay}" alt="Current artefact" id="current-artefact-image-1" class="current-artefact-image">
+                        </div>
+                        <div id="current-artefact-container-2" class="bw-mask current-artefact-container">
+                            <img src="${artefactToDisplay}" alt="Current artefact" id="current-artefact-image-2" class="current-artefact-image">
+                        </div>
+                        <div id="current-artefact-container-3" class="bw-mask current-artefact-container">
+                            <img src="${artefactToDisplay}" alt="Current artefact" id="current-artefact-image-3" class="current-artefact-image">
+                        </div>
+                        <div id="current-artefact-container-4" class="bw-mask current-artefact-container">
+                            <img src="${artefactToDisplay}" alt="Current artefact" id="current-artefact-image-4" class="current-artefact-image">
+                        </div>
                     </div>
                     <div id="timer-container" class="d-flex align-items-center justify-content-center text-center">
                         time left
@@ -241,6 +268,7 @@ function countdownTimer(){
 
 function askQuestion(){
     lifelineScoreMultiplier = 1;
+    $(`#current-artefact-container-${correctAnswersPerChapter}`).css('filter','grayscale(0%)');
     switch(currentChapter){
         case 0:
             currentAudio = playAudio(m2, true);
@@ -298,6 +326,9 @@ function askQuestion(){
             $('#cover-mask').show();
             if ($('.answer-option').index(this) == currentCorrectAnswer || testMode == true ){
                 setTimeout(function(){
+                    $('.answer-option').eq(Number(currentCorrectAnswer)).css('background-color','#4a4402');
+                },3000);
+                setTimeout(function(){
                     $('#cover-mask').hide();
                     currentAudio.pause();
                     correctAnswersPerChapter++;
@@ -308,7 +339,7 @@ function askQuestion(){
                         $('#running-score').html(runningScore);
                         askQuestion();
                     }
-                },3000);
+                },5000);
             }else{
                 setTimeout(function(){
                     $('#cover-mask').hide();
