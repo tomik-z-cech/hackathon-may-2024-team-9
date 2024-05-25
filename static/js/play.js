@@ -88,7 +88,7 @@ function chapterMessage(reason) {
 function startMessage() {
     currentAudio = playAudio(m1, true);
     $('#game-container').css('opacity','1');
-    $('#game-container').append('<div id="message-container" class="text-center"></div>')
+    $('#game-container').append('<div id="message-container" class="text-center align-items-center"></div>')
     const message = "welcome to mindwars " + playerName + " , the ultimate star wars-themed quiz game . journey through the galaxy , test your knowledge , and unlock the secrets of the force . i hope are you ready to prove your wisdom and become a jedi master . may the force be with you as you embark on this epic adventure !"
     let messageContainer = $('#message-container');
     let index = 0;
@@ -147,6 +147,7 @@ switch(characterSelected) {
         currentQuestionSet = questionSet4;
         currentCharacterName = 'Han Solo';
         currentLifeline = 'fifthyFifthy';
+        currentLifelineIcon = hanLifeline;
         break;
     // Vader
     case 3:
@@ -154,6 +155,7 @@ switch(characterSelected) {
         currentQuestionSet = questionSet3;
         currentCharacterName = 'Darth Vader';
         currentLifeline = 'doublePoints';
+        currentLifelineIcon = vaderLifeline;
         break;
     // Luke    
     case 2:
@@ -161,6 +163,7 @@ switch(characterSelected) {
         currentQuestionSet = questionSet2;
         currentCharacterName = 'Luke Skywalker';
         currentLifeline = 'addTime';
+        currentLifelineIcon = lukeLifeline;
         break;
     // Leia
     case 1:
@@ -168,6 +171,7 @@ switch(characterSelected) {
         currentQuestionSet = questionSet1;
         currentCharacterName = 'Princess Leia';
         currentLifeline = 'differentQuestion';
+        currentLifelineIcon = leiaLifeline;
         break;
     // Yoda
     default:
@@ -175,6 +179,7 @@ switch(characterSelected) {
         currentQuestionSet = questionSet0;
         currentCharacterName = 'Yoda';
         currentLifeline = 'autoCorrect';
+        currentLifelineIcon = yodaLifeline;
     };
 switch (currentChapter){
     case 0:
@@ -218,7 +223,7 @@ $('#game-container').append(`
                     <div id="lifelines-container" class="d-flex align-items-center justify-content-center text-center">
                         lifeline
                         <br>
-                        <span id="lifeline"><i class="fa-solid fa-business-time"></i></span>
+                        <img src="${currentLifelineIcon}" alt="Lifeline icon" class="lifeline-icon scale-on" id="lifeline">
                     </div>
                     <div id="question-container">
                         <div id="question-space" class="text-center">
@@ -376,6 +381,9 @@ function endOfChapter(reason) {
 
 // Function handles lifelines
 function callLifeline(lifeline){
+    $('#lifeline').removeClass('scale-on');
+    $('#lifeline').addClass('bw-mask');
+    $('#lifeline').addClass('opaque');
     if (lifeLineAvailable == true){
         switch(lifeline){
             case 'fifthyFifthy':

@@ -278,3 +278,22 @@
     filter: grayscale(100%);
     transition: filter 2s ease-out;
 }
+
+.lifeline-icon {
+    width:60%;
+    height:60%;
+}
+
+.scale-on {
+    transition: all 0.5s ease-in-out;
+}
+
+.scale-on:hover {
+    scale: 1.2;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px var(--light-foreground));
+}
+
+.opaque {
+    opacity: 40%;
+}
