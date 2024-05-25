@@ -1,7 +1,12 @@
 {% extends "account/base.html" %}
 {% load allauth i18n %}
+{% load static %}
 
 {% block nav_name %}Logout{% endblock %}
+
+{% block user_card_image %}
+{% static 'images/allauth_error_img/darth-vader-portrait.webp' %}
+{% endblock %}
 
 {% block head_title %}
     {% trans "Sign Out" %}
