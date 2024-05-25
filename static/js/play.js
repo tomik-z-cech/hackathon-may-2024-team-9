@@ -15,7 +15,6 @@ let questionsAlreadySelected = [];
 let correctAnswersPerChapter = 0;
 let currentAudio = '';
 let timeLeft = 0;
-let wonChapters = [];
 let currentLifeline = '';
 let currentLifelineIcon = '';
 let lifeLineAvailable = true;
@@ -29,10 +28,12 @@ let currentCorrectAnswer = 0;
 *  #m1 - intro background track
 */
 function playAudio(track, loopBool){
-    let soundToPlay = new Audio (track);
-    soundToPlay.loop = loopBool;
-    soundToPlay.play();
-    return soundToPlay;
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        let soundToPlay = new Audio (track);
+        soundToPlay.loop = loopBool;
+        soundToPlay.play();
+        return soundToPlay;
+    }
 }
 
 // Function displayes end of chapter message
@@ -69,7 +70,9 @@ function chapterMessage(reason) {
             $('#messageButtonOK').click(function(){
                 messageContainer.hide();
                 prepareGameView();
-                currentAudio.pause();
+                if (sessionStorage.getItem('soundEnabled') == 'true') {
+                    currentAudio.pause();
+                }
                 lifeLineAvailable = true;
                 if (currentChapter > 2){
                     // LINK TO RPS
@@ -175,19 +178,17 @@ switch(characterSelected) {
     };
 switch (currentChapter){
     case 0:
-        artefactToDisplay = artefact1;
-        break;
-    case 1:
         artefactToDisplay = artefact2;
         break;
-    case 2:
+    case 1:
         artefactToDisplay = artefact3;
         break;
-    default:
+    case 2:
         artefactToDisplay = artefact1;
+        break;
+    default:
+        artefactToDisplay = artefact2;
 };
-console.log('current chapter :' + currentChapter);
-console.log('artefact : ' + artefactToDisplay);
 $('#game-container').append(`
                     <div id="current-player-image-container">
                         <img src="${currentCharacterImage}" alt="Current player image" class="current-player-image">
@@ -233,7 +234,9 @@ $('#game-container').append(`
                         </span>
                     </div>
                     `);
-    currentAudio.pause();
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        currentAudio.pause();
+    }
     setTimeout(function() {
         $('#current-player-image-container').css('opacity','1');
         $('#artefact-image-container').css('opacity','1');
@@ -330,7 +333,9 @@ function askQuestion(){
                 },3000);
                 setTimeout(function(){
                     $('#cover-mask').hide();
-                    currentAudio.pause();
+                    if (sessionStorage.getItem('soundEnabled') == 'true') {
+                        currentAudio.pause();
+                    }
                     correctAnswersPerChapter++;
                     if (correctAnswersPerChapter == 5){
                         endOfChapter('wonChapter');
@@ -343,7 +348,9 @@ function askQuestion(){
             }else{
                 setTimeout(function(){
                     $('#cover-mask').hide();
-                    currentAudio.pause();
+                    if (sessionStorage.getItem('soundEnabled') == 'true') {
+                        currentAudio.pause();
+                    }
                     endOfChapter('wrongAnswer');
                 },3000);
             }
