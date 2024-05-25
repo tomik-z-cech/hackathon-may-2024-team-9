@@ -91,3 +91,22 @@ th, td {
     max-width: 400px;
     height: auto;
   }
+
+  /* About us */
+
+  #about-us-bg {
+    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+.text-bg-overlay-us {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: inherit;
+    width: 100%;
+}
