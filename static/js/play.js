@@ -1,5 +1,5 @@
 // Constant variables
-const typingDelay = 0;
+const typingDelay = 60;
 
 // Global variables
 let characterSelected = 0;
@@ -11,8 +11,20 @@ let questionSet = '';
 let currentCharacterName = '';
 let questionsAlreadySelected = [];
 let correctAnswersPerChapter = 0;
+let currentAudio = ''
 
 // Functions
+
+/** 
+*  Function for playing musical background - function take number of track as parameter
+*  #m1 - intro background track
+*/
+function playAudio(track, loopBool){
+    let soundToPlay = new Audio (track);
+    soundToPlay.loop = loopBool;
+    soundToPlay.play();
+    return soundToPlay;
+}
 
 // Function displayes end of chapter message
 function chapterMessage(reason) {
@@ -20,9 +32,11 @@ function chapterMessage(reason) {
     $('#game-container').append('<div id="message-container" class="text-center"></div>');
     switch(reason) {
         case 'outOfTime':
+            currentAudio = playAudio(m3, true);
             message = `you ran out of time ${playerName} and unfortunately, the weapon has slipped through your grasp . the force was not with you on this mission . while you were close, destiny has chosen a different path for you today . prepare yourself, learn from this experience, and come back stronger . may the force guide you on your next adventure .`
             break;
         case 'wrongAnswer':
+            currentAudio = playAudio(m3, true);
             message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`
             break;
         case 'wonChapter':
@@ -44,6 +58,7 @@ function chapterMessage(reason) {
             $('#messageButtonOK').click(function(){
                 messageContainer.hide();
                 prepareGameView();
+                currentAudio.pause();
             });
         }
     }
@@ -52,6 +67,7 @@ function chapterMessage(reason) {
 
 // Function displays message in container
 function startMessage() {
+    currentAudio = playAudio(m1, true);
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>')
     const message = "welcome to mindwars " + playerName + " , the ultimate star wars-themed quiz game . journey through the galaxy , test your knowledge , and unlock the secrets of the force . i hope are you ready to prove your wisdom and become a jedi master . may the force be with you as you embark on this epic adventure !"
@@ -169,6 +185,7 @@ $('#game-container').append(`
                         </span>
                     </div>
                     `);
+    currentAudio.pause();
     setTimeout(function() {
         $('#current-player-image-container').css('opacity','1');
         $('#artefact-image-container').css('opacity','1');
@@ -204,6 +221,7 @@ function countdownTimer(){
 }
 
 function askQuestion(){
+    currentAudio = playAudio(m2, true);
     let questionAddition = 0;
     timeLeft = timePerQuestion;
     timerStopped = false;
@@ -239,6 +257,7 @@ function askQuestion(){
                 setTimeout(function(){
                     console.log('correct');
                     $('#cover-mask').hide();
+                    currentAudio.pause();
                     correctAnswersPerChapter++;
                     if (correctAnswersPerChapter == 5){
                         endOfChapter('wonChapter');
@@ -251,6 +270,7 @@ function askQuestion(){
                 setTimeout(function(){
                     console.log('incorrect');
                     $('#cover-mask').hide();
+                    currentAudio.pause();
                     endOfChapter('wrongAnswer');
                 },3000);
             }

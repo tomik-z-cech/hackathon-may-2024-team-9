@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-    <div id="screen-container">
+    <div id="screen-container" style="background: url('{% static "images/ships.jpeg" %}') no-repeat fixed top right / cover;">
         <span>
             <a href="{% url 'home' %}" aria-label="Close Game">
                 <i class="fa-regular fa-circle-xmark"></i>
@@ -24,17 +24,25 @@
 {% block extra_js %}
     <script src="{% static 'js/play.js' %}"></script>
     <script>
+        // players name 
         const playerName = '{{ player_name }}';
+        // character images
         const characterImage0 = "{% static 'images/characters/yodaa.png' %}" // Yoda - 0
         const characterImage1 = "{% static 'images/characters/leia.png' %}"  // Leia - 1
         const characterImage2 = "{% static 'images/characters/luke.png' %}" // Luke - 2
         const characterImage3 = "{% static 'images/characters/vader.png' %}" // - Vader - 3
         const characterImage4 = "{% static 'images/characters/han.png' %}" // Solo - 4
+        // questionsets per character
         const questionSet0 = "{% static 'questions/yoda.json' %}" // Yoda - 0
         const questionSet1 = "{% static 'questions/leia.json' %}"  // Leia - 1
         const questionSet2 = "{% static 'questions/luke.json' %}" // Luke - 2
         const questionSet3 = "{% static 'questions/vader.json' %}" // - Vader - 3
         const questionSet4 = "{% static 'questions/solo.json' %}" // Solo - 4
+        // url after game finished
         const afterChaptersLink = "{% url 'home' %}"
+        // background music
+        const m1 = "{% static 'audio/m1.mp3' %}" // sw theme - start
+        const m2 = "{% static 'audio/m2.mp3' %}" // question asked
+        const m3 = "{% static 'audio/m3.mp3' %}" // march of troopers - didnt finish chapter
     </script>
 {% endblock %}

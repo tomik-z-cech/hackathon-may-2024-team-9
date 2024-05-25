@@ -13,7 +13,7 @@
     width: 95vw;
     align-self: center;
     justify-self: center;
-    background-color: var(--dark-background);
+    background-color: transparent;
     display: grid;
     opacity: 0;
     transition: opacity 3s ease-in-out;
@@ -23,7 +23,7 @@
     font-size: 150%;
     justify-self: center;
     align-self: center;
-    background-color: var(--light-background);
+    background-color: var(--dark-background-opaque);
     height: 80%;
     width: 80%;
     display: grid;
@@ -70,6 +70,7 @@
 }
 
 #artefact-image-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     bottom: 5%;
     left: 5%;
@@ -87,6 +88,7 @@
 }
 
 #timer-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     flex-direction: column;
     top: 6%;
@@ -99,6 +101,7 @@
 }
 
 #lifelines-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     flex-direction: column;
     top: 6%;
@@ -111,6 +114,7 @@
 }
 
 #question-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     top: 35%;
     left: 25%;
@@ -122,6 +126,7 @@
 }
 
 #answers-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     bottom: 5%;
     left: 25%;
@@ -133,6 +138,7 @@
 }
 
 #score-container {
+    background-color: var(--dark-background-opaque);
     position: absolute;
     flex-direction: column;
     top: 6%;
