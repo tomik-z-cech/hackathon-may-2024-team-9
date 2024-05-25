@@ -46,7 +46,7 @@ body {
 /* Firefox Scrollbar Styling */
 body {
     scrollbar-width: thin;
-    scrollbar-color: #4287f5 #000; /* Handle color and track color */
+    /* scrollbar-color: #4287f5 #000; */
 }
 
 /* Adjust scrollbar corner */
