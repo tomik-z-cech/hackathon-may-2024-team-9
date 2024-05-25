@@ -12,6 +12,9 @@
 <body id="landing-bg">
         <!-- Header -->
         {% include 'header.html' %}
+
+
+
         <!-- Content -->
         <main>
                 {% block content %}
@@ -62,17 +65,59 @@
                                 </li>
                                 {% endif %}
                         </ul>
+                        <audio class="audio" autoplay muted loop>
+                                <source src="https://res.cloudinary.com/dcrbeonr9/video/upload/v1716660100/StarWars%20Hackathon/Star_Wars_Theme_-_John_Williams_pukkgd.mp3"
+                                        type="audio/mpeg">
+                                Your browser does not support the audio element.
+                        </audio>
+                </div>
+                <div class="modal" id="exampleModal" tabindex="-1">
+                        <div class="modal-dialog custom-modal">
+                                <div class="modal-content">
+                                        <div class="modal-header text-uppercase">
+                                                <h5 class="modal-title ps-2">Enable sound, you must! Yes, hmm!</h5>
+                                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                                <p>Hark, young Jedi, to enhance your gaming thrill,
+                                                        the power of sound, you must unleash! Click on the button below,
+                                                        and music, like the Force, shall flow through you.</p>
+                                                <p>Adventure awaits, hmm! Fun, you shall have. May the laughter be with
+                                                        you, always!</p>
+                                        </div>
+                                        <div class="modal-footer d-inline">
+                                                <div class="row">
+                                                        <div class="col-6">
+                                                                <button type="button"
+                                                                        class="btn btn-outline-danger text-uppercase w-100"
+                                                                        data-bs-dismiss="modal">
+                                                                        <i class="fa-solid fa-volume-xmark"></i> off
+                                                                </button>
+                                                        </div>
+                                                        <div class="col-6">
+                                                                <button type="button" id="music-on"
+                                                                        class="btn btn-outline-success text-uppercase w-100 musicOn">
+                                                                        <i class="fa-solid fa-volume-high"></i> on
+                                                                </button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
                 </div>
 
-                <script src="{% static 'js/menu.js' %}"></script>
-                {% endblock %}
+        </main>
+        {% endblock %}
 
-                <!-- Footer -->
-                {% include 'footer.html' %}
+        <!-- Footer -->
+        {% include 'footer.html' %}
 
-                {% block extra_js %}
-                <script src="{% static 'js/footer.js' %}"></script>
-                {% endblock %}
+        {% block extra_js %}
+        <script src="{% static 'js/footer.js' %}"></script>
+        <script src="{% static 'js/menu.js' %}"></script>
+        <script src="{% static 'js/music.js' %}"></script>
+        {% endblock %}
 </body>
 
 {% endblock %}

@@ -3,10 +3,12 @@
 /* Imports */
 
 @import url('https://fonts.cdnfonts.com/css/star-wars');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 :root {
     /* FONTS */
-    --main-font: 'Star Wars', sans-serif;
+    --main-font: 'Orbitron', sans-serif;
+    --mid-font: 'Star Wars', sans-serif;
 
     /* COLOR PALETTE */
     --light-foreground: #f1ee8e;
