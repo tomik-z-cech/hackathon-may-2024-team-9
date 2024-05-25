@@ -40,11 +40,15 @@ main {
     padding: 15px;
     cursor: pointer;
     transition: background-color 0.5s;
+    border-radius: 10px;
+    
 }
 
 .menu-item:hover,
 .menu-item.active {
-    background-color: #555;
+    background-color: var(--dark-background);
+    border: 1px solid #efff14;
+    box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
 }
 
 @media (max-width: 1224px) {
