@@ -16,6 +16,11 @@ let correctAnswersPerChapter = 0;
 let currentAudio = '';
 let timeLeft = 0;
 let wonChapters = [];
+let currentLifeline = '';
+let currentLifelineIcon = '';
+let lifeLineAvailable = true;
+let lifelineScoreMultiplier = 1;
+let currentCorrectAnswer = 0;
 
 // Functions
 
@@ -65,6 +70,7 @@ function chapterMessage(reason) {
                 messageContainer.hide();
                 prepareGameView();
                 currentAudio.pause();
+                lifeLineAvailable = true;
                 if (currentChapter > 2){
                     // LINK TO RPS
                     window.location.href = afterChaptersLink;
@@ -134,33 +140,38 @@ $('#game-container').empty()
 switch(characterSelected) {
     // Solo
     case 4:
-        currentCharacterImage = characterImage4
-        currentQuestionSet = questionSet4
-        currentCharacterName = 'Han Solo'
+        currentCharacterImage = characterImage4;
+        currentQuestionSet = questionSet4;
+        currentCharacterName = 'Han Solo';
+        currentLifeline = 'fifthyFifthy';
         break;
     // Vader
     case 3:
-        currentCharacterImage = characterImage3
-        currentQuestionSet = questionSet3
-        currentCharacterName = 'Darth Vader'
+        currentCharacterImage = characterImage3;
+        currentQuestionSet = questionSet3;
+        currentCharacterName = 'Darth Vader';
+        currentLifeline = 'doublePoints';
         break;
     // Luke    
     case 2:
-        currentCharacterImage = characterImage2
-        currentQuestionSet = questionSet2
-        currentCharacterName = 'Luke Skywalker'
+        currentCharacterImage = characterImage2;
+        currentQuestionSet = questionSet2;
+        currentCharacterName = 'Luke Skywalker';
+        currentLifeline = 'addTime';
         break;
     // Leia
     case 1:
-        currentCharacterImage = characterImage1
-        currentQuestionSet = questionSet1
-        currentCharacterName = 'Princess Leia'
+        currentCharacterImage = characterImage1;
+        currentQuestionSet = questionSet1;
+        currentCharacterName = 'Princess Leia';
+        currentLifeline = 'differentQuestion';
         break;
     // Yoda
     default:
-        currentCharacterImage = characterImage0
-        currentQuestionSet = questionSet0
-        currentCharacterName = 'Yoda'
+        currentCharacterImage = characterImage0;
+        currentQuestionSet = questionSet0;
+        currentCharacterName = 'Yoda';
+        currentLifeline = 'autoCorrect';
     };
 $('#game-container').append(`
                     <div id="current-player-image-container">
@@ -176,10 +187,10 @@ $('#game-container').append(`
                         <br>
                         <span id="running-timer">${timePerQuestion}</span>
                     </div>
-                    <div id="lifelines-container">
-                        <span class="w-100 text-center inline-block">
-                            lifeline
-                        </span>
+                    <div id="lifelines-container" class="d-flex align-items-center justify-content-center text-center">
+                        lifeline
+                        <br>
+                        <span id="lifeline"><i class="fa-solid fa-business-time"></i></span>
                     </div>
                     <div id="question-container">
                         <div id="question-space" class="text-center">
@@ -224,15 +235,12 @@ function countdownTimer(){
             } else {
                 clearTimeout(timerId);
             }
-            //if (addTime == true){
-            //   timeLeft += 30;
-            //    addTime = false;
-            //    }
         }
     }
 }
 
 function askQuestion(){
+    lifelineScoreMultiplier = 1;
     switch(currentChapter){
         case 0:
             currentAudio = playAudio(m2, true);
@@ -277,14 +285,18 @@ function askQuestion(){
                                     <div class="answer-option text-center" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
                                     <div class="answer-option text-center" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
         `);
+        currentCorrectAnswer = questions.character[currentCharacterName][questionLevel][0][questionRef].answer;
+        $('#lifeline').click(function(){
+            callLifeline(currentLifeline);
+        });
         $('.answer-option').click(function(){
-            let scoreThisQuestion = 10 * timeLeft * (currentChapter + 1);
+            let scoreThisQuestion = 10 * timeLeft * (currentChapter + 1) * lifelineScoreMultiplier;
             runningScore = runningScore + scoreThisQuestion;
             timerStopped = true;
             $(this).css('background-color','var(--dark-foreground)');
             $(this).css('color','var(--dark-background)');
             $('#cover-mask').show();
-            if ($('.answer-option').index(this) == questions.character[currentCharacterName][questionLevel][0][questionRef].answer || testMode == true ){
+            if ($('.answer-option').index(this) == currentCorrectAnswer || testMode == true ){
                 setTimeout(function(){
                     $('#cover-mask').hide();
                     currentAudio.pause();
@@ -292,7 +304,6 @@ function askQuestion(){
                     if (correctAnswersPerChapter == 5){
                         endOfChapter('wonChapter');
                     }else{
-                        console.log(currentChapter)
                         $('#answers-container').empty();
                         $('#running-score').html(runningScore);
                         askQuestion();
@@ -323,6 +334,38 @@ function endOfChapter(reason) {
         chapterMessage(reason);
     }, 2500);
     
+}
+
+// Function handles lifelines
+function callLifeline(lifeline){
+    if (lifeLineAvailable == true){
+        switch(lifeline){
+            case 'fifthyFifthy':
+                let remove1;
+                let remove2;
+                while (remove1 == Number(currentCorrectAnswer) || remove2 == Number(currentCorrectAnswer) || remove1 == remove2){
+                    remove1 = (Math.floor(Math.random() * 4));
+                    remove2 = (Math.floor(Math.random() * 4));
+                }
+                $('.answer-option').eq(remove1).detach();
+                $('.answer-option').eq(remove2).detach();
+                break;
+            case 'doublePoints':
+                lifelineScoreMultiplier = 2;
+                break;
+            case 'autoCorrect':
+                $('.answer-option').eq(Number(currentCorrectAnswer)).css('background-color','#4a4402');
+                break;
+            case 'differentQuestion':
+                $('#answers-container').empty();
+                askQuestion();
+                break;
+            case 'addTime':
+                timeLeft = timeLeft + 30;
+                break;
+        }
+        lifeLineAvailable = false;
+    }
 }
 
 // Starting point of quiz game
