@@ -55,3 +55,12 @@ body {
 ::-webkit-scrollbar-corner {
     background: transparent; /* Hide scrollbar corner */
 }
+
+/* Space and letter spacing for scores and about pages */
+.top-space {
+    height: 15vh;
+}
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
