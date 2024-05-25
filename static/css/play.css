@@ -1,4 +1,17 @@
 /* Style sheet for game page */
+#close-icon {
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    font-size: 400%;
+    color: var(--mid-foreground);
+    filter: drop-shadow(5px 5px 5px var(--dark-background));
+    transition: all 0.5s ease-in-out;
+}
+
+#close-icon:hover {
+    color: var(--dark-foreground);
+}
 
 #screen-container {
     display: grid;

@@ -9,8 +9,8 @@
 
 {% block content %}
     <div id="screen-container" style="background: url('{% static "images/backgrounds/back0.jpeg" %}') no-repeat fixed top right / cover;">
-        <span>
-            <a href="{% url 'home' %}" aria-label="Close Game">
+        <span class="w-100">
+            <a href="{% url 'home' %}" aria-label="Close Game" id="close-icon">
                 <i class="fa-regular fa-circle-xmark"></i>
             </a>
         </span>
