@@ -8,8 +8,10 @@
 .droodown-menu {
     background-color: var(--light-background);
 }
+
+.nav-text,
 .dropdown-menu-dark .dropdown-item {
-    color: #e5de00;
+    color: #efff14 !important;
 }
 
 .side-title {
@@ -24,6 +26,10 @@
 
 .logo-font {
     font-family: 'Orbitron', sans-serif;
+}
+
+.font-yellow {
+    color: #efff14;
 }
 
 .icon:hover,
@@ -59,7 +65,7 @@
 }
 
 .nav-text {
-    color: var(--mid-foregorund) !important;
+    color: #efff14 !important;
 }
 
 #logo {
