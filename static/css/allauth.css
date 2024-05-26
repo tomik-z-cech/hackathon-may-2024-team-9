@@ -1,17 +1,20 @@
 @keyframes changeBackground {
+    0.01% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
+    }
     0% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
     }
 
-    33.33% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738427/star-wars-bg-2_zbem9y.jpg');
+    33.35% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
     }
 
     33.34% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738395/spaceship-5164782_1920_1_yb9utn.jpg');
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg');
     }
 
-    66.66% {
+    66.68% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg');
     }
 
@@ -20,7 +23,7 @@
     }
 
     100% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738395/spaceship-5164782_1920_1_yb9utn.jpg');
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
     }
 }
 
