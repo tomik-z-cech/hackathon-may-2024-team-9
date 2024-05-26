@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /admin/
+Sitemap: https://star-wars-e347f35c852d.herokuapp.com//sitemap.xml
