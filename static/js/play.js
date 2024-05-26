@@ -1,9 +1,9 @@
 // Test mode
 
-testMode = true
+testMode = false;
 
 // Global variables
-let typingDelay = 60;
+let typingDelay = 30;
 let characterSelected = 0;
 let timePerQuestion = 30;
 let timerStopped = false;
@@ -20,6 +20,7 @@ let currentLifelineIcon = '';
 let lifeLineAvailable = true;
 let lifelineScoreMultiplier = 1;
 let currentCorrectAnswer = 0;
+let chaptersWon = [];
 
 // Functions
 
@@ -51,6 +52,7 @@ function chapterMessage(reason) {
             message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`
             break;
         case 'wonChapter':
+            chaptersWon.push(currentChapter);
             currentAudio = playAudio(m1, true);
             message = `Congratulations ${playerName}, traveler of the stars! You have successfully navigated this chapter of your journey, drawing ever nearer to the ultimate showdown. Your path is illuminated by the Force, guiding you towards the final confrontation. Steel your resolve, for the greatest challenges lie ahead. With each step forward, you edge closer to destiny's embrace.`;    
         default:
@@ -75,7 +77,11 @@ function chapterMessage(reason) {
                 }
                 lifeLineAvailable = true;
                 if (currentChapter > 2){
-                    // LINK TO RPS
+                    // player name in const playerName sourced from finalstage.html - const playerName 
+                    sessionStorage.setItem('finalStageUnlocked', true); // bool - security
+                    sessionStorage.setItem('runningScore', runningScore); // integer
+                    sessionStorage.setItem('chaptersWon', chaptersWon); // array [1, 2, 3] 
+                    sessionStorage.setItem('currentCharacterName', currentCharacterName); // string - based on JSON question files
                     window.location.href = afterChaptersLink;
                 };
             });
@@ -316,10 +322,10 @@ function askQuestion(){
         questionsAlreadySelected.push(questionRef);
         $('#question-space').html(`<span>${questions.character[currentCharacterName][questionLevel][0][questionRef].question}</span>`);
         $('#answers-container').append(`
-                                    <div class="answer-option text-center" id="answer-a">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
-                                    <div class="answer-option text-center" id="answer-b">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
-                                    <div class="answer-option text-center" id="answer-c">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
-                                    <div class="answer-option text-center" id="answer-d">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
+                                    <div class="answer-option text-center" id="answer-0">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[0]}</div>
+                                    <div class="answer-option text-center" id="answer-1">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[1]}</div>
+                                    <div class="answer-option text-center" id="answer-2">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[2]}</div>
+                                    <div class="answer-option text-center" id="answer-3">${questions.character[currentCharacterName][questionLevel][0][questionRef].options[3]}</div>
         `);
         currentCorrectAnswer = questions.character[currentCharacterName][questionLevel][0][questionRef].answer;
         $('#lifeline').click(function(){
@@ -384,6 +390,7 @@ function callLifeline(lifeline){
     $('.lifeline-icon').css('scale','1');
     $('.lifeline-icon').css('opacity','40%');
     $('.lifeline-icon').css('filter','grayscale(100%)');
+    $('.lifeline-icon').css('cursor','default');
     if (lifeLineAvailable == true){
         lifeLineAvailable = false;
         switch(lifeline){
@@ -394,8 +401,8 @@ function callLifeline(lifeline){
                     remove1 = (Math.floor(Math.random() * 4));
                     remove2 = (Math.floor(Math.random() * 4));
                 }
-                $('.answer-option').eq(remove1).detach();
-                $('.answer-option').eq(remove2).detach();
+                $(`#answer-${remove1}`).detach();
+                $(`#answer-${remove2}`).detach();
                 break;
             case 'doublePoints':
                 lifelineScoreMultiplier = 2;

@@ -202,22 +202,22 @@
     background-color: var(--light-foreground);
 }
 
-#answer-a {
+#answer-0 {
     top: 0%;
     left: 0%;
 }
 
-#answer-b {
+#answer-1 {
     top: 0%;
     right: 0%;
 }
 
-#answer-c {
+#answer-2 {
     bottom: 0%;
     left: 0%;
 }
 
-#answer-d {
+#answer-3 {
     bottom: 0%;
     right: 0%;
 }
