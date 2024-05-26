@@ -84,39 +84,6 @@
                                 Your browser does not support the audio element.
                         </audio>
                 </div>
-                <div class="modal" id="exampleModal" tabindex="-1">
-                        <div class="modal-dialog custom-modal">
-                                <div class="modal-content">
-                                        <div class="modal-header text-uppercase">
-                                                <h5 class="modal-title ps-2">Enable sound, you must! Yes, hmm!</h5>
-                                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                                <p class="text-center">Hark, young Jedi! For the best performance, use full screen mode, you must. To enhance your gaming thrill, the power of sound, you must unleash! Click on the button below, and music, like the Force, shall flow through you.</p>
-                                                <p class="text-center">Adventure awaits, hmm! Fun, you shall have. May the laughter be with you, always!</p>
-                                                <p class="text-center"><strong>Turn on full screen mode, enable sound and enjoy</strong></p>
-                                        </div>
-                                        <div class="modal-footer d-inline">
-                                                <div class="row">
-                                                        <div class="col-6">
-                                                                <button type="button" id="music-off"
-                                                                        class="btn btn-outline-danger text-uppercase w-100">
-                                                                        <i class="fa-solid fa-volume-xmark"></i> off
-                                                                </button>
-                                                        </div>
-                                                        <div class="col-6">
-                                                                <button type="button" id="music-on"
-                                                                        class="btn btn-outline-success text-uppercase w-100 musicOn">
-                                                                        <i class="fa-solid fa-volume-high"></i> on
-                                                                </button>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-
         </main>
         {% endblock %}
 
@@ -126,8 +93,39 @@
         {% block extra_js %}
         <script src="{% static 'js/footer.js' %}"></script>
         <script src="{% static 'js/menu.js' %}"></script>
-        <script src="{% static 'js/music.js' %}"></script>
         {% endblock %}
+        <div class="modal" id="exampleModal" tabindex="-1">
+                <div class="modal-dialog custom-modal">
+                        <div class="modal-content">
+                                <div class="modal-header text-uppercase">
+                                        <h5 class="modal-title ps-2">Enable sound, you must! Yes, hmm!</h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                        <p class="text-center">Hark, young Jedi! For the best performance, use full screen mode, you must. To enhance your gaming thrill, the power of sound, you must unleash! Click on the button below, and music, like the Force, shall flow through you.</p>
+                                        <p class="text-center">Adventure awaits, hmm! Fun, you shall have. May the laughter be with you, always!</p>
+                                        <p class="text-center"><strong>Turn on full screen mode, enable sound and enjoy</strong></p>
+                                </div>
+                                <div class="modal-footer d-inline">
+                                        <div class="row">
+                                                <div class="col-6">
+                                                        <button type="button" id="music-off"
+                                                                class="btn btn-outline-danger text-uppercase w-100">
+                                                                <i class="fa-solid fa-volume-xmark"></i> off
+                                                        </button>
+                                                </div>
+                                                <div class="col-6">
+                                                        <button type="button" id="music-on"
+                                                                class="btn btn-outline-success text-uppercase w-100 musicOn">
+                                                                <i class="fa-solid fa-volume-high"></i> on
+                                                        </button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
 </body>
 
 {% endblock %}
