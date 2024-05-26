@@ -41,7 +41,9 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
-    'https://8000-liamwb-hackathonmay2024-ilizz3ea15v.ws-eu114.gitpod.io'
+    'https://8000-liamwb-hackathonmay2024-ilizz3ea15v.ws-eu114.gitpod.io',
+    'https://8000-obione84-hackathonmay20-28kof3jpmlv.ws-eu114.gitpod.io',
+    'https://star-wars-e347f35c852d.herokuapp.com/',
 ]
 
 # Application definition
