@@ -9,7 +9,6 @@ let timePerQuestion = 30;
 let timerStopped = false;
 let currentChapter = 0;
 let runningScore = 0;
-let questionSet = '';
 let currentCharacterName = '';
 let questionsAlreadySelected = [];
 let correctAnswersPerChapter = 0;
@@ -24,10 +23,7 @@ let chaptersWon = [];
 
 // Functions
 
-/** 
-*  Function for playing musical background - function take number of track as parameter
-*  #m1 - intro background track
-*/
+// Function for playing musical background
 function playAudio(track, loopBool){
     if (sessionStorage.getItem('soundEnabled') == 'true') {
         let soundToPlay = new Audio (track);
@@ -45,18 +41,19 @@ function chapterMessage(reason) {
     switch(reason) {
         case 'outOfTime':
             currentAudio = playAudio(m3, true);
-            message = `you ran out of time ${playerName} and unfortunately, the weapon has slipped through your grasp . the force was not with you on this mission . while you were close, destiny has chosen a different path for you today . prepare yourself, learn from this experience, and come back stronger . may the force guide you on your next adventure .`
+            message = `you ran out of time ${playerName} and unfortunately, the weapon has slipped through your grasp . the force was not with you on this mission . while you were close, destiny has chosen a different path for you today . prepare yourself, learn from this experience, and come back stronger . may the force guide you on your next adventure .`;
             break;
         case 'wrongAnswer':
             currentAudio = playAudio(m3, true);
-            message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`
+            message = `${playerName}, in the grand scheme of the galaxy, your chosen path has led you astray. the force did not align with your decision, you shall not pass this chapter unscathed. the journey for the weapon remains elusive, slipping through your grasp like sand in the desert winds. but fear not, for even in failure, there are lessons to be learned.`;
             break;
         case 'wonChapter':
             chaptersWon.push(currentChapter);
             currentAudio = playAudio(m1, true);
             message = `Congratulations ${playerName}, traveler of the stars! You have successfully navigated this chapter of your journey, drawing ever nearer to the ultimate showdown. Your path is illuminated by the Force, guiding you towards the final confrontation. Steel your resolve, for the greatest challenges lie ahead. With each step forward, you edge closer to destiny's embrace.`;    
+            break;
         default:
-            mesage = 'Something else'
+            mesage = 'Something else';
     }
     let messageContainer = $('#message-container');
     let index = 0;
@@ -83,7 +80,7 @@ function chapterMessage(reason) {
                     sessionStorage.setItem('chaptersWon', chaptersWon); // array [1, 2, 3] 
                     sessionStorage.setItem('currentCharacterName', currentCharacterName); // string - based on JSON question files
                     window.location.href = afterChaptersLink;
-                };
+                }
             });
         }
     }
@@ -94,8 +91,8 @@ function chapterMessage(reason) {
 function startMessage() {
     currentAudio = playAudio(m1, true);
     $('#game-container').css('opacity','1');
-    $('#game-container').append('<div id="message-container" class="text-center align-items-center"></div>')
-    const message = "welcome to mindwars " + playerName + " , the ultimate star wars-themed quiz game . journey through the galaxy , test your knowledge , and unlock the secrets of the force . i hope are you ready to prove your wisdom and become a jedi master . may the force be with you as you embark on this epic adventure !"
+    $('#game-container').append('<div id="message-container" class="text-center align-items-center"></div>');
+    const message = "welcome to mindwars " + playerName + " , the ultimate star wars-themed quiz game . journey through the galaxy , test your knowledge , and unlock the secrets of the force . i hope are you ready to prove your wisdom and become a jedi master . may the force be with you as you embark on this epic adventure !";
     let messageContainer = $('#message-container');
     let index = 0;
 
@@ -145,7 +142,7 @@ function chooseCharacter() {
 
 // Function prepares game view and character perks
 function prepareGameView(){
-$('#game-container').empty()
+$('#game-container').empty();
 switch(characterSelected) {
     // Solo
     case 4:
@@ -186,7 +183,7 @@ switch(characterSelected) {
         currentCharacterName = 'Yoda';
         currentLifeline = 'autoCorrect';
         currentLifelineIcon = yodaLifeline;
-    };
+    }
 switch (currentChapter){
     case 0:
         artefactToDisplay = artefact2;
@@ -199,7 +196,7 @@ switch (currentChapter){
         break;
     default:
         artefactToDisplay = artefact2;
-};
+}
 $('#game-container').append(`
                     <div id="current-player-image-container">
                         <img src="${currentCharacterImage}" alt="Current player image" class="current-player-image">
@@ -262,6 +259,7 @@ $('#game-container').append(`
     }, 2000);
 }
 
+// function for countdown timer
 function countdownTimer(){
     timeLeft = timePerQuestion;
     let timerId = setInterval(countdown, 1000);
@@ -280,6 +278,7 @@ function countdownTimer(){
     }
 }
 
+// function reads json file, randomly selects and displayes question and answers
 function askQuestion(){
     lifelineScoreMultiplier = 1;
     $(`#current-artefact-container-${correctAnswersPerChapter}`).css('filter','grayscale(0%)');
@@ -369,6 +368,7 @@ function askQuestion(){
     });
 }
 
+// function creates end of chapter opacity effect
 function endOfChapter(reason) {
     $('#current-player-image-container').css('opacity','0');
     $('#artefact-image-container').css('opacity','0');
