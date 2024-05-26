@@ -1,6 +1,7 @@
 /* Footer styles */
 
 #footer {
+    font-family: var(--main-font);
     background-color: var(--dark-background);
     --bs-gutter-x: none;
     color: #efff14;
