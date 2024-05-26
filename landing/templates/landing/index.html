@@ -79,11 +79,6 @@
                                 </li>
                                 {% endif %}
                         </ul>
-                        <audio class="audio" autoplay muted loop>
-                                <source src="https://res.cloudinary.com/dcrbeonr9/video/upload/v1716660100/StarWars%20Hackathon/Star_Wars_Theme_-_John_Williams_pukkgd.mp3"
-                                        type="audio/mpeg">
-                                Your browser does not support the audio element.
-                        </audio>
                 </div>
         </main>
         {% endblock %}
@@ -94,6 +89,9 @@
         {% block extra_js %}
         <script src="{% static 'js/footer.js' %}"></script>
         <script src="{% static 'js/menu.js' %}"></script>
+        <script>
+                const m1 = "{% static 'audio/m1.mp3' %}";
+        </script>
         {% endblock %}
         <div class="modal" id="exampleModal" tabindex="-1">
                 <div class="modal-dialog custom-modal">
