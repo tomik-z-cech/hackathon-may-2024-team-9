@@ -1,30 +1,20 @@
 @keyframes changeBackground {
-    0.01% {
+    0% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
     }
-    0% {
+    15% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
     }
 
-    25.03% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
-    }
-
-    25.01% {
+    30% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
     }
-
-    50.02% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
-    }
-
-    50.01% {
+    
+    50% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
     }
-    75.02% {
-        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
-    }
-    75.01% {
+
+    85% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
     }
 
