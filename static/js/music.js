@@ -1,8 +1,11 @@
 $(document).ready(function () {
-    var audio = document.querySelector('.audio');
     if (sessionStorage.getItem('modalConfirmed') != 'true'){
         $('#exampleModal').show();
     };
+
+    let audio = new Audio (m1);
+    // audio.loop = loopBool;
+    audio.volume = 0.2;
 
     $('#music-off').click(function() {
         sessionStorage.setItem('modalConfirmed','true');

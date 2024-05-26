@@ -28,8 +28,19 @@ function playAudio(track, loopBool){
     if (sessionStorage.getItem('soundEnabled') == 'true') {
         let soundToPlay = new Audio (track);
         soundToPlay.loop = loopBool;
+        soundToPlay.volume = 0.2;
         soundToPlay.play();
         return soundToPlay;
+    }
+}
+
+// Function for playing musical background
+function playSFX(track){
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        let sfxToPlay = new Audio (track);
+        sfxToPlay.volume = 1.0;
+        sfxToPlay.play();
+        return sfxToPlay;
     }
 }
 
@@ -131,7 +142,11 @@ function chooseCharacter() {
             </span>
         </div>
         `);
+        $('.character-image').mouseover(function(){
+            playSFX(sfx1);
+        });
         $('.character-image').click(function(){
+            playSFX(sfx6);
             characterSelected = $('.character-image').index(this);
             $('#message-container').css('opacity','0');
             setTimeout(function() {
@@ -223,7 +238,7 @@ $('#game-container').append(`
                         <br>
                         <span id="running-timer">${timePerQuestion}</span>
                     </div>
-                    <div id="lifelines-container" class="justify-content-center text-center pt-1">
+                    <div id="lifelines-container" class="justify-content-center text-center pt-2">
                         <span class="stats">lifeline</span>
                         <br>
                         <img src="${currentLifelineIcon}" alt="Current lifeline" class="lifeline-icon scale-on" id="lifeline">
@@ -328,9 +343,11 @@ function askQuestion(){
         `);
         currentCorrectAnswer = questions.character[currentCharacterName][questionLevel][0][questionRef].answer;
         $('#lifeline').click(function(){
+            playSFX(sfx2);
             callLifeline(currentLifeline);
         });
         $('.answer-option').click(function(){
+            playSFX(sfx3);
             let scoreThisQuestion = 10 * timeLeft * (currentChapter + 1) * lifelineScoreMultiplier;
             runningScore = runningScore + scoreThisQuestion;
             timerStopped = true;
@@ -339,6 +356,7 @@ function askQuestion(){
             $('#cover-mask').show();
             if ($('.answer-option').index(this) == currentCorrectAnswer || testMode == true ){
                 setTimeout(function(){
+                    playSFX(sfx4);
                     $('.answer-option').eq(Number(currentCorrectAnswer)).css('background-color','#4a4402');
                 },3000);
                 setTimeout(function(){
@@ -357,6 +375,7 @@ function askQuestion(){
                 },5000);
             }else{
                 setTimeout(function(){
+                    playSFX(sfx5);
                     $('#cover-mask').hide();
                     if (sessionStorage.getItem('soundEnabled') == 'true') {
                         currentAudio.pause();
