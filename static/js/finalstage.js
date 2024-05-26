@@ -9,8 +9,8 @@ console.log(playerName);
 let finalstageUnlocked = sessionStorage.getItem('finalStageUnlocked') === 'True';
 let currentCharacterName = sessionStorage.getItem('currentCharacterName');
 let finalScore = parseInt(sessionStorage.getItem('runningScore'));
-console.log(finalScore)
-let userLives = parseInt(sessionStorage.getItem('wonChapters')) + 1; // Minimum 1 life
+let userLives = sessionStorage.getItem('wonChapters'); // Minimum 1 life
+console.log(userLives)
 let bossLives = 1; // TBD
 let userChoice;
 let bossChoice;
