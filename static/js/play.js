@@ -198,7 +198,7 @@ switch (currentChapter){
         artefactToDisplay = artefact2;
 }
 $('#game-container').append(`
-                    <div id="current-player-image-container">
+<div id="current-player-image-container">
                         <img src="${currentCharacterImage}" alt="Current player image" class="current-player-image">
                     </div>
                     <div id="artefact-image-container">
@@ -219,12 +219,12 @@ $('#game-container').append(`
                         </div>
                     </div>
                     <div id="timer-container" class="d-flex align-items-center justify-content-center text-center">
-                        time left
+                        <span class="stats">time left</span>
                         <br>
                         <span id="running-timer">${timePerQuestion}</span>
                     </div>
                     <div id="lifelines-container" class="d-flex align-items-center justify-content-center text-center">
-                        lifeline
+                        <span class="stats">lifeline</span>
                         <br>
                         <img src="${currentLifelineIcon}" alt="Current lifeline" class="lifeline-icon scale-on" id="lifeline">
                     </div>
@@ -232,10 +232,10 @@ $('#game-container').append(`
                         <div id="question-space" class="text-center">
                         </div>
                     </div>
-                    <div id="answers-container">
+                    <div id="answers-container" class="answer-options-container">
                     </div>
                     <div id="score-container" class="d-flex align-items-center justify-content-center text-center">
-                        score
+                        <span class="stats">score</span>
                         <br>
                         <span id="running-score" class="w-100 text-center inline-block">
                             ${runningScore}
