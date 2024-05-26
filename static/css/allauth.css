@@ -1,3 +1,63 @@
+@keyframes changeBackground {
+    0% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
+    }
+
+    33.33% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738427/star-wars-bg-2_zbem9y.jpg');
+    }
+
+    33.34% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738395/spaceship-5164782_1920_1_yb9utn.jpg');
+    }
+
+    66.66% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg');
+    }
+
+    66.67% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
+    }
+
+    100% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716738395/spaceship-5164782_1920_1_yb9utn.jpg');
+    }
+}
+
+#login-bg {
+    animation: changeBackground 30s infinite;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 15vh);
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+form label {
+    display: none;
+}
+
+form input {
+    margin: 1rem 0 1rem 0;
+}
+
+.checkboxinput.from-check-input {
+    margin: 0.25rem 0 0.25rem 0;
+}
+
+.text-bg-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+    width: 100%;
+}
+
+.nobreak {
+    word-wrap: normal;
+}
+
 
 .user_card {
     height: fit-content;
@@ -25,7 +85,7 @@
     background-color: var(--light-foreground);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     color: black;
-}  
+}
 
 .form button {
     background-color: var(--dark-foreground);
@@ -54,7 +114,9 @@
     background-color: var(--light-background);
 }
 
-.form input[name="email"], .form label[for="id_email"], .form small a {
+.form input[name="email"],
+.form label[for="id_email"],
+.form small a {
     display: none;
 }
 
