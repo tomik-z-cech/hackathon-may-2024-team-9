@@ -55,28 +55,6 @@ main {
     box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
 }
 
-/* modal */
-.modal-header,
-.modal-body,
-.modal-footer,
-.custom-modal {
-    color: #efff14;
-    background-color: var(--dark-background);
-    border-bottom: 1px solid #efff14;
-    
-    
-}
-.custom-modal {
-    border: 1px solid #efff14;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
-    transition: box-shadow 0.3s ease;
-}
-
-.custom-modal:hover {
-    box-shadow: 15px 15px 20px rgba(239, 255, 20, 0.6);
-}
-
 @media (max-width: 1224px) {
     /* CSS styles for screens smaller than 1224 pixels */
     #menu-container {
