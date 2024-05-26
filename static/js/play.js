@@ -5,7 +5,7 @@ testMode = false;
 // Global variables
 let typingDelay = 30;
 let characterSelected = 0;
-let timePerQuestion = 30;
+let timePerQuestion = 3000;
 let timerStopped = false;
 let currentChapter = 0;
 let runningScore = 0;
@@ -223,7 +223,7 @@ $('#game-container').append(`
                         <br>
                         <span id="running-timer">${timePerQuestion}</span>
                     </div>
-                    <div id="lifelines-container" class="d-flex align-items-center justify-content-center text-center">
+                    <div id="lifelines-container" class="justify-content-center text-center pt-1">
                         <span class="stats">lifeline</span>
                         <br>
                         <img src="${currentLifelineIcon}" alt="Current lifeline" class="lifeline-icon scale-on" id="lifeline">
