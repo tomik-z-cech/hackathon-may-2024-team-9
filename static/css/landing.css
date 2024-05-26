@@ -13,7 +13,7 @@ main {
     background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716585890/StarWars%20Hackathon/death-star-nologo_lapnjy.jpg');
     background-size: cover;
     background-position: center;
-    animation: starfield 60s linear infinite;
+    animation: starfield 180s linear infinite;
 }
 
 @keyframes starfield {
@@ -21,7 +21,7 @@ main {
         background-position: 0 0;
     }
     to {
-        background-position: 12000px 1000px;
+        background-position: 10000px 1000px;
     }
 }
 
@@ -53,28 +53,6 @@ main {
     background-color: var(--dark-background);
     border: 1px solid #efff14;
     box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
-}
-
-/* modal */
-.modal-header,
-.modal-body,
-.modal-footer,
-.custom-modal {
-    color: #efff14;
-    background-color: var(--dark-background);
-    border-bottom: 1px solid #efff14;
-    
-    
-}
-.custom-modal {
-    border: 1px solid #efff14;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
-    transition: box-shadow 0.3s ease;
-}
-
-.custom-modal:hover {
-    box-shadow: 15px 15px 20px rgba(239, 255, 20, 0.6);
 }
 
 @media (max-width: 1224px) {

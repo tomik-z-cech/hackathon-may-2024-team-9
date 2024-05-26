@@ -14,8 +14,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="title" content="Star Wars Quiz and Rock Paper Scissors | Test Your Galactic Skills">
+    <meta name="description" content="Start with a Star Wars quiz to test your knowledge and finish with an exciting Rock Paper Scissors challenge. Are you ready to prove your worth in the galaxy?">
+    <meta name="keywords" content="Star Wars quiz, Star Wars trivia, Rock Paper Scissors, Star Wars game, Jedi quiz, Sith quiz, Star Wars knowledge, Star Wars challenge, quiz game">
+    <meta name="author" content="Code Troopers">
     {% endblock %}
 
     <!-- Block for core CSS styles -->
@@ -27,11 +29,18 @@
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
     <link rel="stylesheet" href="{% static 'css/allauth.css' %}">
-
     {% endblock %}
 
     <!-- Block for extra CSS styles -->
     {% block extra_css %}{% endblock %}
+    
+    <style>
+        /* Cursor */
+        * {
+        box-sizing: border-box;
+        cursor: url("{% static 'images/cursor.png' %}"), auto;
+        }
+    </style>
 
     <!-- Block for core JS scripts -->
     {% block core_js %}
@@ -42,6 +51,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="{% static 'js/music.js' %}"></script>
     {% endblock %}
 
     <!-- FavIcon -->
@@ -57,13 +67,45 @@
     <main>
         {% block content %}
         {% endblock content %}
+        <div class="modal" id="exampleModal" tabindex="-1">
+            <div class="modal-dialog custom-modal">
+                    <div class="modal-content">
+                            <div class="modal-header text-uppercase">
+                                    <h5 class="modal-title ps-2 w-100 text-center">Enable sound, you must! Yes, hmm!</h5>
+                            </div>
+                            <div class="modal-body">
+                                    <p class="text-center">Hark, young Jedi! For the best performance, use full screen mode, you must. To enhance your gaming thrill, the power of sound, you must unleash! Click on the button below, and music, like the Force, shall flow through you.</p>
+                                    <p class="text-center">Adventure awaits, hmm! Fun, you shall have. May the laughter be with you, always!</p>
+                                    <p class="text-center"><strong>Turn on full screen mode, enable sound and enjoy</strong></p>
+                            </div>
+                            <div class="modal-footer d-inline">
+                                    <div class="row">
+                                            <div class="col-6">
+                                                    <button type="button" id="music-off"
+                                                            class="btn btn-outline-danger text-uppercase w-100">
+                                                            <i class="fa-solid fa-volume-xmark"></i> off
+                                                    </button>
+                                            </div>
+                                            <div class="col-6">
+                                                    <button type="button" id="music-on"
+                                                            class="btn btn-outline-success text-uppercase w-100 musicOn">
+                                                            <i class="fa-solid fa-volume-high"></i> on
+                                                    </button>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
     </main>
     <!-- Footer -->
     {% include 'footer.html' %}
-
     {% block extra_js %}
-    <script src="{% static 'js/footer.js' %}"></script>
     {% endblock %}
+    <script src="{% static 'js/footer.js' %}"></script>
+    <script>
+        const m1 = "{% static 'audio/m1.mp3' %}";
+    </script>
 </body>
 {% endblock %}
 

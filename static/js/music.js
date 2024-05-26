@@ -1,20 +1,27 @@
 $(document).ready(function () {
     if (sessionStorage.getItem('modalConfirmed') != 'true'){
-        console.log('confirm');
         $('#exampleModal').show();
     };
 
+    let audio = new Audio (m1);
+    // audio.loop = loopBool;
+    audio.volume = 0.2;
+
     $('#music-off').click(function() {
         sessionStorage.setItem('modalConfirmed','true');
+        audio.muted = true;
         $('#exampleModal').hide();
     });
     
     $('#music-on').click(function() {
         sessionStorage.setItem('modalConfirmed','true');
         sessionStorage.setItem('soundEnabled','true');
-        var audio = document.querySelector('.audio');
         audio.muted = false;
         audio.play();
         $('#exampleModal').hide();
+    });
+
+    $('#sound-setting-button').click(function(){
+        $('#exampleModal').show();
     });
 });

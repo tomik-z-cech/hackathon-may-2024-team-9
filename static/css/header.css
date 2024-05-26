@@ -32,6 +32,7 @@
     color: #efff14;
 }
 
+.nav-text:hover,
 .icon:hover,
 .glow-font:hover {
     filter: drop-shadow(0 0 30px #efff14) drop-shadow(0 0 30px #efff14) drop-shadow(0 0 40px #efff14);

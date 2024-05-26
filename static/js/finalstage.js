@@ -3,6 +3,7 @@
 testMode = true
 
 // Global variables
+let typingDelay = 30;
 let playerName = sessionStorage.getItem('playerName');
 let finalstageUnlocked = sessionStorage.getItem('finalStageUnlocked') === 'True';
 let currentCharacterName = sessionStorage.getItem('currentCharacterName');
@@ -18,8 +19,8 @@ let bossChoice;
 *  Function for playing musical background - function take number of track as parameter
 *  #m1 - intro background track
 */
-function playAudio(track, loopBool){
-    let soundToPlay = new Audio (track);
+function playAudio(track, loopBool = true) {
+    let soundToPlay = new Audio(track);
     soundToPlay.loop = loopBool;
     soundToPlay.play();
     return soundToPlay;
@@ -27,12 +28,11 @@ function playAudio(track, loopBool){
 
 // Function displays starting message in container
 function finalStageMessage() {
-    currentAudio = playAudio(m1, true);
+    currentAudio = playAudio(mFinal);
+    $('#screen-container').css('background',`url('${backFinal}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>')
-    currentAudio = playAudio(m3, true);
-    message = playerName + "After a hard fought battle to conquer the mind, Darth Sidious is the only thing that stands between you and saving the galaxy!";
-    message = "Through the power of your acquired artefacts, you have been granted " + userLives + "extra lives";
+    const    message = `${playerName}, after a hard-fought battle to conquer the mind, Darth Sidious stands between you and saving the galaxy. Through your acquired artefacts, you have gained ${userLives} extra lives.`;
     let messageContainer = $('#message-container');
     let index = 0;
 
@@ -56,6 +56,7 @@ function finalStageMessage() {
 // Function prepares game view and character perks
 function prepareFinalGameView(){
 $('#game-container').empty()
+currentAudio = playAudio(mFinal);
 
     const characterData = {
         'Han Solo': { image: characterImage4},
@@ -78,10 +79,8 @@ $('#game-container').append(`
                                 artefact
                             </span>
                         </div>
-                        <div id="question-container">
-                            <p>Choose your method of attack:</p>
-                        </div>
                         <div id="answers-container">
+                            <p>Choose your method of attack:</p>
                             <button class="rps-button" data-choice="force-shield">Force Shield</button>
                             <button class="rps-button" data-choice="lightsaber">Lightsaber</button>
                             <button class="rps-button" data-choice="blaster">Blaster</button>
@@ -90,7 +89,7 @@ $('#game-container').append(`
                             score
                             <br>
                             <span id="running-score" class="w-100 text-center inline-block">
-                                ${runningScore}
+                                ${finalScore}
                             </span>
                         </div>
                         <div id="lives-container" class="d-flex align-items-center justify-content-center text-center">
@@ -100,10 +99,9 @@ $('#game-container').append(`
                                 ${userLives}
                             </span>
                         </div>
-
-                        <p id="boss-choice"></p>
-                        <p id="rps-result"></p>
-
+                        <div id="boss-container">
+                            <img src="${bossImage}" alt="Boss image" class="boss-image">
+                        </div>
                     </div>
                     `);
 
@@ -117,21 +115,45 @@ $('#game-container').append(`
         $('#score-container').css('opacity','1');
     }, 1000);
 
-    setTimeout(function() {
-        playFinalGame(userChoice);
-    }, 2000);
+    $(document).on('click', '.rps-button', function(){
+        userChoice = $(this).data('choice');
+        playFinalGame();
+    });
 }
 
 // Function for RPS/final stage mechanics
-function playFinalGame(userChoice) {
+function playFinalGame() {
+    $('#game-container').empty()
+    $('#game-container').css('opacity','1');
+    $('#game-container').append(`
+        <div id="message-container" class="text-center">
+            <p id="boss-choice"></p>
+            <p id="rps-result"></p>
+        </div>
+        `);
     const choices = ['lightsaber', 'force-shield', 'blaster'];
     const bossChoice = choices[Math.floor(Math.random() * choices.length)];
+    $('#rps-result').text(`You used: ${userChoice}`);
 
+    // Countdown
+    let countdown = 3;
+    let countdownInterval = setInterval(() => {
+        if (countdown > 0) {
+            $('#boss-choice').text(`Darth Sidious attacks in ${countdown}...`);
+            countdown--;
+        } else {
+            clearInterval(countdownInterval);
+            revealBossChoice(bossChoice);
+        }
+    }, 1000);
+}
+
+function revealBossChoice(bossChoice) {
     $('#boss-choice').text(`Darth Sidious used: ${bossChoice}`);
 
     if (userChoice === bossChoice) {
         $('#rps-result').text('Your attacks cancel eachother out! Try again.');
-        return;
+        setTimeout(prepareFinalGameView, 5000);
     }
 
     if ((userChoice === 'force-shield' && bossChoice === 'blaster') ||
@@ -140,9 +162,11 @@ function playFinalGame(userChoice) {
         // User won
         bossLives--;
         if (bossLives === 0) {
-            winGame();
-        } else {
-            $('#rps-result').text('The strategy was effective. What will you do next?');
+            $('#rps-result').text('The strategy was effective!');
+            setTimeout(winGame, 5000);
+        } else if (bossLives > 0) {
+            $('#rps-result').text('The strategy was effective! What will you do next?');
+            setTimeout(prepareFinalGameView, 5000);
         }
     } else {
         // Boss won
@@ -150,9 +174,10 @@ function playFinalGame(userChoice) {
         $('#lives-count').text(userLives);
 
         if (userLives === 0) {
-            gameOver();
+            setTimeout(gameOver, 5000);
         } else {
             $('#rps-result').text('Your strategy was ineffective and thus, you\'ve lost an artefact! What will you do next?');
+            setTimeout(prepareFinalGameView, 5000);
         }
     }
 }
