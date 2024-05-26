@@ -223,7 +223,7 @@ $('#game-container').append(`
                     <div id="lifelines-container" class="d-flex align-items-center justify-content-center text-center">
                         lifeline
                         <br>
-                        <img src="${currentLifelineIcon}" alt="Lifeline icon" class="lifeline-icon scale-on" id="lifeline">
+                        <img src="${currentLifelineIcon}" alt="Current lifeline" class="lifeline-icon scale-on" id="lifeline">
                     </div>
                     <div id="question-container">
                         <div id="question-space" class="text-center">
@@ -381,14 +381,15 @@ function endOfChapter(reason) {
 
 // Function handles lifelines
 function callLifeline(lifeline){
-    $('#lifeline').removeClass('scale-on');
-    $('#lifeline').addClass('bw-mask');
-    $('#lifeline').addClass('opaque');
+    $('.lifeline-icon').css('scale','1');
+    $('.lifeline-icon').css('opacity','40%');
+    $('.lifeline-icon').css('filter','grayscale(100%)');
     if (lifeLineAvailable == true){
+        lifeLineAvailable = false;
         switch(lifeline){
             case 'fifthyFifthy':
-                let remove1;
-                let remove2;
+                let remove1 = 4;
+                let remove2 = 4;
                 while (remove1 == Number(currentCorrectAnswer) || remove2 == Number(currentCorrectAnswer) || remove1 == remove2){
                     remove1 = (Math.floor(Math.random() * 4));
                     remove2 = (Math.floor(Math.random() * 4));
@@ -410,7 +411,6 @@ function callLifeline(lifeline){
                 timeLeft = timeLeft + 30;
                 break;
         }
-        lifeLineAvailable = false;
     }
 }
 
