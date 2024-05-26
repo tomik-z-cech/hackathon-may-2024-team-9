@@ -34,7 +34,14 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'star-wars-e347f35c852d.herokuapp.com',
+    '8000-liamwb-hackathonmay2024-ilizz3ea15v.ws-eu114.gitpod.io',
     os.environ.get('LOCAL_HOST')
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:8000',
+    'http://127.0.0.1:8000',
+    'https://8000-liamwb-hackathonmay2024-ilizz3ea15v.ws-eu114.gitpod.io'
 ]
 
 # Application definition
