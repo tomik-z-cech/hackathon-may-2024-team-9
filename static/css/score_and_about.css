@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    width: 99.3%;
+    width: 100%;
     margin: 0;
     padding: 0;
     margin-bottom: -50px;
@@ -137,4 +137,14 @@ th, td {
     max-width: 250px;
     height: auto;
     border: 2px solid #efff14;
+}
+
+@media (max-width: 1024px) {
+    /* CSS styles for screens smaller than 1024 pixels */
+    #how-to-play-bg {
+    margin-top:10%;
+    }
+    .top-space{
+    margin-top:10%;
+    }
 }

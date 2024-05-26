@@ -17,21 +17,24 @@ The Code Troopers have laid the groundwork, and now we invite you to join us in 
 
 ### Link to the Game - [MindWars](https://star-wars-e347f35c852d.herokuapp.com/)
 
+### Responsive Mockup 
+![Mockuo](static/images/readme_img/mockup.png)
+
 ## Gameplay
 
 ### Characters
 
 You will have a choice of 5 characters to choose to play as. Pick wisely as each character have their own perks while completing the trivia:
 
--   **Yoda**  
+- **Yoda**  
 	- Force Sense; on activating this perk you will automatically detect the correct answer.
--   **Luke** 
+- **Luke** 
 	- Force Meditation; on activating this perk you will gain additional time to answer a question giving you the potential to get bonus point.
--   **Darth Vader**  
+- **Darth Vader**  
 	- Dark Force; on activating this perk you will gain bonus points for answering correctly.
--   **Princess Leia**  
+- **Princess Leia**  
 	- Force Empathy; on activating this perk you will be able to change the question asked.
--   **Han Solo**  
+- **Han Solo**  
 	- Expert Markman; on activating this perk, two incorrect answers will be eliminated.
 
 ### Stages
@@ -77,12 +80,33 @@ You will have a choice of 5 characters to choose to play as. Pick wisely as each
 
 Link to [Wireframes](https://github.com/tomik-z-cech/hackathon-may-2024-team-9/tree/main/readme_img/wireframes.pdf)
 
-## Technologies used
+## Technologies used to develop and deploy this project
 
-## Validation
-
-## Future implementations
+- [**Django/Jinja**](https://docs.djangoproject.com/en/5.0/) - main Framework of the project.
+- [**Python**](https://www.python.org/) - main BackEnd programming language of the project.
+- [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) - templates programming language of this project (FrontEnd).
+- [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) - styling the project via external CSS file.
+- [**Java Script**](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - dynamic templates programming language of this project (FrontEnd).
+- [**jQuery**](https://api.jquery.com/) - API for JavaScript - dynamic templates programming language of this project (FrontEnd).
+- [**Bootstrap v. 5.3**](https://getbootstrap.com/) - styling framework used in this project (FrontEnd).
+- [**Heroku**](https://heroku.com) - to deploy this project.
+- [**Balsamiq**](https://balsamiq.com/support/) - to create wireframes.
+- [**Git**](https://git-scm.com/doc) - to make commitments of progress and push the results back to GitHub.
+- [**GitHub**](https://github.com/) - to keep the track of version control.
+- [**Gimp**](https://www.gimp.org/) - to remove background from the images.
 
 ## Credits
+- FOR EDUCATIONAL PURPOSES ONLY
+- Star Wars and all its assets are under copyright by The Lucasfilm Ltd. which is owned by Disney.
 
 ## Acknowledgements
+- **Our team worked well together, we all helped each other on different aspects of the project.** 
+
+- **Tomas K.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/tomas-kubancik/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/tomik-z-cech)
+- **Szymon S.**- [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/szymon-stepien-4b60a547/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/ObiOne84)
+- **Liam B.**  - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/liam-blake-985239225/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/Liam-WB)
+- **Lorenz B.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://linkedin.com/in/lorenz-b-swe) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/Lorenz-127)
+- **Deepesh P.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/deepesh-patel-1b9747307/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>]()
+- **Viktor R.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/viktor-rura/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/rurakite)
+- **Amir A.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/amir-ahmed-brm-uk/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/AmirAkmed)
+- **Jamie O.** - [<img src="https://img.icons8.com/color/24/000000/linkedin.png"/>](https://www.linkedin.com/in/jamie2023/) [<img src="https://img.icons8.com/color/24/ffffff/github.png"/>](https://github.com/jamie33o)

@@ -3,21 +3,53 @@
 
 {% block nav_name %}My Profile{% endblock %}
 
+{% block extra_css %}
+        <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+{% endblock %}
+
 {% block content %}
-    <br>
-    <br>
-    <br>
-    <h1>
-        My Profile
-    </h1>
-    <br>
-    Hello {{ userprofile }},
-    <br>
-    So far you played {{ userprofile.games_played }} games.
-    <br>
-    Your highest score is {{ userprofile.highest_score }}.
-    <br>
-    Your cummulative score is {{ userprofile.cummulative_score }}.
-    <br>
-    Your average score is {{ userprofile.average_score }}.
+
+<div class="container d-flex flex-column justify-content-center align-items-center">
+  <!-- Greetings -->
+  <div class="greetings row mb-3">
+    <div class="col-12">
+      <h2 class="text-center text-warning">Welcome to profile page!</h2>
+    </div>
+  </div>
+
+  <!-- Profile Card -->
+  <div class="card">
+    <div class="upper">
+      <img src="https://imgur.com/wA15QNQ.jpg" class="img-fluid" alt="starship">
+    </div>
+
+    <div class="user text-center">
+      <div class="profile">
+        <img src="{% static 'images/allauth_error_img/th (1).jpeg' %}" class="rounded-circle" width="80" alt="profile">
+      </div>
+    </div>
+
+    <div class="mt-5 text-center">
+      <h4 class="mb-0 text-dark">{{ userprofile }}</h4>
+
+      <div class="d-flex justify-content-between align-items-center mt-5 px-4">
+        <div class="stats text-dark">
+          <h6 class="mb-0">Games Played</h6>
+          <span>{{ userprofile.games_played }}</span>
+        </div>
+
+        <div class="stats text-dark">
+          <h6 class="mb-0">Highest Score</h6>
+          <span>{{ userprofile.highest_score }}</span>
+        </div>
+
+        <div class="stats text-dark">
+          <h6 class="mb-0">Cumulative Score</h6>
+          <span>{{ userprofile.cummulative_score }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
