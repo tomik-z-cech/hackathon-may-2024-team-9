@@ -27,7 +27,6 @@
 
 /* Leaderboard  */
 #leaderboard-bg {
-    /* background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg'); */
     animation: changeBackground 60s infinite;
     background-size: cover;
     background-position: center;
@@ -123,7 +122,6 @@ td {
 
 /* How to play  */
 #how-to-play-bg {
-    /* background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png'); */
     animation: changeBackgroundAbout 60s infinite;
     background-size: cover;
     background-position: center;
@@ -189,7 +187,6 @@ td {
 }
 
 #about-us-bg {
-    /* background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg'); */
     animation: changeBackgroundAboutUs 60s infinite;
     background-size: cover;
     background-position: center;
