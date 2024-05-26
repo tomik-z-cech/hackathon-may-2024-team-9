@@ -24,9 +24,13 @@ margin-top: 10%;
         border: none;
         border-radius: 15px;
         padding: 8px;
-        background: var(--dark-foreground);
+        background: var(--mid-foreground);
         position: relative;
         height: 370px;
+        box-shadow: 0px 0px 3px 3px var(--light-foreground);
+       }
+       .text-greetings{
+       color: var(--mid-foreground);
        }
 
        .upper{
