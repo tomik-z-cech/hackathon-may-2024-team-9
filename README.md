@@ -58,7 +58,7 @@ You will have a choice of 5 characters to choose to play as. Pick wisely as each
 
 - The color scheme was chosen to reflect the 'StarWars' theme.
 
-![colour palette](static/images/readme_img/color-palette.png)
+![colour palette](readme_img/color-palette.png)
 
 ### Typography
 
@@ -66,16 +66,16 @@ You will have a choice of 5 characters to choose to play as. Pick wisely as each
 
 - The Main Font is "Obitron" sans-serif.
 
-![Obitron](static/images/readme_img/orbitron.png)
+![Obitron](readme_img/orbitron.png)
 
 - the Text Font is "Star Wars" sans-serif.
 
-![Star Wars](static/images/readme_img/star-wars.png)
+![Star Wars](readme_img/star-wars.png)
 
 ### Wireframes
 - Simple and minimal mockups were created at the start with Balsamiq Wireframes.
 
-Link to [Wireframes](https://github.com/tomik-z-cech/hackathon-may-2024-team-9/tree/main/static/images/readme_img/wireframes.pdf)
+Link to [Wireframes](https://github.com/tomik-z-cech/hackathon-may-2024-team-9/tree/main/readme_img/wireframes.pdf)
 
 ## Technologies used
 
