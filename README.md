@@ -81,3 +81,17 @@ To reach the leaderboards you will need to be both swift and precise. Each quest
 
 ![Star Wars](static/images/readme_img/star-wars.png)
 
+### Wireframes
+- Simple and minimal mockups were created at the start with Balsamiq Wireframes.
+
+Link to [Wireframes](https://github.com/tomik-z-cech/hackathon-may-2024-team-9/tree/main/static/images/readme_img/wireframes.pdf)
+
+## Technologies used
+
+## Validation
+
+## Future implementations
+
+## Credits
+
+## Acknowledgements
