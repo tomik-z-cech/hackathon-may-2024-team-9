@@ -28,7 +28,7 @@ function playAudio(track, loopBool = true) {
 
 // Function displays starting message in container
 function finalStageMessage() {
-    currentAudio = playAudio(m1);
+    currentAudio = playAudio(mFinal);
     $('#screen-container').css('background',`url('${backFinal}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>')
