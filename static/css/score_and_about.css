@@ -1,3 +1,15 @@
+/* Leaderboard  */
+#leaderboard-bg {
+    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
 .score-table {
     border-color: #efff1493;
     color: #efff14;
@@ -84,12 +96,14 @@ th, td {
     max-width: 100px;
     height: auto;  
     border-radius: 50%;
+    border: 2px solid #efff14;
 }
 
 .elliptical-image {
     border-radius: 50% / 25%;
     max-width: 400px;
     height: auto;
+    border: 2px solid #efff14;
   }
 
   /* About us */
@@ -109,6 +123,20 @@ th, td {
     background-color: rgba(0, 0, 0, 0.7);
     height: inherit;
     width: 100%;
+}
+
+.thumb-image {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #efff14;
+}
+
+.abous-us-image {
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #efff14;
 }
 
 @media (max-width: 1024px) {

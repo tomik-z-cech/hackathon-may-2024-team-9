@@ -1,8 +1,8 @@
 {% load static %}
 
-{% block extra_css %} 
-        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
-        <link rel="stylesheet" href="{% static 'css/header.css' %}">
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/footer.css' %}">
+<link rel="stylesheet" href="{% static 'css/header.css' %}">
 {% endblock %}
 
 <!-- Footer -->
@@ -21,46 +21,58 @@
         <div class="col-12 col-sm-3 mt-1 my-sm-3 d-flex align-items-center ps-4">
             <div class="w-100 text-center text-sm-start small h-100">
                 <ul class="list-inline my-0">
-                    <li class="list-item text-uppercase fs-5">
+                    <li class="list-item text-uppercase fs-6">
                         <a href="{% url 'about_us' %}" class="icon" aria-label="Follow this link to find more about us">
-                            <span class="footer-link">About Us</span>
+                            <i class="fa-solid fa-people-group nav-text"></i>
+                            &nbsp;
+                            <span class="footer-link">Team</span>
                         </a>
                     </li>
-                    <li class="list-item text-uppercase fs-5">
-                        <a href="{% url 'how_to_play' %}" aria-label="Follow this link to find out more about the game" class="icon">
-                            <span class="">About Game</span>
+                    <li class="list-item text-uppercase fs-6">
+                        <a href="{% url 'how_to_play' %}" aria-label="Follow this link to find out more about the game"
+                            class="icon">
+                            <i class="fa-solid fa-circle-info"></i>
+                            &nbsp;
+                            <span class="">How to play</span>
                         </a>
                     </li>
-                    <li class="list-item text-uppercase footer-link fs-5">
-                        <a href="https://starwars.fandom.com/wiki/Hyperspace:_The_Official_Star_Wars_Fan_Club" target="_blank" aria-label="Visit StarWars fan club page and meet your favourite characteres" class="icon" rel="noopener">
+                    <li class="list-item text-uppercase fs-6">
+                        <a href="https://starwars.fandom.com/wiki/Hyperspace:_The_Official_Star_Wars_Fan_Club"
+                            target="_blank"
+                            aria-label="Visit StarWars fan club page and meet your favourite characteres" class="icon"
+                            rel="noopener">
+                            <i class="fa-solid fa-book"></i>
+                            &nbsp;
                             <span class="">StarWars Fan Club</span>
                         </a>
                     </li>
-                </ul>
-                <hr class="my-1 d-block d-sm-none">
+                </ul>  
             </div>
         </div>
+        <hr class="my-1 d-block d-sm-none">
         <div class="col-12 col-sm-3 mt-1 my-sm-3 d-flex align-items-center">
             <div class="w-100 text-center small h-100">
-                <ul class="list-inline my-0">
-                    <li class="list-item text-uppercase fs-5 mb-1">
-                        <span>Connect:</span>
+                <ul class="list-inline my-0 fs-6">
+                    <li class="list-item text-uppercase mb-1">
+                        <i class="fa-solid fa-network-wired"></i>
+                        &nbsp;
+                        <span>Connect</span>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
-                        <a href="https://www.facebook.com/" target="_blank" class="display-6" rel="noopener"
+                        <a href="https://www.facebook.com/" target="_blank" class="display-6" rel="nofollow noopener"
                             aria-label="Visit MindWars Facebook page.">
                             <i class="fa-brands fa-square-facebook icon glow-font"></i>
                         </a>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
                         <a href="https://www.twitter.com/" target="_blank" aria-label="Visit MindWars Twitter account."
-                            class="display-6" rel="noopener">
+                            class="display-6" rel="nofollow noopener">
                             <i class="fa-brands fa-x-twitter icon glow-font"></i>
                         </a>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
                         <a href="https://www.instagram.com/" target="_blank" aria-label="Visit MindWars Instagram page."
-                            class="display-6" rel="noopener">
+                            class="display-6" rel="nofollow noopener">
                             <i class="fa-brands fa-instagram icon glow-font"></i>
                         </a>
                     </li>
@@ -68,30 +80,86 @@
                 <hr class="my-1 d-block d-sm-none">
             </div>
         </div>
-        <div class="col-12 col-sm-6 my-0 my-sm-3 d-flex align-items-center">
+        <div class="col-12 col-sm-6 mt-1 my-sm-3 d-flex align-items-center">
             <div class="text-center w-100 h-100 small">
                 <ul class="list-inline">
-                    <li class="list-item fs-5 text-uppercase mb-1">
-                        Work with us:
+                    <li class="list-item fs-6 text-uppercase mb-1">
+                        <i class="fa-solid fa-link"></i>
+                        &nbsp;
+                        <span>Work with us</span>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
-                        <a href="https://github.com/ObiOne84" target="_blank" class="display-6" rel="noopener"
-                            aria-label="Visit Developer's GitHub Account, opens in new tab">
-                            <i class="fa-brands fa-square-github icon glow-font"></i>
+                        <a href="{% url 'about_us' %}#Tomas" class="display-6" aria-label="Visit Tomas's bio.">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://avatars.githubusercontent.com/u/129102265?v=4"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Tomas.">
                         </a>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
-                        <a href="https://www.linkedin.com/in/szymon-stepien-4b60a547/" target="_blank" rel="noopener"
-                            aria-label="Visit Developers' LinkedIn Account, opens in new tab" class="display-6">
-                            <i class="fa-brands fa-linkedin icon glow-font"></i>
+                        <a href="{% url 'about_us' %}#Szymon" aria-label="Visit Szymon's bio." class="display-6">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://avatars.githubusercontent.com/u/130840690?v=4"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Szymon.">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Liam" class="display-6" aria-label="Visit Liam's bio.">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://media.licdn.com/dms/image/D4E03AQFHV1D0OtRAmQ/profile-displayphoto-shrink_200_200/0/1687453626291?e=1722470400&v=beta&t=WhHjE1IhzJOl_-cE9aK_MnvKbXScPDSOLR9-JLKrH2I"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Liam.">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Lorenz" aria-label="Visit Lorenz bio." class="display-6">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://media.licdn.com/dms/image/D4E03AQGH9AW3BYKabw/profile-displayphoto-shrink_200_200/0/1713158170267?e=1722470400&v=beta&t=X5DNRwYgggyBcSNb6nwOFolswCf3eR1Dmf_I7ozKcag"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Lorenz.">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Deepesh" class="display-6" aria-label="Visit Deepesh bio">
+                            <img class="dev-icon glow-font" loading="lazy" src="https://avatars.githubusercontent.com/u/166607024?v=4"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Deepesh.">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Viktor" aria-label="Visit Viktor bio" class="display-6">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://media.licdn.com/dms/image/D4E03AQEZy2kT-c57Xw/profile-displayphoto-shrink_200_200/0/1708293400264?e=1722470400&v=beta&t=hUupMjdzu8etjhAcqFhDA3SvM1T6tHGzH7lsyT9NbLA"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Viktor.">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Amir" class="display-6" aria-label="Visit Amir's bio">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://avatars.githubusercontent.com/u/163753630?v=4"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Amir">
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-lg-2 py-1">
+                        <a href="{% url 'about_us' %}#Jamie" aria-label="Visit Jamie's bio." class="display-6">
+                            <img class="dev-icon glow-font" loading="lazy"
+                                src="https://avatars.githubusercontent.com/u/123118240?v=4"
+                                onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                                alt="Profile image of Jamie.">
                         </a>
                     </li>
                 </ul>
-                <div class="small fst-italic mb-3 mb-sm-0 footer-font">Copyright &copy; MindWars 
-                    <span id="copyright"></span>
-                    <span class="d-block">Created by: <strong>Code Troopers</strong></span>
+                <div class="text-center small d-block">
+                    <div class="small text-uppercase mb-3 mb-sm-0 footer-font mt-4">
+                        <span>MindWars - for educational purposes only - 2024</span>
+                        <span class="d-block">Created by: <strong>Code Troopers</strong></span>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </footer>

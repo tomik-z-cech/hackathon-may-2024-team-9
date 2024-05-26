@@ -7,71 +7,77 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
-    <div class="row top-space"></div>
-    <div class="row">
-        <div class="col-12 text-center mb-5">
-            <h1 class="text-uppercase logo-font fw-bold title-color">
-                Hall of Fame
-            </h1>
-        </div>
-    </div>
-    <div class="row mb-lg-5 mb-3">
-        <div class="col-xl-6 col-lg-8 col-md-10 col-12 px-2 px-sm-1 offset-xl-3 offset-lg-2 offset-md-1">
-            <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with most games palyed:</p>
-            <div class="table-container">
-                <table class="table table-sm table-hover table-bordered text-center score-table logo-font letter-spacing">
-                    <thead>
-                        <tr>
-                            <th scope="col">Position</th>
-                            <th scope="col">Username</th>
-                            <th scope="col">Games</th>
-                            <th scope="col">Total Score</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for player in games_players %}
-                        <tr>
-                            <th scope="row">{{ forloop.counter }}</th>
-                            <td>{{ player }}</td>
-                            <td>{{ player.games_played }}</td>
-                            <td>{{ player.cummulative_score }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+<div class="" id="leaderboard-bg">
+    <div class="text-bg-overlay mx-0">
+        <div class="row top-space mx-0"></div>
+        <div class="row mx-0">
+            <div class="col-12 text-center mb-5">
+                <h1 class="text-uppercase logo-font fw-bold title-color">
+                    Hall of Fame
+                </h1>
             </div>
         </div>
-    </div>
-    <div class="row mb-5">
-        <div class="col-xl-6 col-lg-8 col-md-10 col-12 px-2 px-sm-1 offset-xl-3 offset-lg-2 offset-md-1">
-            <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with highest score per game:</p>
-            <div class="table-container">
-                <table class="table table-sm table-hover table-bordered text-center score-table logo-font letter-spacing pb-5">
-                    <thead>
-                        <tr>
-                            <th scope="col">Position</th>
-                            <th scope="col">Username</th>
-                            <th scope="col">Ave Score</th>
-                            <th scope="col">HiScore</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for player in games_players %}
-                        <tr>
-                            <th scope="row">{{ forloop.counter }}</th>
-                            <td>{{ player }}</td>
-                            <td>{{ player.average_score }}</td>
-                            <td>{{ player.highest_score }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+        <div class="row mx-0 mb-lg-5 mb-3">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12 px-2 px-sm-1 offset-xl-3 offset-lg-2 offset-md-1">
+                <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with most games palyed:
+                </p>
+                <div class="table-container">
+                    <table
+                        class="table table-sm table-hover table-bordered text-center score-table logo-font letter-spacing">
+                        <thead>
+                            <tr>
+                                <th scope="col">Position</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Games</th>
+                                <th scope="col">Total Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for player in games_players %}
+                            <tr>
+                                <th scope="row">{{ forloop.counter }}</th>
+                                <td>{{ player }}</td>
+                                <td>{{ player.games_played }}</td>
+                                <td>{{ player.cummulative_score }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row" style="height: 100px;">
-    
+        <div class="row mx-0 mb-5">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12 px-2 px-sm-1 offset-xl-3 offset-lg-2 offset-md-1">
+                <p class="text-uppercase text-center mt-2 mb-2 logo-font title-color">Players with highest score per
+                    game:</p>
+                <div class="table-container">
+                    <table
+                        class="table table-sm table-hover table-bordered text-center score-table logo-font letter-spacing pb-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Position</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Ave Score</th>
+                                <th scope="col">HiScore</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for player in games_players %}
+                            <tr>
+                                <th scope="row">{{ forloop.counter }}</th>
+                                <td>{{ player }}</td>
+                                <td>{{ player.average_score }}</td>
+                                <td>{{ player.highest_score }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0" style="height: 100px;">
+
+        </div>
     </div>
 </div>
 

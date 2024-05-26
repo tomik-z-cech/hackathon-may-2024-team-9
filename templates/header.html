@@ -13,61 +13,78 @@
       <div class="offcanvas offcanvas-end offcanvas-custom-bg" tabindex="-1" id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title side-title text-uppercase logo-font" id="offcanvasDarkNavbarLabel">MindWars</h5>
+          <img src="{% static 'images/logo.png' %}" alt="MindWars logo" id="side-menu-logo">
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-start offcanvas-custom-bg">
             <li class="nav-item">
-              <a class="nav-link active logo-font" aria-current="page" href="{% url 'home' %}">
+              <a class="nav-link logo-font" aria-current="page" href="{% url 'home' %}">
                 <i class="fa-solid fa-house mx-2 mx-lg-0 nav-text"></i>
-                <span class="nav-text"> Home</span>
+                &nbsp;
+                <span class="nav-text text-uppercase">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link logo-font" aria-current="page" href="{% url 'play' %}">
+                  <i class="fa-solid fa-jedi fa-flip mx-2 mx-lg-0 nav-text"></i>
+                  &nbsp;
+                  <span class="nav-text text-uppercase">Play</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link logo-font" aria-current="page" href="{% url 'top_players' %}">
                 <i class="fa-solid fa-chart-simple mx-2 mx-lg-0 nav-text"></i>
-                <span class="nav-text"> Leaderboard</span>
+                &nbsp;
+                <span class="nav-text text-uppercase">Leaderboard</span>
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <i class="fa-solid fa-user mx-2 mx-lg-0 nav-text"></i>
-                <span class="nav-text logo-font">My Account</span>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" aria-current="page" href="{% url 'about_us' %}">
+                <i class="fa-solid fa-people-group mx-2 mx-lg-0 nav-text"></i>
+                &nbsp;
+                <span class="nav-text logo-font">Team</span>
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                {% if request.user.is_authenticated %}
-                <li><a class="dropdown-item nav-text logo-font" href="{% url 'profile_manager' %}">
-                    <i class="fa-regular fa-id-card me-1 nav-text icon"></i><span class="nav-text"> My Profile</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item logo-font" href="{% url 'account_logout' %}">
-                    <i class="fa-solid fa-right-from-bracket fa-flip-horizontal me-1 nav-text"></i><span class="nav-text">  Logout</span>
-                  </a>
-                </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" aria-current="page" href="https://starwars.fandom.com/wiki/Hyperspace:_The_Official_Star_Wars_Fan_Club" target="_blank" aria-label="Visit StarWars fan club page and meet your favourite characteres" rel="nofollow noopener">
+                <i class="fa-solid fa-book mx-2 mx-lg-0 nav-text"></i>
+                &nbsp;
+                <span class="nav-text logo-font">Star wars fan club</span>
+              </a>
+            </li>
+              {% if request.user.is_authenticated %}
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" aria-current="page"  href="{% url 'profile_manager' %}" aria-label="My profile">
+                  <i class="fa-solid fa-right-from-bracket nav-text"></i>
+                  &nbsp;
+                  <span class="nav-text logo-font">My profile</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" aria-current="page" aria-label="Logout" href="{% url 'account_logout' %}">
+                  <i class="fa-solid fa-book mx-2 mx-lg-0 nav-text"></i>
+                  &nbsp;
+                  <span class="nav-text logo-font">logout</span>
+                </a>
+              </li>
                 {% else %}
-                <li>
-                  <a class="dropdown-item logo-font" href="{% url 'account_login' %}">
-                    <i class="fa-solid fa-right-to-bracket me-1 nav-text"></i><span class="nav-text"> Login</span>
+                <li class="nav-item">
+                  <a class="nav-link logo-font" href="{% url 'account_login' %}">
+                    <i class="fa-solid fa-right-to-bracket me-1 nav-text"></i>
+                    &nbsp;
+                    <span class="nav-text text-uppercase">Login</span>
                   </a>
                 </li>
-                <li>
-                  <a class="dropdown-item logo-font" href="{% url 'account_signup' %}">
-                    <i class="fa-solid fa-user-plus me-1 nav-text"></i><span class="nav-text"> Register</span>
+                <li class="nav-item">
+                  <a class="nav-link logo-font" href="{% url 'account_signup' %}">
+                    <i class="fa-solid fa-user-plus me-1 nav-text"></i>
+                    &nbsp;
+                    <span class="nav-text text-uppercase">Register</span>
                   </a>
                 </li>
                 {% endif %}
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{% url 'about_us' %}">
-                <i class="fa-solid fa-people-group mx-2 mx-lg-0 nav-text"></i>
-                <span class="nav-text logo-font"> About Us</span>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
