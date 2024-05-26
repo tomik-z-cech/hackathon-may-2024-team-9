@@ -27,7 +27,7 @@ let chaptersWon = [];
 function playAudio(track, loopBool){
     if (sessionStorage.getItem('soundEnabled') == 'true') {
         let soundToPlay = new Audio (track);
-        soundToPlay.loop = loopBool;
+        //soundToPlay.loop = loopBool;
         soundToPlay.volume = 0.2;
         soundToPlay.play();
         return soundToPlay;
