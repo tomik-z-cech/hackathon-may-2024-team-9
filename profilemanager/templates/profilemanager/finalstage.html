@@ -22,7 +22,7 @@
 {% endblock %}
 
 {% block extra_js %}
-    <script src="{% static 'js/finalstage.js' %}"></script>
+    <script src="{% static 'js/finalstage.js' %}" data-player-name="{{ player_name }}"></script>
     <script>
         // character images
         const characterImage0 = "{% static 'images/characters/yodaa.png' %}"; // Yoda - 0
