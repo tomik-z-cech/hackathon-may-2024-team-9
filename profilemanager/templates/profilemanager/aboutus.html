@@ -3,11 +3,141 @@
 
 {% block nav_name %}About Us{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/score_and_about.css' %}">
+{% endblock %}
+
 {% block content %}
-    <br>
-    <br>
-    <br>    
-    <h1>
-        About Us
-    </h1>
+<div id="about-us-bg">
+    <div class="text-bg-overlay-us">
+        <div class="container-lg logo-font letter-spacing text-bg">
+            <div class="row top-space"></div>
+            <div class="row px-1">
+                <div class="col text-center">
+                    <h2 class="logo-font text-uppercase">About Us</h2>
+                </div>
+                <hr class="mt-4">
+            </div>
+            <div class="row mb-4 px-2">
+                <div class="col-12 mt-1 mt-md-3">
+                    <h3 class="text-uppercase text-center">
+                        Meet our hackaton team <strong>code troopers</strong>
+                    </h3>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="yoda-image about-img" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716665783/StarWars%20Hackathon/yoda-hmm_k4jyff.png"
+                        alt="Image of the Master Yoda.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Tomas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-end">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672657/StarWars%20Hackathon/star-wars-lonely-walk-16-9_rc04ge.jpg"
+                        alt="Image of the robots walking through the desert.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg"
+                        alt="Starship battle between jedi and dark forces.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Szymon Stepien</h3>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>RuraKite</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673206/StarWars%20Hackathon/star-wars-characters_ywawxi.jpg"
+                        alt="StarWars main characters.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg"
+                        alt="Image of a fallen ship.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Liam Blake</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Liam Blake</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673206/StarWars%20Hackathon/star-wars-characters_ywawxi.jpg"
+                        alt="StarWars main characters.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg"
+                        alt="Image of a fallen ship.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Liam Blake</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Liam Blake</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673206/StarWars%20Hackathon/star-wars-characters_ywawxi.jpg"
+                        alt="StarWars main characters.">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-start">
+                    <img class="w-100 elliptical-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673459/StarWars%20Hackathon/fallen-ship-16-9_imbqyh.jpg"
+                        alt="Image of a fallen ship.">
+                </div>
+                <div class="col-md-8 col-12 mt-1 mt-md-3">
+                    <h3>Liam Blake</h3>
+                    <p class="m-0 p-0">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eveniet aperiam qui quidem
+                        illo nesciunt ea doloremque quod laborum, doloribus culpa, non ipsam! Saepe ipsa vitae
+                        reiciendis ratione deserunt eius!
+                    </p>
+                </div>    
+            </div>
+        </div>
+        <div class="bottom-space">
+
+        </div>
+    </div>
+</div>
 {% endblock %}

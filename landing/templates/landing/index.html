@@ -12,9 +12,6 @@
 <body id="landing-bg">
         <!-- Header -->
         {% include 'header.html' %}
-
-
-
         <!-- Content -->
         <main>
                 {% block content %}
@@ -80,18 +77,15 @@
                                                         aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                                <p>Hark, young Jedi, to enhance your gaming thrill,
-                                                        the power of sound, you must unleash! Click on the button below,
-                                                        and music, like the Force, shall flow through you.</p>
-                                                <p>Adventure awaits, hmm! Fun, you shall have. May the laughter be with
-                                                        you, always!</p>
+                                                <p class="text-center">Hark, young Jedi! For the best performance, use full screen mode, you must. To enhance your gaming thrill, the power of sound, you must unleash! Click on the button below, and music, like the Force, shall flow through you.</p>
+                                                <p class="text-center">Adventure awaits, hmm! Fun, you shall have. May the laughter be with you, always!</p>
+                                                <p class="text-center"><strong>Turn on full screen mode, enable sound and enjoy</strong></p>
                                         </div>
                                         <div class="modal-footer d-inline">
                                                 <div class="row">
                                                         <div class="col-6">
-                                                                <button type="button"
-                                                                        class="btn btn-outline-danger text-uppercase w-100"
-                                                                        data-bs-dismiss="modal">
+                                                                <button type="button" id="music-off"
+                                                                        class="btn btn-outline-danger text-uppercase w-100">
                                                                         <i class="fa-solid fa-volume-xmark"></i> off
                                                                 </button>
                                                         </div>

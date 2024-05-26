@@ -53,3 +53,60 @@ th, td {
     background: #efff14;
     border: 2px solid #000000;
 }
+
+/* How to play  */
+#how-to-play-bg {
+    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+.text-bg-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+    width: 100%;
+}
+
+.bottom-space {
+    height: 100px;
+}
+
+.about-img {
+    background-color: var(--dark-foreground);
+}
+
+.yoda-image {
+    max-width: 100px;
+    height: auto;  
+    border-radius: 50%;
+}
+
+.elliptical-image {
+    border-radius: 50% / 25%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* About us */
+
+  #about-us-bg {
+    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+.text-bg-overlay-us {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: inherit;
+    width: 100%;
+}

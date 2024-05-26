@@ -1,18 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-    myModal.show();
+$(document).ready(function () {
+    if (sessionStorage.getItem('modalConfirmed') != 'true'){
+        console.log('confirm');
+        $('#exampleModal').show();
+    };
 
-    // Function to unmute and play the audio
-    function unmuteAndPlayAudio() {
+    $('#music-off').click(function() {
+        sessionStorage.setItem('modalConfirmed','true');
+        $('#exampleModal').hide();
+    });
+    
+    $('#music-on').click(function() {
+        sessionStorage.setItem('modalConfirmed','true');
+        sessionStorage.setItem('soundEnabled','true');
         var audio = document.querySelector('.audio');
         audio.muted = false;
         audio.play();
-    }
-
-    var audioSound = document.querySelector('.musicOn');
-
-    audioSound.addEventListener('click', function() {
-        unmuteAndPlayAudio();
-        myModal.hide();
+        $('#exampleModal').hide();
     });
 });

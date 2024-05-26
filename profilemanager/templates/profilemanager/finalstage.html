@@ -1,28 +1,17 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block nav_name %}Quiz Chapters{% endblock %}
+{% block nav_name %}Final Stage{% endblock %}
 
 {% block extra_css %} 
-        <link rel="stylesheet" href="{% static 'css/play.css' %}">
+        <!-- <link rel="stylesheet" href="{% static 'css/finalstage.css' %}"> -->
 {% endblock %}
 
 {% block content %}
-    <div id="screen-container" style="background: url('{% static "images/backgrounds/back0.jpeg" %}') no-repeat fixed top right / cover;">
-        <span class="w-100">
-            <a href="{% url 'home' %}" aria-label="Close Game" id="close-icon">
-                <i class="fa-regular fa-circle-xmark"></i>
-            </a>
-        </span>
-        <div id="game-container">
-        </div>
-    </div>
-    <div id="cover-mask">
-    </div>
 {% endblock %}
 
 {% block extra_js %}
-    <script src="{% static 'js/play.js' %}"></script>
+    <!-- <script src="{% static 'js/finalstage.js' %}"></script> -->
     <script>
         // players name 
         const playerName = '{{ player_name }}';
@@ -38,8 +27,6 @@
         const questionSet2 = "{% static 'questions/luke.json' %}"; // Luke - 2
         const questionSet3 = "{% static 'questions/vader.json' %}"; // - Vader - 3
         const questionSet4 = "{% static 'questions/solo.json' %}"; // Solo - 4
-        // url after game finished
-        const afterChaptersLink = "{% url 'final_stage' %}";
         // background music
         const m1 = "{% static 'audio/m1.mp3' %}"; // sw theme - start & finish chapter
         const m2 = "{% static 'audio/m2.mp3' %}"; // question asked - chapter 1
