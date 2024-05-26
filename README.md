@@ -1,14 +1,19 @@
 # Mindwars
 
-  
-
 ## Introduction
 
-The game "MindWars" offers an interactive Star Wars-themed, built in a trivia game style, with a twist.
+May 2024 [#47 Hackahton:]((https://hackathon.codeinstitute.net/hackathon/47/))
+Code Wars: The Hackathon Strikes Back
 
-Stage 1 requires you to play a multiple choice-based trivia game, split into 3 levels of increasing difficulty; Jedi Apprentice, Jedi Knight and Jedi master with 5 questions per level, and 30 seconds per question to answer, the faster you select the correct answer the greater the points scored will be. To also aid you in stage 2; in each difficulty level, if you succeed in answering all 5 questions correctly, you will uncover battle armour able to be used in the final stage.
+Code Troopers presents "Mindwars", an interactive Star Wars themed trivia quiz style game with a twist.
 
-Stage 2, will involve you battling the mystery disturbance detected, following a Rock, Paper, scissor style battle.
+In a galaxy not so far away, a random group of intrepid heroes have come together to put an end to the Emperor. In order to achieve this, co-operation, planning, division of labour and creative effort are required. 
+
+The project was planned and executed according to the Agile principle. 
+
+Combined with the calm and composure of a Jedi, and in some cases the tenacity of a restless Sith, we have managed to offer the Emperor a battle in which everyone can participate. 
+
+The Code Troopers have laid the groundwork, and now we invite them to join us in the fight against the Emperor.
 
 ### Link to the Game - [MindWars](https://star-wars-e347f35c852d.herokuapp.com/)
 
