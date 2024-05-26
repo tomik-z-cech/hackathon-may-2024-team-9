@@ -9,11 +9,14 @@ console.log(playerName);
 let finalstageUnlocked = sessionStorage.getItem('finalStageUnlocked') === 'True';
 let currentCharacterName = sessionStorage.getItem('currentCharacterName');
 let finalScore = parseInt(sessionStorage.getItem('runningScore'));
-let userLives = sessionStorage.getItem('wonChapters'); // Minimum 1 life
-console.log(userLives)
+let userLives = 1; // Minimum 1 life
+console.log(userLives);
+let arterfacts = sessionStorage.getItem('wonChapters');
+console.log(userLives);
 let bossLives = 1; // TBD
 let userChoice;
 let bossChoice;
+let currentAudio = '';
 
 // Functions
 
