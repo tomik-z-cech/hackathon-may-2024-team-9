@@ -18,7 +18,7 @@ The Code Troopers have laid the groundwork, and now we invite you to join us in 
 ### Link to the Game - [MindWars](https://star-wars-e347f35c852d.herokuapp.com/)
 
 ### Responsive Mockup 
-![Mockuo](static/images/readme_img/mockup.png)
+![Mockup](readme_img/mockup.png)
 
 ## Gameplay
 
