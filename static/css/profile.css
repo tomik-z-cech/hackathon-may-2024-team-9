@@ -1,0 +1,104 @@
+:root {
+    /* FONTS */
+    --main-font: 'Orbitron', sans-serif;
+    --mid-font: 'Star Wars', sans-serif;
+
+    /* COLOR PALETTE */
+    --light-foreground: #f1ee8e;
+    --mid-foreground: #e5de00;
+    --dark-foreground: #e69b00;
+
+    --light-background: #3b444b;
+    --light-background-opaque: rgba(59,68,75,0.5);
+    --dark-background: #0e1111;
+    --dark-background-opaque: rgba(14,17,17,0.8);
+}
+
+.greetings{
+margin-top: 10%;
+}
+
+.card{
+
+        width: 380px;
+        border: none;
+        border-radius: 15px;
+        padding: 8px;
+        background: var(--dark-foreground);
+        position: relative;
+        height: 370px;
+       }
+
+       .upper{
+
+        height: 100px;
+
+       }
+
+       .upper img{
+        height: 95%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+
+       }
+
+       .user{
+        position: relative;
+       }
+
+       .profile img{
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+
+
+
+       }
+
+       .profile{
+
+        position: absolute;
+        top:-50px;
+        left: 38%;
+        height: 90px;
+        width: 90px;
+        border:3px solid #fff;
+
+        border-radius: 50%;
+
+       }
+
+       .stats span{
+
+        font-size: 29px;
+       }
+
+@media screen and (max-width: 940px){
+
+    .greetings{
+    margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .greetings{
+    margin-top: 30%;
+    }
+    .card{
+    width: 300px;
+    }
+    .profile{
+
+        position: absolute;
+        top:-50px;
+        left: 35%;
+        height: 90px;
+        width: 90px;
+        border:3px solid #fff;
+
+        border-radius: 50%;
+
+       }
+}

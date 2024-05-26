@@ -3,11 +3,302 @@
 
 {% block nav_name %}About Us{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/score_and_about.css' %}">
+{% endblock %}
+
 {% block content %}
-    <br>
-    <br>
-    <br>    
-    <h1>
-        About Us
-    </h1>
+<div id="about-us-bg">
+    <div class="text-bg-overlay-us">
+        <div class="container-lg logo-font letter-spacing text-bg">
+            <div class="row top-space"></div>
+            <div class="row px-1">
+                <div class="col text-center">
+                    <h2 class="logo-font text-uppercase">About Us</h2>
+                </div>
+                <hr class="mt-4">
+            </div>
+            <div class="row mb-4 px-2">
+                <div class="col-12 mt-1 mt-md-3">
+                    <h3 class="text-uppercase text-center">
+                        Meet our hackathon team: <strong>code troopers</strong>
+                    </h3>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="abous-us-image" loading="lazy"
+                        src="https://res.cloudinary.com/dcrbeonr9/image/upload/v1716720124/StarWars%20Hackathon/star-wars-troopers_q43z4o.jpg"
+                        alt="Image of the Star Wars Troopers.">
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Tomas">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://avatars.githubusercontent.com/u/129102265?v=4"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Tomas.">
+                        <span> Tomas K.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/tomik-z-cech" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Tomas's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/tomas-kubancik/" target="_blank" rel="noopener"
+                                    aria-label="Visit Tomas's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Szymon">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://avatars.githubusercontent.com/u/130840690?v=4"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Szymon.">
+                        <span> Szymon S.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/ObiOne84" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Szymon's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/szymon-stepien-4b60a547/" target="_blank" rel="noopener"
+                                    aria-label="Visit Szymon's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Liam">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://media.licdn.com/dms/image/D4E03AQFHV1D0OtRAmQ/profile-displayphoto-shrink_200_200/0/1687453626291?e=1722470400&v=beta&t=WhHjE1IhzJOl_-cE9aK_MnvKbXScPDSOLR9-JLKrH2I"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Liam.">
+                        <span> Liam B.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/Liam-WB" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Liam's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/liam-blake-985239225/" target="_blank" rel="noopener"
+                                    aria-label="Visit Liam's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Lorenz">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://media.licdn.com/dms/image/D4E03AQGH9AW3BYKabw/profile-displayphoto-shrink_200_200/0/1713158170267?e=1722470400&v=beta&t=X5DNRwYgggyBcSNb6nwOFolswCf3eR1Dmf_I7ozKcag"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Lorenz.">
+                        <span> Lorenz B.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/Lorenz-127" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Lorenz's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/lorenz-b-swe/" target="_blank" rel="noopener"
+                                    aria-label="Visit Liam's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Deepesh">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://avatars.githubusercontent.com/u/166607024?v=4"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Deepesh.">
+                        <span> Deepesh P.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <!-- Need to add GitHub link -->
+                                <a href="https://github.com/Deepeshpatel11" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Deepesh's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/deepesh-patel-1b9747307/" target="_blank" rel="noopener"
+                                    aria-label="Visit Deepesh's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Viktor">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://media.licdn.com/dms/image/D4E03AQEZy2kT-c57Xw/profile-displayphoto-shrink_200_200/0/1708293400264?e=1722470400&v=beta&t=hUupMjdzu8etjhAcqFhDA3SvM1T6tHGzH7lsyT9NbLA"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Viktor.">
+                        <span> Viktor R.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="w-100 h-100 small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/rurakite" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Viktor's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/viktor-rura/" target="_blank" rel="noopener"
+                                    aria-label="Visit Viktor's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Amir">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://avatars.githubusercontent.com/u/163753630?v=4"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Amir">
+                        <span> Amir A.</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/AmirAkmed" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Amir's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/amir-ahmed-brm-uk/" target="_blank" rel="noopener"
+                                    aria-label="Visit Amir's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3">
+                    <div class="fs-3" id="Jamie">
+                        <img class="thumb-image" loading="lazy"
+                            src="https://avatars.githubusercontent.com/u/123118240?v=4"
+                            onerror="this.onerror=null; this.src='https://res.cloudinary.com/dcrbeonr9/image/upload/v1716718135/StarWars%20Hackathon/trooper_avatar_dg1no7.jpg';"
+                            alt="Profile image of Jamie.">
+                        <span> Jamie O..</span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem dignissimos. Eaque
+                        ratione magni quis, rerum est facilis nihil? Laudantium accusamus accusantium eligendi aut
+                        delectus ex nobis hic iusto aliquam!
+                    </p>
+                    <div class="small">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-start text-uppercase mb-1">
+                                Connect:
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://github.com/jamie33o" target="_blank" class="fs-3" rel="noopener"
+                                    aria-label="Visit Jamie's GitHub Account, opens in new tab">
+                                    <i class="fa-brands fa-square-github icon glow-font"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item pe-lg-2">
+                                <a href="https://www.linkedin.com/in/jamie2023/" target="_blank" rel="noopener"
+                                    aria-label="Visit Jamie's LinkedIn Account, opens in new tab" class="fs-3">
+                                    <i class="fa-brands fa-linkedin icon glow-font"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-space">
+
+        </div>
+    </div>
+</div>
 {% endblock %}

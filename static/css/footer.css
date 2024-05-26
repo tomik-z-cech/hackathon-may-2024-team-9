@@ -1,6 +1,7 @@
 /* Footer styles */
 
 #footer {
+    font-family: var(--main-font);
     background-color: var(--dark-background);
     --bs-gutter-x: none;
     color: #efff14;
@@ -21,6 +22,13 @@
     cursor: pointer;
     margin: auto;
     margin-bottom: -1px;
+}
+
+.dev-icon {
+    width: 2.5rem; 
+    height: auto; 
+    border-radius: 50%;
+    border: 2px solid #efff14;
 }
 
 .icon {

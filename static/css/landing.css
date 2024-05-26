@@ -67,18 +67,24 @@ main {
     #menu-container {
         width: 50vw;
     }
+    #menu {
+    margin-top:25%;
+    }
 }
 
 @media (max-width: 768px) {
     /* CSS styles for screens smaller than 768 pixels */
     #menu-container {
         width: 60vw;
+
     }
+
 }
 
 @media (max-width: 576px) {
     /* CSS styles for screens smaller than 425 pixels */
     #menu-container {
         width: 90vw;
+
     }
 }

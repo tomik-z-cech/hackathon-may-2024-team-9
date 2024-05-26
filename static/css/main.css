@@ -3,10 +3,12 @@
 /* Imports */
 
 @import url('https://fonts.cdnfonts.com/css/star-wars');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 :root {
     /* FONTS */
-    --main-font: 'Star Wars', sans-serif;
+    --main-font: 'Orbitron', sans-serif;
+    --mid-font: 'Star Wars', sans-serif;
 
     /* COLOR PALETTE */
     --light-foreground: #f1ee8e;
@@ -14,7 +16,7 @@
     --dark-foreground: #e69b00;
 
     --light-background: #3b444b;
-    --light-backgound-opaque: rgba(59,68,75,0.5);
+    --light-background-opaque: rgba(59,68,75,0.5);
     --dark-background: #0e1111;
     --dark-background-opaque: rgba(14,17,17,0.8);
 }
@@ -52,4 +54,35 @@ body {
 /* Adjust scrollbar corner */
 ::-webkit-scrollbar-corner {
     background: transparent; /* Hide scrollbar corner */
+}
+
+/* Space and letter spacing for scores and about pages */
+.top-space {
+    height: 15vh;
+}
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
+
+/* modal */
+.modal-header,
+.modal-body,
+.modal-footer,
+.custom-modal {
+    color: #efff14;
+    background-color: var(--dark-background);
+    border-bottom: 1px solid #efff14;
+    
+    
+}
+.custom-modal {
+    border: 1px solid #efff14;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(239, 255, 20, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-modal:hover {
+    box-shadow: 15px 15px 20px rgba(239, 255, 20, 0.6);
 }

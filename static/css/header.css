@@ -5,11 +5,13 @@
     background-color: var(--dark-background);
 }
 
-.droodown-menu {
-    background-color: var(--light-background);
+.dropdown-menu.show {
+    background-color: var(--dark-background) !important;
 }
+
+.nav-text,
 .dropdown-menu-dark .dropdown-item {
-    color: #e5de00;
+    color: #efff14 !important;
 }
 
 .side-title {
@@ -24,6 +26,10 @@
 
 .logo-font {
     font-family: 'Orbitron', sans-serif;
+}
+
+.font-yellow {
+    color: #efff14;
 }
 
 .icon:hover,
@@ -59,7 +65,7 @@
 }
 
 .nav-text {
-    color: var(--mid-foregorund) !important;
+    color: #efff14 !important;
 }
 
 #logo {
@@ -81,4 +87,8 @@
         width: auto;
         max-height: 45px;
     }
+}
+
+#side-menu-logo {
+    width: 50%;
 }
