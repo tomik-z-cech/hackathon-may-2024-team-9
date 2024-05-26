@@ -13,7 +13,7 @@
 .score-table {
     border-color: #efff1493;
     color: #efff14;
-    background-color: var(--light-background);
+    background-color: var(--light-background-opaque);
 }
 
 .title-color {

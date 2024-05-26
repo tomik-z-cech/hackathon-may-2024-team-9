@@ -9,7 +9,7 @@
     --dark-foreground: #e69b00;
 
     --light-background: #3b444b;
-    --light-backgound-opaque: rgba(59,68,75,0.5);
+    --light-background-opaque: rgba(59,68,75,0.5);
     --dark-background: #0e1111;
     --dark-background-opaque: rgba(14,17,17,0.8);
 }
