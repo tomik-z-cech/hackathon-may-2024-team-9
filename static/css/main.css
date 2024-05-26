@@ -86,3 +86,9 @@ body {
 .custom-modal:hover {
     box-shadow: 15px 15px 20px rgba(239, 255, 20, 0.6);
 }
+
+.text-bg-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+    width: 100%;
+}
