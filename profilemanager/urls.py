@@ -8,4 +8,5 @@ urlpatterns = [
     path("about-us", views.AboutUsView.as_view(), name="about_us"),
     path("how-to-play", views.HowToPlayView.as_view(), name="how_to_play"),
     path("play", login_required(views.PlayView.as_view()), name="play"),
+    path("final-stage", login_required(views.FinalStageView.as_view()), name="final_stage"),
 ]

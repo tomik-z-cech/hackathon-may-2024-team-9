@@ -117,3 +117,25 @@ class PlayView(LoginRequiredMixin, generic.ListView):
                 "player_name": player_name
             }
         )
+        
+class FinalStageView(LoginRequiredMixin, generic.ListView):
+    """
+    Class generates view of final stage page
+    """
+
+    template_name = "profilemanager/finalstage.html"
+
+    def get(self, request, *args, **kwargs):
+        """
+        This method generates view of game page
+        """
+        # Get player name
+        player_name = request.user
+        # Render template
+        return render(
+            request,
+            self.template_name,
+            {
+                "player_name": player_name
+            }
+        )
