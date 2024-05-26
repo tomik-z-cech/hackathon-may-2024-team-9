@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+The Game "MindWars" offers an interactive Star Wars-themed game. 
 
 ### Link to the Game - [MindWars](https://star-wars-e347f35c852d.herokuapp.com/)
 
