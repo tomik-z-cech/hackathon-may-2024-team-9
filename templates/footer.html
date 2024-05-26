@@ -18,21 +18,27 @@
         </div>
     </div>
     <div class="row w-100 collapse" id="footer">
-        <div class="col-12 col-sm-3 mt-1 my-sm-3 d-flex align-items-center ps-4">
+        <div class="col-3 col-sm-3 my-0 my-sm-6 d-flex align-items-center ps-4">
             <div class="w-100 text-center text-sm-start small h-100">
                 <ul class="list-inline my-0">
                     <li class="list-item text-uppercase fs-5">
                         <a href="{% url 'about_us' %}" class="icon" aria-label="Follow this link to find more about us">
-                            <span class="footer-link">About Us</span>
+                            <i class="fa-solid fa-people-group mx-2 mx-lg-0 nav-text"></i>
+                            &nbsp;
+                            <span class="footer-link">Team</span>
                         </a>
                     </li>
                     <li class="list-item text-uppercase fs-5">
                         <a href="{% url 'how_to_play' %}" aria-label="Follow this link to find out more about the game" class="icon">
-                            <span class="">About Game</span>
+                            <i class="fa-solid fa-circle-info"></i>
+                            &nbsp;
+                            <span class="">How to play</span>
                         </a>
                     </li>
                     <li class="list-item text-uppercase footer-link fs-5">
                         <a href="https://starwars.fandom.com/wiki/Hyperspace:_The_Official_Star_Wars_Fan_Club" target="_blank" aria-label="Visit StarWars fan club page and meet your favourite characteres" class="icon" rel="noopener">
+                            <i class="fa-solid fa-book"></i>
+                            &nbsp;
                             <span class="">StarWars Fan Club</span>
                         </a>
                     </li>
@@ -40,27 +46,29 @@
                 <hr class="my-1 d-block d-sm-none">
             </div>
         </div>
-        <div class="col-12 col-sm-3 mt-1 my-sm-3 d-flex align-items-center">
+        <div class="col-3 col-sm-3 my-0 my-sm-6 d-flex align-items-center">
             <div class="w-100 text-center small h-100">
                 <ul class="list-inline my-0">
                     <li class="list-item text-uppercase fs-5 mb-1">
-                        <span>Connect:</span>
+                        <i class="fa-solid fa-network-wired"></i>
+                        &nbsp;
+                        <span>Connect</span>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
-                        <a href="https://www.facebook.com/" target="_blank" class="display-6" rel="noopener"
+                        <a href="https://www.facebook.com/" target="_blank" class="display-6" rel="nofollow noopener"
                             aria-label="Visit MindWars Facebook page.">
                             <i class="fa-brands fa-square-facebook icon glow-font"></i>
                         </a>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
                         <a href="https://www.twitter.com/" target="_blank" aria-label="Visit MindWars Twitter account."
-                            class="display-6" rel="noopener">
+                            class="display-6" rel="nofollow noopener">
                             <i class="fa-brands fa-x-twitter icon glow-font"></i>
                         </a>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
                         <a href="https://www.instagram.com/" target="_blank" aria-label="Visit MindWars Instagram page."
-                            class="display-6" rel="noopener">
+                            class="display-6" rel="nofollow noopener">
                             <i class="fa-brands fa-instagram icon glow-font"></i>
                         </a>
                     </li>
@@ -68,11 +76,13 @@
                 <hr class="my-1 d-block d-sm-none">
             </div>
         </div>
-        <div class="col-12 col-sm-6 my-0 my-sm-3 d-flex align-items-center">
+        <div class="col-3 col-sm-3 my-0 my-sm-6 d-flex align-items-center">
             <div class="text-center w-100 h-100 small">
                 <ul class="list-inline">
                     <li class="list-item fs-5 text-uppercase mb-1">
-                        Work with us:
+                        <i class="fa-solid fa-link"></i>
+                        &nbsp;
+                        <span>Work with us</span>
                     </li>
                     <li class="list-inline-item pe-lg-2 py-1">
                         <a href="{% url 'about_us' %}#Tomas" class="display-6"
@@ -147,8 +157,12 @@
                         </a>
                     </li>
                 </ul>
-                <div class="small fst-italic mb-3 mb-sm-0 footer-font">Copyright &copy; MindWars 
-                    <span id="copyright"></span>
+            </div>
+        </div>
+        <div class="col-3 col-sm-3 my-0 my-sm-6 d-flex align-items-center">
+            <div class="text-center w-100 h-100 small">
+                <div class="small text-uppercase mb-3 mb-sm-0 footer-font mt-4"> 
+                    <span>MindWars - for educational purposes only - 2024</span>
                     <span class="d-block">Created by: <strong>Code Troopers</strong></span>
                 </div>
             </div>

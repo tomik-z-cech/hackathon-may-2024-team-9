@@ -5,8 +5,8 @@
     background-color: var(--dark-background);
 }
 
-.droodown-menu {
-    background-color: var(--light-background);
+.dropdown-menu.show {
+    background-color: var(--dark-background) !important;
 }
 
 .nav-text,
@@ -87,4 +87,8 @@
         width: auto;
         max-height: 45px;
     }
+}
+
+#side-menu-logo {
+    width: 50%;
 }
