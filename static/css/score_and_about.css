@@ -110,3 +110,13 @@ th, td {
     height: inherit;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    /* CSS styles for screens smaller than 1024 pixels */
+    #how-to-play-bg {
+    margin-top:10%;
+    }
+    .top-space{
+    margin-top:10%;
+    }
+}
