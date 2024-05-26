@@ -73,10 +73,11 @@ th, td {
     background-position: center;
     min-height: 100vh;
     width: 100%;
-    margin: 0;
+    margin: 10% 0 0 0;
     padding: 0;
     margin-bottom: -50px;
 }
+
 
 .text-bg-overlay {
     background-color: rgba(0, 0, 0, 0.6);
@@ -87,6 +88,10 @@ th, td {
 .bottom-space {
     height: 100px;
 }
+
+   .top-space{
+    height: 150px;
+    }
 
 .about-img {
     background-color: var(--dark-foreground);
@@ -141,10 +146,12 @@ th, td {
 
 @media (max-width: 1024px) {
     /* CSS styles for screens smaller than 1024 pixels */
-    #how-to-play-bg {
-    margin-top:10%;
-    }
     .top-space{
-    margin-top:10%;
+    height: 100px;
     }
+    #how-to-play-bg{
+    margin-top: 25%;
+    padding-top: 10%;
+    }
+
 }
