@@ -11,9 +11,9 @@ In a galaxy not so far away, a random group of intrepid heroes have come togethe
 
 The project was planned and executed according to the Agile principle. 
 
-Combined with the calm and composure of a Jedi, and in some cases the tenacity of a restless Sith, we have managed to offer the Emperor a battle in which everyone can participate. 
+Combined with the calm and composure of a Jedi, and in some cases the tenacity of a restless Sith, we have managed to offer the Emperor a battle in which everyone can participate.
 
-The Code Troopers have laid the groundwork, and now we invite them to join us in the fight against the Emperor.
+The Code Troopers have laid the groundwork, and now we invite you to join us in the fight against the Emperor.
 
 ### Link to the Game - [MindWars](https://star-wars-e347f35c852d.herokuapp.com/)
 
