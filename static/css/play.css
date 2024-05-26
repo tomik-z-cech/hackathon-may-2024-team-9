@@ -270,8 +270,10 @@
      filter: drop-shadow(5px 5px 5px var(--light-foreground));
 }
  .stats {
-     font-size: 250%;
+     font-size: 150%;
+     font-weight: 400;
 }
+
 /* Styles for screen widths up to 940px */
  @media screen and (max-width: 940px) {
      #message-container {

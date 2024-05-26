@@ -223,7 +223,7 @@ $('#game-container').append(`
                         <br>
                         <span id="running-timer">${timePerQuestion}</span>
                     </div>
-                    <div id="lifelines-container" class="justify-content-center text-center pt-1">
+                    <div id="lifelines-container" class="justify-content-center text-center pt-2">
                         <span class="stats">lifeline</span>
                         <br>
                         <img src="${currentLifelineIcon}" alt="Current lifeline" class="lifeline-icon scale-on" id="lifeline">
