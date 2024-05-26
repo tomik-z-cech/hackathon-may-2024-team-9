@@ -5,7 +5,7 @@ testMode = false;
 // Global variables
 let typingDelay = 30;
 let characterSelected = 0;
-let timePerQuestion = 3000;
+let timePerQuestion = 30;
 let timerStopped = false;
 let currentChapter = 0;
 let runningScore = 0;
