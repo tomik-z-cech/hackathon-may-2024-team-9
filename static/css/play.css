@@ -258,8 +258,8 @@
 }
  .lifeline-icon {
      opacity: 100%;
-     width:60%;
-     height:60%;
+     width:50%;
+     height:50%;
      filter: grayscale(0%);
      scale: 1.0;
      transition: scale 0.5s ease-in-out, filter 2s ease-in-out, opacity 2s ease-in-out;
@@ -303,7 +303,7 @@
      #current-player-image-container {
          position: absolute;
          top: 18%;
-         left: 0%;
+         left: 2%;
          width: 15vh;
          height: 15vh;
          opacity: 0;
@@ -385,4 +385,3 @@
          height: 15vh;
     }
 }
- 
