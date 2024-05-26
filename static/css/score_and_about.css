@@ -2,6 +2,7 @@
     0% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
     }
+
     15% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
     }
@@ -9,7 +10,7 @@
     30% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
     }
-    
+
     50% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
     }
@@ -65,7 +66,8 @@
     --bs-table-hover-bg: var(--dark-background);
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     word-wrap: break-word;
     word-break: break-all;
@@ -93,9 +95,36 @@ th, td {
     border: 2px solid #000000;
 }
 
+@keyframes changeBackgroundAbout {
+    0% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716748046/StarWars%20Hackathon/spaceship-8616630_1920_ucctnp.jpg');
+    }
+
+    15% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716723692/StarWars%20Hackathon/star-wars-leaderboard_qzofoi.jpg');
+    }
+
+    30% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    }
+
+    50% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
+    }
+
+    85% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
+    }
+
+    100% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716748046/StarWars%20Hackathon/spaceship-8616630_1920_ucctnp.jpg');
+    }
+}
+
 /* How to play  */
 #how-to-play-bg {
-    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
+    /* background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png'); */
+    animation: changeBackgroundAbout 60s infinite;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -121,7 +150,7 @@ th, td {
 
 .yoda-image {
     max-width: 100px;
-    height: auto;  
+    height: auto;
     border-radius: 50%;
     border: 2px solid #efff14;
 }
@@ -131,12 +160,37 @@ th, td {
     max-width: 400px;
     height: auto;
     border: 2px solid #efff14;
-  }
+}
 
-  /* About us */
+/* About us */
+@keyframes changeBackgroundAboutUs {
+    0% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716748486/StarWars%20Hackathon/spaceship-2776010_1920_pywoo8.jpg');
+    }
+    15% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
+    }
 
-  #about-us-bg {
-    background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    30% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
+    }
+    
+    50% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
+    }
+
+    85% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716669904/StarWars%20Hackathon/game-bg-good_pg68ar.png');
+    }
+
+    100% {
+        background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716748486/StarWars%20Hackathon/spaceship-2776010_1920_pywoo8.jpg');
+    }
+}
+
+#about-us-bg {
+    /* background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg'); */
+    animation: changeBackgroundAboutUs 60s infinite;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -147,7 +201,7 @@ th, td {
 }
 
 .text-bg-overlay-us {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     height: inherit;
     width: 100%;
 }
@@ -167,11 +221,13 @@ th, td {
 }
 
 @media (max-width: 1024px) {
+
     /* CSS styles for screens smaller than 1024 pixels */
     #how-to-play-bg {
-    margin-top:10%;
+        margin-top: 10%;
     }
-    .top-space{
-    margin-top:10%;
+
+    .top-space {
+        margin-top: 10%;
     }
 }

@@ -32,7 +32,7 @@ main {
     background-color: var(--light-foreground);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     color: black;
-}  
+}
 
 .form button {
     background-color: var(--dark-foreground);
@@ -61,7 +61,9 @@ main {
     background-color: var(--light-background);
 }
 
-.form input[name="email"], .form label[for="id_email"], .form small a {
+.form input[name="email"],
+.form label[for="id_email"],
+.form small a {
     display: none;
 }
 
