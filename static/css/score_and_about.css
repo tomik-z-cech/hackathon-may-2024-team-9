@@ -84,12 +84,14 @@ th, td {
     max-width: 100px;
     height: auto;  
     border-radius: 50%;
+    border: 2px solid #efff14;
 }
 
 .elliptical-image {
     border-radius: 50% / 25%;
     max-width: 400px;
     height: auto;
+    border: 2px solid #efff14;
   }
 
   /* About us */
@@ -109,4 +111,18 @@ th, td {
     background-color: rgba(0, 0, 0, 0.7);
     height: inherit;
     width: 100%;
+}
+
+.thumb-image {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #efff14;
+}
+
+.abous-us-image {
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #efff14;
 }

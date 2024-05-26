@@ -23,6 +23,13 @@
     margin-bottom: -1px;
 }
 
+.dev-icon {
+    width: 2.5rem; 
+    height: auto; 
+    border-radius: 50%;
+    border: 2px solid #efff14;
+}
+
 .icon {
     text-decoration: none;
     color: #efff14;
