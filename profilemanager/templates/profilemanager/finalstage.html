@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block nav_name %}finalstage{% endblock %}
+{% block nav_name %}Final Stage{% endblock %}
 
 {% block extra_css %} 
         <link rel="stylesheet" href="{% static 'css/play.css' %}">
@@ -22,8 +22,10 @@
 {% endblock %}
 
 {% block extra_js %}
-    <script src="{% static 'js/finalstage.js' %}" data-player-name="{{ player_name }}"></script>
+    <script src="{% static 'js/finalstage.js' %}"></script>
     <script>
+        // players name 
+        const playerName = '{{ player_name }}';
         // character images
         const characterImage0 = "{% static 'images/characters/yodaa.png' %}"; // Yoda - 0
         const characterImage1 = "{% static 'images/characters/leia.png' %}";  // Leia - 1
@@ -31,17 +33,14 @@
         const characterImage3 = "{% static 'images/characters/vader.png' %}"; // - Vader - 3
         const characterImage4 = "{% static 'images/characters/han.png' %}"; // Solo - 4
         // url after game finished
-        const afterChaptersLink = "{% url 'home' %}";
+        const afterRSPLink = "{% url 'home' %}";
         // Boss image
         const bossImage = "{% static 'images/characters/sidious2.png' %}";
-        // artefact images/backgrounds/back0.jpeg
-        const artefact1 = "{% static 'images/artefacts/artefact1.png' %}";
-        const artefact2 = "{% static 'images/artefacts/artefact2.png' %}";
-        const artefact3 = "{% static 'images/artefacts/artefact3.webp' %}";
         // background music
-        const m1 = "{% static 'audio/m1.mp3' %}";
         const mFinal = "{% static 'audio/mfinal.mp3' %}";
         // background image
         const backFinal = "{% static 'images/backgrounds/finalscene.png' %}";
+        const backWin = "{% static 'images/backgrounds/win.png' %}";
+        const backLost = "{% static 'images/backgrounds/lost.jpg' %}";
     </script>
 {% endblock %}

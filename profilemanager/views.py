@@ -114,7 +114,7 @@ class PlayView(LoginRequiredMixin, generic.ListView):
             request,
             self.template_name,
             {
-                "player_name": player_name
+                "player_name": player_name,
             }
         )
         
@@ -136,6 +136,6 @@ class FinalStageView(LoginRequiredMixin, generic.ListView):
             request,
             self.template_name,
             {
-                "player_name": player_name
+                "player_name": player_name,
             }
         )
