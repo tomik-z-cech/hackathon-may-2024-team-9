@@ -240,5 +240,12 @@ td {
     margin-top: 25%;
     padding-top: 10%;
     }
+}
+
+@media (max-width: 770px) {
+    /* CSS styles for screens smaller than 770 pixels */
+    .elliptical-image {
+        display: none;
+    }
 
 }
