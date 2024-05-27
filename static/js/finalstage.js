@@ -1,5 +1,5 @@
 // Test mode
-testMode = false;
+testMode = true;
 
 // Global variables
 const choices = ['Force Shield', 'Lightsaber', 'Blaster'];
@@ -47,8 +47,22 @@ function winGame() {
             messageContainer.append('<button class="btn btn-warning" id="messageButtonOK">great</button>');
             $('#messageButtonOK').click(function(){
                 messageContainer.hide();
-                // AJAX
-                window.location.href = afterRSPLink;
+                $.ajax({
+                    url: '/record-data/',
+                    method: 'GET',
+                    data: {
+                        player_name: playerName,
+                        final_score: finalScore
+                    },
+                    success: function (data) {
+                        if (data.recorded == 'yes'){
+                            window.location.href = afterRSPLink;
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('AJAX Error: ' + status + ' - ' + error);
+                    }
+                });
             });
         }
     }
@@ -258,7 +272,7 @@ function revealBossChoice(bossChoice) {
                 }
     } else {
         // Boss won
-        userLives--;
+        bossLives--;
         $('#lives-count').text(userLives);
         if (userLives === 0) {
             $('#rps-result').html('Your strategy was ineffective and thus,<br><strong>you\'ve lost your last life !</strong>');
@@ -267,13 +281,9 @@ function revealBossChoice(bossChoice) {
         }
     }
     $('#ok').click(function(){
-        console.log('user lives ' + userLives);
-        console.log('boss lives ' + bossLives)
         if (userLives == 0) {
-            console.log('boss winner');
             gameOver();
         } else if (bossLives == 0) {
-            console.log('user winner');
             winGame();
         } else {
             prepareFinalGameView();
@@ -289,8 +299,6 @@ $(document).ready(function () {
         currentCharacterName = sessionStorage.getItem('currentCharacterName');
         finalScore = parseInt(sessionStorage.getItem('runningScore'));
         artefacts = sessionStorage.getItem('wonChapters');
-        console.log(sessionStorage.getItem('finalStageUnlocked'));
-        console.log(typeof sessionStorage.getItem('finalStageUnlocked'));
         if (finalstageUnlocked != 'true' ){
             alert('Cannot acces final stage directly');
             window.location.href = afterRSPLink;
@@ -299,7 +307,7 @@ $(document).ready(function () {
         typingDelay = 0;
         finalstageUnlocked = true;
         currentCharacterName = 'Han Solo';
-        finalScore = 0;
+        finalScore = 1260;
         artefacts = [];
         bossLives = 1;
     }
