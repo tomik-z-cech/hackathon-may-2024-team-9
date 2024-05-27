@@ -134,7 +134,7 @@ td {
 
 .text-bg-overlay {
     background-color: rgba(0, 0, 0, 0.6);
-    height: inherit;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -204,7 +204,7 @@ td {
 
 .text-bg-overlay-us {
     background-color: rgba(0, 0, 0, 0.8);
-    height: inherit;
+    min-height: 100vh;
     width: 100%;
 }
 
