@@ -127,7 +127,6 @@ td {
     background-position: center;
     min-height: 100vh;
     width: 100%;
-    margin: 10% 0 0 0;
     padding: 0;
     margin-bottom: -50px;
 }
@@ -143,9 +142,9 @@ td {
     height: 100px;
 }
 
-   .top-space{
-    height: 150px;
-    }
+.top-space {
+    height: 15vh;
+}
 
 .about-img {
     background-color: var(--dark-foreground);
@@ -170,6 +169,7 @@ td {
     0% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716748486/StarWars%20Hackathon/spaceship-2776010_1920_pywoo8.jpg');
     }
+
     15% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672460/StarWars%20Hackathon/spaceship-fight_xj0ea0.jpg');
     }
@@ -177,7 +177,7 @@ td {
     30% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716673885/StarWars%20Hackathon/dark-star-bg_lylv9n.jpg');
     }
-    
+
     50% {
         background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716672661/StarWars%20Hackathon/star-war-battle-16-9_apztmz.jpg');
     }
@@ -226,19 +226,8 @@ td {
 
     /* CSS styles for screens smaller than 1024 pixels */
 
-    .top-space{
-    height: 100px;
-
-    #how-to-play-bg {
-        margin-top: 10%;
-    }
-
     .top-space {
-        margin-top: 10%;
-    }
-    #how-to-play-bg{
-    margin-top: 25%;
-    padding-top: 10%;
+        height: 18vh;
     }
 }
 

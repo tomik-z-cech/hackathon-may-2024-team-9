@@ -1,7 +1,7 @@
 {% load static %}
 
 <header class="text-center">
-  <nav class="navbar navbar-dark fixed-top" id="navbar">
+  <nav class="navbar navbar-dark fixed-top nav-border-bottom" id="navbar">
     <div class="container-fluid">
       <a class="navbar-brand glow-font" href="{% url 'home' %}">
         <img src="{% static 'images/logo.png' %}" alt="MindWars logo" id="logo">
@@ -14,7 +14,7 @@
         aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
           <img src="{% static 'images/logo.png' %}" alt="MindWars logo" id="side-menu-logo">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+          <button type="button" class="btn-close glow-font" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
