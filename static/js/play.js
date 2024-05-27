@@ -1,5 +1,5 @@
 // Test mode
-testMode = false;
+testMode = true;
 
 // Global variables
 let typingDelay = 30;

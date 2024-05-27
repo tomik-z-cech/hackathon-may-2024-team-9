@@ -27,9 +27,19 @@ function playAudio(track){
     }
 }
 
+// Function for playing musical background
+function playSFX(track){
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        let sfxToPlay = new Audio (track);
+        sfxToPlay.volume = 0.8;
+        sfxToPlay.play();
+        return sfxToPlay;
+    }
+}
+
 // Function displays winning message in container
 function winGame() {
-    currentAudio = playAudio(mFinal);
+    currentAudio = playAudio(mWon);
     $('#screen-container').css('background',`url('${backWin}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#message-container').empty();
@@ -55,6 +65,9 @@ function winGame() {
                         final_score: finalScore
                     },
                     success: function (data) {
+                        if (sessionStorage.getItem('soundEnabled') == 'true') {
+                            currentAudio.pause();
+                        }
                         if (data.recorded == 'yes'){
                             window.location.href = afterRSPLink;
                         }
@@ -71,7 +84,7 @@ function winGame() {
 
 // Function displays winning message in container
 function gameOver() {
-    currentAudio = playAudio(mFinal);
+    currentAudio = playAudio(mLost);
     $('#screen-container').css('background',`url('${backLost}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#message-container').empty();
@@ -88,6 +101,9 @@ function gameOver() {
             messageContainer.html(message);
             messageContainer.append('<button class="btn btn-warning" id="messageButtonOK">i will try again</button>');
             $('#messageButtonOK').click(function(){
+                if (sessionStorage.getItem('soundEnabled') == 'true') {
+                    currentAudio.pause();
+                }
                 messageContainer.hide();
                 window.location.href = afterRSPLink;
             });
@@ -98,7 +114,7 @@ function gameOver() {
 
 // Function displays starting message in container
 function finalStageMessage() {
-    currentAudio = playAudio(mFinal);
+    currentAudio = playAudio(m1);
     $('#screen-container').css('background',`url('${backFinal}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>')
@@ -131,6 +147,9 @@ function finalStageMessage() {
             messageContainer.html(message);
             messageContainer.append('<button class="btn btn-warning" id="messageButtonOK">ok</button>');
             $('#messageButtonOK').click(function(){
+                if (sessionStorage.getItem('soundEnabled') == 'true') {
+                    currentAudio.pause();
+                }
                 messageContainer.hide();
                 prepareFinalGameView();
             });
@@ -202,9 +221,6 @@ $('#game-container').append(`
                     </div>
                     `);
 
-    if (sessionStorage.getItem('soundEnabled') == 'true') {
-        currentAudio.pause();
-    }
     setTimeout(function() {
         $('#final-current-player-image-container').css('opacity','1');
         $('#lives-container').css('opacity','1');
@@ -215,6 +231,10 @@ $('#game-container').append(`
     }, 1000);
 
     $('.attack-btn').click(function(){
+        playSFX(sfx1);
+        if (sessionStorage.getItem('soundEnabled') == 'true') {
+            currentAudio.pause();
+        }
         bossChoice = Math.floor(Math.random() * choices.length);
         userChoice = $('.attack-btn').index(this);
         playFinalGame();
@@ -229,6 +249,7 @@ function playFinalGame() {
     $('#boss-lives-container').css('opacity','0');
     $('#final-score-container').css('opacity','0');
     $('#boss-image-container').css('opacity','0');
+    currentAudio = playAudio(mBattle);
     setTimeout(function() {
         $('#game-container').empty();
         $('#game-container').append(`
@@ -248,22 +269,18 @@ function playFinalGame() {
             countdown--;
         } else {
             clearInterval(countdownInterval);
-            revealBossChoice(bossChoice);
-        }
-    }, 1000);
-}
-
-function revealBossChoice(bossChoice) {
-    $('#player-choice').html(`You used : <strong>${choices[userChoice]}</strong>`);
+            $('#player-choice').html(`You used : <strong>${choices[userChoice]}</strong>`);
     $('#boss-choice').html(`Darth Sidious used : <strong>${choices[bossChoice]}</strong>`);
     $('#versus').html(`<i class="fa-solid fa-x"></i>`);
     $('#message-container').append('<button class="btn btn-warning" id="ok">ok</button>');
     if (userChoice == bossChoice) {
+        playSFX(sfxClash);
         $('#rps-result').html('Your attacks cancel eachother out !<br><strong>Try again</strong>');
     }else if ((userChoice == 0 && bossChoice == 2) ||
             (userChoice == 2 && bossChoice == 1) ||
             (userChoice == 1 && bossChoice == 0) ) {
                 // User won
+                playSFX(sfx4);
                 bossLives--;
                 if (bossLives === 0) {
                     $('#rps-result').html('The strategy was effective !<br><strong>Dark Sidious lost their last life</strong>');
@@ -272,7 +289,8 @@ function revealBossChoice(bossChoice) {
                 }
     } else {
         // Boss won
-        bossLives--;
+        playSFX(sfxSad);
+        userLives--;
         $('#lives-count').text(userLives);
         if (userLives === 0) {
             $('#rps-result').html('Your strategy was ineffective and thus,<br><strong>you\'ve lost your last life !</strong>');
@@ -281,6 +299,9 @@ function revealBossChoice(bossChoice) {
         }
     }
     $('#ok').click(function(){
+        if (sessionStorage.getItem('soundEnabled') == 'true') {
+            currentAudio.pause();
+        }
         if (userLives == 0) {
             gameOver();
         } else if (bossLives == 0) {
@@ -289,7 +310,11 @@ function revealBossChoice(bossChoice) {
             prepareFinalGameView();
         };
     });
+        }
+    }, 1000);
 }
+
+    
 
 // Starting point of final game
 $(document).ready(function () {
@@ -308,8 +333,8 @@ $(document).ready(function () {
         finalstageUnlocked = true;
         currentCharacterName = 'Han Solo';
         finalScore = 1260;
-        artefacts = [];
-        bossLives = 1;
+        artefacts = [1,2,3];
+        bossLives = 10;
     }
     $('header').hide();
     $('footer').hide();
