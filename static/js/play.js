@@ -1,5 +1,5 @@
 // Test mode
-testMode = true;
+testMode = false;
 
 // Global variables
 let typingDelay = 30;
@@ -84,6 +84,7 @@ function chapterMessage(reason) {
                 }
                 lifeLineAvailable = true;
                 if (currentChapter > 2){
+                    $('#game-container').empty();
                     // player name in const playerName sourced from finalstage.html - const playerName 
                     sessionStorage.setItem('finalStageUnlocked', 'true'); // string
                     sessionStorage.setItem('runningScore', runningScore); // string
