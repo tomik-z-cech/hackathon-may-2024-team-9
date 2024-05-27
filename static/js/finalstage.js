@@ -1,5 +1,5 @@
 // Test mode
-testMode = true;
+testMode = false;
 
 // Global variables
 const choices = ['Force Shield', 'Lightsaber', 'Blaster'];
