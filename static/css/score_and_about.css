@@ -226,13 +226,6 @@ td {
 
     /* CSS styles for screens smaller than 1024 pixels */
 
-    .top-space{
-    height: 100px;
-
-    #how-to-play-bg {
-        margin-top: 10%;
-    }
-
     .top-space {
         margin-top: 10%;
     }
