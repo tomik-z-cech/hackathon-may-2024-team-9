@@ -3,8 +3,8 @@ $(document).ready(function () {
         $('#exampleModal').show();
     };
 
-    let audio = new Audio (m1);
-    // audio.loop = loopBool;
+    let audio = new Audio (backgroundTrack);
+    audio.loop = true;
     audio.volume = 0.2;
 
     $('#music-off').click(function() {
