@@ -1,34 +1,85 @@
 // Test mode
-
-testMode = true
+testMode = false;
 
 // Global variables
+const choices = ['Force Shield', 'Lightsaber', 'Blaster'];
 let typingDelay = 30;
-const playerName = document.currentScript.getAttribute('data-player-name');
-console.log(playerName);
-let finalstageUnlocked = sessionStorage.getItem('finalStageUnlocked') === 'True';
-let currentCharacterName = sessionStorage.getItem('currentCharacterName');
-let finalScore = parseInt(sessionStorage.getItem('runningScore'));
-let userLives = 1; // Minimum 1 life
-console.log(userLives);
-let arterfacts = sessionStorage.getItem('wonChapters');
-console.log(userLives);
-let bossLives = 1; // TBD
-let userChoice;
-let bossChoice;
 let currentAudio = '';
+let userLives = 1; // Minimum 1 life
+let artefacts = '';
+let bossLives = 3;
+let userChoice = 0;
+let bossChoice = 0;
+let finalstageUnlocked = '';
+let currentCharacterName = '';
+let finalScore = '';
 
 // Functions
 
-/** 
-*  Function for playing musical background - function take number of track as parameter
-*  #m1 - intro background track
-*/
-function playAudio(track, loopBool = true) {
-    let soundToPlay = new Audio(track);
-    soundToPlay.loop = loopBool;
-    soundToPlay.play();
-    return soundToPlay;
+// Function for playing musical background 
+function playAudio(track){
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        let soundToPlay = new Audio (track);
+        soundToPlay.loop = true;
+        soundToPlay.volume = 0.2;
+        soundToPlay.play();
+        return soundToPlay;
+    }
+}
+
+// Function displays winning message in container
+function winGame() {
+    currentAudio = playAudio(mFinal);
+    $('#screen-container').css('background',`url('${backWin}') no-repeat fixed top right / cover`);
+    $('#game-container').css('opacity','1');
+    $('#message-container').empty();
+    const message = `congratulations, ${playerName} - jedi master ! through your wisdom and bravery, you have successfully navigated the challenges of the galaxy. the force is strong with you! your knowledge has restored peace and balance to the universe. the galaxy is safe once more, thanks to your heroic efforts . may the force be with you, always.`;
+    let messageContainer = $('#message-container');
+    let index = 0;
+
+    function type() {
+        if (index < message.length) {
+            messageContainer.append(message.charAt(index));
+            index++;
+            setTimeout(type, typingDelay);
+        } else {
+            messageContainer.html(message);
+            messageContainer.append('<button class="btn btn-warning" id="messageButtonOK">great</button>');
+            $('#messageButtonOK').click(function(){
+                messageContainer.hide();
+                // AJAX
+                window.location.href = afterRSPLink;
+            });
+        }
+    }
+    type();
+}
+
+// Function displays winning message in container
+function gameOver() {
+    currentAudio = playAudio(mFinal);
+    $('#screen-container').css('background',`url('${backLost}') no-repeat fixed top right / cover`);
+    $('#game-container').css('opacity','1');
+    $('#message-container').empty();
+    const message = `you have fallen, brave warrior ${playerName} , despite your valiant efforts, the challenges of the galaxy were too great . the darkness has claimed you , and the balance of the universe is now at risk. but remember , every end is a new beginning. your legacy will inspire others to rise and continue the fight . may the force be with you , always.`
+    let messageContainer = $('#message-container');
+    let index = 0;
+
+    function type() {
+        if (index < message.length) {
+            messageContainer.append(message.charAt(index));
+            index++;
+            setTimeout(type, typingDelay);
+        } else {
+            messageContainer.html(message);
+            messageContainer.append('<button class="btn btn-warning" id="messageButtonOK">i will try again</button>');
+            $('#messageButtonOK').click(function(){
+                messageContainer.hide();
+                window.location.href = afterRSPLink;
+            });
+        }
+    }
+    type();
 }
 
 // Function displays starting message in container
@@ -37,7 +88,23 @@ function finalStageMessage() {
     $('#screen-container').css('background',`url('${backFinal}') no-repeat fixed top right / cover`);
     $('#game-container').css('opacity','1');
     $('#game-container').append('<div id="message-container" class="text-center"></div>')
-    const    message = `${playerName}, after a hard-fought battle to conquer the mind, Darth Sidious stands between you and saving the galaxy. Through your acquired artefacts, you have gained ${userLives} extra lives.`;
+    switch (userLives){
+        case 4:
+            userLivesMessage = 'three extra lives';
+            break;
+        case 3:
+            userLivesMessage = 'two extra lives';
+            break;
+        case 2:
+            userLivesMessage = 'one extra life';
+            break;
+        case 1:
+            userLivesMessage = 'zero extra lives';
+            break;
+        default:
+            userLivesMessage = 'zero extra lives';
+    }
+    const message = `${playerName}, after a hard-fought battle to conquer the mind, Darth Sidious stands between you and saving the galaxy. Through your acquired artefacts, you have gained ${userLivesMessage} .`;
     let messageContainer = $('#message-container');
     let index = 0;
 
@@ -60,91 +127,110 @@ function finalStageMessage() {
 
 // Function prepares game view and character perks
 function prepareFinalGameView(){
-$('#game-container').empty()
-currentAudio = playAudio(mFinal);
-
-    const characterData = {
-        'Han Solo': { image: characterImage4},
-        'Darth Vader': { image: characterImage3},
-        'Luke Skywalker': { image: characterImage2},
-        'Princess Leia': { image: characterImage1},
-        'Yoda': { image: characterImage0}
+    $('#game-container').empty()
+    currentAudio = playAudio(mFinal);
+    switch (currentCharacterName){
+        case 'Han Solo':
+            currentCharacterImage = characterImage4;
+            break; 
+        case 'Darth Vader':
+            currentCharacterImage = characterImage3;
+            break; 
+        case 'Luke Skywalker':
+            currentCharacterImage = characterImage2;
+            break;  
+        case 'Princess Leia':
+            currentCharacterImage = characterImage1;
+            break;  
+        case 'Yoda':
+            currentCharacterImage = characterImage0;
+            break;  
     };
-
-    const selectedCharacter = characterData[currentCharacterName];
-
 $('#game-container').append(`
                     <div id="final-game-container" class="text-center">
-                        <h2 id="final-stage-title">Final Stage: Lightsaber, Force Shield, Blaster!</h2>
-                        <div id="current-player-image-container">
-                            <img src="${selectedCharacter.image}" alt="Current player image" class="current-player-image">
+                        <div id="final-current-player-image-container">
+                            <img src="${currentCharacterImage}" alt="Current player image" class="final-current-player-image">
                         </div>
-                        <div id="artefact-image-container">
-                            <span class="w-100 text-center inline-block">
-                                artefact
+                        <div id="lives-container" class="d-flex align-items-center justify-content-center text-center flex-column">
+                            your lives
+                            <br>
+                            <span id="user-lives" class="w-100 text-center inline-block">
+                                ${userLives}
                             </span>
                         </div>
-                        <div id="answers-container">
-                            <p>Choose your method of attack:</p>
-                            <button class="rps-button" data-choice="force-shield">Force Shield</button>
-                            <button class="rps-button" data-choice="lightsaber">Lightsaber</button>
-                            <button class="rps-button" data-choice="blaster">Blaster</button>
+                        <div id="attack-container" class="d-flex align-items-center justify-content-center text-center flex-column">
+                            choose your method of attack
+                            <br>
+                            <br>
+                            <span class="w-100">
+                                <button class="btn btn-warning attack-btn">Force Shield</button>
+                                <button class="btn btn-warning attack-btn">Lightsaber</button>
+                                <button class="btn btn-warning attack-btn">Blaster</button>
+                            </span>
                         </div>
-                        <div id="score-container" class="d-flex align-items-center justify-content-center text-center">
+                        <div id="boss-lives-container" class="d-flex align-items-center justify-content-center text-center flex-column">
+                            opponents lives
+                            <br>
+                            <span id="boss-lives" class="w-100 text-center inline-block">
+                                ${bossLives}
+                            </span>
+                        </div>
+                        <div id="final-score-container" class="d-flex align-items-center justify-content-center text-center">
                             score
                             <br>
                             <span id="running-score" class="w-100 text-center inline-block">
                                 ${finalScore}
                             </span>
                         </div>
-                        <div id="lives-container" class="d-flex align-items-center justify-content-center text-center">
-                            lives
-                            <br>
-                            <span id="user-lives" class="w-100 text-center inline-block">
-                                ${userLives}
-                            </span>
-                        </div>
-                        <div id="boss-container">
+                        <div id="boss-image-container">
                             <img src="${bossImage}" alt="Boss image" class="boss-image">
                         </div>
                     </div>
                     `);
 
-    currentAudio.pause();
-
+    if (sessionStorage.getItem('soundEnabled') == 'true') {
+        currentAudio.pause();
+    }
     setTimeout(function() {
-        $('#current-player-image-container').css('opacity','1');
-        $('#artefact-image-container').css('opacity','1');
-        $('#question-container').css('opacity','1');
-        $('#answers-container').css('opacity','1');
-        $('#score-container').css('opacity','1');
+        $('#final-current-player-image-container').css('opacity','1');
+        $('#lives-container').css('opacity','1');
+        $('#attack-container').css('opacity','1');
+        $('#boss-lives-container').css('opacity','1');
+        $('#final-score-container').css('opacity','1');
+        $('#boss-image-container').css('opacity','1');
     }, 1000);
 
-    $(document).on('click', '.rps-button', function(){
-        userChoice = $(this).data('choice');
+    $('.attack-btn').click(function(){
+        bossChoice = Math.floor(Math.random() * choices.length);
+        userChoice = $('.attack-btn').index(this);
         playFinalGame();
     });
 }
 
 // Function for RPS/final stage mechanics
 function playFinalGame() {
-    $('#game-container').empty()
-    $('#game-container').css('opacity','1');
-    $('#game-container').append(`
+    $('#final-current-player-image-container').css('opacity','0');
+    $('#lives-container').css('opacity','0');
+    $('#attack-container').css('opacity','0');
+    $('#boss-lives-container').css('opacity','0');
+    $('#final-score-container').css('opacity','0');
+    $('#boss-image-container').css('opacity','0');
+    setTimeout(function() {
+        $('#game-container').empty();
+        $('#game-container').append(`
         <div id="message-container" class="text-center">
-            <p id="boss-choice"></p>
-            <p id="rps-result"></p>
+            <span id="player-choice" class="battle-choice"></span>
+            <span id="versus" class="battle-choice"></span>
+            <span id="boss-choice" class="battle-choice"></span>
+            <span id="rps-result" class="battle-choice"></span>
         </div>
         `);
-    const choices = ['lightsaber', 'force-shield', 'blaster'];
-    const bossChoice = choices[Math.floor(Math.random() * choices.length)];
-    $('#rps-result').text(`You used: ${userChoice}`);
-
+    }, 2500);
     // Countdown
-    let countdown = 3;
+    let countdown = 5;
     let countdownInterval = setInterval(() => {
         if (countdown > 0) {
-            $('#boss-choice').text(`Darth Sidious attacks in ${countdown}...`);
+            $('#boss-choice').text(`Darth Sidious attacks in ${countdown} seconds ...`);
             countdown--;
         } else {
             clearInterval(countdownInterval);
@@ -154,82 +240,74 @@ function playFinalGame() {
 }
 
 function revealBossChoice(bossChoice) {
-    $('#boss-choice').text(`Darth Sidious used: ${bossChoice}`);
-
-    if (userChoice === bossChoice) {
-        $('#rps-result').text('Your attacks cancel eachother out! Try again.');
-        setTimeout(prepareFinalGameView, 5000);
-    }
-
-    if ((userChoice === 'force-shield' && bossChoice === 'blaster') ||
-        (userChoice === 'blaster' && bossChoice === 'lightsaber') ||
-        (userChoice === 'lightsaber' && bossChoice === 'force-shield')) {
-        // User won
-        bossLives--;
-        if (bossLives === 0) {
-            $('#rps-result').text('The strategy was effective!');
-            setTimeout(winGame, 5000);
-        } else if (bossLives > 0) {
-            $('#rps-result').text('The strategy was effective! What will you do next?');
-            setTimeout(prepareFinalGameView, 5000);
-        }
+    $('#player-choice').html(`You used : <strong>${choices[userChoice]}</strong>`);
+    $('#boss-choice').html(`Darth Sidious used : <strong>${choices[bossChoice]}</strong>`);
+    $('#versus').html(`<i class="fa-solid fa-x"></i>`);
+    $('#message-container').append('<button class="btn btn-warning" id="ok">ok</button>');
+    if (userChoice == bossChoice) {
+        $('#rps-result').html('Your attacks cancel eachother out !<br><strong>Try again</strong>');
+    }else if ((userChoice == 0 && bossChoice == 2) ||
+            (userChoice == 2 && bossChoice == 1) ||
+            (userChoice == 1 && bossChoice == 0) ) {
+                // User won
+                bossLives--;
+                if (bossLives === 0) {
+                    $('#rps-result').html('The strategy was effective !<br><strong>Dark Sidious lost their last life</strong>');
+                } else if (bossLives > 0) {
+                    $('#rps-result').html('The strategy was effective !<br><strong>Dark Sidious lost a life</strong');
+                }
     } else {
         // Boss won
         userLives--;
         $('#lives-count').text(userLives);
-
         if (userLives === 0) {
-            setTimeout(gameOver, 5000);
+            $('#rps-result').html('Your strategy was ineffective and thus,<br><strong>you\'ve lost your last life !</strong>');
         } else {
-            $('#rps-result').text('Your strategy was ineffective and thus, you\'ve lost an artefact! What will you do next?');
-            setTimeout(prepareFinalGameView, 5000);
+            $('#rps-result').html('Your strategy was ineffective and thus,<br><strong>you\'ve lost a life !</strong>');
         }
     }
-}
-
-// Function for handling rps/final stage game win
-function winGame() {
-    $('#final-game-container').hide();
-    $('#game-container').show().append(`
-        <div class="text-center">
-            <h2>Congratulations! You've conquered the mind, and saved the galaxy!</h2>
-            <p>Your final score: ${finalScore}</p>
-            <button class="btn btn-primary" id="back-to-menu">Back to Menu</button>
-        </div>
-    `);
-    // Menu button event listener
-    $('#back-to-menu').click(function() {
-        // Record score to leaderboard and redirect to home
-        addScoreToLeaderboard(finalScore, playerName);
-        window.location.href = afterChaptersLink;
+    $('#ok').click(function(){
+        console.log('user lives ' + userLives);
+        console.log('boss lives ' + bossLives)
+        if (userLives == 0) {
+            console.log('boss winner');
+            gameOver();
+        } else if (bossLives == 0) {
+            console.log('user winner');
+            winGame();
+        } else {
+            prepareFinalGameView();
+        };
     });
 }
-
-// Function for handling rps/final stage game lose
-function gameOver() {
-    $('#final-game-container').hide();
-    $('#game-container').show().append(`
-        <div class="text-center">
-            <h2>Game Over</h2>
-            <p>You've exhausted all your artefacts. Better luck next time!</p>
-            <button class="btn btn-primary" id="back-to-menu">Back to Menu</button>
-        </div>
-    `);
-    $('#back-to-menu').click(function() {
-        window.location.href = afterChaptersLink;
-    });
-}
-
-// Event listeners for RPS buttons
-$(document).on('click', '.rps-button', function() {
-    const userChoice = $(this).data('choice');
-    playFinalGame(userChoice);
-});
 
 // Starting point of final game
 $(document).ready(function () {
+    if (testMode == false){
+        // Read session
+        finalstageUnlocked = sessionStorage.getItem('finalStageUnlocked');
+        currentCharacterName = sessionStorage.getItem('currentCharacterName');
+        finalScore = parseInt(sessionStorage.getItem('runningScore'));
+        artefacts = sessionStorage.getItem('wonChapters');
+        console.log(sessionStorage.getItem('finalStageUnlocked'));
+        console.log(typeof sessionStorage.getItem('finalStageUnlocked'));
+        if (finalstageUnlocked != 'true' ){
+            alert('Cannot acces final stage directly');
+            window.location.href = afterRSPLink;
+        }
+    }else{
+        typingDelay = 0;
+        finalstageUnlocked = true;
+        currentCharacterName = 'Han Solo';
+        finalScore = 0;
+        artefacts = [];
+        bossLives = 1;
+    }
     $('header').hide();
     $('footer').hide();
     $('#game-container').empty();
+    if (artefacts != null) {
+        userLives = userLives + artefacts.length;
+    };
     finalStageMessage();
 });

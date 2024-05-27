@@ -13,7 +13,7 @@ main {
     background-image: url('https://res.cloudinary.com/dcrbeonr9/image/upload/v1716585890/StarWars%20Hackathon/death-star-nologo_lapnjy.jpg');
     background-size: cover;
     background-position: center;
-    animation: starfield 60s linear infinite;
+    animation: starfield 180s linear infinite;
 }
 
 @keyframes starfield {
@@ -21,7 +21,7 @@ main {
         background-position: 0 0;
     }
     to {
-        background-position: 12000px 1000px;
+        background-position: 10000px 1000px;
     }
 }
 
@@ -36,7 +36,7 @@ main {
 
 #menu {
     list-style-type: none;
-    margin: 0;
+    margin: 25% 0 0 0;
     padding: 0;
 }
 

@@ -1,11 +1,10 @@
 // Test mode
-
 testMode = false;
 
 // Global variables
 let typingDelay = 30;
 let characterSelected = 0;
-let timePerQuestion = 3000;
+let timePerQuestion = 30;
 let timerStopped = false;
 let currentChapter = 0;
 let runningScore = 0;
@@ -38,7 +37,7 @@ function playAudio(track, loopBool){
 function playSFX(track){
     if (sessionStorage.getItem('soundEnabled') == 'true') {
         let sfxToPlay = new Audio (track);
-        sfxToPlay.volume = 1.0;
+        sfxToPlay.volume = 0.8;
         sfxToPlay.play();
         return sfxToPlay;
     }
@@ -86,8 +85,8 @@ function chapterMessage(reason) {
                 lifeLineAvailable = true;
                 if (currentChapter > 2){
                     // player name in const playerName sourced from finalstage.html - const playerName 
-                    sessionStorage.setItem('finalStageUnlocked', true); // bool - security
-                    sessionStorage.setItem('runningScore', runningScore); // integer
+                    sessionStorage.setItem('finalStageUnlocked', 'true'); // string
+                    sessionStorage.setItem('runningScore', runningScore); // string
                     sessionStorage.setItem('chaptersWon', chaptersWon); // array [1, 2, 3] 
                     sessionStorage.setItem('currentCharacterName', currentCharacterName); // string - based on JSON question files
                     window.location.href = afterChaptersLink;
