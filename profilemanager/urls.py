@@ -9,4 +9,5 @@ urlpatterns = [
     path("how-to-play", views.HowToPlayView.as_view(), name="how_to_play"),
     path("play", login_required(views.PlayView.as_view()), name="play"),
     path("final-stage", login_required(views.FinalStageView.as_view()), name="final_stage"),
+    path("record-data/", login_required(views.record_data), name="record-data"),
 ]

@@ -30,7 +30,18 @@
               <a class="nav-link logo-font" aria-current="page" href="{% url 'play' %}">
                   <i class="fa-solid fa-jedi fa-flip mx-2 mx-lg-0 nav-text"></i>
                   &nbsp;
+                  {% if request.user.is_authenticated %}
                   <span class="nav-text text-uppercase">Play</span>
+                  {% else %}
+                  <span class="nav-text text-uppercase">Login to Play</span>
+                  {% endif %}
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link logo-font" aria-current="page" href="{% url 'how_to_play' %}">
+                <i class="fa-solid fa-circle-info nav-text"></i>
+                &nbsp;
+                <span class="nav-text text-uppercase">How to play</span>
               </a>
             </li>
             <li class="nav-item">
